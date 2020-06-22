@@ -1,9 +1,10 @@
 site_name: SYNC lab manual
 nav:
+  - Home: "index.md"
   - Welcome:
-    - How to use this manual: "welcome/how-to-use.md"
-    - The SYNC lab: "welcome/intro-sync.md"
-    - How to contribute: "welcome/contribute.md"
+      - How to use this manual: "welcome/how-to-use.md"
+      - The SYNC lab: "welcome/intro-sync.md"
+      - How to contribute: "welcome/contribute.md"
   - How we work:
     - Code of conduct: "how-we-work/code-of-conduct.md"
     - Labmeetings: "how-we-work/labmeetings.md"
@@ -52,5 +53,6 @@ nav:
     - Welcome at the EUR!: "getting-started-eur/welcome-eur.md"
     - Resources and contacts: "getting-started-eur/resources-contacts-eur.md"
     - Email signature: "getting-started-eur/email-signature.md"
-theme: readthedocs
 
+theme: readthedocs
+use_directory_urls: false
