@@ -1,15 +1,56 @@
 site_name: SYNC lab manual
-
 nav:
   - Welcome:
     - How to use this manual: "how-to-use.md"
+    - The SYNC lab: "intro-sync.md"
+    - How to contribute: "contribute.md"
+  - How we work:
+    - Code of conduct: "code-of-conduct.md"
+    - Labmeetings: "labmeetings.md"
+    - Collaboration tools: "collab-tool.md"
   - Open Science:
-    - Data sharing: "data-sharing.md"
-    - GDPR info: "GDPR.md"
-    - Publication packages: "Publication-packages.md"
-  - Before you start:
-    - About: 
-      - about1: "01-before-you-start.md"
-    - Programming: "programming.md"
+    - Open acccess publishing:
+      - Information: "open-access-info.md"
+      - How to publish open access: "open-access-how.md"
+      - Useful resources: "open-access-resources.md"
+    - Data sharing:
+      - The GDPR: "gdpr.md"
+      - Publication packages: "pub-packages.md"
+      - How to share data? "data-sharing-how.md"
+      - How to use NeuroVault: "neurovault.md"
+      - Data sharing agreement template: "dsa-template.md"
+    - Reproducibility:
+      - Open software: "open-software.md"
+      - Open code: "open-code"
+      - Version control software: "vc-software.md"
+    - Fostering transparency elsewhere:
+      - Preregistering your research: "preregistration.md"
+      - Transparency guidelines: "transarency-guidelines.md"
+      - Using the Open Science Framework: "osf.md"
+  - Data management:
+    - What is data management?: "datamanagement-intro.md"
+    - Data security protocol: "code-of-conduct.md"
+    - Research Drive: "research-drive-info.md"
+    - How to use the Research Drive: "research-drive-how.md"
+    - File organization: "folder-structure.md"
+    - Version control:
+      - Basic principles: "vc-principles.md"
+      - Version control for code: "vc-github.md"
+      - Version control for data: "vc-datalad.md"
+    - Metadata:
+      - FAIR data: "FAIR.md"
+      - Types of metadata: "types-metadata.md"
+      - DMP and DPIA: "dmp-dpia-info.md"
+      - Codebooks: "codebooks.md"
+  - Data analysis:
+    - Types of data analysis: "types-analysis.md"
+    - Using the LISA cluster: "LISA-how.md"
+  - Reaching out to society:
+    - Science communication and citizen science: "intro-scicom.md"
+    - Our outreach practices: "outreach-practices.md"
+  - Getting started at the EUR:
+    - Welcome at the EUR!: "welcome-eur.md"
+    - Resources and contacts: "resources-contacts-eur.md"
+    - Email signature: "email-signature.md"
 theme: readthedocs
 
