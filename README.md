@@ -1,4 +1,7 @@
 # Lab manual for the Erasmus SYNC lab
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 :tada: Welcome! :tada:
 
@@ -23,3 +26,22 @@ This manual is always in progress, so feel free to contribute by adding features
 8. If everything goes correctly, you can now open the new .html files in the `sync-manual/site` folder to see what your changes will look like
 9. Push the changes to your remote (i.e., the repository on your Github account)
 10. Make a pull request to merge your branch with the eur-synclab/sync-manual master branch
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://erasmus-synclab.nl/"><img src="https://avatars1.githubusercontent.com/u/41283173?v=4" width="100px;" alt=""/><br /><sub><b>Eduard Klapwijk</b></sub></a><br /><a href="#projectManagement-eduardklap" title="Project Management">📆</a> <a href="#maintenance-eduardklap" title="Maintenance">🚧</a> <a href="#ideas-eduardklap" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eur-synclab/sync-manual/commits?author=eduardklap" title="Code">💻</a> <a href="https://github.com/eur-synclab/sync-manual/commits?author=eduardklap" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
