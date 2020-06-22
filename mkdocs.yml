@@ -1,0 +1,15 @@
+site_name: SYNC lab manual
+
+nav:
+  - Welcome:
+    - How to use this manual: "how-to-use.md"
+  - Open Science:
+    - Data sharing: "data-sharing.md"
+    - GDPR info: "GDPR.md"
+    - Publication packages: "Publication-packages.md"
+  - Before you start:
+    - About: 
+      - about1: "01-before-you-start.md"
+    - Programming: "programming.md"
+theme: readthedocs
+
