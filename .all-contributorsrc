@@ -1,0 +1,41 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "eduardklap",
+      "name": "Eduard Klapwijk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/41283173?v=4",
+      "profile": "https://erasmus-synclab.nl/",
+      "contributions": [
+        "projectManagement",
+        "maintenance",
+        "ideas",
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "DorienHuijser",
+      "name": "Dorien Huijser",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/58177697?v=4",
+      "profile": "https://github.com/DorienHuijser",
+      "contributions": [
+        "projectManagement",
+        "maintenance",
+        "ideas",
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "sync-manual",
+  "projectOwner": "eur-synclab",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
