@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Welcome to the SYNC lab manual
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### This is a collaborative and living document, where we plan to provide a lot of information about how to work in the SYNC lab.
 
-## Commands
+### Why this manual?
+- it is a searchable guide
+- it can be updated by all labmembers
+- easier to keep up to date  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### How to use?
+- It works best to open the index.html file and navigate the manual in your internet browser
+- want to add something or suggest changes? Use Github: [ https://github.com/eur-synclab/sync-manual](https://github.com/eur-synclab/sync-manual)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![picture](../img/B&D BBQ 2017.jpg)
+
+*Note:* This must be a much better and recent picture, haha
