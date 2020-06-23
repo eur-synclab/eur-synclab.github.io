@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# How to use?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### Reading and exploring
+- It works best to open the index.html file and navigate the manual in your internet browser
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Adding new stuff
+- want to add something or suggest changes? Use Github: [ https://github.com/eur-synclab/sync-manual](https://github.com/eur-synclab/sync-manual)
