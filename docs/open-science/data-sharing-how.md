@@ -26,43 +26,36 @@ For example:
   - max. 5 GB per file
   - Keep your data close to all other relevant files in your OSF project
   - OSF is more aimed at project management than dissemination, read more [here](osf.md)
-- Other general-purpose repositories, such as [Zenodo](https://zenodo.org/) (free up to 50GB), [Dryad](https://datadryad.org/) (not free) or [Figshare](https://figshare.com/) (free, max 20GB private space and 5GB per file)
+- Other general-purpose repositories, such as [Zenodo](https://zenodo.org/) (free up to 50GB), [Dryad](https://datadryad.org/) (not free) or [Non-EUR Figshare](https://figshare.com/) (free, max 20GB private space and 5GB per file)
 
-In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/) and make sure the repository that you use has a long-term plan for saving the data.
-See for an overview of data repositories https://www.re3data.org/
-
-**Example set-up in sharing data**
-AFMAKEN
+In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/), see the [Data management page](FAIR.md) and take [privacy considerations](gdpr.md) into account.
 
 
-## 2. Publishing a datapaper
-You can also publish a dataset in a data journal without the need to add it to a publication. In a datapaper, you describe the data and the methods of collecting them, without the need to analyze them. This way you will get a publication out of your data irrespective of whether or not you publish results, increasing the impact of your research. However, it often requires that you make all described data public, because the aim of such publications is to provide access to high quality datasets and to facilitate reuse. Also, most journals have some policy in which repository you should deposit the data accompanying the datapaper. Note that a datapaper will be peer-reviewed just as well as a regular article.
+## 2. Publish a datapaper
 
-![List of data journals]('_bookdownfiles/_main_files/data-journals.Rmd')
+You can also publish a dataset in a data journal without the need to add it to a publication. In a datapaper, you describe the data and the methods of collecting them, without the need to analyze them. This will get you a publication out of your data irrespective of whether or not you publish results. This however often (but not always) requires that you make all described data public, because the aim of such publications is to provide access to high quality datasets and to facilitate reuse. Also, most journals have some policy in which repository you should deposit the data accompanying the datapaper. Note that a datapaper will be peer-reviewed just as well as a regular article. See [this link](https://pitt.libguides.com/findingdata/datajournals) for a list of data journals.
+
 
 ## 3. Via supplementary materials in a published paper
+
 This is better than nothing, but not recommended, because this does not adhere to the [FAIR principles](https://www.go-fair.org/fair-principles/). Also, there is often a limit to the size or number of supplementary files that a journal can host, limiting the possibilities to publish data.
 
-## 4. Sharing case-by-case
+## 4. Share case-by-case
+
 For data that cannot be shared publicly, you can sometimes still share the data case-by-case. This can be the case:
+
 - For MRI-data for which you have informed consent from the participants to share. You may not want to publish this publicly because of the sensitive nature of the data, but you can still share the data because you have consent. Of course this also goes for other kinds of sensitive data for which you have consent.
 - For data that does not belong to a publication, data that is too large to share in another way or some other reason
 
-### What you can do
-- Use a data sharing agreement between you and the user of the data to make sure they will not try to identify your participants or do something else you don't want with the data
-- Send data safely via SURF filetransfer, share it in SURFdrive or use another form of encryption before you send data files
-
-
-
 
 ## Resources
+
+- An overview of data repositories can be found [here](https://www.re3data.org/)
+- Information on the EUR Data Repository can be found [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository)
 - [Data management and sharing tools](https://digitalscholarship.nl/rds/faculty/faculty-of-social-and-behavioural-sciences/) (list compiled by the Leiden University Library)
 - [The Turing Way - open data](https://the-turing-way.netlify.com/open_research/01/opendata.html)
-- [The Donders repository](https://data.donders.ru.nl/?1)
-- [Utrecht University info about data sharing](https://www.uu.nl/en/research/research-data-management/guides/publishing-and-sharing-data)
+- [Utrecht University information about data sharing](https://www.uu.nl/en/research/research-data-management/guides/publishing-and-sharing-data)
 - [FAQ about data sharing (Donders Institute)](https://data.donders.ru.nl/doc/help/faq/publish-data.html?0#faq-dsc-prepare)
 - List of [certified repositories](https://www.coretrustseal.org/why-certification/certified-repositories/) / [other repositories](http://v2.sherpa.ac.uk/opendoar/)
 - [Decision aid choosing a repository (not exhaustive)](https://www.uu.nl/en/research/research-data-management/tools-services/tools-for-storing-and-managing-data/decision-aid-data-repositories)
-- Example data use agreement (Donders): [1](https://data.donders.ru.nl/doc/dua/?0) and [2](https://data.donders.ru.nl/doc/dua/RU-DI-HD-1.0.html?1)
 - [Instructions for DataverseNL](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/instruction-for-archiving-publication-packages.pdf)
-- Utrecht Data School: [Data Ethics Decision Aid (DEDA)](https://survey2.hum.uu.nl/index.php/778777?newtest=Y&lang=en) - questionnaire to help you think about privacy and ethics in your research 
