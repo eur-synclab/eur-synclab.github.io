@@ -157,9 +157,11 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="LISA-how.html">Using the LISA cluster</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l2"><a class="reference internal" href="#obtaining-an-account">Obtaining an account</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l2"><a class="reference internal" href="#slurm-usage">SLURM usage</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mounting-data-from-research-drive-on-lisa-hpc">Mounting data from Research Drive on Lisa HPC</a>
     </li>
     </ul>
                     </li>
@@ -216,21 +218,24 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="using-the-lisa-cluster">Using the Lisa cluster</h1>
+<p>If you want to process a lot of data, using a high performance cluster will save a lot of time. We can use the <a href="https://userinfo.surfsara.nl/systems/lisa">Lisa Cluster</a> from SURFsara
+More information about high perfomance computing options at the EUR can be found <a href="https://www.eur.nl/en/library/node/20736">here</a></p>
+<h2 id="obtaining-an-account">Obtaining an account</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p>See also under 'How to Access' on this <a href="https://www.eur.nl/en/library/node/20736">EUR page</a>:</p>
+<ol>
+<li>Download the <a href="https://userinfo.surfsara.nl/sites/default/files/2015-11-11-Lisa-Application-form-EUR.doc">application form</a> for resources at SURFsara, fill it in and return it for EUR approval by e-mail to <a href="mailto:edsc@eur.nl?SUBJECT=High%20Performance%20Computing">edsc@eur.nl</a>. You can ask for 10.000 hours computing time for a start, this will normally be approved quite fast </li>
+<li>After EUR approval: SURFsara requests you, for each user in the Application form to sign the <a href="https://userinfo.surfsara.nl/sites/default/files/2013-01-25_HPC-System-Usage-Agreement-SURFsara.doc">Usage agreement Supercomputer systems</a>, and send it to <a href="mailto:helpdesk@surfsara.nl">helpdesk@surfsara.nl</a></li>
+<li>At SURFsara they will create an account for you on LISA and you will receive an email with instructions on how to login</li>
+</ol>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h2 id="slurm-usage">SLURM usage</h2>
+<p>Lisa runs a Unix-based operating system, which is text based. For submitting batches of jobs, SLURM is used.
+There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/user-guide">User Guide</a>, here are some basics that are good to know:</p>
+<h2 id="mounting-data-from-research-drive-on-lisa-hpc">Mounting data from Research Drive on Lisa HPC</h2>
               
             </div>
           </div>
