@@ -28,7 +28,7 @@ For example:
   - OSF is more aimed at project management than dissemination, read more [here](osf.md)
 - Other general-purpose repositories, such as [Zenodo](https://zenodo.org/) (free up to 50GB), [Dryad](https://datadryad.org/) (not free) or [Non-EUR Figshare](https://figshare.com/) (free, max 20GB private space and 5GB per file)
 
-In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/), see the [Data management page](FAIR.md) and take [privacy considerations](gdpr.md) into account.
+In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/), see the [data management page](../data-management/FAIR.md) and take [privacy considerations](gdpr.md) into account.
 
 
 ## 2. Publish a datapaper
