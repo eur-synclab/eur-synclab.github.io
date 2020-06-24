@@ -3,7 +3,7 @@
 Open access publishing means that everyone has access to your manuscripts, no matter where they are in the world and no matter if they have a journal subscription. In the SYNC lab, we aim to make **all** of our publications open access via one or more of the routes described below 
 (green route and sometimes the golden route, preprints are published whenever deemed necessary).
 
-**Why should I publish open access?**
+### Why should I publish open access?
 - Scientific work is often financed by public funds (tax payers) and therefore should be accessible to the general public
 - Scientific results get more visible and their use is increased. This can eventually lead to a greater number of citations and thus more impact
 - Some financers reward researchers that practice open science and sometimes require articles to be published open access (e.g., NWO, Horizon2020 and ERC)
