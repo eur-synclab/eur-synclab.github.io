@@ -20,3 +20,4 @@ At the EUR, use the [EUR data repository](https://datarepository.eur.nl/) (insta
 - Prevent uploading files multiple times. If you have already uploaded data or code on OSF or Github, link those uploads to the publication package, instead of re-uploading in the publication package. If you have uploaded elsewhere (e.g., NeuroVault), provide a readme with the relevant links to make sure everything is findable!
 - If applicable, create links with an OSF project, a Github repository and your ORCID, click [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository/faq) for how to do this.
 
+For questions about the EUR data repository, please contact the university library (datarepository@eur.nl). For the ESSB policy implementation, you can contact Geert van den Hoek (vandenhoek@essb.eur.nl).
