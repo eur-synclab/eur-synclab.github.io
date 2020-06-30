@@ -54,7 +54,7 @@ Read more about Markdown in [this Markdown guide](https://www.markdownguide.org/
 ## How to contribute?
 #### The easy (but not recommended) way
 1. `fork` this repository to your own Github account by clicking the button on the upper right of this screen
-2. Make edits to the files you want to edit in your browser by clicking the pencil at the top right of a file
+2. Make edits to the files you want to edit in your browser by clicking the pencil at the top right of a file. All editable .md files can be found in the `docs` folder
 3. Write a commit message for your changes and click `Commit changes`
 4. After having made all the changes you wanted, go to the tab `Pull requests` > `New pull request`
 5. Make sure the base repository is `eur-synclab/sync-manual` `master` and head repository is your own repository, e.g., `DorienHuijjser/sync-manual` `branchinwhichyoumadechanges`.
@@ -66,7 +66,7 @@ Read more about Markdown in [this Markdown guide](https://www.markdownguide.org/
 1. `fork` this repository to your own Github account by clicking the button on the upper right of this screen
 2. Create a new branch in your forked repository which you will use to make changes in (your master branch will remain "clean" this way)
 3. `clone` your forked repository to your local PC ([using the command-line](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or [Rstudio](https://happygitwithr.com/rstudio-git-github.html#clone-the-new-github-repository-to-your-computer-via-rstudio))
-4. Make local changes (you can open a .md file with multiple text editors such as Atom, Zettlr, Rstudio, etc.) and commit your changes. They are now saved locally
+4. Make local changes (you can open a .md file in the `docs` folder with multiple text editors such as Atom, Zettlr, Rstudio, etc.) and commit your changes. They are now saved locally
 5. Push your commits to your “remote” (online) repository ([using the command-line(https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/), [in Rstudio](https://happygitwithr.com/rstudio-git-github.html#make-local-changes-save-commit))
 5. Follow steps 4-7 explained in the Easy way
 
