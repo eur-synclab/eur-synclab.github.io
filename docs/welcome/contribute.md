@@ -67,7 +67,7 @@ Read more about Markdown in [this Markdown guide](https://www.markdownguide.org/
 2. Create a new branch in your forked repository which you will use to make changes in (your master branch will remain "clean" this way)
 3. `clone` your forked repository to your local PC ([using the command-line](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or [Rstudio](https://happygitwithr.com/rstudio-git-github.html#clone-the-new-github-repository-to-your-computer-via-rstudio))
 4. Make local changes (you can open a .md file in the `docs` folder with multiple text editors such as Atom, Zettlr, Rstudio, etc.) and commit your changes. They are now saved locally
-5. Push your commits to your “remote” (online) repository ([using the command-line(https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/), [in Rstudio](https://happygitwithr.com/rstudio-git-github.html#make-local-changes-save-commit))
+5. Push your commits to your “remote” (online) repository ([using the command-line](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/), [in Rstudio](https://happygitwithr.com/rstudio-git-github.html#make-local-changes-save-commit))
 5. Follow steps 4-7 explained in the Easy way
 
 
