@@ -16,6 +16,8 @@ This manual is always in progress, so feel free to contribute by adding features
 - or anything else!
 
 ## How to contribute?
+For a more extensive explanation on how to contribute, please see [How to contribute](https://github.com/eur-synclab/sync-manual/blob/master/docs/welcome/contribute.md)
+
 1. `fork` this repository to your own Github account by clicking the button on the upper right of this screen
 2. Create a new branch in your forked repository which you will use to make changes in (your master branch will remain "clean" this way)
 3. `clone` your forked repository to your local PC. If you do not how to do this, we recommend checking out the Github section of the lab manual!
