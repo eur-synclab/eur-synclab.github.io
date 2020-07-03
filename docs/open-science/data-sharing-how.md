@@ -12,16 +12,16 @@ For example:
   - Not suitable for large or publication-independent datasets or non-anonymous data
   - See the [publication packages page](pub-packages.md) for more information.
 - [DANS DataverseNL](https://dataverse.nl): for publication packages at Leiden University
- - All data and materials accompanying a publication
- - Not suitable for large or publication-independent datasets (max zip file size 10 GB) or non-anonymous data
+  - All data and materials accompanying a publication
+  - Not suitable for large or publication-independent datasets (max zip file size 10 GB) or non-anonymous data
 - [DANS EASY](https://easy.dans.knaw.nl/ui/home) (Dutch)
- - For data and materials, not necessarily accompanying a publication
- - Has deals with the university but still some limitations to the size of the data (max. 100 GB)
- - Is aimed more at archiving than sharing data
+  - For data and materials, not necessarily accompanying a publication
+  - Has deals with the university but still some limitations to the size of the data (max. 100 GB)
+  - Is aimed more at archiving than sharing data
 - [NeuroVault](https://neurovault.org/)
- - For group-MRI data (such as t-maps) accompanying a publication
- - Enables meta-analysis of fMRI-studies
- - See the [NeuroVault page](neurovault.md) for more information
+  - For group-MRI data (such as t-maps) accompanying a publication
+  - Enables meta-analysis of fMRI-studies
+  - See the [NeuroVault page](neurovault.md) for more information
 - [Open Science Framework](https://osf.io/)
   - max. 5 GB per file
   - Keep your data close to all other relevant files in your OSF project
