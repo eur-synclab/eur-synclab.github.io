@@ -1,12 +1,11 @@
-# Lab manual for the Erasmus SYNC lab
+# Lab wiki for the Erasmus SYNC lab
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 :tada: Welcome! :tada:
 
-In this repository, you can find the source code and contents of the lab manual of the [Erasmus SYNC lab](https://erasmus-synclab.nl/). The manual contains both information on the ways we work, 
-as well as information and instructions on how to be a successful member of the SYNC lab. Not content with the information displayed here? 
+In this repository, you can find the source code and contents of the lab wiki of the [Erasmus SYNC lab](https://erasmus-synclab.nl/). The wiki contains both information on the ways we work, as well as information and instructions on how to be a successful member of the SYNC lab. Not content with the information displayed here? 
 Feel free to open an issue or make a pull request to suggest changes! 
 
 This manual is always in progress, so feel free to contribute by adding features, such as:
