@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>How to contribute - SYNC lab manual</title>
+  <title>How to contribute - SYNC lab wiki</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> SYNC lab manual</a>
+        <a href=".." class="icon icon-home"> SYNC lab wiki</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -53,12 +53,44 @@
                 </ul>
                 <p class="caption"><span class="caption-text">Welcome</span></p>
                 <ul class="current">
-                    <li class="toctree-l1"><a class="reference internal" href="how-to-use.html">How to use this manual</a>
+                    <li class="toctree-l1"><a class="reference internal" href="how-to-use.html">How to use this wiki</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="intro-sync.html">The SYNC lab</a>
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="contribute.html">How to contribute</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#introduction-to-github-and-markdown">Introduction to git(hub) and Markdown</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#what-are-git-github">What are git &amp; github?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-git-workflow">The git workflow</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#branches">Branches</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#workflow-on-github">Workflow on github</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#keeping-your-local-copy-clone-up-to-date">Keeping your local copy (clone) up to date</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#further-reading-on-github">Further reading on git(hub)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#markdown">Markdown</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-contribute_1">How to contribute?</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#the-easy-but-not-recommended-way">The easy (but not recommended) way</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-better-way">The better way</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#the-most-advanced-way">The most advanced way</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#issues-and-projects">Issues and Projects</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -185,7 +217,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">SYNC lab manual</a>
+        <a href="..">SYNC lab wiki</a>
       </nav>
 
       
@@ -212,13 +244,92 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="adding-new-stuff">Adding new stuff</h3>
+                <h1 id="how-to-contribute">How to contribute</h1>
+<h2 id="introduction-to-github-and-markdown">Introduction to git(hub) and Markdown</h2>
+<h3 id="what-are-git-github">What are git &amp; github?</h3>
 <ul>
-<li>want to add something or suggest changes? Use Github: <a href="https://github.com/eur-synclab/sync-manual"> https://github.com/eur-synclab/sync-manual</a></li>
+<li><strong>Git</strong> is a version control system: it tracks the history as you change files. More specifically, it tracks who made which changes and when. It allows reverting files to a previous state. Note that it is possible to work on git projects locally without ever using github.</li>
+<li><strong>Github</strong> is a git hosting platform that you can use to collaborate on projects that use git. It additionally allows for threaded discussions (issues), pull requests and several github apps. </li>
 </ul>
-<h3 id="to-add">To add:</h3>
+<h3 id="the-git-workflow">The git workflow</h3>
+<p>When working on a git project (within a folder called a <strong>git repository</strong>), you will always perform the following steps:</p>
 <ul>
-<li>more information on how to do this</li>
+<li>Make changes to some file</li>
+<li><strong>Commit</strong> the changes: make a snapshot of the changes made so far. A commit (snapshot) is always accompanied by a <em>commit message</em> explaining what changes were made</li>
+</ul>
+<h3 id="branches">Branches</h3>
+<p>A git repository can exist in multiple “versions” which are called <strong>branches</strong>. There is always a “master” branch, which you should consider the clean branch. Besides that, you can create other branches that are meant to make your own changes. After you have made changes in your own branch and you think they should be incorporated in the master branch, you can then <strong>merge</strong> your branch with the master branch. </p>
+<h3 id="workflow-on-github">Workflow on github</h3>
+<p>On Github, the workflow is a bit more extensive, because often you are collaborating and do not want others to just start editing the master branch right away. There are multiple methods to collaborate on a project, but we recommend the following, assuming that there is already a repository for the project and you want to contribute:</p>
+<ol>
+<li>On the repository page on Github, <strong>fork</strong> the repository: this creates a copy of the repository on your own Github account that you have full access to</li>
+<li>In your repository, create a new branch for the changes you are about to make with a short but comprehensible name, e.g. “dorienwritecontent”</li>
+<li>You can now start editing in this branch, either on your local PC or online (in Github)</li>
+<li><em>Skip this step if you are editing online</em>: If you want to edit files locally, <strong>clone</strong> your repository to your local PC, creating a folder in your file explorer (the contents of which can change according to which branch you are on!). You can use the command line or a tool such as Rstudio or GitKraken to do this.</li>
+<li>Edit the files you want to edit and commit the changes (making a snapshot; include a commit message!) </li>
+<li><em>Skip this step if you are editing online</em>: You have now committed changes locally, but they are not yet visible in your “remote” repository, i.e., the online github repository on your account. In order to get the commits to be visible online, you need to <strong>push</strong> them to your remote.</li>
+<li>Now the changes are visible in your own account, but not in the main repository. In order to get your changes into the main repository, you need to do a <strong>pull request</strong>. This is a request to the owners of the original repository to merge your branch with theirs. Once merged by the owners, you are often prompted to remove your own branch (which is not necessary if you are planning to make more changes later). </li>
+</ol>
+<h4 id="keeping-your-local-copy-clone-up-to-date">Keeping your local copy (clone) up to date</h4>
+<p>If you are working on a project with many collaborators making changes, the odds are that your own fork (online copy) and/or clone (local copy) are becoming out-of-date quite fast. Therefore, it is recommended to update those copies each time before you start making changes yourself, so you are certain that you are working on the most recent versions of the files.</p>
+<ul>
+<li>Online (in your fork), you can do this by doing a reverse pull request: a request to yourself to merge the owner’s master branch (“upstream master”) into your own branch that you will be working in</li>
+<li>In your clone (offline), you can set up the owner’s master branch (“upstream master”) as the upstream master and <strong>pull</strong> changes from the upstream master (see <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork">this page</a> for command-line instructions and <a href="https://happygitwithr.com/upstream-changes.html">this page</a> when you use RStudio). You are simply pulling all changes made to your local PC this way. Note that your online copy is not automatically updated!</li>
+</ul>
+<h3 id="further-reading-on-github">Further reading on git(hub)</h3>
+<ul>
+<li>More info on the <a href="https://githowto.com/">Git workflow</a> (especially useful if you are going to use git via the command line)</li>
+<li>Github guide: <a href="https://guides.github.com/introduction/git-handbook/">git handbook</a></li>
+<li><a href="https://lab.github.com/githubtraining/introduction-to-github">Free github introduction course</a> (duration ca. 1 hour)</li>
+<li>Using Git(hub) with Rstudio: https://happygitwithr.com/</li>
+</ul>
+<h3 id="markdown">Markdown</h3>
+<p>Markdown is a markup language that you can use to add formatting elements to plaintext text documents. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different. Every .md (Markdown) file in this repository in fact uses Markdown for formatting!</p>
+<p>For example, to indicate a second-level header, you type:
+<code>## Title of header</code></p>
+<p>Advantages of Markdown:</p>
+<ul>
+<li>It can be used for a lot of things, e.g., for creating html pages</li>
+<li>It is platform- and operating system independent</li>
+<li>You can type markdown in any text editor and open .md files with many programs, such as <a href="https://atom.io/">Atom</a>, <a href="https://www.zettlr.com/">Zettlr</a>, <a href="https://rstudio.com/">Rstudio</a>, or even online, such as in <a href="https://dillinger.io/">Dillinger</a> (in contrast to, for example, Microsoft Word), see <a href="https://www.markdownguide.org/tools/">this page</a> for more tools that support Markdown.</li>
+</ul>
+<p>Read more about Markdown in <a href="https://www.markdownguide.org/getting-started/">this Markdown guide</a> and on <a href="https://www.markdownguide.org/cheat-sheet/">this cheatsheet</a>.</p>
+<h2 id="how-to-contribute_1">How to contribute?</h2>
+<h4 id="the-easy-but-not-recommended-way">The easy (but not recommended) way</h4>
+<ol>
+<li><code>fork</code> this repository to your own Github account by clicking the button on the upper right of this screen</li>
+<li>Make edits to the files you want to edit in your browser by clicking the pencil at the top right of a file. All editable .md files can be found in the <code>docs</code> folder</li>
+<li>Write a commit message for your changes and click <code>Commit changes</code></li>
+<li>After having made all the changes you wanted, go to the tab <code>Pull requests</code> &gt; <code>New pull request</code></li>
+<li>Make sure the base repository is <code>eur-synclab/sync-manual</code> <code>master</code> and head repository is your own repository, e.g., <code>DorienHuijjser/sync-manual</code> <code>branchinwhichyoumadechanges</code>.</li>
+<li>Click <code>Create pull request</code></li>
+<li>Your pull request will now appear in the eur-synclab repository. If you want, you can assign someone to review your pull request. One of the owners of the repository will review your commits, may request changes and will finally approve the pull request and merge your changes into the eur-synclab/sync-manual master branch.</li>
+</ol>
+<h4 id="the-better-way">The better way</h4>
+<ol>
+<li><code>fork</code> this repository to your own Github account by clicking the button on the upper right of this screen</li>
+<li>Create a new branch in your forked repository which you will use to make changes in (your master branch will remain "clean" this way)</li>
+<li><code>clone</code> your forked repository to your local PC (<a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">using the command-line</a> or <a href="https://happygitwithr.com/rstudio-git-github.html#clone-the-new-github-repository-to-your-computer-via-rstudio">Rstudio</a>)</li>
+<li>Make local changes (you can open a .md file in the <code>docs</code> folder with multiple text editors such as Atom, Zettlr, Rstudio, etc.) and commit your changes. They are now saved locally</li>
+<li>Push your commits to your “remote” (online) repository (<a href="https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/">using the command-line</a>, <a href="https://happygitwithr.com/rstudio-git-github.html#make-local-changes-save-commit">in Rstudio</a>)</li>
+<li>Follow steps 4-7 explained in the Easy way</li>
+</ol>
+<h4 id="the-most-advanced-way">The most advanced way</h4>
+<ol>
+<li>Follow the installation steps for mkdocs <a href="https://www.mkdocs.org/#installation">here</a></li>
+<li>Follow steps 1-4 explained in The better way</li>
+<li>In your <strong>prompt</strong>, navigate to your repository directory with <code>cd C:/users/username/your/repo/directory</code> and run <code>mkdocs serve</code> followed by <code>mkdocs build</code></li>
+<li>If everything goes correctly, you can now open the new .html files in the <code>sync-manual/site</code> folder to see what your changes will look like in the browser</li>
+<li>Follow step 5 explained in The better way</li>
+<li>Follow steps 4-7 explained in The easy way</li>
+</ol>
+<h4 id="issues-and-projects">Issues and Projects</h4>
+<p>If you would like to see a change that requires more work or input from others before you can start editing yourself, you can open an Issue. There are some great features about Issues:</p>
+<ul>
+<li>You can assign people to the Issue who should solve it or provide input</li>
+<li>You can add the issue to a project. In the tab Projects, you can find our Kanban board in which we have made the columns  “To do”, “In progress” and “Done”. We made this so we have an overview of Issues that still need work and issues that are in progress.</li>
+<li>You can add labels to an Issue (please do so!) to specify what kind of issue you are writing</li>
+<li>After the issue has been solved, you can Close it manually. However, if you made a pull request that  solves the issue, you can simply comment “Closes #issuenr” in the pull request. After the pull request has been merged, the issue is automatically closed!</li>
 </ul>
               
             </div>

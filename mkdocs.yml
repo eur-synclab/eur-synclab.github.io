@@ -1,8 +1,8 @@
-site_name: SYNC lab manual
+site_name: SYNC lab wiki
 nav:
   - Home: "index.md"
   - Welcome:
-      - How to use this manual: "welcome/how-to-use.md"
+      - How to use this wiki: "welcome/how-to-use.md"
       - The SYNC lab: "welcome/intro-sync.md"
       - How to contribute: "welcome/contribute.md"
   - How we work:
