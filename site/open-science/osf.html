@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Using the Open Science Framework - SYNC lab manual</title>
+  <title>Using the Open Science Framework - SYNC lab wiki</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> SYNC lab manual</a>
+        <a href=".." class="icon icon-home"> SYNC lab wiki</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -53,7 +53,7 @@
                 </ul>
                 <p class="caption"><span class="caption-text">Welcome</span></p>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this manual</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this wiki</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../welcome/intro-sync.html">The SYNC lab</a>
                     </li>
@@ -113,9 +113,17 @@
                 </li>
                 <li class="toctree-l2 current"><a class="reference internal current" href="osf.html">Using the Open Science Framework</a>
     <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l3"><a class="reference internal" href="#recommended-use-of-the-osf">Recommended use of the OSF</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l3"><a class="reference internal" href="#connecting-the-osf-to-external-services">Connecting the OSF to external services</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#surf-research-drive-via-owncloud">SURF Research Drive (via Owncloud)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#figshare-or-a-publication-package-in-the-edr">Figshare or a publication package in the EDR</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#github-repository">Github repository</a>
+    </li>
+        </ul>
     </li>
     </ul>
                 </li>
@@ -189,7 +197,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">SYNC lab manual</a>
+        <a href="..">SYNC lab wiki</a>
       </nav>
 
       
@@ -220,21 +228,47 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="the-open-science-framework">The Open Science Framework</h1>
+<p>The Open Science Framework (OSF) is a project management, storage and collaboration platform that is used by many scientists. In an OSF project, you can:
+- Register a preregistration
+- Register a preprint
+- Store and share project documentation
+- Link external services, such as git(hub) repositories, publication packages, Research Drive (owncloud) folders, etc.
+- ... and much more</p>
+<p>See <a href="https://www.cos.io/our-products/osf">this link</a> for more information on the functionality of OSF and the <a href="https://help.osf.io/hc/en-us"><strong>OSF guides</strong></a> for many FAQs and technical documentation.</p>
+<h2 id="recommended-use-of-the-osf">Recommended use of the OSF</h2>
+<p>We recommend using the OSF as a central place for your project, especially if you will produce multiple publications in a project. </p>
+<ol>
+<li>Link your OSF project to the <a href="https://osf.io/5hbsm/">SYNC lab OSF page</a> (Log in &gt; Components &gt; Link Projects). No worries, the SYNC lab collaborators cannot automatically edit your linked project!</li>
+<li>Register preregistrations (Registrations &gt; New registration) and Preprints in the relevant components. If your preregistration concerns one manuscript, we recommend creating a separate component in which you link all relevant materials (publication package, preregistration, code, preprint if applicable, etc.) belonging to that manuscript. A project can contain multiple Registrations and Preprints. Be sure to provide good metadata, preferably choose a CC BY 4.0 license and create a DOI so that your preregistration is citable.</li>
+<li>Data: you can link OSF with external storage (see below) or store data on the OSF itself (choose the German storage). On the OSF itself, there is no storage limit (max.file size is currently 5 GB), but please do take privacy into account at all times</li>
+<li>Code and software: you can link OSF with a Github repository in case your preprocessing pipeline, processing steps or experimental files are stored there (see below). If your code is however not code-worthy, we recommend storing the code in the publication package or on OSF itself. </li>
+<li>Link your OSF profile to your ORCID account so that there cannot be any confusion as to who you are.</li>
+</ol>
+<h2 id="connecting-the-osf-to-external-services">Connecting the OSF to external services</h2>
+<p>Via the Add-on tab, you can connect the OSF with several external services. Note that this will not store data on the OSF itself!</p>
+<h3 id="surf-research-drive-via-owncloud">SURF Research Drive (via Owncloud)</h3>
+<p>Connecting with an Owncloud service like the Research Drive goes via a WebDAV connection. All changes made in the selected Research Drive folder will become visible in the OSF component, but the data are still stored at the EUR. Note that you can only make 1 Research Drive connection per OSF component (multiple connections per project are possible).</p>
+<p>Please note the following:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Make sure the access level is read-only, unless you want your collaborators to be able to adjust the Research Drive contents</li>
+<li>Think about anonymity: if you make the project/component public, data that are shared have to be anonymous or consented by participants to share publicly</li>
+<li>Linking an Owncloud folder is not a FAIR solution: there is no curated metadata and no license. Also, the Research Drive is not meant to archive data after the project is finished, so this will always be a temporary solution.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<p><strong>How to link a Research Drive folder to OSF</strong></p>
+<ul>
+<li>Create a WebDAV password in Research Drive (Account &gt; Settings &gt; Security &gt; WebDAV passwords). Copy the WebDAV password you created and click "done"</li>
+<li>Go to the component in your OSF project in which you want to add the Research Drive folder (if you are not in the right component, the Research Drive folder will be linked to the incorrect location)</li>
+<li>Select “Add-on” to add the ownCloud Add-on in OSF</li>
+<li>Configure the add-on in OSF:</li>
+<li>URL: https://eur.data.surfsara.nl</li>
+<li>Username: erna-id@eur.nl </li>
+<li>Password: WebDAV password you just made</li>
+</ul>
+<h3 id="figshare-or-a-publication-package-in-the-edr">Figshare or a publication package in the EDR</h3>
+<p>You can link 1 publication package (1 Figshare link) per OSF component, so that the publication package appears in your OSF project. This way, you can license your data (not possible in OSF) and provide metadata but still link it to your OSF project for more context. Click <a href="https://help.osf.io/hc/en-us/articles/360019929793-Connect-figshare-to-a-Project">here</a> for a tutorial. </p>
+<h3 id="github-repository">Github repository</h3>
+<p>If you stored code on Github (for re-use, think about licensing!), you can link your repository to an OSF component. Again, you can only link 1 repository per OSF component. See <a href="https://help.osf.io/hc/en-us/articles/360019929813-Connect-GitHub-to-a-Project">this link</a> for how to do this.</p>
               
             </div>
           </div>

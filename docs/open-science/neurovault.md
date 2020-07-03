@@ -30,7 +30,7 @@ Example datasets: [Renske van der Cruijsen](https://identifiers.org/neurovault.c
  - DOI of your article (if already present: always!!)
  - Developmental neuroscience community
  - Full dataset URL: for example a link to an OSF project, dataverseNL publication package, or Openneuro dataset, if applicable
- - Contributors: add the last author of your paper. In case you lose access to your account, the contributor can still make adaptations
+ - Contributors: add the last author of your paper (i.e., the NeuroVault username). In case you lose access to your account, the contributor can still make adaptations
  - Accessibility: public, unless you are still in the reviewing process and only want the reviewers to see the data (with a view-only link)
  - Subjects: Mean, min and max age of the sample (for easier meta-analysis)
  - Design: type of design

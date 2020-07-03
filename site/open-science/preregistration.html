@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Preregistering your research - SYNC lab manual</title>
+  <title>Preregistering your research - SYNC lab wiki</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> SYNC lab manual</a>
+        <a href=".." class="icon icon-home"> SYNC lab wiki</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -53,7 +53,7 @@
                 </ul>
                 <p class="caption"><span class="caption-text">Welcome</span></p>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this manual</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this wiki</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../welcome/intro-sync.html">The SYNC lab</a>
                     </li>
@@ -109,9 +109,15 @@
     <ul class="current">
                 <li class="toctree-l2 current"><a class="reference internal current" href="preregistration.html">Preregistering your research</a>
     <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-a-preregistration">What is a preregistration?</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l3"><a class="reference internal" href="#why-should-i-preregister-my-research">Why should I preregister my research?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#preregistration-dilemmas">Preregistration dilemmas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-can-i-preregister">How can I preregister?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#what-are-registered-reports">What are Registered Reports?</a>
     </li>
     </ul>
                 </li>
@@ -189,7 +195,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">SYNC lab manual</a>
+        <a href="..">SYNC lab wiki</a>
       </nav>
 
       
@@ -220,21 +226,45 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="preregistration">Preregistration</h1>
+<h2 id="what-is-a-preregistration">What is a preregistration?</h2>
+<p>A preregistration is basically a time-stamped plan of your research before you have seen your research data (either before data collection or before data analysis), "the introduction and methods sections of your paper". It is a document containing at least:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Your hypotheses</li>
+<li>Your methodology and variables (design, sample, stopping rule, exclusion criteria, procedure, variables, etc.)</li>
+<li>Your analysis plan to test the hypotheses (statistical tests, transformations, assumption tests, etc.)</li>
+<li>Inference criteria: when do you consider your hypothesis rejected or confirmed?</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<p>Some examples can be found <a href="https://osf.io/e6auq/wiki/Example%20Preregistrations/?view">here</a>.</p>
+<h2 id="why-should-i-preregister-my-research">Why should I preregister my research?</h2>
+<ul>
+<li>clearly distinguish between confirmatory and exploratory analysis and therefore prevent presenting exploration as hypothesized result</li>
+<li>maintain transparency, preventing selective reporting and p-hacking</li>
+<li>contribute to decreasing the file drawer problem and publication bias</li>
+<li>function as a safety net for your future self: you don't have to remember what exactly you were going to do and how, and, once registered, you only have to execute your plan (and, if deviating from it, report this)</li>
+<li>Read <a href="https://www.psychologicalscience.org/observer/seven-selfish-reasons-for-preregistration#.WR3HblMrLOS">this article</a> for more selfish reasons to preregister</li>
+</ul>
+<h2 id="preregistration-dilemmas">Preregistration dilemmas</h2>
+<ol>
+<li><em>"Preregistration costs way too much time"</em> &gt; Actually, the time you would normally spend after data collection is now spent before. It will likely even save you time, because you are not pointlessly trying multiple analyses and because you basically already wrote your introduction and methods sections.  </li>
+<li><em>"What to do when my research doesn't go according to plan?"</em> &gt; Before the analysis, you can add an addendum to your preregistration explaining what went differently. Afterwards, simply report the deviation in your manuscript! The goal is to be transparent.</li>
+<li><em>"No one will ever look at my preregistration"</em> &gt; You can use the preregistration already as a reminder for yourself, use it as a justification to reviewers of your manuscript and inspire colleagues and interested researchers with your amazing open attitude. Go for it!</li>
+</ol>
+<p>See <a href="https://osf.io/mtdh2/">this page</a> for more information about preregistration and dilemmas in preregistering fMRI studies.</p>
+<h2 id="how-can-i-preregister">How can I preregister?</h2>
+<p>See <a href="https://osf.io/sgrk6/">this link</a> for an easy tutorial on how to preregister on the Open Science Framework (OSF). Don't forget to include your collaborators and to include the link to your preregistration in your manuscript.</p>
+<h2 id="what-are-registered-reports">What are Registered Reports?</h2>
+<p>Registered Reports are preregistrations that are <em>peer reviewed</em> by journals. This highly eliminates publication bias, because at Stage 1 peer review, no results are known yet, so manuscripts cannot be accepted or rejected basead on results. Below the process of Registered Reports is visualized:</p>
+<p><img alt="*Source: https://www.cos.io/our-services/registered-reports*" src="../../img/regreports.png" /></p>
+<p>After your preregistration has received an In Principle Acceptance (Stage 1), you can start collecting data and writing up your results. Most journals that get through Stage 1 will also get accepted in Stage 2, because the study design has already been reviewed. </p>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>A simple <a href="https://osf.io/t6m9v/">preregistration template</a></li>
+<li>All <a href="https://osf.io/zab38/wiki/home/">OSF templates</a></li>
+<li>A list of <a href="https://www.cos.io/our-services/prereg">resources on preregistration</a> </li>
+<li>Information about <a href="https://www.cos.io/our-services/registered-reports">Registered Reports</a></li>
+<li>Overview of <a href="https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit?usp=sharing">all journals doing Registered Reports</a></li>
+</ul>
               
             </div>
           </div>

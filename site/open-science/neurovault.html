@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>How to use NeuroVault - SYNC lab manual</title>
+  <title>How to use NeuroVault - SYNC lab wiki</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> SYNC lab manual</a>
+        <a href=".." class="icon icon-home"> SYNC lab wiki</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -53,7 +53,7 @@
                 </ul>
                 <p class="caption"><span class="caption-text">Welcome</span></p>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this manual</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this wiki</a>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../welcome/intro-sync.html">The SYNC lab</a>
                     </li>
@@ -91,9 +91,11 @@
                 </li>
                 <li class="toctree-l2 current"><a class="reference internal current" href="neurovault.html">How to use NeuroVault</a>
     <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l3"><a class="reference internal" href="#why-neurovault">Why NeuroVault?</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l3"><a class="reference internal" href="#which-data-can-be-uploaded-into-neurovault">Which data can be uploaded into NeuroVault?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#instructions">Instructions</a>
     </li>
     </ul>
                 </li>
@@ -189,7 +191,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">SYNC lab manual</a>
+        <a href="..">SYNC lab wiki</a>
       </nav>
 
       
@@ -220,21 +222,53 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="neurovault-upload-instructions-and-tips">NeuroVault: upload instructions and tips</h1>
+<p><a href="https://neurovault.org/">NeuroVault</a> is a repository for processed neuroimaging data (you can upload first and second level processed data). This type of data is anonymous, so it can be shared without any restrictions. We encourage you to do this!</p>
+<h2 id="why-neurovault">Why NeuroVault?</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Share data without sending files around</li>
+<li>Visualize your MRI contrasts and give the dataset a persistent identifier</li>
+<li>Make meta-analyses a lot easier</li>
+<li>Provide transparency to reviewers asking about your data</li>
+<li>Refer to the original paper and from the paper to your NeuroVault collection</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<p>Tips:</p>
+<ul>
+<li>Before uploading: Keep a good documentation of your contrasts during your data analysis so that it is easier to look up which contrast is which (since SPM is not good at file naming)</li>
+<li>Upload the images before you send in the first version of your paper. This way you can show the reviewers the data from the start (with the NeuroVault link)</li>
+<li>You can upload both t-maps and ROIs from many different modalities (see below)</li>
+<li>Include all analyses published in the paper and the main effects even if they are not included in the publication. This makes your analysis more transparent to the reviewers</li>
+</ul>
+<h2 id="which-data-can-be-uploaded-into-neurovault">Which data can be uploaded into NeuroVault?</h2>
+<ul>
+<li>Map types: t, z, F, chi-squared, p (given null hypothesis), 1-p ("inverted" probability), univariate beta map, multivariable beta map, ROI/mask, parcellation, anatomical, variance </li>
+<li>Modalities: fMRI BOLD, fMRI-CBF, fMRI-CBV, diffusion MRI, structural MRI, PET FDP, PET [15O]-water, PET other, MEG, EEG, Other</li>
+</ul>
+<p>Example datasets: <a href="https://identifiers.org/neurovault.collection:4774">Renske van der Cruijsen</a>, <a href="https://identifiers.org/neurovault.collection:6070">Michelle Achterberg</a></p>
+<h2 id="instructions">Instructions</h2>
+<ol>
+<li>Log in at https://neurovault.org/. If you have never used NeuroVault before, create an account (or use your Google account).</li>
+<li>Create a dataset, click “Get started and upload an image!” or “Add new collection” under the “Collections” tab.</li>
+<li>Fill in the following information (metadata): <strong>Essentials</strong></li>
+<li>Name of the collection: title of your article</li>
+<li>DOI of your article (if already present: always!!)</li>
+<li>Developmental neuroscience community</li>
+<li>Full dataset URL: for example a link to an OSF project, dataverseNL publication package, or Openneuro dataset, if applicable</li>
+<li>Contributors: add the last author of your paper. In case you lose access to your account, the contributor can still make adaptations</li>
+<li>Accessibility: public, unless you are still in the reviewing process and only want the reviewers to see the data (with a view-only link)</li>
+<li>Subjects: Mean, min and max age of the sample (for easier meta-analysis)</li>
+<li>Design: type of design</li>
+<li>Acquisition, registration, preprocessing, first level and second level:  these details should be included in your paper. You can include them here as well but not necessarily.</li>
+<li>Click “Add image”</li>
+<li>Name: short &amp; as clear as possible which map / contrast you are referring to (otherwise add a description)</li>
+<li>Map type (often t-map), modality (often fMRI BOLD) and template image (often MNI)</li>
+<li>Cognitive Atlas Paradigm: choose the task that resembles yours the best. This may not always be possible, however this field is mandatory</li>
+<li>You can upload .nii, .nii.gz and .hdr/.img files. Make sure to select the correct contrast (i.e., have good data documentation)!</li>
+<li>Cognitive paradigm description: if you have a task that is not well-known or widely used, e.g., the SNAT, you can refer to a document about the task in this field.</li>
+<li>Analysis level: often group (if single-subject, upload each contrast for each subject)</li>
+<li>No. of subjects</li>
+<li>Corresponding figure: not necessary but very insightful for reviewers</li>
+</ol>
               
             </div>
           </div>
