@@ -1,23 +1,23 @@
 # Practical information about open access publishing
 
 ## Publishing at the EUR
-You have to register your articles yourself in Metis (the Lucris of the EUR). After being registered, they will appear on your profile page and are used for your performance review (R&O gesprek). 
+You have to register your articles yourself in [Metis](https://metis.ru.nl/federation/login/personalmetis). After being registered, they will appear on your profile page and are used for your performance review (R&O gesprek). 
 
 **How do I register publications in Metis?**
 
-- Go to Personal Metis via https://metis.ru.nl/federation/login/personalmetis and log in with your ERNA id and password.
+- Go to [Personal Metis](https://metis.ru.nl/federation/login/personalmetis) and log in with your ERNA id and password.
 - Have a look at your results overview and check if all your publications are listed and correctly registered.
-- Register your article in Metis within 6 months after publication (detailed instructions here)
+- Register your article in Metis within 6 months after publication (detailed instructions [here](https://my.eur.nl/en/essb-employee/research-0/research-publishing-impact/personal-metis))
   - make sure to include: Title, Author(s), DOI, Email address of the corresponding EUR author, Faculty, research groups, etc. of the corresponding EUR author, Journal, Abstract (if not available in the running text), Subject headings/keywords (if not available in the running text)
-  - upload the final author version (aka postprint: the final version without the publisher’s formatting) of the publication to RePub: this way, the article will become freely accessible via the green route. The library always does a final copyright check before inclusion in the database.
+  - upload the final author version (aka postprint: the final version without the publisher’s formatting) of the publication to [RePub](https://repub.eur.nl/page/1/): this way, the article will become freely accessible via the green route. The library always does a final copyright check before inclusion in the database.
 
 Once registered in Metis and placed in RePub, the article receives a permanent identifier in the form of a handle, which you can use to refer to your publication when it is not gold open access.
 
 ## Open access: costs
 
 - Publishing open access via the green route (RePub) is free of charge and highly encouraged
-- Publishing gold open access is not always free. The VSNU has made deals with several publishers which allows researchers at Dutch universities to publish articles open access at no extra charge. However, not all publishers will point you towards this option when submitting an article or when the article is in the stage of acceptance. To check whether the journal is eligible for open access at no extra charge, see https://www.openaccess.nl/en/in-the-netherlands/publisher-deals or http://library.wur.nl/WebQuery/eurbrowser?q=* 
-In case a journal is not on this list and there is no funding from a project to cover the open access fees, there is an Erasmus Open Access Fund that can cover the fee. For more information please have a look at: https://www.eur.nl/en/research-support/open-access/erasmus-open-access-fund
+- Publishing gold open access is not always free. The VSNU has made deals with several publishers that allow researchers at Dutch universities to publish articles open access at no extra charge. However, not all publishers will point you towards this option when submitting an article or when the article is in the stage of acceptance. To check whether the journal is eligible for open access at no extra charge, see [this link](https://www.openaccess.nl/en/in-the-netherlands/publisher-deals) or [the journal browser](http://library.wur.nl/WebQuery/eurbrowser?q=*)
+In case a journal is not on this list and there is no funding from a project to cover the open access fees, there is an Erasmus Open Access Fund that can cover the fee. For more information please have a look [here](https://www.eur.nl/en/research-support/open-access/erasmus-open-access-fund)
 
 ## Checking the quality of an (open access) journal
 
