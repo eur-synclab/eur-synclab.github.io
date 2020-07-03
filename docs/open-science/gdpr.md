@@ -12,8 +12,8 @@ Since May 2018, the General Data Protection Regulation (Dutch: Algemene Verorden
 
 - *Privacy by Design*: build privacy-increasing measures into your study design
 - *Privacy by Default*: make sure your default settings already improve your participants' privacy
-- *Data minimization*: Only collect and use personal data necessary for your research goal (data minimization)
-- *Legal basis*: Make sure there is a legal basis (6 possible) to process (and share) the personal data you collect (e.g., informed consent or public interest [more info (Dutch)](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken))
+- *Data minimization*: Only collect and use personal data necessary for your research goal
+- *Legal basis*: Make sure there is a legal basis (6 possible) to process (and share) the personal data you collect (e.g., informed consent or public interest [more info (Dutch)](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken)
 - *DPIA*: Conduct a Data Protection Impact Assessment whenever you collect (highly) sensitive data, such as names, addresses, race or health data.
 - Inform participants about the goal of the personal data collection and which data you collect.
 
@@ -40,6 +40,17 @@ By law, data is considered identifiable when identification can occur with reaso
   - in the Netherlands: Burgerservicenummer (BSN)
 - **Anonymous data**: Data that are **not** (re)identifiable anymore: neiher by a name-number key, nor by combining with other publicly available data. Anonymous data are **not considered personal data**, so processing and sharing this kind of data do not require a legal basis.
 
+## Sharing data under the GDPR
+Anonymous data can be shared without restriction if they are **really** anonymous. You may share non-anonymous data only when:
+
+- You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be *very explicit* ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some [example sentences](https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing) and a [GDPR version of the Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html)
+- You reduce the amount of personal data shared to a minimum (data minimization principle)
+- You take the necessary measures to protect your participants' privacy
+- Always write a Data Management Plan (DMP) and  Data Protection Impact Assessment (DPIA) before starting a project with personal data
+- When sharing data with researchers outside of the EU, Norway, Liechtenstein and Iceland (no GDPR present), make sure that country has an [adequacy decision](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en). If the country does not have one, you need to take extra protection measures, such as standard contractual clauses or agreements.
+
+In case your data are not anonymous, but you have attained consent and still want to protect your participants' privacy better, you may always use a **data sharing agreement**. This document contains what users can and cannot do with your data, for how long and if you will get credit if the user publishes about your data. A good example is the agreement used by [the Donders repository](https://data.donders.ru.nl/?2). The Open Brain Consent initiative is also working on a [template agreement](https://open-brain-consent.readthedocs.io/en/latest/gdpr/data_user_agreement.html), or  find an example template in the [template chapter](dsa-template.md).
+
 ## Anonymizing data
 ### General tips
 - Remove identifiers (name, address)
@@ -53,7 +64,7 @@ By law, data is considered identifiable when identification can occur with reaso
 - Determine whether different measures combined could lead to identification. If needed, consult a privacy officer.
 
 ### Deidentifying MRI-data
-There is some debate as to whether or not MRI data can be anonymized. One paper, for example, found that brain morphology, although preprocessed, was personally identifiable [Takao, Hayashi, & Ohtomo, 2015](https://doi.org/10.1016/j.mri.2015.03.010). Moreover, it could be argued that, when combining multiple databases, the data may be identifiable in that way as well. Therefore, we do not speak of anonymizing MRI-data, but *deidentifying* it: MRI-data will always remain *pseudonymous at best* and therefore require a legal basis before sharing.
+There is some debate as to whether or not MRI data can be anonymized. One paper, for example, found that brain morphology, although preprocessed, was personally identifiable ([Takao, Hayashi, & Ohtomo, 2015](https://doi.org/10.1016/j.mri.2015.03.010)). Moreover, it could be argued that, when combining multiple databases, the data may be identifiable in that way as well. Therefore, we do not speak of anonymizing MRI-data, but *deidentifying* it: MRI-data will always remain *pseudonymous at best* and therefore require a legal basis before sharing.
 
 - Anonymize the filenames: replace names with codes
 - [Remove the header information](https://loni.usc.edu/research/software?name=DiD ) (when using hdr and img files, not for nifti files)
@@ -62,19 +73,6 @@ There is some debate as to whether or not MRI data can be anonymized. One paper,
 If you are uncertain whether your data are anonymous, please don't hesitate to contact a privacy officer.
 
 Have a look at [this MRI data sharing guide](https://doi.org/10.5281/zenodo.3822290) for more info!
-
-
-## Sharing data under the GDPR
-Anonymous data can be shared without restriction if they are **really** anonymous. You may share non-anonymous data only when:
-
-- You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be *very explicit* ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some [example sentences](https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing) and a [GDPR version of the Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html)
-- You reduce the amount of personal data shared to a minimum (data minimization principle)
-- You take the necessary measures to protect your participants' privacy
-- Always write a Data Management Plan (DMP) and  Data Protection Impact Assessment (DPIA) before starting a project with personal data
-- When sharing data with researchers outside of the EU, Norway, Liechtenstein and Iceland (no GDPR present), make sure that country has an [adequacy decision](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en). If the country does not have one, you need to take extra protection measures, such as standard contractual clauses or agreements.
-
-In case your data are not anonymous, but you have attained consent and still want to protect your participants' privacy better, you may always use a **data sharing agreement**. This document contains what users can and cannot do with your data, for how long and if you will get credit if the user publishes about your data. A good example is the agreement used by [the Donders repository](https://data.donders.ru.nl/?2). The Open Brain Consent initiative is also working on a [template agreement](https://open-brain-consent.readthedocs.io/en/latest/gdpr/data_user_agreement.html), or  find an example template in the [template chapter](dsa-template.md).
-
 
 ## GDPR resources
 - [Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/stable/), a bottom-up initiative to make sense of the GDPR in sharing MRI data
