@@ -41,3 +41,5 @@ After your preregistration has received an In Principle Acceptance (Stage 1), yo
 - A list of [resources on preregistration](https://www.cos.io/our-services/prereg) 
 - Information about [Registered Reports](https://www.cos.io/our-services/registered-reports)
 - Overview of [all journals doing Registered Reports](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit?usp=sharing)
+- A preregistration tutorial and template for [secondary data analysis](https://psyarxiv.com/hvfmr)
+- Preregistration: [dream vs. reality](https://psyarxiv.com/d8wex/)
