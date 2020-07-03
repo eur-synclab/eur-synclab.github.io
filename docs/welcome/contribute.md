@@ -49,7 +49,10 @@ Advantages of Markdown:
 - It is platform- and operating system independent
 - You can type markdown in any text editor and open .md files with many programs, such as [Atom](https://atom.io/), [Zettlr](https://www.zettlr.com/), [Rstudio](https://rstudio.com/), or even online, such as in [Dillinger](https://dillinger.io/) (in contrast to, for example, Microsoft Word), see [this page]( https://www.markdownguide.org/tools/) for more tools that support Markdown.
 
-Read more about Markdown in [this Markdown guide](https://www.markdownguide.org/getting-started/) and on [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+**Markdown resources**
+- [Markdown guide](https://www.markdownguide.org/getting-started/)
+- [Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- [More advanced Markdown tricks](https://gist.github.com/apaskulin/1ad686e42c7165cb9c22f9fe1e389558)
 
 ## How to contribute?
 #### The easy (but not recommended) way
