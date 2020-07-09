@@ -77,8 +77,6 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="open-access-how.html">How to publish open access</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="open-access-resources.html">Useful resources</a>
-                </li>
     </ul>
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="#">Data sharing</a>
@@ -91,6 +89,8 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#important-types-of-data">Important types of data</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sharing-data-under-the-gdpr">Sharing data under the GDPR</a>
+    </li>
     <li class="toctree-l3"><a class="reference internal" href="#anonymizing-data">Anonymizing data</a>
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#general-tips">General tips</a>
@@ -98,8 +98,6 @@
     <li class="toctree-l4"><a class="reference internal" href="#deidentifying-mri-data">Deidentifying MRI-data</a>
     </li>
         </ul>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#sharing-data-under-the-gdpr">Sharing data under the GDPR</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#gdpr-resources">GDPR resources</a>
     </li>
@@ -247,8 +245,8 @@
 <ul>
 <li><em>Privacy by Design</em>: build privacy-increasing measures into your study design</li>
 <li><em>Privacy by Default</em>: make sure your default settings already improve your participants' privacy</li>
-<li><em>Data minimization</em>: Only collect and use personal data necessary for your research goal (data minimization)</li>
-<li><em>Legal basis</em>: Make sure there is a legal basis (6 possible) to process (and share) the personal data you collect (e.g., informed consent or public interest <a href="https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken">more info (Dutch)</a>)</li>
+<li><em>Data minimization</em>: Only collect and use personal data necessary for your research goal</li>
+<li><em>Legal basis</em>: Make sure there is a legal basis (6 possible) to process (and share) the personal data you collect (e.g., informed consent or public interest <a href="https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/mag-u-persoonsgegevens-verwerken">more info (Dutch)</a></li>
 <li><em>DPIA</em>: Conduct a Data Protection Impact Assessment whenever you collect (highly) sensitive data, such as names, addresses, race or health data.</li>
 <li>Inform participants about the goal of the personal data collection and which data you collect.</li>
 </ul>
@@ -275,6 +273,16 @@
 <li>in the Netherlands: Burgerservicenummer (BSN)</li>
 <li><strong>Anonymous data</strong>: Data that are <strong>not</strong> (re)identifiable anymore: neiher by a name-number key, nor by combining with other publicly available data. Anonymous data are <strong>not considered personal data</strong>, so processing and sharing this kind of data do not require a legal basis.</li>
 </ul>
+<h2 id="sharing-data-under-the-gdpr">Sharing data under the GDPR</h2>
+<p>Anonymous data can be shared without restriction if they are <strong>really</strong> anonymous. You may share non-anonymous data only when:</p>
+<ul>
+<li>You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be <em>very explicit</em> ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some <a href="https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing">example sentences</a> and a <a href="https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html">GDPR version of the Open Brain Consent initiative</a></li>
+<li>You reduce the amount of personal data shared to a minimum (data minimization principle)</li>
+<li>You take the necessary measures to protect your participants' privacy</li>
+<li>Always write a Data Management Plan (DMP) and  Data Protection Impact Assessment (DPIA) before starting a project with personal data</li>
+<li>When sharing data with researchers outside of the EU, Norway, Liechtenstein and Iceland (no GDPR present), make sure that country has an <a href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en">adequacy decision</a>. If the country does not have one, you need to take extra protection measures, such as standard contractual clauses or agreements.</li>
+</ul>
+<p>In case your data are not anonymous, but you have attained consent and still want to protect your participants' privacy better, you may always use a <strong>data sharing agreement</strong>. This document contains what users can and cannot do with your data, for how long and if you will get credit if the user publishes about your data. A good example is the agreement used by <a href="https://data.donders.ru.nl/?2">the Donders repository</a>. The Open Brain Consent initiative is also working on a <a href="https://open-brain-consent.readthedocs.io/en/latest/gdpr/data_user_agreement.html">template agreement</a>, or  find an example template in the <a href="dsa-template.html">template chapter</a>.</p>
 <h2 id="anonymizing-data">Anonymizing data</h2>
 <h3 id="general-tips">General tips</h3>
 <ul>
@@ -289,7 +297,7 @@
 <li>Determine whether different measures combined could lead to identification. If needed, consult a privacy officer.</li>
 </ul>
 <h3 id="deidentifying-mri-data">Deidentifying MRI-data</h3>
-<p>There is some debate as to whether or not MRI data can be anonymized. One paper, for example, found that brain morphology, although preprocessed, was personally identifiable <a href="https://doi.org/10.1016/j.mri.2015.03.010">Takao, Hayashi, &amp; Ohtomo, 2015</a>. Moreover, it could be argued that, when combining multiple databases, the data may be identifiable in that way as well. Therefore, we do not speak of anonymizing MRI-data, but <em>deidentifying</em> it: MRI-data will always remain <em>pseudonymous at best</em> and therefore require a legal basis before sharing.</p>
+<p>There is some debate as to whether or not MRI data can be anonymized. One paper, for example, found that brain morphology, although preprocessed, was personally identifiable (<a href="https://doi.org/10.1016/j.mri.2015.03.010">Takao, Hayashi, &amp; Ohtomo, 2015</a>). Moreover, it could be argued that, when combining multiple databases, the data may be identifiable in that way as well. Therefore, we do not speak of anonymizing MRI-data, but <em>deidentifying</em> it: MRI-data will always remain <em>pseudonymous at best</em> and therefore require a legal basis before sharing.</p>
 <ul>
 <li>Anonymize the filenames: replace names with codes</li>
 <li><a href="https://loni.usc.edu/research/software?name=DiD">Remove the header information</a> (when using hdr and img files, not for nifti files)</li>
@@ -297,16 +305,6 @@
 </ul>
 <p>If you are uncertain whether your data are anonymous, please don't hesitate to contact a privacy officer.</p>
 <p>Have a look at <a href="https://doi.org/10.5281/zenodo.3822290">this MRI data sharing guide</a> for more info!</p>
-<h2 id="sharing-data-under-the-gdpr">Sharing data under the GDPR</h2>
-<p>Anonymous data can be shared without restriction if they are <strong>really</strong> anonymous. You may share non-anonymous data only when:</p>
-<ul>
-<li>You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be <em>very explicit</em> ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some <a href="https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing">example sentences</a> and a <a href="https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html">GDPR version of the Open Brain Consent initiative</a></li>
-<li>You reduce the amount of personal data shared to a minimum (data minimization principle)</li>
-<li>You take the necessary measures to protect your participants' privacy</li>
-<li>Always write a Data Management Plan (DMP) and  Data Protection Impact Assessment (DPIA) before starting a project with personal data</li>
-<li>When sharing data with researchers outside of the EU, Norway, Liechtenstein and Iceland (no GDPR present), make sure that country has an <a href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en">adequacy decision</a>. If the country does not have one, you need to take extra protection measures, such as standard contractual clauses or agreements.</li>
-</ul>
-<p>In case your data are not anonymous, but you have attained consent and still want to protect your participants' privacy better, you may always use a <strong>data sharing agreement</strong>. This document contains what users can and cannot do with your data, for how long and if you will get credit if the user publishes about your data. A good example is the agreement used by <a href="https://data.donders.ru.nl/?2">the Donders repository</a>. The Open Brain Consent initiative is also working on a <a href="https://open-brain-consent.readthedocs.io/en/latest/gdpr/data_user_agreement.html">template agreement</a>, or  find an example template in the <a href="dsa-template.html">template chapter</a>.</p>
 <h2 id="gdpr-resources">GDPR resources</h2>
 <ul>
 <li><a href="https://open-brain-consent.readthedocs.io/en/stable/">Open Brain Consent initiative</a>, a bottom-up initiative to make sense of the GDPR in sharing MRI data</li>
@@ -336,7 +334,7 @@
         <a href="pub-packages.html" class="btn btn-neutral float-right" title="Publication packages">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="open-access-resources.html" class="btn btn-neutral" title="Useful resources"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="open-access-how.html" class="btn btn-neutral" title="How to publish open access"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -362,7 +360,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="open-access-resources.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="open-access-how.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="pub-packages.html" style="color: #fcfcfc">Next &raquo;</a></span>
