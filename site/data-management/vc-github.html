@@ -1,224 +1,303 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  
-  <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Version control for code - SYNC lab wiki</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
-
-  <link rel="stylesheet" href="../css/theme.css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Version control for code";
-    var mkdocs_page_input_path = "data-management/vc-github.md";
-    var mkdocs_page_url = null;
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
-    
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> SYNC lab wiki</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Welcome</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/how-to-use.html">How to use this wiki</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/intro-sync.html">The SYNC lab</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../welcome/contribute.html">How to contribute</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">How we work</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../how-we-work/code-of-conduct.html">Code of conduct</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../how-we-work/labmeetings.html">Labmeetings</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../how-we-work/collab-tools.html">Collaboration tools</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Open Science</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Open acccess publishing</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/open-access-info.html">Information</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/open-access-how.html">How to publish open access</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Data sharing</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/gdpr.html">The GDPR</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/pub-packages.html">Publication packages</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/data-sharing-how.html">How to share data?</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/neurovault.html">How to use NeuroVault</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/dsa-template.html">Data sharing agreement template</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Reproducibility</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/open-software.html">Open software</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/open-code.html">Open code</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/vc-software.html">Version control software</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Fostering transparency elsewhere</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/preregistration.html">Preregistering your research</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="../open-science/osf.html">Using the Open Science Framework</a>
-                </li>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data management</span></p>
-                <ul class="current">
-                    <li class="toctree-l1"><a class="reference internal" href="datamanagement-intro.html">What is data management?</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="data-security.html">Data security protocol</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="research-drive-info.html">Research Drive</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="research-drive-how.html">How to use the Research Drive</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="folder-structure.html">File organization</a>
-                    </li>
-                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Version control</a>
-    <ul class="current">
-                <li class="toctree-l2"><a class="reference internal" href="vc-principles.html">Basic principles</a>
-                </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="vc-github.html">Version control for code</a>
-    <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#commands">Commands</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#project-layout">Project layout</a>
-    </li>
-    </ul>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="vc-datalad.html">Version control for data</a>
-                </li>
-    </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Metadata</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="FAIR.html">FAIR data</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="types-metadata.html">Types of metadata</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="dmp-dpia-info.html">DMP and DPIA</a>
-                </li>
-                <li class="toctree-l2"><a class="reference internal" href="codebooks.html">Codebooks</a>
-                </li>
-    </ul>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data analysis</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../data-analysis/types-analysis.html">Types of data analysis</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Reaching out to society</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../reaching-out/outreach-practices.html">Our outreach practices</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Getting started at the EUR</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../getting-started-eur/resources-contacts-eur.html">Resources and contacts</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../getting-started-eur/email-signature.html">Email signature</a>
-                    </li>
-                </ul>
-      </div>
-    </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">SYNC lab wiki</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
-    
-      
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-          <li>Version control &raquo;</li>
         
-      
         
-          <li>Data management &raquo;</li>
-        
-      
-    
-    <li>Version control for code</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
-              
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Version control for code - SYNC lab wiki</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">SYNC lab wiki</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../index.html">Home</a>
+</li>
+                                    
+<li >
+    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+</li>
+                                    
+<li >
+    <a href="../welcome/contribute.html">How to contribute</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+</li>
+                                    
+<li >
+    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+</li>
+                                    
+<li >
+    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Open acccess publishing</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../open-science/open-access-info.html">Information</a>
+</li>
+            
+<li >
+    <a href="../open-science/open-access-how.html">How to publish open access</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Data sharing</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../open-science/gdpr.html">The GDPR</a>
+</li>
+            
+<li >
+    <a href="../open-science/pub-packages.html">Publication packages</a>
+</li>
+            
+<li >
+    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+</li>
+            
+<li >
+    <a href="../open-science/neurovault.html">How to use NeuroVault</a>
+</li>
+            
+<li >
+    <a href="../open-science/dsa-template.html">Data sharing agreement template</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Reproducibility</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../open-science/open-software.html">Open software</a>
+</li>
+            
+<li >
+    <a href="../open-science/open-code.html">Open code</a>
+</li>
+            
+<li >
+    <a href="../open-science/vc-software.html">Version control software</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Fostering transparency elsewhere</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../open-science/preregistration.html">Preregistering your research</a>
+</li>
+            
+<li >
+    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+</li>
+            
+<li >
+    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="datamanagement-intro.html">What is data management?</a>
+</li>
+                                    
+<li >
+    <a href="data-security.html">Data security protocol</a>
+</li>
+                                    
+<li >
+    <a href="research-drive-info.html">Research Drive</a>
+</li>
+                                    
+<li >
+    <a href="research-drive-how.html">How to use the Research Drive</a>
+</li>
+                                    
+<li >
+    <a href="folder-structure.html">File organization</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Version control</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="vc-principles.html">Basic principles</a>
+</li>
+            
+<li class="active">
+    <a href="vc-github.html">Version control for code</a>
+</li>
+            
+<li >
+    <a href="vc-datalad.html">Version control for data</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#">Metadata</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="FAIR.html">FAIR data</a>
+</li>
+            
+<li >
+    <a href="types-metadata.html">Types of metadata</a>
+</li>
+            
+<li >
+    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+            
+<li >
+    <a href="codebooks.html">Codebooks</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+</li>
+                                    
+<li >
+    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+</li>
+                                    
+<li >
+    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+</li>
+                                    
+<li >
+    <a href="../getting-started-eur/resources-contacts-eur.html">Resources and contacts</a>
+</li>
+                                    
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="vc-principles.html">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="vc-datalad.html">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+            <li><a href="#commands">Commands</a></li>
+            <li><a href="#project-layout">Project layout</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
 <p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
 <h2 id="commands">Commands</h2>
 <ul>
@@ -232,58 +311,83 @@
 docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
-</code></pre>
-              
-            </div>
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="vc-datalad.html" class="btn btn-neutral float-right" title="Version control for data">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="vc-principles.html" class="btn btn-neutral" title="Basic principles"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
-  </div>
-
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-      
+</code></pre></div>
         </div>
-      </div>
 
-    </section>
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
-  </div>
-
-  <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="vc-principles.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="vc-datalad.html" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
 
-</body>
+    </body>
 </html>

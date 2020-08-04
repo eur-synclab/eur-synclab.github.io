@@ -1,8 +1,8 @@
 site_name: SYNC lab wiki
 nav:
-  - Home: "index.md"
+
   - Welcome:
-      - How to use this wiki: "welcome/how-to-use.md"
+      - Home: "index.md"
       - The SYNC lab: "welcome/intro-sync.md"
       - How to contribute: "welcome/contribute.md"
   - How we work:
@@ -53,5 +53,5 @@ nav:
     - Resources and contacts: "getting-started-eur/resources-contacts-eur.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
-theme: readthedocs
+theme: mkdocs
 use_directory_urls: false
