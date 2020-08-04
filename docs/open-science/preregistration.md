@@ -31,7 +31,7 @@ See [this link](https://osf.io/sgrk6/) for an easy tutorial on how to preregiste
 ## What are Registered Reports?
 Registered Reports are preregistrations that are *peer reviewed* by journals. This highly eliminates publication bias, because at Stage 1 peer review, no results are known yet, so manuscripts cannot be accepted or rejected basead on results. Below the process of Registered Reports is visualized:
 
-![*Source: https://www.cos.io/our-services/registered-reports*](../../img/regreports.png)
+![*Source: https://www.cos.io/our-services/registered-reports*](../img/regreports.png)
 
 After your preregistration has received an In Principle Acceptance (Stage 1), you can start collecting data and writing up your results. Most journals that get through Stage 1 will also get accepted in Stage 2, because the study design has already been reviewed. 
 
