@@ -53,5 +53,5 @@ nav:
     - Resources and contacts: "getting-started-eur/resources-contacts-eur.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
-theme: readthedocs
+theme: mkdocs
 use_directory_urls: false

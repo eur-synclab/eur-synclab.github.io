@@ -12,6 +12,6 @@
 - want to add something or suggest changes? Use Github: [ https://github.com/eur-synclab/sync-manual](https://github.com/eur-synclab/sync-manual)
 
 
-![picture](../img/B&D BBQ 2017.jpg)
+![picture](./img/B&D BBQ 2017.jpg)
 
 *Note:* This must be a much better and recent picture, haha
