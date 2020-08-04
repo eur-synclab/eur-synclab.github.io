@@ -14,9 +14,15 @@ Welcome! You are reading the first page of the SYNC lab wiki. This wiki is a **c
 
 
 
-In the menu bar, navigate to the chapter that you would like to read more about, or use the search bar!
+### How to use this wiki?
 
-Are you missing information or should current information be updated? Read how to contribute [here](../welcome/contribute.md).
+It works best to open the **index.html** file and navigate the manual in your internet browser. In the menu bar, navigate to the chapter that you would like to read more about, or use the search bar!
+
+#### Adding new stuff
+
+- Are you missing information or should current information be updated? Use our [Github repository](https://github.com/eur-synclab/sync-manual).
+- On the [How to contribute](../welcome/contribute.md) page, you can find more details on how to use git, Github and Markdown to make contributions.
+- If you are missing information here, and you think someone else could write a page about that topic, suggest it as an [Issue](https://github.com/eur-synclab/sync-manual/issues) on the Github repository or just ask someone by mail / Slack/ in real life!
 
 
 
