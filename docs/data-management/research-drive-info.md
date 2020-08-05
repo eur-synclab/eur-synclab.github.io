@@ -50,7 +50,7 @@ Data stewards can give the following permissions to users:
         <li>Change: upload and replace existing items in the folder</li>
         <li>Delete: delete existingg items in the folder</li>
         </ul></li>
-    <li><strong>Share</strong>: can re-share the item or a child item. If users have this right, they can set (perhaps broader) permissions for other users. This is <strong>not</strong> recommended, since you can quickly loose overview of who has access to which data. This way, the data steward remains in control of the data.</li>
+    <li><strong>Share</strong>: can re-share the item or a child item. If users have this right, they can set (perhaps broader) permissions for other users. This is <strong>not</strong> recommended, since you can quickly lose overview of who has access to which data. This way, the data steward remains in control of the data.</li>
 </ul>
 
 </br>
