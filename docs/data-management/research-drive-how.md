@@ -51,9 +51,9 @@ After you have made any changes in access groups, please **update** “[Research
 
 Add users to folders individually if they should not have the same permissions as the custom groups. This could for example be outside researchers. Please note that users of SURFdrive do not necessarily need a new Research Drive account, you can simply share the relevant files/folders with their [Federated cloud ID](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960).
 
+ #### 
 
-
- #### Students and other outside users
+#### Students and other outside users 
 
 Generally, when sharing data with students or outsiders, stick to the following guidelines:
 
@@ -79,32 +79,30 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 #### Setting up
 
 1. Download rclone: https://rclone.org/downloads/ (no admin rights needed)
+
 2. Once downloaded, open your Command prompt (search for `cmd`)
+
 3. Your command prompt shows a drive which it uses, e.g., `P:/`. Move the unwrapped rclone files (at least `rclone.exe`) to that drive.
+
 4. In your command prompt, type `rclone config`
+
 5. In your Research Drive account, create a new WebDAV password: Settings > Security > WebDAV passwords. Create a new password by filling in a name, e.g., “Rclone”. Copy the password that was just created to a temporary file/your clipboard.
+
 6. Follow the instructions listed [here](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone). Use the following link for step 3: [https://eur.data.surfsara.nl/remote.php/nonshib-webdav/ ](https://eur.data.surfsara.nl/remote.php/nonshib-webdav/). Your username is `yourERNAid@eur.nl` and the password is the Webdav password you just created (you will probably not see the password being pasted, but it is!). When you are asked for a `bearer token`, just press `Enter`
+
 7. Example summary of the config:
 
-   `[RD]`
+   <img src="../img/RD_rcloneconfig.JPG" style="zoom:100%;" />
 
-   `type = webdav`
-
-   `url = https://eur.data.surfsara.nl/remote.php/nonshib-webdav/`
-
-   `vendor = owncloud`
-
-   `user = 75800lvc@eur.nl`
-
-   `pass = gqxEPZP1TQWhsOT4pEMkEhJGcOXYiG-mV-gR_UMM`
-
- 
+ <p style="clear:left;"></p>
 
 #### Uploading data using Rclone
 
 With rclone, you can upload files from your command windows, using the following general format:
 
-`rclone copy [flags] ‘source’ RD:‘destination’`
+`rclone copy [flags] "source" RD:"destination"`
+
+
 
 For example: `rclone copy -v -P --ignore-existing “J:\ResearchData\FSW\Brain and Development - Projects\2018_Brainlinks\Ouderstudie\” RD:“2018_Brainlinks (Projectfolder)/Brainlinks_Parentstudy”`
 
@@ -124,8 +122,8 @@ For example: `rclone copy -v -P --ignore-existing “J:\ResearchData\FSW\Brain a
 
 #### More information on Rclone
 
-- Wiki: https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone
-- Flags to add to commands: https://rclone.org/flags/
+- On the [Research Drive wiki](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone)
+- [Flags](https://rclone.org/flags/) to add to commands
 
 
 
@@ -145,7 +143,7 @@ Cyberduck is not a command-line tool but has a GUI (graphical user interface) fo
 6. In the pop-up window that appears, select the SURF Research Drive profile, change the server to eur.data.surfsara.nl and fill out your username (ERNA ID) and the WebDAV password that you just created. 
 7. Do not forget to select “**Save password**” (Bewaar wachtwoord)! Then, select “Connect” (Verbind).
 
-<img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" />
+<img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" align="center"/>
 
 <p style="clear:left;"></p>
 
@@ -191,19 +189,19 @@ In general, it is best to **avoid having to use encryption**, because passwords 
 
 #### How to encrypt?
 
-##### Keep it local
+##### **Keep it local**
 
 The simplest way to keep data safe is to not upload them to the Research Drive, but to keep them on a local EUR drive. This may however result in some access issues and may therefore not be desirable.
 
 
 
-##### Passwords
+##### **Passwords**
 
 Putting a password on an individual Excel or Word file is a safe form of encryption. Be sure to **keep the password at a safe location**: If you lose the password, the data is not accessible anymore.
 
  
 
-##### Within Cyberduck
+##### **Within Cyberduck**
 
 Cyberduck has in-built functionality to encrypt files using [Cryptomator](https://cryptomator.org/). To encrypt files, you first need to create an encrypted folder. 
 
@@ -215,7 +213,7 @@ Cyberduck has in-built functionality to encrypt files using [Cryptomator](https:
 
  
 
-##### Cryptomator outside of Cyberduck
+##### **Cryptomator outside of Cyberduck**
 
 You do not necessarily need Cyberduck in order to encrypt folders. For example, when you use Rclone to upload data, you may still need to encrypt some of the data before uploading. In order to do this, you will use Cryptomator separately.
 
@@ -258,7 +256,7 @@ You can mount your Research Drive account to your file explorer, so that the Res
 
 - To download the OwnCloud client, go to [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app":
 
-<img src="../img/RD_Owncloud.JPG" style="zoom:80%;" />
+<img src="../img/RD_Owncloud.JPG" style="zoom:80%;" align="center" />
 
 <ul><li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud
     <ul>
@@ -293,7 +291,7 @@ There are multiple ways that you can analyze data that are stored on the Researc
     </ul>
 </ul>
 
- 
+
 
 #### Working with MRI data: recommended methods
 
