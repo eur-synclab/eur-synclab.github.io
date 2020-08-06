@@ -92,7 +92,7 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 
 7. Example summary of the config:
 
-   <img src="../img/RD_rcloneconfig.JPG" style="zoom:100%;" />
+   <img src="../img/RD_rcloneconfig.JPG" style="zoom:80%;" text-align = "center"/>
 
  <p style="clear:left;"></p>
 
@@ -143,7 +143,7 @@ Cyberduck is not a command-line tool but has a GUI (graphical user interface) fo
 6. In the pop-up window that appears, select the SURF Research Drive profile, change the server to eur.data.surfsara.nl and fill out your username (ERNA ID) and the WebDAV password that you just created. 
 7. Do not forget to select “**Save password**” (Bewaar wachtwoord)! Then, select “Connect” (Verbind).
 
-<img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" align="center"/>
+<img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" text-align="center"/>
 
 <p style="clear:left;"></p>
 
@@ -256,7 +256,7 @@ You can mount your Research Drive account to your file explorer, so that the Res
 
 - To download the OwnCloud client, go to [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app":
 
-<img src="../img/RD_Owncloud.JPG" style="zoom:80%;" align="center" />
+<img src="../img/RD_Owncloud.JPG" style="zoom:80%;" text-align="center" />
 
 <ul><li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud
     <ul>
