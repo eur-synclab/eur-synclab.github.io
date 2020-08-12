@@ -14,15 +14,11 @@ Link: [https://personal.idm.eur.nl/user/login.jsp](https://personal.idm.eur.nl/u
 
 Change your personal information (name, contact information, etc.) here.
 
-
-
 ### MyEUR
 
 Link: [https://my.eur.nl/](https://my.eur.nl/)
 
 Employee portal. Change your profile picture here, request an employee pass (for parking and getting into buildings) or search for information and news. You can also make an annual leave agreement [here](https://my.eur.nl/en/eur-employee/hr/terms-employment/leave-absence/normal-leave/annual-agreement-regarding-leave-academic-staff).
-
-
 
 ### ESS portal (SAP)
 
@@ -37,8 +33,6 @@ Self service portal, see manuals on [this page](https://my.eur.nl/en/eur-employe
 5. seeing pay checks
 6. performance and development (R&O) interview documents. Go to "Mijn R&O" and create a progress form for the interview. You can already fill in this form before the interview; your changes are immediately visible to your employer (Eveline). Academic staff has to complement this form with a publication list and educational evaluations (differs per department). After the interview and after you have agreed on the terms, send the form to HR. Read [more here](https://my.eur.nl/en/eur-employee/hr/career-and-development/performance-development).
 
-
-
 ### Mailbox and agenda
 
 Link: [https://outlook.office365.com/mail/inbox](https://outlook.office365.com/mail/inbox)
@@ -46,19 +40,13 @@ Link: [https://outlook.office365.com/mail/inbox](https://outlook.office365.com/m
 <ul><li>You can automatically create Teams meetings in the agenda.</li>
     <li>If you want to send an email to everyone in the lab, send it to: <a href=staff.essb.strategy.dns@eur.nl>staff.essb.strategy.dns@eur.nl</a>. This group is managed by Carina Schlosser. If you have not yet been added to this list, send her an email via office@essb.eur.nl. </li> 
     <ul> <li>To see (and change) the members of an email group, go to <a href=https://exchange.eur.nl/ecp/>https://exchange.eur.nl/ecp/</a> > log in > groups > search for "Staff ESSB Strategy - Developmental Neuroscience, EUR" and double click the group to see the members.</li></ul>
-
-
-​    
-
-   
+</ul>
 
 ### Metis
 
 Link: [https://metis.ru.nl/federation/login/personalmetis](https://metis.ru.nl/federation/login/personalmetis)
 
 System used to register academic output and to change your EUR profile. You can see all of our profile pages including academic output [here](https://www.eur.nl/essb/people?f%5B0%5D=department%3AErasmus%20School%20of%20Social%20and%20Behavioural%20Sciences/%20Developmental%20Neuroscience%20in%20Society). Please see [this page](https://my.eur.nl/en/eur-employee/research/research-services/publishing/register-and-upload-your-publication) for relevant manuals on how to change your researcher profile and register publications.
-
-
 
  
 
