@@ -50,7 +50,8 @@ nav:
     - Our outreach practices: "reaching-out/outreach-practices.md"
   - Getting started at the EUR:
     - Welcome at the EUR!: "getting-started-eur/welcome-eur.md"
-    - Resources and contacts: "getting-started-eur/resources-contacts-eur.md"
+    - Time registration: "getting-started-eur/time-registration.md"
+    - Financial information: "getting-started-eur/finances.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
 theme: mkdocs
