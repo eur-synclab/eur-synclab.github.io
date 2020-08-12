@@ -33,7 +33,7 @@ Self service portal, see manuals on [this page](https://my.eur.nl/en/eur-employe
 1. requesting vacation days
 2. requesting extra travel cost reimbursement (My administration > Extra travel reimbursement)
 3. making declarations
-4. time registration, see 
+4. time registration, see the chapter [Time registration](./time-registration.md)
 5. seeing pay checks
 6. performance and development (R&O) interview documents. Go to "Mijn R&O" and create a progress form for the interview. You can already fill in this form before the interview; your changes are immediately visible to your employer (Eveline). Academic staff has to complement this form with a publication list and educational evaluations (differs per department). After the interview and after you have agreed on the terms, send the form to HR. Read [more here](https://my.eur.nl/en/eur-employee/hr/career-and-development/performance-development).
 
