@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# DMP & DPIA
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+On this page, you will find more information about the Data Management Plan (DMP) and the Data Protection Impact Assessment (DPIA).
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## Data management plan (DMP)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Information here:
+
+- What is it?
+- Why to write it?
+- When to write it?
+- How to write it?
+
+
+
+## Data protection impact assessment (DPIA)
+
+Information here:
+
+- What is it?
+- Why to write it?
+- When to write it?
+- How to write it?
+
+
+
+## Resources (header 2)
