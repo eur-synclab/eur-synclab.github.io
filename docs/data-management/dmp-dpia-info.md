@@ -6,132 +6,127 @@ On this page, you can find more information about the Data Management Plan (DMP)
 
 ## Data management plan (DMP)
 
-Since 2016, all research projects must have a data management plan (DMP) before the start of the project. In a DMP, you are forced to think about data management during and after your project.
+Since 2016, all research projects must have a **data management plan (DMP)** before the start of the project. In a DMP, you are forced to think about data management during and after your project. In a data management plan, you capture which data and metadata will be collected, who is responsible for which tasks and what will happen to the (meta)data after the project has ended.
 
-Information here:
+<div style="font-size:-1; text-align:center"><img src="../img/Research_Data_Lifecycle.png" alt="The research data lifecycle" style="zoom:65%;" align="center"/><br><small>The research data lifecycle <i><br>Source: UK data archive</i></small></div></br>
 
-- What is it?
-- Why to write it?
-- When to write it?
-- How to write it?
+### Why write a DMP?
 
-
-
-Since 2016, all research projects must have a **data management plan (DMP)** before starting a project. The DMP stimulates you to think about how you will manage your data both during and after your project, all to make the data FAIR. The university has a [DMP template](https://www.library.universiteitleiden.nl/binaries/content/assets/ul2ub/research--publish/cds/rdm-reference-materials/template-datamanagementplan_leiden_v3.2.docx), but your funder may also require you to use one of theirs, or use an [online tool](https://dmponline.dcc.ac.uk/). If your research is funded by the NWO, you have to use one of their approved templates and get feedback from an expert (e.g., the CDS at Leiden University). The University Library has a special team to help you write this and also gives trainings
-
-**Why DMP?**
-
--	Plan the way you will create, organize, store, preserve and share your data
--	Demonstrate funder/employer that you know how to handle your data
--	Record how your data was managed during your research
--	Written using a template from Leiden University or your funder
+-	Organize the way you will create, organize, store, preserve and share your data
+-	Demonstrate your funder/employer that you know how to handle your data
+-	Identify the best tools for your research ánd disclose potential data issues
+-	Be glad procedures are recorded in cases of confusion or forgetfulness (e.g., who can have access, who is responsible, what will happen with the data?)
 
 
 
-Components DMP
+### Components of a DMP
 
-- Cover information
-- Data collection and creation
-  - Will you use your own data or someone else’s? How will you create your data?
-  - How will you access the data in the future? How do you know you can trust the data (provenance)?
-  - What license will you use?
-  - What kind of data will it be? How many files? What type of files? How large? (See this list of [preferred file formats](https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats))
-  - Estimation of file size, data quality (resolution, quality), file formats (open, compression), usefulness (versions/processed or unprocessed). Search for “file size calculator”
-- Data storage and security
-  - Where will you store your data?
-  - Where and how often will you make back-ups (1 copy offsite, 3 copies, 2 different media?)
-  - What do you do to make sure that the right people can access your data?
-    - Passwords, encryption, firewalls
-    - Reduce sensitivity – anoymise, aggregate
-    - Secure transport and deletion
-- Documentation and metadata
-  - Give meaningful names and structure to your files (e.g.: date, project leader, project number, performer, condition participant, participant number)
-  - Create a readme file with the meaning of the file name
-  - Use version control
-  - Provide information about the data (time, place, people involved): metadata
-- Data access, sharing and reuse: also with colleagues
-  - Any restrictions regarding personal data (AVG)?
-  - With whom do you want to share your data? How?
-  - Has ownership been agreed?
-  - Who might find your data useful later?
-  - reasons to opt out: 
-    - privacy
-    - intellectual property rights
-    - might jeopardize the project’s main objective
-    - commercial (working for companies)
-    - security-related
-  - Think about linking your data to your publication AND vice versa! Also think about linking your publications to you through an [ORCID-ID](https://www.library.universiteitleiden.nl/research-and-publishing/scholarly-publishing/manage-your-name-with-identifiers)
-- Data preservation and archiving: maximize the funder’s investment!
-  - Which data do you want to keep for future use? Which data will you discard?
-  - Which data should you pass on to somebody else? 
-  - Where are you going to archive these data? 
-  - How to organize the data so that they can still be understood in the future?
-  - Who is responsible for your data after you leave? 
-  - Do you have a specific data archive in mind?
-  - ! Not all data need to be preserved: costs of storing vs. benefit of access
+Fairly standard components of a DMP are:
+
+<ul><li><b>Cover information</b>: project name, researchers, dates, ethical protocol numbers, etc.</li>
+    <li><b>Data collection and creation</b></li>
+    <ul>
+        <li>How will you create your data?</li>
+        <li>How will you access the data in the future?</li>
+        <li>What license will you use?</li>
+        <li>What kind of data will it be? E.g., how many and what type of files (see <a href=https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats>preferred file formats</a>), how large (search for "file size calculator"), data quality (resolution, quality), usefulness (versions/processed or unprocessed)</li>
+    </ul>
+    <li><b>Data storage and security</b></li>
+    <ul>
+        <li>Where will you store your data?</li>
+        <li>Where and how often will you make back-ups (1 copy offsite, 3 copies, 2 different media)?</li>
+        <li>What do you do to make sure that the right people can access your data? (passwords, encryption, firewalls, anonymization, aggregation, secure transport and deletion, etc.)</li>
+    </ul>
+    <li><b>Documentation and metadata</b></li>
+    <ul>
+        <li>How are your files named and structured?</li>
+        <li>Are you using version control?</li>
+        <li>Are you providing readme files and/or other documentation? (e.g., time, place, people involved, etc.)</li>
+    </ul>
+    <li><b>Data access, sharing and reuse</b></li>
+    <ul>
+        <li>With whom do you want to share your data? How/where?</li>
+        <li>Has ownership been agreed?</li>
+        <li>Who might find your data useful later?</li>
+        <li>Any restrictions regarding data sharing? Reasons to opt out of sharing with others: privacy / personal data (GDPR), intellectual property rights, might jeopardize the project’s main objective, commercial (working for companies), security-related, etc.</li>
+        <li>Think about linking your data to your publication AND vice versa! Also think about linking your publications to you through an <a href=https://www.library.universiteitleiden.nl/research-and-publishing/scholarly-publishing/manage-your-name-with-identifiers>ORCID-ID</a></li>
+    </ul>
+    <li><b>Data preservation and archiving</b></li>
+    <ul>
+        <li>Which data do you want to keep for future use? Which data will you discard? Not all data necessarily need to be preserved!</li>
+        <li>Where are you going to archive these data?</li>
+        <li>How to organize the data so that they can still be understood in the future?</li>
+        <li>Who is responsible for your data after you leave?</li>
+    </ul>
+</ul>
+
+### How to write a DMP?
+
+At the EUR, you can use the [DMP Online tool](https://dmponline.eur.nl/), which contains DMP templates of a lot of funders.
+
+<ul>
+    <li>Create an account, select the (funder specific) format and simply fill out the form! </li>
+    <ul>
+        <li>If you leave the Funder field empty, you will use the general EUR-format.</li>
+        <li>Note that not all funders may have approved the EUR template! Contact Geert van den Hoek or the Erasmus Data Serve Centre to be sure</li>
+    </ul>
+    <li>You can also invite colleagues to work on the DMP and leave comments</li>
+    <li>If your research is funded by the NWO, you have to use one of their approved templates and get feedback from an expert (see contacts below)</li>
+</ul> 
+
+Read more about the DMP Online tool [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/data-management-plan/dmponline).
 
 
 
-Tips for DMP
+##### Tips for your DMP
 
--	Plan for at least 10 years storage
--	Check what file formats are most suitable for long-term archiving
--	Check whether there is likely to be a cost for your volume of data
+-	Plan for at least 10 years of storage and check the associated costs
+-	Check what file formats are most suitable for long-term archiving (preferably not closed, software-specific formats such as .sav, but open formats such as .csv)
 -	Ask what repository/storage system others with similar data are using
 -	Think about how you will grant access: will people always have to ask permission or can the data be open?
--	Ensure the data is documented so that others can understand it later
-- Update the document whenever you are deviating from earlier versions
+-	Ensure the data is **documented** so that others can understand it later
+- Update the DMP whenever you are deviating from earlier versions
 
 
-
-<img src="../img/Research_Data_Lifecycle.png" alt="The research data lifecycle" style="zoom:80%;" align="center"/>
 
 ## Data protection impact assessment (DPIA)
 
-Information here:
+Whenever you process sensitive data (or something changes regarding this), such as MRI data, names, addresses, daily diaries, etc., you are required to fill in a Data Protection Impact Assessment (DPIA) that has to be approved before starting your study by a [privacy officer](privacy@essb.eur.nl). In a DPIA, you identify privacy risks and formulate measures to prevent breaches. You register which data you collect and who is responsible. A DPIA touches upon:
 
-- What is it?
-- Why to write it?
-- When to write it?
-- How to write it?
+<ul>
+    <li>Collaborations in your project:</li>
+    <ul>
+        <li>Within your institute</li>
+        <li>Between institutes: agree upon who has access to the data and which technologies are used (e.g., for saving and analyzing the data)</li>
+        <li>Public-private collaborations: make contractual agreements about how to handle data</li>
+    </ul>
+    <li>Geography: outside of the EU, you need to make contractual agreements about how to handle data</li>
+    <li>Types of data collected:</li>
+    <ul>
+        <li>Automatically generated (e.g., fitness watches)</li>
+        <li>Own creation, e.g., interviews, pictures</li>
+        <li>Re-used, e.g., multiple datasets combined (pay attention to identifiability)</li>
+    </ul>
+</ul>
 
 
 
-Whenever you process sensitive data (or something changes regarding this), such as MRI data, names, addresses, daily diaries, etc., you are required to fill in a Data Protection Impact Assessment (DPIA) that has to be approved before starting your study by a [privacy officer](privacy@fsw.leidenuniv.nl). This is a document in which you identify privacy risks and formulate measures to prevent breaches. You register which data you collect and who is responsible. A DPIA touches upon:
+## Resources
 
-- Collaborations in your project:
-  - Within your institute
-  - Between institutes: agree upon who has access to the data and which technologies are used (e.g., for saving and analyzing the data)
-  - Public-private collaborations: make contractual agreements about how to handle data
-- Geography: outside of the EU, you need to make contractual agreemenents about how to handle data
-- Types of data collected:
-  - Automatically generated (e.g., fitness watches)
-  - Own creation, e.g., interviews, pictures
-  - Re-used, e.g., multiple datasets combined (pay attention for identifiability)
+##### Contacts
 
-## Resources (header 2)
+- For checking your (ESSB) DMP and/or DPIA, contact Geert van den Hoek: vandenhoek@essb.eur.nl
+- For general questions about DMPs and DPIAs, contact the Erasmus Data Service Center (EDSC): edsc@eur.nl (phone: +31 010-4081232)
+- EDSC workshop agenda: https://eur-nl.libcal.com/calendar/rdm-workshop/?cid=7009&t=g&d=0000-00-00&cal=7009&inc=0
+- For the DPIA, contact the EDSC (edsc@eur.nl) and/or the ESSB privacy officer (privacy@essb.eur.nl)
 
-- Core requirements for the DMP (p.11+12) & criteria voor trustworthy repositories (p.15-16) [NWO and others](https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf)
-- [Info about data management](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data) (storing, archiving, versioning, data structure, etc.)
-- [File naming](https://speakerdeck.com/jennybc/how-to-name-files)
-- [Tidy data](https://vita.had.co.nz/papers/tidy-data.pdf)
-- [Goodtables](http://try.goodtables.io/): test your table!
-- [Data organization in spreadsheets](https://peerj.com/preprints/3183/)
-- Getting started with [data dictionaries](https://osf.io/vd4y3/)
-- Recommended [data formats (DANS)](https://dans.knaw.nl/en/deposit/information-about-depositing-data/before-depositing/file-formats)
-- More info on [data management](https://www.openaire.eu/raw-data-backup-and-versioning)
+
+
+##### Resources
+
+- Core requirements for the DMP (p.11+12) by the [NWO and others](https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf)
+- More information about [data management](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data) (storing, archiving, versioning, data structure, etc.) and [backing up and versioning data](https://www.openaire.eu/raw-data-backup-and-versioning)
+- How to [name your files](https://speakerdeck.com/jennybc/how-to-name-files)
 - The [costs of data management](https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management)
-- Leiden University [RDM guidelines](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/research-data-management-regulations-l)
-- [Info about metadata](https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data/data-description-in-practice)
-
-
-
-Nog lezen
-
-https://my.eur.nl/en/eur-employee/data-management-plan
-
-https://www.eur.nl/en/library/research-support/research-data-management-rdm/privacy-and-legal-aspects
-
-https://www.eur.nl/en/library/research-support/research-data-management-rdm/data-management-plan/dmponline
-
-https://www.eur.nl/en/library/research-support/research-data-management-rdm/data-management-plan
+- More about [privacy and legal aspects](https://www.eur.nl/en/library/research-support/research-data-management-rdm/privacy-and-legal-aspects)
+- Leiden University [DPIA template](https://github.com/eur-synclab/sync-manual/blob/master/docs/img/template-dpia-research.xlsx)
