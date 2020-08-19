@@ -1,4 +1,15 @@
+# Website information
+
 site_name: SYNC lab wiki
+
+repo_name: Github page
+
+repo_url: https://github.com/eur-synclab/sync-manual
+
+
+
+# Page navigation
+
 nav:
 
   - Welcome:
@@ -28,7 +39,6 @@ nav:
       - Transparency guidelines: "open-science/transparency-guidelines.md"
       - Using the Open Science Framework: "open-science/osf.md"
   - Data management:
-    - What is data management?: "data-management/datamanagement-intro.md"
     - Data security protocol: "data-management/data-security.md"
     - Research Drive: "data-management/research-drive-info.md"
     - How to use the Research Drive: "data-management/research-drive-how.md"
@@ -54,5 +64,8 @@ nav:
     - Financial information: "getting-started-eur/finances.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
+
+
 theme: mkdocs
+
 use_directory_urls: false

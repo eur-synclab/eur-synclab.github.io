@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Version control principles
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This needs some text!
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+From B&D wiki:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Not only the structure of your folders is important to keep organized, but also the data itself. Especially when you are using spreadsheets, it is very important to keep the raw data apart from any processed data and document which processing steps have been taken. Using version control can help a lot in preventing confusion about the most recent files and what has been done to them. Some more general tips for spreadsheet data: 
+- Write dates as YYYY-MM-DD
+- Don’t leave any cells empty
+- Put just one thing in a cell
+- Organize the data as a single rectangle
+- Create a data dictionary
+- Don’t include calculations in the raw data files
+- Don’t use font color or highlighting as data
+- Choose good names for things, preferably use variable names standard in your field
+- Use data validation to avoid data entry mistakes
+- Save the data in plain text file
