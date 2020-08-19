@@ -1,4 +1,15 @@
+# Website information
+
 site_name: SYNC lab wiki
+
+repo_name: Github page
+
+repo_url: https://github.com/eur-synclab/sync-manual
+
+
+
+# Page navigation
+
 nav:
 
   - Welcome:
@@ -53,5 +64,8 @@ nav:
     - Financial information: "getting-started-eur/finances.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
+
+
 theme: mkdocs
+
 use_directory_urls: false
