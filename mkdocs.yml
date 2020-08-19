@@ -28,7 +28,6 @@ nav:
       - Transparency guidelines: "open-science/transparency-guidelines.md"
       - Using the Open Science Framework: "open-science/osf.md"
   - Data management:
-    - What is data management?: "data-management/datamanagement-intro.md"
     - Data security protocol: "data-management/data-security.md"
     - Research Drive: "data-management/research-drive-info.md"
     - How to use the Research Drive: "data-management/research-drive-how.md"
