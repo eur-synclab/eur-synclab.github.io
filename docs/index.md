@@ -21,7 +21,7 @@ It works best to open the **index.html** file and navigate the manual in your in
 #### Adding new stuff
 
 - Are you missing information or should current information be updated? Use our [Github repository](https://github.com/eur-synclab/sync-manual).
-- On the [How to contribute](/welcome/contribute.md) page, you can find more details on how to use git, Github and Markdown to make contributions.
+- On the [How to contribute](./welcome/contribute) page, you can find more details on how to use git, Github and Markdown to make contributions.
 - If you are missing information here, and you think someone else could write a page about that topic, suggest it as an [Issue](https://github.com/eur-synclab/sync-manual/issues) on the Github repository or just ask someone by mail / Slack/ in real life!
 
 
