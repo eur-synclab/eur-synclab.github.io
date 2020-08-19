@@ -9,282 +9,273 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>DMP and DPIA - SYNC lab wiki</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="..">SYNC lab wiki</a>
-                </div>
+                <a class="navbar-brand" href="..">SYNC lab wiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../index.html">Home</a>
+<li>
+    <a href="../index.html" class="dropdown-item">Home</a>
 </li>
                                     
-<li >
-    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+<li>
+    <a href="../welcome/intro-sync.html" class="dropdown-item">The SYNC lab</a>
 </li>
                                     
-<li >
-    <a href="../welcome/contribute.html">How to contribute</a>
+<li>
+    <a href="../welcome/contribute.html" class="dropdown-item">How to contribute</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+<li>
+    <a href="../how-we-work/code-of-conduct.html" class="dropdown-item">Code of conduct</a>
 </li>
                                     
-<li >
-    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+<li>
+    <a href="../how-we-work/labmeetings.html" class="dropdown-item">Labmeetings</a>
 </li>
                                     
-<li >
-    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+<li>
+    <a href="../how-we-work/collab-tools.html" class="dropdown-item">Collaboration tools</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Open acccess publishing</a>
+    <a href="#" class="dropdown-item">Open acccess publishing</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/open-access-info.html">Information</a>
+<li>
+    <a href="../open-science/open-access-info.html" class="dropdown-item">Information</a>
 </li>
             
-<li >
-    <a href="../open-science/open-access-how.html">How to publish open access</a>
+<li>
+    <a href="../open-science/open-access-how.html" class="dropdown-item">How to publish open access</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Data sharing</a>
+    <a href="#" class="dropdown-item">Data sharing</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/gdpr.html">The GDPR</a>
+<li>
+    <a href="../open-science/gdpr.html" class="dropdown-item">The GDPR</a>
 </li>
             
-<li >
-    <a href="../open-science/pub-packages.html">Publication packages</a>
+<li>
+    <a href="../open-science/pub-packages.html" class="dropdown-item">Publication packages</a>
 </li>
             
-<li >
-    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+<li>
+    <a href="../open-science/data-sharing-how.html" class="dropdown-item">How to share data?</a>
 </li>
             
-<li >
-    <a href="../open-science/neurovault.html">How to use NeuroVault</a>
+<li>
+    <a href="../open-science/neurovault.html" class="dropdown-item">How to use NeuroVault</a>
 </li>
             
-<li >
-    <a href="../open-science/dsa-template.html">Data sharing agreement template</a>
+<li>
+    <a href="../open-science/dsa-template.html" class="dropdown-item">Data sharing agreement template</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Reproducibility</a>
+    <a href="#" class="dropdown-item">Reproducibility</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/open-software.html">Open software</a>
+<li>
+    <a href="../open-science/open-software.html" class="dropdown-item">Open software</a>
 </li>
             
-<li >
-    <a href="../open-science/open-code.html">Open code</a>
+<li>
+    <a href="../open-science/open-code.html" class="dropdown-item">Open code</a>
 </li>
             
-<li >
-    <a href="../open-science/vc-software.html">Version control software</a>
+<li>
+    <a href="../open-science/vc-software.html" class="dropdown-item">Version control software</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Fostering transparency elsewhere</a>
+    <a href="#" class="dropdown-item">Fostering transparency elsewhere</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/preregistration.html">Preregistering your research</a>
+<li>
+    <a href="../open-science/preregistration.html" class="dropdown-item">Preregistering your research</a>
 </li>
             
-<li >
-    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+<li>
+    <a href="../open-science/transparency-guidelines.html" class="dropdown-item">Transparency guidelines</a>
 </li>
             
-<li >
-    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+<li>
+    <a href="../open-science/osf.html" class="dropdown-item">Using the Open Science Framework</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="datamanagement-intro.html">What is data management?</a>
+<li>
+    <a href="data-security.html" class="dropdown-item">Data security protocol</a>
 </li>
                                     
-<li >
-    <a href="data-security.html">Data security protocol</a>
+<li>
+    <a href="research-drive-info.html" class="dropdown-item">Research Drive</a>
 </li>
                                     
-<li >
-    <a href="research-drive-info.html">Research Drive</a>
+<li>
+    <a href="research-drive-how.html" class="dropdown-item">How to use the Research Drive</a>
 </li>
                                     
-<li >
-    <a href="research-drive-how.html">How to use the Research Drive</a>
-</li>
-                                    
-<li >
-    <a href="folder-structure.html">File organization</a>
+<li>
+    <a href="folder-structure.html" class="dropdown-item">File organization</a>
 </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Version control</a>
+    <a href="#" class="dropdown-item">Version control</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="vc-principles.html">Basic principles</a>
+<li>
+    <a href="vc-principles.html" class="dropdown-item">Basic principles</a>
 </li>
             
-<li >
-    <a href="vc-github.html">Version control for code</a>
+<li>
+    <a href="vc-github.html" class="dropdown-item">Version control for code</a>
 </li>
             
-<li >
-    <a href="vc-datalad.html">Version control for data</a>
+<li>
+    <a href="vc-datalad.html" class="dropdown-item">Version control for data</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Metadata</a>
+    <a href="#" class="dropdown-item">Metadata</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="FAIR.html">FAIR data</a>
+<li>
+    <a href="FAIR.html" class="dropdown-item">FAIR data</a>
 </li>
             
-<li >
-    <a href="types-metadata.html">Types of metadata</a>
+<li>
+    <a href="types-metadata.html" class="dropdown-item">Types of metadata</a>
 </li>
             
-<li class="active">
-    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+<li>
+    <a href="dmp-dpia-info.html" class="dropdown-item active">DMP and DPIA</a>
 </li>
             
-<li >
-    <a href="codebooks.html">Codebooks</a>
+<li>
+    <a href="codebooks.html" class="dropdown-item">Codebooks</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+<li>
+    <a href="../data-analysis/types-analysis.html" class="dropdown-item">Types of data analysis</a>
 </li>
                                     
-<li >
-    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+<li>
+    <a href="../data-analysis/LISA-how.html" class="dropdown-item">Using the LISA cluster</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+<li>
+    <a href="../reaching-out/intro-scicom.html" class="dropdown-item">Science communication and citizen science</a>
 </li>
                                     
-<li >
-    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+<li>
+    <a href="../reaching-out/outreach-practices.html" class="dropdown-item">Our outreach practices</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+<li>
+    <a href="../getting-started-eur/welcome-eur.html" class="dropdown-item">Welcome at the EUR!</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+<li>
+    <a href="../getting-started-eur/time-registration.html" class="dropdown-item">Time registration</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/finances.html">Financial information</a>
+<li>
+    <a href="../getting-started-eur/finances.html" class="dropdown-item">Financial information</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+<li>
+    <a href="../getting-started-eur/email-signature.html" class="dropdown-item">Email signature</a>
 </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="types-metadata.html">
+                            <li class="nav-item">
+                                <a rel="prev" href="types-metadata.html" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="codebooks.html">
+                            <li class="nav-item">
+                                <a rel="next" href="codebooks.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/dmp-dpia-info.md" class="nav-link">Edit on Github page</a>
                             </li>
                     </ul>
                 </div>
@@ -292,30 +283,150 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-            <li><a href="#commands">Commands</a></li>
-            <li><a href="#project-layout">Project layout</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#dmp-dpia" class="nav-link">DMP &amp; DPIA</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#data-management-plan-dmp" class="nav-link">Data management plan (DMP)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#data-protection-impact-assessment-dpia" class="nav-link">Data protection impact assessment (DPIA)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="dmp-dpia">DMP &amp; DPIA</h1>
+<p>On this page, you can find more information about the Data Management Plan (DMP) and the Data Protection Impact Assessment (DPIA).</p>
+<h2 id="data-management-plan-dmp">Data management plan (DMP)</h2>
+<p>Since 2016, all research projects must have a <strong>data management plan (DMP)</strong> before the start of the project. In a DMP, you are forced to think about data management during and after your project. In a data management plan, you capture which data and metadata will be collected, who is responsible for which tasks and what will happen to the (meta)data after the project has ended.</p>
+<div style="font-size:-1; text-align:center"><img src="../img/Research_Data_Lifecycle.png" alt="The research data lifecycle" style="zoom:65%;" align="center"/><br><small>The research data lifecycle <i><br>Source: UK data archive</i></small></div>
+
+<p></br></p>
+<h3 id="why-write-a-dmp">Why write a DMP?</h3>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Organize the way you will create, organize, store, preserve and share your data</li>
+<li>Demonstrate your funder/employer that you know how to handle your data</li>
+<li>Identify the best tools for your research ánd disclose potential data issues</li>
+<li>Be glad procedures are recorded in cases of confusion or forgetfulness (e.g., who can have access, who is responsible, what will happen with the data?)</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h3 id="components-of-a-dmp">Components of a DMP</h3>
+<p>Fairly standard components of a DMP are:</p>
+<ul><li><b>Cover information</b>: project name, researchers, dates, ethical protocol numbers, etc.</li>
+    <li><b>Data collection and creation</b></li>
+    <ul>
+        <li>How will you create your data?</li>
+        <li>How will you access the data in the future?</li>
+        <li>What license will you use?</li>
+        <li>What kind of data will it be? E.g., how many and what type of files (see <a href=https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats>preferred file formats</a>), how large (search for "file size calculator"), data quality (resolution, quality), usefulness (versions/processed or unprocessed)</li>
+    </ul>
+    <li><b>Data storage and security</b></li>
+    <ul>
+        <li>Where will you store your data?</li>
+        <li>Where and how often will you make back-ups (1 copy offsite, 3 copies, 2 different media)?</li>
+        <li>What do you do to make sure that the right people can access your data? (passwords, encryption, firewalls, anonymization, aggregation, secure transport and deletion, etc.)</li>
+    </ul>
+    <li><b>Documentation and metadata</b></li>
+    <ul>
+        <li>How are your files named and structured?</li>
+        <li>Are you using version control?</li>
+        <li>Are you providing readme files and/or other documentation? (e.g., time, place, people involved, etc.)</li>
+    </ul>
+    <li><b>Data access, sharing and reuse</b></li>
+    <ul>
+        <li>With whom do you want to share your data? How/where?</li>
+        <li>Has ownership been agreed?</li>
+        <li>Who might find your data useful later?</li>
+        <li>Any restrictions regarding data sharing? Reasons to opt out of sharing with others: privacy / personal data (GDPR), intellectual property rights, might jeopardize the project’s main objective, commercial (working for companies), security-related, etc.</li>
+        <li>Think about linking your data to your publication AND vice versa! Also think about linking your publications to you through an <a href=https://www.library.universiteitleiden.nl/research-and-publishing/scholarly-publishing/manage-your-name-with-identifiers>ORCID-ID</a></li>
+    </ul>
+    <li><b>Data preservation and archiving</b></li>
+    <ul>
+        <li>Which data do you want to keep for future use? Which data will you discard? Not all data necessarily need to be preserved!</li>
+        <li>Where are you going to archive these data?</li>
+        <li>How to organize the data so that they can still be understood in the future?</li>
+        <li>Who is responsible for your data after you leave?</li>
+    </ul>
+</ul>
+
+<h3 id="how-to-write-a-dmp">How to write a DMP?</h3>
+<p>At the EUR, you can use the <a href="https://dmponline.eur.nl/">DMP Online tool</a>, which contains DMP templates of a lot of funders.</p>
+<ul>
+    <li>Create an account, select the (funder specific) format and simply fill out the form! </li>
+    <ul>
+        <li>If you leave the Funder field empty, you will use the general EUR-format.</li>
+        <li>Note that not all funders may have approved the EUR template! Contact Geert van den Hoek or the Erasmus Data Serve Centre to be sure</li>
+    </ul>
+    <li>You can also invite colleagues to work on the DMP and leave comments</li>
+    <li>If your research is funded by the NWO, you have to use one of their approved templates and get feedback from an expert (see contacts below)</li>
+</ul>
+
+<p>Read more about the DMP Online tool <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/data-management-plan/dmponline">here</a>.</p>
+<h5 id="tips-for-your-dmp">Tips for your DMP</h5>
+<ul>
+<li>Plan for at least 10 years of storage and check the associated costs</li>
+<li>Check what file formats are most suitable for long-term archiving (preferably not closed, software-specific formats such as .sav, but open formats such as .csv)</li>
+<li>Ask what repository/storage system others with similar data are using</li>
+<li>Think about how you will grant access: will people always have to ask permission or can the data be open?</li>
+<li>Ensure the data is <strong>documented</strong> so that others can understand it later</li>
+<li>Update the DMP whenever you are deviating from earlier versions</li>
+</ul>
+<h2 id="data-protection-impact-assessment-dpia">Data protection impact assessment (DPIA)</h2>
+<p>Whenever you process sensitive data (or something changes regarding this), such as MRI data, names, addresses, daily diaries, etc., you are required to fill in a Data Protection Impact Assessment (DPIA) that has to be approved before starting your study by a <a href="privacy@essb.eur.nl">privacy officer</a>. In a DPIA, you identify privacy risks and formulate measures to prevent breaches. You register which data you collect and who is responsible. A DPIA touches upon:</p>
+<ul>
+    <li>Collaborations in your project:</li>
+    <ul>
+        <li>Within your institute</li>
+        <li>Between institutes: agree upon who has access to the data and which technologies are used (e.g., for saving and analyzing the data)</li>
+        <li>Public-private collaborations: make contractual agreements about how to handle data</li>
+    </ul>
+    <li>Geography: outside of the EU, you need to make contractual agreements about how to handle data</li>
+    <li>Types of data collected:</li>
+    <ul>
+        <li>Automatically generated (e.g., fitness watches)</li>
+        <li>Own creation, e.g., interviews, pictures</li>
+        <li>Re-used, e.g., multiple datasets combined (pay attention to identifiability)</li>
+    </ul>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<h5 id="contacts">Contacts</h5>
+<ul>
+<li>For checking your (ESSB) DMP and/or DPIA, contact Geert van den Hoek: vandenhoek@essb.eur.nl</li>
+<li>For general questions about DMPs and DPIAs, contact the Erasmus Data Service Center (EDSC): edsc@eur.nl (phone: +31 010-4081232)</li>
+<li>EDSC workshop agenda: https://eur-nl.libcal.com/calendar/rdm-workshop/?cid=7009&amp;t=g&amp;d=0000-00-00&amp;cal=7009&amp;inc=0</li>
+<li>For the DPIA, contact the EDSC (edsc@eur.nl) and/or the ESSB privacy officer (privacy@essb.eur.nl)</li>
+</ul>
+<h5 id="resources_1">Resources</h5>
+<ul>
+<li>Core requirements for the DMP (p.11+12) by the <a href="https://www.scienceeurope.org/media/jezkhnoo/se_rdm_practical_guide_final.pdf">NWO and others</a></li>
+<li>More information about <a href="https://www.uu.nl/en/research/research-data-management/guides/storing-and-preserving-data">data management</a> (storing, archiving, versioning, data structure, etc.) and <a href="https://www.openaire.eu/raw-data-backup-and-versioning">backing up and versioning data</a></li>
+<li>How to <a href="https://speakerdeck.com/jennybc/how-to-name-files">name your files</a></li>
+<li>The <a href="https://www.uu.nl/en/research/research-data-management/guides/costs-of-data-management">costs of data management</a></li>
+<li>More about <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/privacy-and-legal-aspects">privacy and legal aspects</a></li>
+<li>Leiden University <a href="https://github.com/eur-synclab/sync-manual/blob/master/docs/img/template-dpia-research.xlsx">DPIA template</a></li>
+</ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -329,21 +440,21 @@ docs/
         <script src="../js/base.js" defer></script>
         <script src="../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -352,12 +463,12 @@ docs/
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">

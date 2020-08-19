@@ -9,282 +9,273 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Version control for code - SYNC lab wiki</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="..">SYNC lab wiki</a>
-                </div>
+                <a class="navbar-brand" href="..">SYNC lab wiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../index.html">Home</a>
+<li>
+    <a href="../index.html" class="dropdown-item">Home</a>
 </li>
                                     
-<li >
-    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+<li>
+    <a href="../welcome/intro-sync.html" class="dropdown-item">The SYNC lab</a>
 </li>
                                     
-<li >
-    <a href="../welcome/contribute.html">How to contribute</a>
+<li>
+    <a href="../welcome/contribute.html" class="dropdown-item">How to contribute</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+<li>
+    <a href="../how-we-work/code-of-conduct.html" class="dropdown-item">Code of conduct</a>
 </li>
                                     
-<li >
-    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+<li>
+    <a href="../how-we-work/labmeetings.html" class="dropdown-item">Labmeetings</a>
 </li>
                                     
-<li >
-    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+<li>
+    <a href="../how-we-work/collab-tools.html" class="dropdown-item">Collaboration tools</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
   <li class="dropdown-submenu">
-    <a href="#">Open acccess publishing</a>
+    <a href="#" class="dropdown-item">Open acccess publishing</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/open-access-info.html">Information</a>
+<li>
+    <a href="../open-science/open-access-info.html" class="dropdown-item">Information</a>
 </li>
             
-<li >
-    <a href="../open-science/open-access-how.html">How to publish open access</a>
+<li>
+    <a href="../open-science/open-access-how.html" class="dropdown-item">How to publish open access</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Data sharing</a>
+    <a href="#" class="dropdown-item">Data sharing</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/gdpr.html">The GDPR</a>
+<li>
+    <a href="../open-science/gdpr.html" class="dropdown-item">The GDPR</a>
 </li>
             
-<li >
-    <a href="../open-science/pub-packages.html">Publication packages</a>
+<li>
+    <a href="../open-science/pub-packages.html" class="dropdown-item">Publication packages</a>
 </li>
             
-<li >
-    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+<li>
+    <a href="../open-science/data-sharing-how.html" class="dropdown-item">How to share data?</a>
 </li>
             
-<li >
-    <a href="../open-science/neurovault.html">How to use NeuroVault</a>
+<li>
+    <a href="../open-science/neurovault.html" class="dropdown-item">How to use NeuroVault</a>
 </li>
             
-<li >
-    <a href="../open-science/dsa-template.html">Data sharing agreement template</a>
+<li>
+    <a href="../open-science/dsa-template.html" class="dropdown-item">Data sharing agreement template</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Reproducibility</a>
+    <a href="#" class="dropdown-item">Reproducibility</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/open-software.html">Open software</a>
+<li>
+    <a href="../open-science/open-software.html" class="dropdown-item">Open software</a>
 </li>
             
-<li >
-    <a href="../open-science/open-code.html">Open code</a>
+<li>
+    <a href="../open-science/open-code.html" class="dropdown-item">Open code</a>
 </li>
             
-<li >
-    <a href="../open-science/vc-software.html">Version control software</a>
+<li>
+    <a href="../open-science/vc-software.html" class="dropdown-item">Version control software</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Fostering transparency elsewhere</a>
+    <a href="#" class="dropdown-item">Fostering transparency elsewhere</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="../open-science/preregistration.html">Preregistering your research</a>
+<li>
+    <a href="../open-science/preregistration.html" class="dropdown-item">Preregistering your research</a>
 </li>
             
-<li >
-    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+<li>
+    <a href="../open-science/transparency-guidelines.html" class="dropdown-item">Transparency guidelines</a>
 </li>
             
-<li >
-    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+<li>
+    <a href="../open-science/osf.html" class="dropdown-item">Using the Open Science Framework</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="datamanagement-intro.html">What is data management?</a>
+<li>
+    <a href="data-security.html" class="dropdown-item">Data security protocol</a>
 </li>
                                     
-<li >
-    <a href="data-security.html">Data security protocol</a>
+<li>
+    <a href="research-drive-info.html" class="dropdown-item">Research Drive</a>
 </li>
                                     
-<li >
-    <a href="research-drive-info.html">Research Drive</a>
+<li>
+    <a href="research-drive-how.html" class="dropdown-item">How to use the Research Drive</a>
 </li>
                                     
-<li >
-    <a href="research-drive-how.html">How to use the Research Drive</a>
-</li>
-                                    
-<li >
-    <a href="folder-structure.html">File organization</a>
+<li>
+    <a href="folder-structure.html" class="dropdown-item">File organization</a>
 </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Version control</a>
+    <a href="#" class="dropdown-item">Version control</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="vc-principles.html">Basic principles</a>
+<li>
+    <a href="vc-principles.html" class="dropdown-item">Basic principles</a>
 </li>
             
-<li class="active">
-    <a href="vc-github.html">Version control for code</a>
+<li>
+    <a href="vc-github.html" class="dropdown-item active">Version control for code</a>
 </li>
             
-<li >
-    <a href="vc-datalad.html">Version control for data</a>
+<li>
+    <a href="vc-datalad.html" class="dropdown-item">Version control for data</a>
 </li>
     </ul>
   </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#">Metadata</a>
+    <a href="#" class="dropdown-item">Metadata</a>
     <ul class="dropdown-menu">
             
-<li >
-    <a href="FAIR.html">FAIR data</a>
+<li>
+    <a href="FAIR.html" class="dropdown-item">FAIR data</a>
 </li>
             
-<li >
-    <a href="types-metadata.html">Types of metadata</a>
+<li>
+    <a href="types-metadata.html" class="dropdown-item">Types of metadata</a>
 </li>
             
-<li >
-    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+<li>
+    <a href="dmp-dpia-info.html" class="dropdown-item">DMP and DPIA</a>
 </li>
             
-<li >
-    <a href="codebooks.html">Codebooks</a>
+<li>
+    <a href="codebooks.html" class="dropdown-item">Codebooks</a>
 </li>
     </ul>
   </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+<li>
+    <a href="../data-analysis/types-analysis.html" class="dropdown-item">Types of data analysis</a>
 </li>
                                     
-<li >
-    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+<li>
+    <a href="../data-analysis/LISA-how.html" class="dropdown-item">Using the LISA cluster</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+<li>
+    <a href="../reaching-out/intro-scicom.html" class="dropdown-item">Science communication and citizen science</a>
 </li>
                                     
-<li >
-    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+<li>
+    <a href="../reaching-out/outreach-practices.html" class="dropdown-item">Our outreach practices</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+<li>
+    <a href="../getting-started-eur/welcome-eur.html" class="dropdown-item">Welcome at the EUR!</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+<li>
+    <a href="../getting-started-eur/time-registration.html" class="dropdown-item">Time registration</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/finances.html">Financial information</a>
+<li>
+    <a href="../getting-started-eur/finances.html" class="dropdown-item">Financial information</a>
 </li>
                                     
-<li >
-    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+<li>
+    <a href="../getting-started-eur/email-signature.html" class="dropdown-item">Email signature</a>
 </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="vc-principles.html">
+                            <li class="nav-item">
+                                <a rel="prev" href="vc-principles.html" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="vc-datalad.html">
+                            <li class="nav-item">
+                                <a rel="next" href="vc-datalad.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/vc-github.md" class="nav-link">Edit on Github page</a>
                             </li>
                     </ul>
                 </div>
@@ -292,30 +283,151 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-            <li><a href="#commands">Commands</a></li>
-            <li><a href="#project-layout">Project layout</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#version-control-with-github" class="nav-link">Version control with git(hub)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#what-are-git-github" class="nav-link">What are git &amp; github?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#why-should-i-use-github" class="nav-link">Why should I use git(hub)?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#installation" class="nav-link">Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#the-git-workflow" class="nav-link">The git workflow</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#branches" class="nav-link">Branches</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#workflow-on-github" class="nav-link">Workflow on github</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#further-reading" class="nav-link">Further reading</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="version-control-with-github">Version control with git(hub)</h1>
+<h2 id="what-are-git-github">What are git &amp; github?</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><strong>Git</strong> is a version control system: it tracks the history as you change files. More specifically, it tracks who made which changes and when. It allows reverting files to a previous state. Note that it is possible to work on git projects locally without ever using github.</li>
+<li><a href="https://github.com/"><strong>Github</strong></a> is a platform that you can use to collaborate on projects that use git. It additionally allows for threaded discussions (issues), pull requests and several github apps. Please note that there are also <strong>other</strong> platforms that work similarly, such as <a href="https://gitlab.com/">GitLab</a>, <a href="https://bitbucket.org/product">BitBucket</a> or <a href="https://sourceforge.net/">SourceFourge</a>.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<p>Git and Github are most suitable for working with <strong>relatively small files</strong>. While originally used for code/software, you can use it for other types of small files as well, such as documentation.</p>
+<p><br></p>
+<h2 id="why-should-i-use-github">Why should I use git(hub)?</h2>
+<ul>
+<li>Git is used a lot all over the globe and is free to download and use via several interfaces</li>
+<li>You will always be able to revert your errors - or those of someone else</li>
+<li>You can report which version of the files you have used for which publication. Even better, github allows exporting a snapshot (version) of your github repository (folder with files) to Zenodo, meaning you can publish your version used and give it a citable DOI.</li>
+<li>Github also has several other great functions, such as making a website out of your repository (such as this lab wiki!)</li>
+</ul>
+<p><br></p>
+<h2 id="installation">Installation</h2>
+<ul>
+<li>Create a <a href="https://github.com/join">Github account</a></li>
+<li>Install <a href="https://git-scm.com/download/">git locally</a>. If you don't want to use the command line, also download a GUI such as <a href="http://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/">RStudio</a> or <a href="https://www.gitkraken.com/download">GitKraken</a>)</li>
+</ul>
+<p>Note: if you want to work with git in the command line on Windows, I can highly recommend using the <strong>Ubuntu app</strong> (the Linux Subsystem for Windows, downloadable via the Windows store), which may cause fewer Windows-related errors.</p>
+<p><br></p>
+<h2 id="the-git-workflow">The git workflow</h2>
+<p>When working on a git project (within a folder called a <strong>git repository</strong>), you will always perform the following steps:</p>
+<ul>
+<li>Make changes to some file and save them like you normally would</li>
+<li><strong>Stage</strong> the changes: select which files you want to make a snapshot of (this step is most explicit if you work in the command line) </li>
+<li><strong>Commit</strong> the changes: make a snapshot of the changes made so far. A commit (snapshot) is always accompanied by a <em>commit message</em> explaining what changes were made</li>
+</ul>
+<p>Any commit gets a specific <strong>identifier</strong> that can be used to reverse (undo) the commit.</p>
+<p><br></p>
+<h5 id="some-stage-and-commit-related-commands"><strong>Some stage- and commit-related commands</strong></h5>
+<ul>
+<li>Check which files are changed but not yet staged or committed:<code>git status</code></li>
+<li>Stage a file (tip: use the tab to use autocompletion): <code>git add filename</code> </li>
+<li>Stage multiple files: <code>git add filename1 filename2 filename3</code></li>
+<li>Stage all unstaged files in the workspace: <code>git add -A .</code> </li>
+<li>Commit the change(s) you staged: <code>git commit -m "Change x and y to z"</code></li>
+<li>Commit all (staged and unstaged) change(s) made in the workspace: <code>git commit -a -m "Change x and y and z"</code></li>
+</ul>
+<p><br></p>
+<h2 id="branches">Branches</h2>
+<p>A git repository can exist in multiple “versions” which are called <strong>branches</strong>. There is always a “master” branch, which you should consider the <u>clean</u> branch. Besides that, you can create other branches that are meant to make your own changes, or try something different without dirtying the clean (master) version. After you have made changes in your own branch and you think they should be incorporated in the master branch, you can then <strong>merge</strong> your branch with the master branch. </p>
+<p><br></p>
+<h5 id="some-branch-related-commands"><strong>Some branch-related commands</strong></h5>
+<ul>
+<li>Check which branch you are working on now (and list which branches there are): <code>git branch -v</code></li>
+<li>Change branches: <code>git checkout branchname</code></li>
+<li>Create a new branch: <code>git checkout -b newbranchname</code></li>
+</ul>
+<p><br></p>
+<h2 id="workflow-on-github">Workflow on github</h2>
+<p>On Github, the workflow is a bit more extensive, because often you are <strong>collaborating</strong> and do not want others to just start editing the master branch right away. There are multiple methods to collaborate on a project, but we recommend the following, assuming that there is already a repository for the project and you want to contribute:</p>
+<ol>
+    <li>On the repository page on Github, <b>fork</b> the repository: this creates a copy of the repository on your own Github account that you have full access to.<br>
+<img src="../img/fork.png" style="zoom:75%;" align="center" /></li>
+    <li>In your forked (copied) Github repository, create a <b>new branch</b> for the changes you are about to make with a short but comprehensible name, e.g. “dorienchanges”. <br> <img src="../img/githubbranch.JPG" style="zoom:75%;" align="center" /></li>
+    <li>If you want to edit files locally, <b>clone</b> your repository to your local PC, creating a folder in your file explorer (the contents of which can change according to which branch you are on!). </li>
+    <ul>
+        <li>Via the command line: <code>git clone https://github.com/UserName/RepositoryName.git</code></li>
+        <li>Via Rstudio, see <a href=https://happygitwithr.com/new-github-first.html#new-rstudio-project-via-git-clone>this link</a></li>
+    </ul>
+    <li><b>Edit</b> the files you want to edit and <b>commit the changes</b> (making a snapshot; include a comprehensible commit message!)</li>
+    <li>You have now committed changes locally, but they are not yet visible in your <b>remote</b> repository, i.e., the online github repository on your account. In order to get the commits you made locally to be visible online, you need to <b>push</b> them to your remote repository on Github.</li>
+    <ul>
+        <li>Via the command line, note that the repository on your account is usually called "origin": <code>git push origin branchnameonwhichyouworked</code></li>
+        <li>Via Rstudio, see <a href=https://happygitwithr.com/new-github-first.html#push-your-local-changes-to-github>this link</a></li>
+    </ul>
+    <li>Now the changes are visible in your own account, but not in the main repository. In order to get your changes into the main repository, you need to do a <b>pull request</b> on Github. This is a request to the owners of the original repository to <b>merge your branch with (one of) theirs</b>. Once merged by the owners, you are often prompted to remove your own branch (which is not necessary if you are planning to make more changes later). <br> <img src="../img/pullrequest.png" style="zoom:75%;" align="center"/></li>
+</ol>
+
+<p><br></p>
+<h4 id="keeping-your-local-copy-clone-up-to-date">Keeping your local copy (clone) up to date</h4>
+<p>If you are working on a project with many collaborators making changes, the odds are that your own fork (online copy) and/or clone (local copy) are becoming out-of-date quite fast. Therefore, it is recommended to <strong>update those copies</strong> each time <strong>before</strong> you start making changes yourself, so you are working on the most recent versions of the files.</p>
+<ul>
+    <li>In your clone (offline), you can set up the owner’s repository as the <b>"upstream"</b> repository and then <b>pull</b> all commits from the upstream repository to your local PC</li>
+    <ul>
+        <li>Setting up the original repository as the upstream: <code>git remote add upstream https://github.com/ownername/repositoryname.git</code></li>
+        <li>Pulling changes from the upstream repository: <code>git pull upstream branchname</code></li>
+        <li>See <a href=https://happygitwithr.com/upstream-changes.html>this page</a> when you use RStudio</li>
+    </ul>
+<li>To update your online version of the repository, simply push the changes (e.g., <code>push origin master</code> <i>after</i> pulling from the upstream</li>
+</ul>
+
+<p><br></p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li>More info on the <a href="https://githowto.com/">Git workflow</a> (especially useful if you are going to use git via the command line)</li>
+<li>Github guide: <a href="https://guides.github.com/introduction/git-handbook/">git handbook</a></li>
+<li><a href="https://lab.github.com/githubtraining/introduction-to-github">Free github introduction course</a> (duration ca. 1 hour)</li>
+<li>Using Git(hub) with Rstudio: https://happygitwithr.com/</li>
+<li>Introduction on Github by <a href="https://github.com/eur-synclab/githubfun">Ana Martinovici</a></li>
+<li>Git terminology: https://git-scm.com/docs/gitglossary</li>
+</ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -329,21 +441,21 @@ docs/
         <script src="../js/base.js" defer></script>
         <script src="../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -352,12 +464,12 @@ docs/
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
