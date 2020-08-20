@@ -91,7 +91,7 @@ Read more about the DMP Online tool [here](https://www.eur.nl/en/library/researc
 
 ## Data protection impact assessment (DPIA)
 
-Whenever you process sensitive data (or something changes regarding this), such as MRI data, names, addresses, daily diaries, etc., you are required to fill in a Data Protection Impact Assessment (DPIA) that has to be approved before starting your study by a [privacy officer](privacy@essb.eur.nl). In a DPIA, you identify privacy risks and formulate measures to prevent breaches. You register which data you collect and who is responsible. A DPIA touches upon:
+Whenever you process sensitive data (or something changes regarding this), such as MRI data, names, addresses, daily diaries, etc., you are required to fill in a Data Protection Impact Assessment (DPIA) that has to be approved before starting your study by a [privacy officer](mailto:privacy@essb.eur.nl). In a DPIA, you identify privacy risks and formulate measures to prevent breaches. You register which data you collect and who is responsible. A DPIA touches upon:
 
 <ul>
     <li>Collaborations in your project:</li>
