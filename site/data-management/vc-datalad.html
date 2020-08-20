@@ -275,7 +275,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/vc-datalad.md" class="nav-link">Edit on Github page</a>
+                                <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/vc-datalad.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -295,13 +295,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
+            <li class="nav-item" data-level="1"><a href="#version-control-for-datasets" class="nav-link">Version control for datasets</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#commands" class="nav-link">Commands</a>
+            <li class="nav-item" data-level="2"><a href="#git-annex" class="nav-link">git-annex</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+            <li class="nav-item" data-level="2"><a href="#datalad" class="nav-link">DataLad</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -312,21 +312,16 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="version-control-for-datasets">Version control for datasets</h1>
+<p>Version control for data is equally important for being able to reproduce results as it is for software/code and other documentation. Git, however, is very bad at handling (a) large (amount of) data files, because every version of every file is stored in the repository. So how can we formally version our data?</p>
+<h2 id="git-annex">git-annex</h2>
+<p>git-annex is a command line-based version control system that can manage all file <em>content</em> is a separate directory in the repository called the <em>annex</em> (<code>.git/annex/objects</code>). Only the files names and some metadata are placed into git version control. When you push a git repository with an annex to Github, the annex is not uploaded, but can be stored in a web-hosting service. Thus, a copy (clone) of the github repository only contains the version histories and not the data files themselves. Any file content <em>can</em> be downloaded from the external storage with <code>git-annex get</code>.  </p>
+<h2 id="datalad">DataLad</h2>
+<p>DataLad is a great version control system for datasets, independently of its size. It is based on git and git-annex and is relatively simple to use. It also has many more functionalities and a great and comprehensive <a href="http://handbook.datalad.org/en/latest/">handbook</a>. Note that DataLad is a <strong>command line tool</strong>, so some previous experience with command line git is advantageous. </p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<li>If you want to learn how to use DataLad, please go to the handbook via <a href="http://handbook.datalad.org/en/latest/">http://handbook.datalad.org/en/latest/</a> </li>
+<li>If you find anything unclear about the handbook or want to contribute, head over to the <a href="https://github.com/datalad-handbook/book">handbook repository</a> on github and open an issue or a pull request (see their <a href="http://handbook.datalad.org/en/latest/contributing.html">how to contribute</a>)</li>
+</ul></div>
             </div>
         </div>
 

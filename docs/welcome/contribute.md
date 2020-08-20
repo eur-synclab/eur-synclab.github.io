@@ -18,7 +18,7 @@ This lab wiki was built using:
 
 <br>
 
-**For an introduction to Git(hub), please see the [version control chapter](../data-management/vc-github.html).**
+**For an introduction to Git(hub), please see the [version control chapter](../data-management/vc-github.md).**
 
 <br>
 

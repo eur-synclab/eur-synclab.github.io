@@ -3,7 +3,7 @@
 ## What are git & github?
 
 -	**Git** is a version control system: it tracks the history as you change files. More specifically, it tracks who made which changes and when. It allows reverting files to a previous state. Note that it is possible to work on git projects locally without ever using github.
--	[**Github**](https://github.com/) is a platform that you can use to collaborate on projects that use git. It additionally allows for threaded discussions (issues), pull requests and several github apps. Please note that there are also **other** platforms that work similarly, such as [GitLab](https://gitlab.com/), [BitBucket](https://bitbucket.org/product) or [SourceFourge](https://sourceforge.net/).
+-	[**Github**](https://github.com/) is a platform that you can use to collaborate on projects that use git. It additionally allows for threaded discussions (issues), pull requests (see below) and several great apps. Please note that there are also **other** platforms that work similarly, such as [GitLab](https://gitlab.com/), [BitBucket](https://bitbucket.org/product) or [SourceFourge](https://sourceforge.net/).
 
 Git and Github are most suitable for working with **relatively small files**. While originally used for code/software, you can use it for other types of small files as well, such as documentation.
 
@@ -106,11 +106,15 @@ If you are working on a project with many collaborators making changes, the odds
 
 <br>
 
-## Further reading
+## Resources
 
+For every piece of software, remember that **google is your best friend**. Or use one of the following other resources:
+
+- Also a very comprehensive git guide by [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git.html)
 - More info on the [Git workflow](https://githowto.com/) (especially useful if you are going to use git via the command line)
-- Github guide: [git handbook](https://guides.github.com/introduction/git-handbook/)
-- [Free github introduction course](https://lab.github.com/githubtraining/introduction-to-github) (duration ca. 1 hour)
-- Using Git(hub) with Rstudio: https://happygitwithr.com/
-- Introduction on Github by [Ana Martinovici](https://github.com/eur-synclab/githubfun)
-- Git terminology: https://git-scm.com/docs/gitglossary
+- Github guide: [git handbook](https://guides.github.com/introduction/git-handbook/) 
+-  (duration ca. 1 hour)
+- Using Git(hub) with Rstudio: [https://happygitwithr.com/](https://happygitwithr.com/)
+- Introduction on Github by [Ana Martinovici](https://github.com/eur-synclab/githubfun) 
+- Git terminology: [https://git-scm.com/docs/gitglossary](https://git-scm.com/docs/gitglossary)
+- More terminology: [https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary)
