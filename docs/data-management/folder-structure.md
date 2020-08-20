@@ -37,10 +37,8 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
         <li>Final approved protocol</li>
     </ul>
 </details>
-
 <details><summary>Data</summary>
     If necessary, add another folder here for each timepoint or sub-project.<br>
-    <br>
     <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="behavioral_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <strong>Behavioral_data</strong>
@@ -136,8 +134,8 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
                 </li>
               </ul>
         </div>
+<br>
 </details>
-
 
 <details>
     <summary>Finances</summary>
@@ -148,7 +146,6 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
         <li>Travel expenses</li>
     </ul>
 </details>
-
 <details>
     <summary>Literature_resources</summary>
     <ul>
@@ -193,8 +190,8 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
                 </li>
           </ul>
     </div> 
+<br>
 </details>
-
 
 <details>
     <summary>Outreach_recruitment</summary>
@@ -302,4 +299,6 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
           </ul>
     </div> 
 </details>
+LOOK AT OTHER DROPDOWNS HERE: https://www.w3schools.com/code/tryit.asp?filename=GHXH074WVN2W
 
+Problem: buttons are not clickable anymore
