@@ -1,7 +1,8 @@
 # Website information
-
 site_name: SYNC lab wiki
-
+site_url: https://sourcefoundry.org/cinder/ 
+site_author: SYNC lab
+site_description: "Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands"
 repo_url: https://github.com/eur-synclab/sync-manual
 
 # Page navigation
@@ -24,12 +25,11 @@ nav:
       - The GDPR: "open-science/gdpr.md"
       - Publication packages: "open-science/pub-packages.md"
       - How to share data?: "open-science/data-sharing-how.md"
-      - How to use NeuroVault: "open-science/neurovault.md"
-      - Data sharing agreement template: "open-science/dsa-template.md"
+      - NeuroVault: "open-science/neurovault.md"
+      - Data sharing agreement: "open-science/dsa-template.md"
     - Reproducibility:
       - Open software: "open-science/open-software.md"
       - Open code: "open-science/open-code.md"
-      - Version control software: "open-science/vc-software.md"
     - Fostering transparency elsewhere:
       - Preregistering your research: "open-science/preregistration.md"
       - Transparency guidelines: "open-science/transparency-guidelines.md"
@@ -60,19 +60,16 @@ nav:
     - Financial information: "getting-started-eur/finances.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
-
 theme:
   name: null
-  custom_dir: 'mkdocs_docskimmer'
-  include_search_page: true
-  search_index_only: false
-  static_templates:
-  - 404.html
-
-plugins: ['search']
-
-extra:
-    version: 0.4.0
-
+  custom_dir: cinder
+  colorscheme: github  
+  highlightjs: true  
+  hljs_languages: 
+   - yaml 
 
 use_directory_urls: false
+
+markdown_extensions: 
+
+- admonition

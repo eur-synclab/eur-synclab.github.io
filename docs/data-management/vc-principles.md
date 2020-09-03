@@ -31,10 +31,12 @@ It is highly recommended to make a habit out of at least one, but preferably mor
     <ul>
         <li>Use dates in the filename in the format YYYYMMDD</li>
         <li>Append the filename with a version number, e.g., document_v1.0, document_v1.2, etc.</li>
+        <li>See <a href=https://authors.library.caltech.edu/103626/>this link</a> for a helper document for coming up with a good file naming convention</li>
     </ul>
     <li>Include a versioning history within the document, e.g., on the first page, explaining what changed in which version</li>
     <li>Use services like Google drive and Dropbox, which allow collaborative editing but also reverting to previous versions</li>
 </ul>
+
 
 
 

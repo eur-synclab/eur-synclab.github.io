@@ -27,18 +27,24 @@ Data is personal when you can identify someone by it, either directly (e.g., nam
 By law, data is considered identifiable when identification can occur with reasonable (proportionate) effort. Thus, it is **not** about the *hypothetical* possibility that data can be linked or combined.  Because not everyone has access to the same data, the definition of "identifiable" may differ per situation.
 
 ## Important types of data
-- **Pseudonymous data**: Data that is only identifiable with a key (that still exists). This is the case when after encryption, it is still possible to identify someone, e.g., because the key or the source data still exist. Pseudonymous data are still considered **personal data**, because the encryption is **reversible**, thus requiring a legal basis for processing.
-- **Special personal data**: special sensitive categories of personal data that may be difficult to anonymize, they require additional measures: 
-  - race or ethnic descent
-  - political views
-  - religion
-  - union membership
-  - genetic or biometric data aimed at unique identification
-  - health data
-  - sexual life and preference
-  - criminal records
-  - in the Netherlands: Burgerservicenummer (BSN)
-- **Anonymous data**: Data that are **not** (re)identifiable anymore: neiher by a name-number key, nor by combining with other publicly available data. Anonymous data are **not considered personal data**, so processing and sharing this kind of data do not require a legal basis.
+<ul>
+    <li><b>Pseudonymous data:</b> Data that is only identifiable with a key (that still exists). This is the case when after encryption, it is still possible to identify someone, e.g., because the key or the source data still exist. Pseudonymous data are still considered <b>personal data</b>, because the encryption is <b>reversible</b>, thus requiring a legal basis for processing.</li> 
+    <li><b>Special personal data:</b> special sensitive categories of personal data that may be difficult to anonymize, they require additional measures: </li>
+    <ul>
+        <li>race of ethnic descent</li>
+        <li>political views</li>
+        <li>religion</li>
+        <li>union membership</li>
+        <li>genetic or biometric data aimed at unique identification</li>
+        <li>health data</li>
+        <li>sexual life and preference</li>
+        <li>criminal records</li>
+        <li>in the Netherlands: burgerservicenummer (BSN)</li>
+    </ul>
+    <li><b>Anonymous data:</b> Data that are <b>not</b> (re)identifiable anymore: neiher by a name-number key, nor by combining with other publicly available data. Anonymous data are <b>not considered personal data</b>, so processing and sharing this kind of data do not require a legal basis.</li>
+</ul>
+
+
 
 ## Sharing data under the GDPR
 Anonymous data can be shared without restriction if they are **really** anonymous. You may share non-anonymous data only when:
