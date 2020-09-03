@@ -61,7 +61,18 @@ nav:
     - Email signature: "getting-started-eur/email-signature.md"
 
 
+theme:
+  name: null
+  custom_dir: 'mkdocs_docskimmer'
+  include_search_page: true
+  search_index_only: false
+  static_templates:
+  - 404.html
 
-theme: mkdocs
+plugins: ['search']
+
+extra:
+    version: 0.4.0
+
 
 use_directory_urls: false
