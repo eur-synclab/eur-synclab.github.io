@@ -299,6 +299,4 @@ Below, you can find an example folder structure of the project "YYYY_ProjectName
           </ul>
     </div> 
 </details>
-LOOK AT OTHER DROPDOWNS HERE: https://www.w3schools.com/code/tryit.asp?filename=GHXH074WVN2W
 
-Problem: buttons are not clickable anymore

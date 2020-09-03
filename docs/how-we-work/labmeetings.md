@@ -1,20 +1,27 @@
 # Labmeetings
 
 Currently (Summer 2020) Thursdays are labmeeting days:  
-- 13.00h-14.00h Labmeeting  
+
+
+
+- 11.00h-12.00h Labmeeting  
 - 16.00h-17.00h Skills meeting  
 
-The current schedule can be found on [Research Drive](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/7061266)
+The current schedule can be found on [Research Drive](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/60313593?filePath=%2FSYNC_General%20(Projectfolder)%2FLab-%20%26%20Method%20meetings%2F1.%20Planning%2F2020%2F20200903_Planning_2020_2.docx)
 
 ## Labmeetings
 
-In the labmeetings labmembers share their latest results or ideas for new research. It is a great chance to get feedback in a supportive and welcoming environment. Labmeetings can also be used to practice a (conference) talk.
+In the labmeetings, labmembers share their latest results or ideas for new research. It is a great chance to get feedback in a supportive and welcoming environment. Labmeetings can also be used to practice a (conference) talk.
+
 Collaborators from outside the SYNC lab are more than welcome for labmeetings where research from the specific collaboration is discussed. So do not forget to invite your collaborators when presenting!
 
 ## Skills meeting
 
 The skills meeting is a one-hour opportunity to work on a diversity of skills that can be useful for a researcher. Labmembers can introduce information on a certain skill or topic or can help to dive deeper in a topic where most have already some experience with.
 In this [Google sheet](https://docs.google.com/spreadsheets/d/1RKIx5xdfvvjomPJ-rH_jyMNGn6oHWyi3PPTI0mwt6vk/edit#gid=0) we identified skills and topics:  
+
+
+
 - labmembers have some experience or expertise  
 - labmembers want to learn more about  
 

@@ -7,26 +7,41 @@ Publishing data can go roughly in the following ways:
 ## 1. Publish in a data repository
 
 For example:
-- The [EUR Data Repository](https://datarepository.eur.nl/): for publication packages at the EUR
-  - All data and materials accompanying a publication
-  - Not suitable for large or publication-independent datasets or non-anonymous data
-  - See the [publication packages page](pub-packages.md) for more information.
-- [DANS DataverseNL](https://dataverse.nl): for publication packages at Leiden University
-  - All data and materials accompanying a publication
-  - Not suitable for large or publication-independent datasets (max zip file size 10 GB) or non-anonymous data
-- [DANS EASY](https://easy.dans.knaw.nl/ui/home) (Dutch)
-  - For data and materials, not necessarily accompanying a publication
-  - Has deals with the university but still some limitations to the size of the data (max. 100 GB)
-  - Is aimed more at archiving than sharing data
-- [NeuroVault](https://neurovault.org/)
-  - For group-MRI data (such as t-maps) accompanying a publication
-  - Enables meta-analysis of fMRI-studies
-  - See the [NeuroVault page](neurovault.md) for more information
-- [Open Science Framework](https://osf.io/)
-  - max. 5 GB per file
-  - Keep your data close to all other relevant files in your OSF project
-  - OSF is more aimed at project management than dissemination, read more [here](osf.md)
-- Other general-purpose repositories, such as [Zenodo](https://zenodo.org/) (free up to 50GB), [Dryad](https://datadryad.org/) (not free) or [Non-EUR Figshare](https://figshare.com/) (free, max 20GB private space and 5GB per file)
+
+<ul>
+    <li>The <a href=https://datarepository.eur.nl/>EUR Data Repository</a>: for publication packages at the EUR</li>
+    <ul>
+        <li>All data and materials accompanying a publication</li>
+        <li>Not suitable for large or publication-independent datasets or non-anonymous data</li>
+        <li>See the <a href=publication-packages.md>publication packages page</a> for more information.</li>
+    </ul>
+<li><a href=https://dataverse.nl>DANS DataverseNL</a>: for publication packages at Leiden University</li>
+<ul>
+    <li>All data and materials accompanying a publication</li>
+    <li>Not suitable for large or publication-independent datasets (max zip file size 10GB) or non-anonymous data</li>
+</ul>
+<li><a href=https://easy.dans.knaw.nl/ui/home>DANS EASY</a> (Dutch)</li>
+<ul>
+    <li>For data and materials, not necessarily accompanying a publication</li>
+    <li>Has deals with the university but still some limitations to the size of the data (max. 100 GB)</li>
+    <li>Is aimed more at archiving than sharing data</li>
+</ul>
+<li><a href=https://neurovault.org/>NeuroVault</a></li>
+<ul>
+    <li>For group-MRI data (such as t-maps) accompanying a publication</li>
+    <li>Enables meta-analysis of fMRI-studies</li>
+    <li>See the <a href=neurovault.md>NeuroVault page</a> for more information</li>
+</ul>
+<li><a href=https://osf.io/>Open Science Framework</a></li>
+<ul>
+    <li>max 5 GB per file</li>
+    <li>Keep your data close to all other relevant files in your OSF project</li>
+    <li>OSF is more aimed at project management than dissemination, read more here <a href=osf.md>here</a></li>
+</ul>
+<li>Other general-purpose repositories, such as <a href=https://zenodo.org/>Zenodo</a> (free up to 50GB), <a href=https://datadryad.org/>Dryad</a> (not free) or <a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
+</ul>
+
+
 
 In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/), see the [data management page](../data-management/FAIR.md) and take [privacy considerations](gdpr.md) into account.
 
@@ -43,6 +58,8 @@ This is better than nothing, but not recommended, because this does not adhere t
 ## 4. Share case-by-case
 
 For data that cannot be shared publicly, you can sometimes still share the data case-by-case. This can be the case:
+
+
 
 - For MRI-data for which you have informed consent from the participants to share. You may not want to publish this publicly because of the sensitive nature of the data, but you can still share the data because you have consent. Of course this also goes for other kinds of sensitive data for which you have consent.
 - For data that does not belong to a publication, data that is too large to share in another way or some other reason

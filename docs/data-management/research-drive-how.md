@@ -51,7 +51,7 @@ After you have made any changes in access groups, please **update** “[Research
 
 Add users to folders individually if they should not have the same permissions as the custom groups. This could for example be outside researchers. Please note that users of SURFdrive do not necessarily need a new Research Drive account, you can simply share the relevant files/folders with their [Federated cloud ID](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960).
 
- #### 
+  
 
 #### Students and other outside users 
 
@@ -78,7 +78,7 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 
 #### Setting up
 
-1. Download rclone: https://rclone.org/downloads/ (no admin rights needed)
+1. Download rclone: [https://rclone.org/downloads/](https://rclone.org/downloads/ ) (no admin rights needed)
 
 2. Once downloaded, open your Command prompt (search for `cmd`)
 
@@ -90,9 +90,8 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 
 6. Follow the instructions listed [here](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone). Use the following link for step 3: [https://eur.data.surfsara.nl/remote.php/nonshib-webdav/ ](https://eur.data.surfsara.nl/remote.php/nonshib-webdav/). Your username is `yourERNAid@eur.nl` and the password is the Webdav password you just created (you will probably not see the password being pasted, but it is!). When you are asked for a `bearer token`, just press `Enter`
 
-7. Example summary of the config:
+7. Example summary of the config: <br><img src="../img/RD_rcloneconfig.JPG" style="zoom:80%;" text-align = "center"/>
 
-   <img src="../img/RD_rcloneconfig.JPG" style="zoom:80%;" text-align = "center"/>
 
  <p style="clear:left;"></p>
 
@@ -141,9 +140,7 @@ Cyberduck is not a command-line tool but has a GUI (graphical user interface) fo
 4. (Re)Start Cyberduck
 5. Click “New connection” (Nieuwe verbinding). 
 6. In the pop-up window that appears, select the SURF Research Drive profile, change the server to eur.data.surfsara.nl and fill out your username (ERNA ID) and the WebDAV password that you just created. 
-7. Do not forget to select “**Save password**” (Bewaar wachtwoord)! Then, select “Connect” (Verbind).
-
-<img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" text-align="center"/>
+7. Do not forget to select “**Save password**” (Bewaar wachtwoord)! Then, select “Connect” (Verbind). <br><img src="../img/Cyberduck_connect.JPG" style="zoom:80%;" text-align="center"/>
 
 <p style="clear:left;"></p>
 
@@ -254,9 +251,7 @@ The easiest way to edit documents is in your internet browser, because it allows
 
 You can mount your Research Drive account to your file explorer, so that the Research Drive files can be accessed on your local PC. Note that collaborative editing is not possible this way, and merging conflicts may emerge when multiple people are working on the same files.  OwnCloud is the recommended tool that is useful for working with small and few files. However, it is **not suitable** for synchronizing **large (numbers of)** **files**. 
 
-- To download the OwnCloud client, go to [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app":
-
-<img src="../img/RD_Owncloud.JPG" style="zoom:80%;" text-align="center" />
+- To download the OwnCloud client, go to [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app": <br><img src="../img/RD_Owncloud.JPG" style="zoom:80%;" text-align="center" />
 
 <ul><li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud
     <ul>
