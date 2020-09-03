@@ -1,356 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
+    <meta name="author" content="SYNC lab">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/data-management/vc-github.html">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
     
     <title>Version control for code - SYNC lab wiki</title>
-           
-        
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  
-    <link rel="stylesheet" href="../css/reset.css" type="text/css">
-    <link rel="stylesheet" href="../css/docskimmer.css" type="text/css">
-
     
-  
 
-    <link rel="shortcut icon" href="../img/favicon.ico">
-	<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
-  </head>
-
-  <body>
-    <a class="skiptocontent" href="#maincontent" title="Skip to content (when browsing via audio)" accesskey="2" tabindex="1">skip to main content</a>
-    <div id="top" class="wrapper">
-    <header class="header-main" role="banner">
-  
-     <h2 class="header-main__heading"><a class="header-main__link" href="..">SYNC lab wiki</a></h2>
-  
-</header>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
 
     
         
-  <form class="form form--search" id="content_search" action="../search.html" method="get" role="search">
-    <div class="form-group">
-      <label class="hidden" for="mkdocs-search-query">Search for:</label>
-      <input type="search" aria-label="Search" class="form__input" name="q" id="mkdocs-search-query" placeholder="Search the docs for..." tabindex="3"> <button type="submit" class="form__btn-submit">Search</button>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">SYNC lab wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../index.html">Home</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/contribute.html">How to contribute</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Open acccess publishing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-access-info.html">Information</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-access-how.html">How to publish open access</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data sharing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/gdpr.html">The GDPR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/pub-packages.html">Publication packages</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/neurovault.html">NeuroVault</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/dsa-template.html">Data sharing agreement</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reproducibility</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-software.html">Open software</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-code.html">Open code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/preregistration.html">Preregistering your research</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="data-security.html">Data security protocol</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-info.html">Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-how.html">How to use the Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="folder-structure.html">File organization</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Version control</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="vc-principles.html">Basic principles</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="vc-github.html">Version control for code</a>
+</li>
+
+        
+            
+<li >
+    <a href="vc-datalad.html">Version control for data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="FAIR.html">FAIR data</a>
+</li>
+
+        
+            
+<li >
+    <a href="types-metadata.html">Types of metadata</a>
+</li>
+
+        
+            
+<li >
+    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+
+        
+            
+<li >
+    <a href="codebooks.html">Codebooks</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/finances.html">Financial information</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="vc-principles.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="vc-datalad.html">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/vc-github.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
     </div>
-  </form>
+</div>
 
-    
-    
-    
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#version-control-with-github">Version control with git(hub)</a></li>
+            <li class="second-level"><a href="#what-are-git-github">What are git &amp; github?</a></li>
+                
+            <li class="second-level"><a href="#why-should-i-use-github">Why should I use git(hub)?</a></li>
+                
+            <li class="second-level"><a href="#installation">Installation</a></li>
+                
+            <li class="second-level"><a href="#the-git-workflow">The git workflow</a></li>
+                
+                <li class="third-level"><a href="#some-stage-and-commit-related-commands">Some stage- and commit-related commands</a></li>
+            <li class="second-level"><a href="#branches">Branches</a></li>
+                
+                <li class="third-level"><a href="#some-branch-related-commands">Some branch-related commands</a></li>
+            <li class="second-level"><a href="#workflow-on-github">Workflow on github</a></li>
+                
+                <li class="third-level"><a href="#keeping-your-local-copy-clone-up-to-date">Keeping your local copy (clone) up to date</a></li>
+            <li class="second-level"><a href="#resources">Resources</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
 
-<nav class="nav-main" aria-label="Main menu" role="navigation">
-  <ul class="nav-main__level" role="menubar">
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="../index.html"> Welcome</a>
-            
-          
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="../how-we-work/code-of-conduct.html"> How we work</a>
-            
-          
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href=".."> Open Science</a>
-            
-          
-            
-          
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item nav-main__item--current" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="data-security.html"> Data management</a>
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="../data-analysis/types-analysis.html"> Data analysis</a>
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="../reaching-out/intro-scicom.html"> Reaching out to society</a>
-            
-          
-            
-          
-        </li>
-      
-    
-      
-        <li class="nav-main__item" role="menuitem">
-          
-                               
-              <a class="nav-main__link" href="../getting-started-eur/welcome-eur.html"> Getting started at the EUR</a>
-            
-          
-            
-          
-            
-          
-            
-          
-        </li>
-      
-    
-
-    
-    
-      <li class="nav-main__item nav-main__item--repo" role="menuitem">
-     	  <a class="nav-main__link nav-main__link--repo" href="https://github.com/eur-synclab/sync-manual/">GitHub</a>
-      </li>
-    
-  </ul>
-</nav>
-
-    
-    <!-- BEGIN subnav -->
-    
-    
-      
-        
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <aside class="section-toc" role="complementary" aria-label="Table of Contents for this section">
-            <ul>
-  
-    
-      
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-      
-        
-          
-            <li class="section-toc__item"><a href="data-security.html" class="section-toc__link">Data security protocol</a></li>
-          
-        
-          
-            <li class="section-toc__item"><a href="research-drive-info.html" class="section-toc__link">Research Drive</a></li>
-          
-        
-          
-            <li class="section-toc__item"><a href="research-drive-how.html" class="section-toc__link">How to use the Research Drive</a></li>
-          
-        
-          
-            <li class="section-toc__item"><a href="folder-structure.html" class="section-toc__link">File organization</a></li>
-          
-        
-          
-            <li class="section-toc__item section-toc__item--active"><a href=".." class="section-toc__link section-toc__link--active"><span class="visually-hidden">Current: </span> Version control</a></li>
-          
-        
-          
-            <li class="section-toc__item"><a href=".." class="section-toc__link">Metadata</a></li>
-          
-        
-      
-    
-      
-        
-          
-        
-          
-        
-      
-    
-      
-        
-          
-        
-          
-        
-      
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-  
-</ul>
-            </aside>
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-      
-    
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-
-    <button class="menu-hamburger" data-js="menuOpenCtrl" aria-label="Open menu table of contents for this page" type="button" title="Menu">&#9776; open</button>
-    <!-- END subnav -->
-    
-   
-     <main class="maincontent" data-js="mainContent" role="main">
-      <h1 id="version-control-with-github">Version control with git(hub)</h1>
+<h1 id="version-control-with-github">Version control with git(hub)</h1>
 <h2 id="what-are-git-github">What are git &amp; github?</h2>
 <ul>
 <li><strong>Git</strong> is a version control system: it tracks the history as you change files. More specifically, it tracks who made which changes and when. It allows reverting files to a previous state. Note that it is possible to work on git projects locally without ever using github.</li>
@@ -447,66 +555,104 @@
 <li>Introduction on Github by <a href="https://github.com/eur-synclab/githubfun">Ana Martinovici</a> </li>
 <li>Git terminology: <a href="https://git-scm.com/docs/gitglossary">https://git-scm.com/docs/gitglossary</a></li>
 <li>More terminology: <a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary">https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary</a></li>
-</ul>
-     </main>
+<li>If you want to use Gitlab instead, here are the <a href="https://github.com/NETWAYS/gitlab-training">materials of a comprehensive course</a> (ironically, on GitHub)</li>
+</ul></div>
+        
+        
+    </div>
 
-     <aside class="page-toc" data-js="toc" role="complementary" aria-label="Table of Contents for this page">
-       <button aria-label="Close" class="page-toc__closebtn" data-js="tocCloseCtrl">X</button>
-       <h2 class="page-toc__heading">On this Page:</h2>
-<ul>
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
 
-    <li class="page-toc__item"><a href="#version-control-with-github" class="page-toc__link" data-js="tocLink" tabindex="0">Version control with git(hub)</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#what-are-git-&amp;-github?" class="page-toc__link" data-js="tocLink" tabindex="0">What are git &amp; github?</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#why-should-i-use-git(hub)?" class="page-toc__link" data-js="tocLink" tabindex="0">Why should I use git(hub)?</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#installation" class="page-toc__link" data-js="tocLink" tabindex="0">Installation</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#the-git-workflow" class="page-toc__link" data-js="tocLink" tabindex="0">The git workflow</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#branches" class="page-toc__link" data-js="tocLink" tabindex="0">Branches</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#workflow-on-github" class="page-toc__link" data-js="tocLink" tabindex="0">Workflow on github</a></li>
-    
-        <li class="page-toc__item"><a href="vc-github.html#resources" class="page-toc__link" data-js="tocLink" tabindex="0">Resources</a></li>
-    
-
-</ul>
-     </aside>
-   
-
-   
-     
-      <a href="vc-principles.html" class="maincontent__link maincontent__link--previous-page">Previous: Basic principles</a>
-    
-    
-      <a href="vc-datalad.html" class="maincontent__link maincontent__link--next-page">Next: Version control for data</a>
-    
-   
-
-    
-    <footer class="footer-main" role="contentinfo">
-      
+        
+        
     </footer>
-    
-  </div><!-- END .wrapper -->
-  <a class="skiptotop" href="#top">back to top</a>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
 
-  
     
-  
-    <script>var base_url = '..';</script>
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/theme.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+                <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/yaml.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
     
-      <script src="../search/main.js"></script>
-  
 
-  <!--
-  MkDocs version : 1.1.2
-  docSkimmer theme version: 0.4.0
-  Build Date UTC : 2020-09-03 08:35:48.302769+00:00
-  -->
-  </body>
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
 </html>
