@@ -441,8 +441,13 @@
                 
             <li class="second-level"><a href="#slurm-usage">SLURM usage</a></li>
                 
-            <li class="second-level"><a href="#mounting-data-from-research-drive-on-lisa-hpc">Mounting data from Research Drive on Lisa HPC</a></li>
+            <li class="second-level"><a href="#copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</a></li>
                 
+                <li class="third-level"><a href="#this-can-be-done-using-rclone">This can be done using Rclone:</a></li>
+                <li class="third-level"><a href="#some-useful-rclone-commands-once-you-have-set-up-your-connection">Some useful Rclone commands, once you have set up your connection:</a></li>
+            <li class="second-level"><a href="#running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</a></li>
+                
+                <li class="third-level"><a href="#using-fmriprep-and-mriqc">Using fmriprep and mriqc</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -464,7 +469,33 @@ More information about high perfomance computing options at the EUR can be found
 <h2 id="slurm-usage">SLURM usage</h2>
 <p>Lisa runs a Unix-based operating system, which is text based. For submitting batches of jobs, SLURM is used.
 There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/user-guide">User Guide</a>, here are some basics that are good to know:</p>
-<h2 id="mounting-data-from-research-drive-on-lisa-hpc">Mounting data from Research Drive on Lisa HPC</h2></div>
+<h2 id="copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</h2>
+<p>In the future, it might be possible to mount data directly from Research Drive on Lisa. In that way, you should be able to directly work with data on the Research Drive on the LISA cluster.</p>
+<p>Currently, this is not yet possible. Therefore, you first need to copy data from Research Drive to Lisa. </p>
+<h4 id="this-can-be-done-using-rclone">This can be done using <strong>Rclone</strong>:</h4>
+<ul>
+<li>see Surf instructions <a href="https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone">here</a> for setting up a connection between Research Drive and Lisa.</li>
+<li>In short, you need to setup a config file on Lisa. </li>
+<li>You can find the URL and username when you log in on Research Drive, under 'Settings/Instellingen' and 'Security/Beveiliging'. There, under 'WebDAV passwords' you can create a new password specifically for your connection with Lisa.</li>
+</ul>
+<h4 id="some-useful-rclone-commands-once-you-have-set-up-your-connection">Some useful Rclone commands, once you have set up your connection:</h4>
+<ul>
+<li>on the Lisa cluster command line, you can list your directories and files using a combination of <code>rclone</code> and <code>ls</code>, for example:<ul>
+<li><code>rclone ls RD:"2010_Braintime (Projectfolder)/data"</code> &gt; this will show the content of the 2010_Braintime data folder on Research Drive (assuming your connection is setup properly and that you have access to this folder)</li>
+</ul>
+</li>
+<li>Copying data from Research Drive to a folder on your Lisa home:<ul>
+<li><code>rclone copy RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
+<li>or to check whether the command is working without actually copying you can use <code>--dryrun</code>: <code>rclone copy --dry-run RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
+</ul>
+</li>
+<li>using <a href="https://rclone.org/filtering/">filtering</a> you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':<ul>
+<li><code>rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</h2>
+<h4 id="using-fmriprep-and-mriqc">Using fmriprep and mriqc</h4></div>
         
         
     </div>
