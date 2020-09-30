@@ -17,4 +17,25 @@ Lisa runs a Unix-based operating system, which is text based. For submitting bat
 There is a dedicated Lisa [User Guide](https://userinfo.surfsara.nl/systems/lisa/user-guide), here are some basics that are good to know:
 
 
-## Mounting data from Research Drive on Lisa HPC
+## Copying data from Research Drive to Lisa HPC
+
+In the future, it might be possible to mount data directly from Research Drive on Lisa. In that way, you should be able to directly work with data on the Research Drive on the LISA cluster.
+
+Currently, this is not yet possible. Therefore, you first need to copy data from Research Drive to Lisa. 
+#### This can be done using **Rclone**:
+- see Surf instructions [here](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone) for setting up a connection between Research Drive and Lisa.
+- In short, you need to setup a config file on Lisa. 
+- You can find the URL and username when you log in on Research Drive, under 'Settings/Instellingen' and 'Security/Beveiliging'. There, under 'WebDAV passwords' you can create a new password specifically for your connection with Lisa.
+
+#### Some useful Rclone commands, once you have set up your connection:
+- on the Lisa cluster command line, you can list your directories and files using a combination of `rclone` and `ls`, for example:
+    - `rclone ls RD:"2010_Braintime (Projectfolder)/data"` > this will show the content of the 2010_Braintime data folder on Research Drive (assuming your connection is setup properly and that you have access to this folder)
+- Copying data from Research Drive to a folder on your Lisa home:
+    - `rclone copy RD:"2010\_Braintime (Projectfolder)/data/" /data`
+    - or to check whether the command is working without actually copying you can use `--dryrun`: `rclone copy --dry-run RD:"2010\_Braintime (Projectfolder)/data/" /data`
+- using [filtering](https://rclone.org/filtering/) you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':
+    - `rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data`
+
+## Running analyses on the Lisa HPC
+
+#### Using fmriprep and mriqc
