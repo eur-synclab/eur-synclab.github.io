@@ -30,10 +30,19 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "ilsevandegroep",
+      "name": "Ilse van de Groep",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/58523978?v=4",
+      "profile": "http://ilsevandegroep.nl",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "sync-manual",
+  "projectName": "sync-wiki",
   "projectOwner": "eur-synclab",
   "repoType": "github",
   "repoHost": "https://github.com",
