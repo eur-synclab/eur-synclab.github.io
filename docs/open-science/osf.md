@@ -15,13 +15,13 @@ We recommend using the OSF as a central place for your project, especially if yo
 
 1. Link your OSF project to the **[SYNC lab OSF page](https://osf.io/5hbsm/)** (Log in > Components > Link Projects). No worries, the SYNC lab collaborators cannot automatically edit your linked project!
 2. **Register preregistrations** (Registrations > New registration) **and Preprints** in the relevant components. If your preregistration concerns one manuscript, we recommend creating a separate component in which you link all relevant materials (publication package, preregistration, code, preprint if applicable, etc.) belonging to that manuscript. A project can contain multiple Registrations and Preprints. Be sure to provide good metadata, preferably choose a CC BY 4.0 license and create a DOI so that your preregistration is citable.
-3. **Data**: you can link OSF with external storage (see below) or store data on the OSF itself (choose the German storage). On the OSF itself, there is no storage limit (max.file size is currently 5 GB), but please do take privacy into account at all times
+3. **Data**: you can link OSF with external storage (see below) or store data on the OSF itself (choose the German storage site). On the OSF itself, there is now a storage limit of 5 GB for private and 50 GB for public projects. If you store on OSF directly, please **take privacy into account** at all times
 4. **Code and software**: you can link OSF with a Github repository in case your preprocessing pipeline, processing steps or experimental files are stored there (see below). If your code is however not code-worthy, we recommend storing the code in the publication package or on OSF itself. 
 5. Link your OSF profile to your **[ORCID](https://orcid.org/)** account so that there cannot be any confusion as to who you are.
 
 ## Connecting the OSF to external services
 
-Via the Add-on tab, you can connect the OSF with several external services. Note that this will not store data on the OSF itself!
+Via the Add-on tab, you can connect the OSF with several external services if OSF itself does not provide enough storage. Note that this will not store data on the OSF itself!
 
 ### SURF Research Drive (via Owncloud)
 
