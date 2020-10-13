@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
+    <meta name="author" content="SYNC lab">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/data-analysis/LISA-how.html">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Using the LISA cluster - SYNC lab wiki</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">SYNC lab wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../index.html">Home</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/contribute.html">How to contribute</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Open acccess publishing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-access-info.html">Information</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-access-how.html">How to publish open access</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data sharing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/gdpr.html">The GDPR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/pub-packages.html">Publication packages</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/neurovault.html">NeuroVault</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/dsa-template.html">Data sharing agreement</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reproducibility</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-software.html">Open software</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-code.html">Open code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/preregistration.html">Preregistering your research</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../data-management/data-security.html">Data security protocol</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-management/research-drive-info.html">Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-management/research-drive-how.html">How to use the Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-management/folder-structure.html">File organization</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Version control</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data-management/vc-principles.html">Basic principles</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/vc-github.html">Version control for code</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/vc-datalad.html">Version control for data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data-management/FAIR.html">FAIR data</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/types-metadata.html">Types of metadata</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/codebooks.html">Codebooks</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="types-analysis.html">Types of data analysis</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="LISA-how.html">Using the LISA cluster</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/finances.html">Financial information</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="types-analysis.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../reaching-out/intro-scicom.html">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-analysis/LISA-how.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#using-the-lisa-cluster">Using the Lisa cluster</a></li>
+            <li class="second-level"><a href="#obtaining-an-account">Obtaining an account</a></li>
+                
+            <li class="second-level"><a href="#slurm-usage">SLURM usage</a></li>
+                
+                <li class="third-level"><a href="#copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</a></li>
+            <li class="second-level"><a href="#running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</a></li>
+                
+                <li class="third-level"><a href="#using-fmriprep-and-mriqc">Using fmriprep and mriqc</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="using-the-lisa-cluster">Using the Lisa cluster</h1>
+<p>If you want to process a lot of data, using a high performance cluster will save a lot of time. We can use the <a href="https://userinfo.surfsara.nl/systems/lisa">Lisa Cluster</a> from SURFsara
+More information about high perfomance computing options at the EUR can be found <a href="https://www.eur.nl/en/library/node/20736">here</a></p>
+<h2 id="obtaining-an-account">Obtaining an account</h2>
+<ul>
+<li>
+<p>See also under 'How to Access' on this <a href="https://www.eur.nl/en/library/node/20736">EUR page</a>:</p>
+<ol>
+<li>Download the <a href="https://userinfo.surfsara.nl/sites/default/files/2015-11-11-Lisa-Application-form-EUR.doc">application form</a> for resources at SURFsara, fill it in and return it for EUR approval by e-mail to <a href="mailto:edsc@eur.nl?SUBJECT=High%20Performance%20Computing">edsc@eur.nl</a>. You can ask for 10.000 hours computing time for a start, this will normally be approved quite fast </li>
+<li>After EUR approval: SURFsara requests you, for each user in the Application form to sign the <a href="https://userinfo.surfsara.nl/sites/default/files/2013-01-25_HPC-System-Usage-Agreement-SURFsara.doc">Usage agreement Supercomputer systems</a>, and send it to <a href="mailto:helpdesk@surfsara.nl">helpdesk@surfsara.nl</a></li>
+<li>At SURFsara they will create an account for you on LISA and you will receive an email with instructions on how to login</li>
+</ol>
+</li>
+</ul>
+<h2 id="slurm-usage">SLURM usage</h2>
+<p>Lisa runs a Unix-based operating system, which is text based. For submitting batches of jobs, SLURM is used.
+There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/user-guide">User Guide</a>, here are some basics that are good to know:</p>
+<h3 id="copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</h3>
+<p>In the future, it might be possible to mount data directly from Research Drive on Lisa. In that way, you should be able to directly work with data on the Research Drive on the LISA cluster.</p>
+<p>Currently, this is not yet possible. Therefore, you first need to copy data from Research Drive to Lisa. This can be done using <strong>Rclone</strong>.</p>
+<h4 id="copy-data-using-rclone">copy data using <strong>rclone</strong>:</h4>
+<ul>
+<li>see Surf instructions <a href="https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone">here</a> for setting up a connection between Research Drive and Lisa.</li>
+<li>In short, you need to setup a config file on Lisa. </li>
+<li>You can find the URL and username when you log in on Research Drive, under 'Settings/Instellingen' and 'Security/Beveiliging'. There, under 'WebDAV passwords' you can create a new password specifically for your connection with Lisa.</li>
+</ul>
+<h4 id="some-useful-rclone-commands">Some useful rclone commands</h4>
+<ul>
+<li>Once you have set up your connection, you can use these commands to work with the data</li>
+<li>On the Lisa cluster command line, you can list your directories and files using a combination of <code>rclone</code> and <code>ls</code>, for example:<ul>
+<li><code>rclone ls RD:"2010_Braintime (Projectfolder)/data"</code> &gt; this will show the content of the 2010_Braintime data folder on Research Drive (assuming your connection is setup properly and that you have access to this folder)</li>
+</ul>
+</li>
+<li>Copying data from Research Drive to a folder on your Lisa home:<ul>
+<li><code>rclone copy RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
+<li>or to check whether the command is working without actually copying you can use <code>--dryrun</code>: <code>rclone copy --dry-run RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
+</ul>
+</li>
+<li>using <a href="https://rclone.org/filtering/">filtering</a> you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':<ul>
+<li><code>rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="copy-data-using-rsync">copy data using <strong>rsync</strong></h4>
+<ul>
+<li>To copy other files (e.g., scripts) from locations outside Research Drive, you could use <strong>rsync</strong></li>
+<li>here is an example command for copying a file to Lisa: <code>rsync -rvaz /Users/eduardklapwijk/sbatch-fmriprep.slurm -e ssh &lt;username&gt;@lisa.surfsara.nl:/home/&lt;username&gt;</code></li>
+</ul>
+<h2 id="running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</h2>
+<h4 id="using-fmriprep-and-mriqc">Using fmriprep and mriqc</h4>
+<p>Extensive documentation for these tools can be found at <a href="https://fmriprep.org/en/latest/index.html">fmriprep</a> and <a href="https://mriqc.readthedocs.io/en/latest/">mriqc</a>. Here, I will give a short summary and basic steps to use fmriprep on the Lisa cluster.</p>
+<ol>
+<li>First go to an interactive node (e.g., <code>srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash</code>), otherwise you run into memory problems when unpacking the image. In the interactive session, download the Singularity image (this is a container containing all the software to run fmriprep): <code>singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0</code> (replace with latest version number)  </li>
+<li>This will create an image (.simg file) on the Lisa cluster, see the fmriprep <a href="https://fmriprep.org/en/latest/singularity.html#">documentation</a> with very helpful troubleshooting steps and an example of an sbatch script to run fmriprep with your study <a href="https://fmriprep.org/en/latest/singularity.html#running-singularity-on-a-slurm-system">here</a>. I have used this example to create an sbatch script that works on the Lisa cluster:        </li>
+</ol>
+<pre><code>#!/bin/bash
+#
+#SBATCH -J fmriprep
+#SBATCH --time=48:00:00
+#SBATCH -n 1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=4G
+#SBATCH -p normal  # Queue names you can submit to
+# Outputs ----------------------------------
+#SBATCH -o log/%x-%A-%a.out
+#SBATCH -e log/%x-%A-%a.err
+#SBATCH --mail-user=&lt;your@email&gt;
+#SBATCH --mail-type=ALL
+# ------------------------------------------
+
+BIDS_DIR=&quot;$STUDY/data&quot;
+DERIVS_DIR=&quot;derivatives/fmriprep-20.2.0&quot;
+
+# Prepare some writeable bind-mount points.
+TEMPLATEFLOW_HOST_HOME=$STUDY/.cache/templateflow
+FMRIPREP_HOST_CACHE=$STUDY/.cache/fmriprep
+mkdir -p ${TEMPLATEFLOW_HOST_HOME}
+mkdir -p ${FMRIPREP_HOST_CACHE}
+
+# Prepare derivatives folder
+mkdir -p $STUDY/${DERIVS_DIR}
+
+# This trick will help you reuse freesurfer results across pipelines and fMRIPrep versions
+mkdir -p $STUDY/derivatives/freesurfer-6.0.1
+ if [ ! -d $STUDY/${DERIVS_DIR}/freesurfer ]; then
+     ln -s $STUDY/derivatives/freesurfer-6.0.1 $STUDY/${DERIVS_DIR}/freesurfer
+ fi
+
+# Make sure FS_LICENSE is defined in the container.
+export SINGULARITYENV_FS_LICENSE=$STUDY/images/freesurfer.txt
+
+# Designate a templateflow bind-mount point
+export SINGULARITYENV_TEMPLATEFLOW_HOME=&quot;/templateflow&quot;
+SINGULARITY_CMD=&quot;singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $STUDY:/work $STUDY/images/fmriprep-20.2.0.simg&quot;
+
+# Parse the participants.tsv file and extract one subject ID from the line corresponding to this SLURM task.
+subject=$( sed -n -E &quot;$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\&gt;.*/\1/gp&quot; ${STUDY}/data/participants.tsv )
+
+# Remove IsRunning files from FreeSurfer
+find $STUDY/derivatives/freesurfer-6.0.1/sub-$subject/ -name &quot;*IsRunning*&quot; -type f -delete
+
+# Compose the command line
+cmd=&quot;${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json&quot;
+
+# Setup done, run the command
+echo Running task ${SLURM_ARRAY_TASK_ID}
+echo Commandline: $cmd
+eval $cmd
+exitcode=$?
+
+# Output results to a table
+echo &quot;sub-$subject   ${SLURM_ARRAY_TASK_ID}    $exitcode&quot; \
+      &gt;&gt; ${SLURM_JOB_NAME}.${SLURM_ARRAY_JOB_ID}.tsv
+echo Finished tasks ${SLURM_ARRAY_TASK_ID} with exit code $exitcode
+exit $exitcode
+</code></pre>
+
+<ul>
+<li>This sbatch script assumes a couple of things in place:  <ul>
+<li>a /data folder with your data in BIDS format + a participants.tsv file (note: you can also make a custom participants.tsv file to run only a subset of your data)  </li>
+<li>a Freesurfer license file, here in the /images folder. You can obtain a Freesurfer license for free <a href="https://surfer.nmr.mgh.harvard.edu/registration.html">here</a>  </li>
+<li>a bids-filter-file. This is a very useful filter when you want to run only certain sessions or certain modalities with fmriprep. See more info at the <a href="https://fmriprep.org/en/20.2.0/faq.html#how-do-i-select-only-certain-files-to-be-input-to-fmriprep">fmriprep website</a>. This is an example when you only want to use T1w and one task ('feedback') from session ses-01:</li>
+</ul>
+</li>
+</ul>
+<pre><code>{
+    &quot;t1w&quot;: {
+        &quot;datatype&quot;: &quot;anat&quot;,
+        &quot;session&quot;: &quot;01&quot;,
+        &quot;suffix&quot;: &quot;T1w&quot;
+    },
+    &quot;bold&quot;: {
+        &quot;datatype&quot;: &quot;func&quot;,
+        &quot;task&quot;: &quot;feedback&quot;,
+        &quot;session&quot;: &quot;01&quot;,
+        &quot;suffix&quot;: &quot;bold&quot;
+    }
+}
+</code></pre>
+
+<ul>
+<li>Now you are ready to set your $STUDY directory:<br />
+<code>export STUDY=/home/&lt;username&gt;</code> (or whatever directory is your root)  </li>
+<li>Next you can run run the slurmbatch script for all participants in tsv file:<br />
+<code>sbatch --array=1-$(( $( wc -l $STUDY/participants.tsv | cut -f1 -d' ' ) - 1 )) scripts/sbatch-fmriprep.slurm</code></li>
+</ul>
+<h5 id="mriqc-specific-commands">mriqc specific commands:</h5>
+<ul>
+<li></li>
+</ul></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+                <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/yaml.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
+    <meta name="author" content="SYNC lab">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/data-management/folder-structure.html">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>File organization - SYNC lab wiki</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">SYNC lab wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../index.html">Home</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/contribute.html">How to contribute</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Open acccess publishing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-access-info.html">Information</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-access-how.html">How to publish open access</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data sharing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/gdpr.html">The GDPR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/pub-packages.html">Publication packages</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/neurovault.html">NeuroVault</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/dsa-template.html">Data sharing agreement</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reproducibility</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-software.html">Open software</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-code.html">Open code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/preregistration.html">Preregistering your research</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="data-security.html">Data security protocol</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-info.html">Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-how.html">How to use the Research Drive</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="folder-structure.html">File organization</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Version control</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="vc-principles.html">Basic principles</a>
+</li>
+
+        
+            
+<li >
+    <a href="vc-github.html">Version control for code</a>
+</li>
+
+        
+            
+<li >
+    <a href="vc-datalad.html">Version control for data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="FAIR.html">FAIR data</a>
+</li>
+
+        
+            
+<li >
+    <a href="types-metadata.html">Types of metadata</a>
+</li>
+
+        
+            
+<li >
+    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+
+        
+            
+<li >
+    <a href="codebooks.html">Codebooks</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/finances.html">Financial information</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="research-drive-how.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="vc-principles.html">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/folder-structure.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#folder-structure">Folder structure</a></li>
+            <li class="second-level"><a href="#example-folder-structure">Example folder structure</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="folder-structure">Folder structure</h1>
+<p>It is important to have a folder structure that provides a good overview of your project and that maintains all data and documentation of your project logically. Important aspects of a good project structure are:</p>
+<ol>
+<li>Separate source and <strong>raw data from further processed data</strong>. Preferably make raw data read-only so they cannot be edited.</li>
+<li>Separate different <strong>types of data</strong>, when necessary</li>
+<li>Provide scripts or descriptions that were used to go from the raw data to all processed data &gt; make sure your analyses from start to finish are <strong>reproducible</strong>! </li>
+<li>Provide sufficient <strong>metadata</strong> about your project, e.g., preregistrations, study protocol, codebooks/data dictionaries, a data management plan, general information about the project, the ethics protocol, etc. Provide readme.txt files were necessary.</li>
+<li>Provide all <strong>materials and instructions</strong> used to collect the data, e.g., tasks, questionnaires and instructions</li>
+<li>Overall: use self-explanatory <strong>file and folder names</strong> or provide documentation explaining which files can be found where. Also keep in mind <strong>versioning</strong> (e.g., use the date in the filenames, the version or use a formal version control system like git)</li>
+<li>Finally, use your folders <strong>consistently</strong>, e.g., place all data in the Data folder.</li>
+</ol>
+<h2 id="example-folder-structure">Example folder structure</h2>
+<p>Below, you can find an example folder structure of the project "YYYY_ProjectName". You are encouraged to use this or a similar format, but don't feel obliged!</p>
+<details>
+    <summary>About the project</summary>
+    <ul>
+        <li>Preregistration(s) and/or study protocol (or links to them)</li>
+        <li>Data dictionary/codebook</li>
+        <li>Data management plan (DMP) and/or Data protection impact assessment (DPIA)</li>
+        <li>Data sharing agreement (if applicable)</li>
+        <li>Involved researcheres and their contact information</li>
+        <li>Description of the project</li>
+        <li>Overview of published manuscripts</li>
+        <li>Organizational files about planning, availability, task divisioin, etc.</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Ethics/CME/METC</summary>
+    <ul>
+        <li>Application</li>
+        <li>Responses</li>
+        <li>Final approved protocol</li>
+    </ul>
+</details>
+
+<details><summary>Data</summary>
+    If necessary, add another folder here for each timepoint or sub-project.<br>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="behavioral_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Behavioral_data</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#"><strong>Task_x</strong></a>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-submenu"><a class="dropdown-item" href="#"><strong>analysis</strong></a>
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a href="#">(link to) pipeline/manual used for processing</a></li>
+                          <li class="dropdown-item"><a href="#">analysis log</a></li>
+                          <li class="dropdown-item"><a href="#">scripts/macros</a></li>
+                          <li class="dropdown-item"><a href="#">quality check document</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#"><strong>processed_data</strong></a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#"><strong>raw_data</strong></a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="neural_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Neural_data</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu"><a class="dropdown-item" tabindex="-1" href="#"><strong>analysis</strong></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a tabindex="-1" href="#">(link to) pipeline/manual used for processing</a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">analysis log</a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">scripts/macros</a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">quality check document</a></li>
+                    </ul></li>
+               <li class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#"><strong>processed_data</strong></a>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a tabindex="-1" href="#"><strong>analysis_x</strong></a></li>
+                      </ul></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" href="#"><strong>raw_data</strong></a>
+                  <ul class="dropdown-menu">
+                        <li class="dropdown-submenu"><a class="dropdown-item" href="#"><strong>participant_number</strong></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#"><strong>anat</strong></a></li>
+                            <li class="dropdown-item"><a href="#"><strong>dwi</strong></a></li>
+                            <li class="dropdown-item"><a href="#"><strong>func</strong></a></li>
+                        </ul>
+                      </li>
+                  </ul>
+                </li>
+          </ul>
+    </div> 
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="physiological_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Physiological_data</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu"><a  class="dropdown-item" href="#"><strong>analysis</strong></a>
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a tabindex="-1" href="#">(link to) pipeline/manual used for processing</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">analysis log</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">scripts/macros</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">quality check document</a></li>
+                      </ul>
+                    </li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>processed_data</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>raw_data</strong></a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="questionnaire_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Questionnaire_data</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu"><a  class="dropdown-item" href="#"><strong>analysis</strong></a>
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a tabindex="-1" href="#">(link to) pipeline/manual used for processing</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">analysis log</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">scripts/macros</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">data dictionary/codebook</a></li>
+                      </ul>
+                    </li>                
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>processed_data</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>raw_data</strong></a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+<br>
+</details>
+
+<details>
+    <summary>Finances</summary>
+    <ul>
+        <li>Applications participant money</li>
+        <li>Overviews</li>
+        <li>Receipts (kwitanties)</li>
+        <li>Travel expenses</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Literature_resources</summary>
+    <ul>
+        <li>Papers usable or used</li>
+        <li>Reference manager files</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Measures</summary>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="Questionnaires" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Questionnaires</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu"><a  class="dropdown-item" href="#"><strong>Questionnaire_x</strong></a>
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a tabindex="-1" href="#">papers</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">manuals, scoreforms</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">software</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">scripts</a></li>
+                          <li class="dropdown-item"><a tabindex="-1" href="#">instructions</a></li>
+                      </ul>
+                    </li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">List of questionnaires</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="Tasks" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Tasks</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" tabindex="-1" href="#"><strong>Task_x</strong></a>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a tabindex="-1" href="#">software</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">scripts</a></li>
+                      </ul></li>
+                </li>
+          </ul>
+    </div> 
+<br>
+</details>
+
+<details>
+    <summary>Outreach_recruitment</summary>
+    <ul>
+        <li>Presentations, website texts, education, newsletters</li>
+        <li>Recruitment emails, flyers, folders, contact with schools</li>
+        <li>Quotes from participants</li>
+        <li>Contents of the goodiebag</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Publication_packages</summary>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="pubpakage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <strong>Author_et_al_(year)_journal</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>1_Manuscript</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>2_Task_instructions-questionnaires-stimuli-scripts</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>3_Anonymized_raw_data</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>4_Data_processing_files-scripts</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>5_Processed_data</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>6_Ethics_protocol</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Readme.txt</a></li>                
+                  </ul>
+                </li>
+              </ul>
+        </div> 
+</details>
+
+<details>
+    <summary>Students</summary>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="pubpakage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Year_NameStudent</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>Data</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>Manuscript</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Readme_StudentName.txt</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div> 
+</details>
+
+<details>
+    <summary>Work_documents</summary>
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="pubpakage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Data_collection_protocols</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Subject folder documents (during data collection)</a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Instruction protocol</a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Forms brevethouder and portier</a></li>      
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Forms brevethouder and portier</a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Requests for the HIX system</a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Planning schedules</a></li>        
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Scan logs</a></li>        
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#">Scanning & data collection protocols</a></li>               
+                  </ul>
+                </li>
+              </ul>
+        </div> 
+    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="pubpakage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <strong>Meetings</strong>
+            </button>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>Agendas</strong></a></li>
+                <li class="dropdown-item"><a  class="dropdown-item" tabindex="-1" href="#"><strong>Minutes</strong></a></li>
+                  </ul>
+                </li>
+              </ul>
+        </div> 
+<div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="questionnaire_data" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <strong>Planning_of_participants</strong>
+        </button>
+        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li class="dropdown-divider"></li>
+            <li class="dropdown-submenu"><a  class="dropdown-item" href="#"><strong>Calling_and_planning</strong></a>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Bijzonderhedenbestand (encrypted)</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Calling protocol</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Coupling subjects-numbers (encrypted)</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Contact information (encrypted)</a></li>
+                  </ul>
+                </li>                
+            <li class="dropdown-submenu"><a  class="dropdown-item" href="#"><strong>Emailing</strong></a>
+                  <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Confirmation and reminder emails</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">MRI checklist</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Practical information and instructions (location, time, hormone collection, etc.</a></li>
+                      <li class="dropdown-item"><a tabindex="-1" href="#">Information letter and informed consent form</a></li>
+                  </ul>
+                </li>            
+              </ul>
+            </li>
+          </ul>
+    </div> 
+</details></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+                <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/yaml.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

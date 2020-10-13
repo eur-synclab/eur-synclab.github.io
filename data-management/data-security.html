@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
+    <meta name="author" content="SYNC lab">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/data-management/data-security.html">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Data security protocol - SYNC lab wiki</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">SYNC lab wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../index.html">Home</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/intro-sync.html">The SYNC lab</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../welcome/contribute.html">How to contribute</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How we work <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../how-we-work/code-of-conduct.html">Code of conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/labmeetings.html">Labmeetings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../how-we-work/collab-tools.html">Collaboration tools</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Open acccess publishing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-access-info.html">Information</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-access-how.html">How to publish open access</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data sharing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/gdpr.html">The GDPR</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/pub-packages.html">Publication packages</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/data-sharing-how.html">How to share data?</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/neurovault.html">NeuroVault</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/dsa-template.html">Data sharing agreement</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reproducibility</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/open-software.html">Open software</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/open-code.html">Open code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../open-science/preregistration.html">Preregistering your research</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+</li>
+
+        
+            
+<li >
+    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="data-security.html">Data security protocol</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-info.html">Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="research-drive-how.html">How to use the Research Drive</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="folder-structure.html">File organization</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Version control</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="vc-principles.html">Basic principles</a>
+</li>
+
+        
+            
+<li >
+    <a href="vc-github.html">Version control for code</a>
+</li>
+
+        
+            
+<li >
+    <a href="vc-datalad.html">Version control for data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="FAIR.html">FAIR data</a>
+</li>
+
+        
+            
+<li >
+    <a href="types-metadata.html">Types of metadata</a>
+</li>
+
+        
+            
+<li >
+    <a href="dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+
+        
+            
+<li >
+    <a href="codebooks.html">Codebooks</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data analysis <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../data-analysis/types-analysis.html">Types of data analysis</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/finances.html">Financial information</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../open-science/osf.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="research-drive-info.html">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/data-security.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#data-security-protocol">Data security protocol</a></li>
+            <li class="second-level"><a href="#loss-of-data-or-other-problems">Loss of data or other problems?</a></li>
+                
+            <li class="second-level"><a href="#general-data-security-principles">General data security principles</a></li>
+                
+                <li class="third-level"><a href="#always-report-a-possible-data-leakbreach">Always report a (possible) data leak/breach</a></li>
+                <li class="third-level"><a href="#anonymize-your-data">Anonymize your data</a></li>
+                <li class="third-level"><a href="#choose-safe-passwords-for-your-devices">Choose safe passwords for your devices</a></li>
+                <li class="third-level"><a href="#protect-files-with-passwords-too">Protect files with passwords too</a></li>
+                <li class="third-level"><a href="#keep-paper-data-logs-questionnaires-mri-checklists-locked-up">Keep paper data (logs, questionnaires, MRI checklists) locked up</a></li>
+                <li class="third-level"><a href="#keep-a-clear-desk-policy">Keep a clear-desk policy</a></li>
+                <li class="third-level"><a href="#email-safely">Email safely</a></li>
+                <li class="third-level"><a href="#print-safely">Print safely</a></li>
+            <li class="second-level"><a href="#storing-your-data">Storing your data</a></li>
+                
+                <li class="third-level"><a href="#aim-not-to-store-data-on-local-drives">Aim not to store data on local drives</a></li>
+                <li class="third-level"><a href="#do-not-store-identifiable-information-on-personal-devices">Do not store identifiable information on personal devices</a></li>
+                <li class="third-level"><a href="#do-not-store-non-anonymized-data-in-the-cloud">Do not store non-anonymized data in the cloud</a></li>
+                <li class="third-level"><a href="#if-using-a-local-drive-laptop-usb-external-hard-drive-or-video-camera-the-following-rules-apply">If using a local drive, laptop, USB, external hard drive, or video camera, the following rules apply:</a></li>
+            <li class="second-level"><a href="#communication-and-sharing">Communication and sharing</a></li>
+                
+                <li class="third-level"><a href="#do-not-share-data-via-email-attachments-google-drive-etc">Do not share data via email attachments, Google Drive, etc.</a></li>
+                <li class="third-level"><a href="#do-not-talk-about-or-analyze-individual-data-in-public-spaces">Do not talk about or analyze individual data in public spaces</a></li>
+                <li class="third-level"><a href="#contacting-participants-outside-the-university">Contacting participants outside the university</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="data-security-protocol">Data security protocol</h1>
+<p>We researchers deal with a lot of data: task data, questionnaire data, MRI or EEG data, but also contact information, health information, etc. Most of these data are highly sensitive, in that the <strong>risk of identification</strong> is high. Also, most of us probably do not want people who aren't involved in your project to have access to our data without our knowledge. In order to deal with the sensitivity of the data and prevent them from being stolen, it is imperative that we ensure the highest possible data security. This document contains some tips to maximize data security. By following these tips, you can be more confident that your participants’ privacy will be guarded and the university will not get sued :smile:</p>
+<h2 id="loss-of-data-or-other-problems">Loss of data or other problems?</h2>
+<p>Always report a data breach to the Servicedesk: servicedesk@eur.nl (phone +31 (0)10 408 8880),  click <a href="https://www.eur.nl/en/campus/security-safety/information-security/data-breach">here for more information</a>.</p>
+<h2 id="general-data-security-principles">General data security principles</h2>
+<h3 id="always-report-a-possible-data-leakbreach">Always report a (possible) data leak/breach</h3>
+<p><ul>
+    <li>Every loss of data is a potential data leak, such as: </li>
+    <ul>
+        <li>stolen or lost digital files: USBs, laptops, external hard drives, data that is not backed-up, etc.</li>
+<li>stolen or lost printed personal data, e.g, a note containing a password, lists with grades, etc.</li>
+<li>viruses on your PC or hacked accounts, including phishing mails</li>
+<li>both pseudonymized and anonymized data need to be reported</li>
+</ul> <li>Contact your supervisor <b>and</b> Servicedesk (servicedesk@eur.nl)</li> <li>Report the (possible) leak as soon as possible, so that we can adequately respond and limit the amount of damage for participants as much as possible. Keep in mind that measures taken are meant to secure the data, not to punish those involved!</li></p>
+</ul>
+
+<h3 id="anonymize-your-data">Anonymize your data</h3>
+<p>The best way to guard the privacy of your participants is to anonymize your data, so that the data cannot be traced back to participants (not even with a key containing the name-number links). For longitudinal data, this can get complicated, since you want to be able to link the data of the same subject and may also need the participants’ contact info for next waves. </p>
+<h3 id="choose-safe-passwords-for-your-devices">Choose safe passwords for your devices</h3>
+<p>This concerns your EUR account, your laptop, your phone (if it has email on it), and all other devices that contain data.</p>
+<ul>
+<li>Use a sentence instead of a word: they are harder to crack and easier to remember (especially when they are long and contain letters, numbers and signs).</li>
+<li>Use a password manager to keep all your passwords safe, such as <strong><a href="https://www.lastpass.com/nl">Lastpass</a></strong>.
+<details>
+<summary>Read more about Lastpass</summary>
+Lastpass is a password manager that can store all your passwords safely in the cloud. You have to think of a master password - a very strong password - only once. As soon as you log in using that password, you have access to all passwords that you saved in your vault. With Lastpass you can (<a href="https://assets.cdngetgo.com/a8/b9/4fbe9f3b44e09b344e2054e30ba6/overview-of-lp-enterprise-features.pdf)">all features</a>):
+    <ul>
+        <li>Create safe passwords (no creativity required from your end)</li>
+        <li>Never again have to remember passwords for all of your accounts by heart</li>
+        <li>Store your passwords safely</li>
+        <li>Autofill passwords on websites so that signing on will be a breeze</li>
+        <li>Share passwords with others (free version: share with 1 person)</li>
+        <li>Save secure notes and other details as well</li>
+    </ul>
+    <br>You can either install lastpass on your PC (or download the mobile app) or install an extension in your browser.
+    <ul>
+        <li><a href=https://assets.cdngetgo.com/05/5c/2646701d44969ccf751043e87a42/lastpass-end-user-reference-guide.pdf>Get started</a></li>
+        <li>More information <a href=https://www.lastpass.com/how-lastpass-works>here</a></li>
+        <li><a href=https://support.logmeininc.com/lastpass>User manual</a></li>
+    </ul> </details></li>
+</ul>
+<ul> <li>If possible, change your passwords or codes (e.g., to lockers) regularly</li>
+    <li>Share passwords only with the people who really need it</li>
+    <li>Protect mobile devices:</li>
+    <ul>
+        <li>Use a safe internet network (preferably Eduroam): never use an open network. Preferably use <a href=https://www.surf.nl/eduvpn-maak-onveilige-verbindingen-veilig>EduVPN</a>, which is free for university employees and makes sure that the connection is safe.</li>
+        <li>Make sure you can wipe the device and change the password(s) from a distance in case of theft or loss</li>
+        <li>Make sure to have a copy of the information on the university system</li>
+        <li>Always install all security updates and, if possible, antivirus and anti-malware software</li>
+        <li>Do not install jailbreak/root (gaining privileged access to the operating system)</li>
+        <li>Do not save confidential information, unless it is well-protected</li>
+    </ul>
+
+</ul>
+
+<h3 id="protect-files-with-passwords-too">Protect files with passwords too</h3>
+<p>If a file contains personal data, such as contact information, the link to a participant number or data on the MRI checklist, protect it with a password:</p>
+<ul>
+<li>In Word and Excel: File &gt; Info &gt; Protect document/Workbook structure &gt; Encrypt with password. You can also restrict editing via these options.</li>
+<li>Save the password somewhere safe so that you can always access the document: if you lose the password, you cannot access the document anymore.</li>
+<li>Only give the password to those who really need it. Try to restrict the amount of people that have access to the document.</li>
+</ul>
+<h3 id="keep-paper-data-logs-questionnaires-mri-checklists-locked-up">Keep paper data (logs, questionnaires, MRI checklists) locked up</h3>
+<ul>
+<li>Do not leave data behind in labs after testing: take them with you! When testing multiple participants in one day, do not leave data from a previous participant laying around</li>
+<li>Keep papers in a locked closet or a locker and only give access to people that need it</li>
+<li>If necessary, keep a record of who has access</li>
+<li>Do not take papers with such data home or outside, unless strictly necessary</li>
+</ul>
+<h3 id="keep-a-clear-desk-policy">Keep a clear-desk policy</h3>
+<p>Do not leave any data unattended if you leave your desk for a longer period of time. </p>
+<ul>
+<li>For digital data: lock your screen (Cntrl+Alt+Delete &gt; Enter or: Windows+L)</li>
+<li>For paper data: put them in a closed closet or locker or lock your room if no one else is present</li>
+<li>When testing participants, do not leave data from a previous participant laying around and take them with you when you leave</li>
+<li>This includes all desks: your own workspace, the secretariat, computer room, the lab, etc.</li>
+</ul>
+<h3 id="email-safely">Email safely</h3>
+<ul>
+<li>When emailing large amounts of people (e.g., all your participants for a project newsletter), put the email addresses in the BCC (blind carbon copy) field, so that the receivers cannot see who else got the email. Put your own email address in the “To” field.</li>
+<li>Where possible, use your university email, which has a safe connection with the university servers. Avoid using Hotmail, Gmail or Yahoo.</li>
+<li>Never send research data via email (except when encrypted or using tools like SURF filesender).</li>
+</ul>
+<h3 id="print-safely">Print safely</h3>
+<ul>
+<li>Use Secure printing to print confidential information via a password: The printer will only start printing when you have filled in a personal pin code. Securely printed documents will be erased  from the university servers immediately after printing. The settings of the print job cannot be adjusted at the printer</li>
+<li>When throwing away confidential information on paper, use a container that can be locked (especially made for confidential paper). </li>
+</ul>
+<h2 id="storing-your-data">Storing your data</h2>
+<h3 id="aim-not-to-store-data-on-local-drives">Aim not to store data on local drives</h3>
+<ul>
+<li>Use the Research Drive, which is automatically backed-up and secured through the university. </li>
+<li>If you are processing data on your local Data drive, be sure to back it up at the Research Drive.</li>
+<li>Don’t use personal accounts to store data long-term: if you leave the university suddenly, your data will not be accessible for others!</li>
+</ul>
+<h3 id="do-not-store-identifiable-information-on-personal-devices">Do not store identifiable information on personal devices</h3>
+<ul>
+<li>It is only permitted to work with sensitive data when this is necessary for data collection, processing or planning and, officially, only when participants have given their permission.</li>
+<li>If you do work with sensitive data on a personal computer (e.g., laptop), remove the data after the analyses.</li>
+</ul>
+<h3 id="do-not-store-non-anonymized-data-in-the-cloud">Do not store non-anonymized data in the cloud</h3>
+<p>Never save documents online, just open them. You never know who will get their hands on your data when you store it in the cloud. </p>
+<ul>
+<li>If you want to work at home, use Owncloud to interact with the Research Drive data</li>
+<li>Or use Remote desktop: gives access to your university desktop, see <a href="https://my.eur.nl/nl/eur-employee/services/flex-thuiswerken-myapps">this link</a> for a manual</li>
+<li>Or use <a href="https://surfdrive.surf.nl/files">SURFdrive</a>, a safe alternative to Google Drive that everyone with a (Dutch) university account has access to (500 GB of personal storage) </li>
+<li>N.B. You can request SURFdrive also for students or give students the link</li>
+</ul>
+<h3 id="if-using-a-local-drive-laptop-usb-external-hard-drive-or-video-camera-the-following-rules-apply">If using a local drive, laptop, USB, external hard drive, or video camera, the following rules apply:</h3>
+<ul>
+<li>If you are processing data on your local drive, be sure to always back it up on the Research Drive</li>
+<li>If possible, protect the device, hard drive or drive with a password</li>
+<li>Do not put the passwords to laptops on the laptop itself</li>
+<li>When the data have been saved at the right location, delete the data from the device (shift + delete or empty the recycling bin)</li>
+<li>If you have to take devices onto the street, bring them to a (safe and appointed) university location as quickly as possible. Do not bring them home unless absolutely necessary.</li>
+<li>If you have to take data home, do let leave them unattended in a (semi)public place (such as a car or library). If possible, leave it in a locked room.</li>
+</ul>
+<h2 id="communication-and-sharing">Communication and sharing</h2>
+<h3 id="do-not-share-data-via-email-attachments-google-drive-etc">Do not share data via email attachments, Google Drive, etc.</h3>
+<ul>
+<li>Instead of email attachments, use <a href="https://filesender.surf.nl">SURF filesender</a>. Email attachments are saved on mail servers and on your PC, whereas this is not the case with filesender. </li>
+<li>If you are sending an internal email, use a hyperlink or the path to the relevant folder where possible</li>
+<li>If you want others to be able to edit the documents you share, use <a href="https://surfdrive.surf.nl/files">SURFdrive</a> or share only the relevant files via Research Drive. Be sure  the data shared are anonymous.</li>
+</ul>
+<h3 id="do-not-talk-about-or-analyze-individual-data-in-public-spaces">Do not talk about or analyze individual data in public spaces</h3>
+<p>For example in the elevator, a common room, public transport, social media, emails, etc.</p>
+<ul>
+<li>Coding videos and audio is only allowed where other researchers from the same project work or in special coding rooms</li>
+<li>Coding audio in a public space is only allowed when others cannot hear the audio, e.g., because you are wearing headphones</li>
+<li>Transcribe audio and video using safe websites such as uitgetypt.nl </li>
+</ul>
+<h3 id="contacting-participants-outside-the-university">Contacting participants outside the university</h3>
+<ul>
+<li>When contacting participants outside the university, e.g., via your own mobile phone, make sure not to send any identifiable information via your phone (incl. sms or whatsapp)</li>
+<li>Avoid coupling participant numbers with phone numbers and/or names in emails or whatsapp messages</li>
+</ul></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+                <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/yaml.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
