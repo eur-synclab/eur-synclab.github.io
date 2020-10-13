@@ -36,6 +36,19 @@ Currently, this is not yet possible. Therefore, you first need to copy data from
 - using [filtering](https://rclone.org/filtering/) you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':
     - `rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data`
 
+#### To copy other files (e.g., scripts) from locations outside Research Drive, you could use rsync
+- here is an example command for copying a file to Lisa: `rsync -rvaz /Users/eduardklapwijk/sbatch-fmriprep.slurm -e ssh <username>@lisa.surfsara.nl:/home/<username>`
+
 ## Running analyses on the Lisa HPC
 
 #### Using fmriprep and mriqc
+
+- Extensive documentation for these tools can be found at [fmriprep](https://fmriprep.org/en/latest/index.html) and [mriqc](https://mriqc.readthedocs.io/en/latest/). Here, I will give a short summary and basic steps to use fmriprep on the Lisa cluster.
+
+1. First go to an interactive node (e.g., `srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash`. Then download the Singularity image (this is a container containing all the software to run fmriprep): `singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0` (replace with latest version number)
+2. This will create an image (.simg file) on the Lisa cluster, see the fmriprep [documentation](https://fmriprep.org/en/latest/singularity.html#) with very helpful troubleshooting steps and an example of an sbatch script to run fmriprep with your study [here](https://fmriprep.org/en/latest/singularity.html#running-singularity-on-a-slurm-system). I have used this example to create an sbatch script that works on the Lisa cluster:
+
+.. literalinclude:: _static/sbatch-fmriprep.slurm
+   :language: bash
+   :name: sbatch.slurm
+   :caption: \*\*sbatch-fmriprep.slurm\*\*:
