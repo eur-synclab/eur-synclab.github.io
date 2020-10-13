@@ -441,10 +441,7 @@
                 
             <li class="second-level"><a href="#slurm-usage">SLURM usage</a></li>
                 
-            <li class="second-level"><a href="#copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</a></li>
-                
-                <li class="third-level"><a href="#this-can-be-done-using-rclone">This can be done using Rclone:</a></li>
-                <li class="third-level"><a href="#some-useful-rclone-commands-once-you-have-set-up-your-connection">Some useful Rclone commands, once you have set up your connection:</a></li>
+                <li class="third-level"><a href="#copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</a></li>
             <li class="second-level"><a href="#running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</a></li>
                 
                 <li class="third-level"><a href="#using-fmriprep-and-mriqc">Using fmriprep and mriqc</a></li>
@@ -469,18 +466,19 @@ More information about high perfomance computing options at the EUR can be found
 <h2 id="slurm-usage">SLURM usage</h2>
 <p>Lisa runs a Unix-based operating system, which is text based. For submitting batches of jobs, SLURM is used.
 There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/user-guide">User Guide</a>, here are some basics that are good to know:</p>
-<h2 id="copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</h2>
+<h3 id="copying-data-from-research-drive-to-lisa-hpc">Copying data from Research Drive to Lisa HPC</h3>
 <p>In the future, it might be possible to mount data directly from Research Drive on Lisa. In that way, you should be able to directly work with data on the Research Drive on the LISA cluster.</p>
-<p>Currently, this is not yet possible. Therefore, you first need to copy data from Research Drive to Lisa. </p>
-<h4 id="this-can-be-done-using-rclone">This can be done using <strong>Rclone</strong>:</h4>
+<p>Currently, this is not yet possible. Therefore, you first need to copy data from Research Drive to Lisa. This can be done using <strong>Rclone</strong>.</p>
+<h4 id="copy-data-using-rclone">copy data using <strong>rclone</strong>:</h4>
 <ul>
 <li>see Surf instructions <a href="https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone">here</a> for setting up a connection between Research Drive and Lisa.</li>
 <li>In short, you need to setup a config file on Lisa. </li>
 <li>You can find the URL and username when you log in on Research Drive, under 'Settings/Instellingen' and 'Security/Beveiliging'. There, under 'WebDAV passwords' you can create a new password specifically for your connection with Lisa.</li>
 </ul>
-<h4 id="some-useful-rclone-commands-once-you-have-set-up-your-connection">Some useful Rclone commands, once you have set up your connection:</h4>
+<h4 id="some-useful-rclone-commands">Some useful rclone commands</h4>
 <ul>
-<li>on the Lisa cluster command line, you can list your directories and files using a combination of <code>rclone</code> and <code>ls</code>, for example:<ul>
+<li>Once you have set up your connection, you can use these commands to work with the data</li>
+<li>On the Lisa cluster command line, you can list your directories and files using a combination of <code>rclone</code> and <code>ls</code>, for example:<ul>
 <li><code>rclone ls RD:"2010_Braintime (Projectfolder)/data"</code> &gt; this will show the content of the 2010_Braintime data folder on Research Drive (assuming your connection is setup properly and that you have access to this folder)</li>
 </ul>
 </li>
@@ -494,8 +492,109 @@ There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/use
 </ul>
 </li>
 </ul>
+<h4 id="copy-data-using-rsync">copy data using <strong>rsync</strong></h4>
+<ul>
+<li>To copy other files (e.g., scripts) from locations outside Research Drive, you could use <strong>rsync</strong></li>
+<li>here is an example command for copying a file to Lisa: <code>rsync -rvaz /Users/eduardklapwijk/sbatch-fmriprep.slurm -e ssh &lt;username&gt;@lisa.surfsara.nl:/home/&lt;username&gt;</code></li>
+</ul>
 <h2 id="running-analyses-on-the-lisa-hpc">Running analyses on the Lisa HPC</h2>
-<h4 id="using-fmriprep-and-mriqc">Using fmriprep and mriqc</h4></div>
+<h4 id="using-fmriprep-and-mriqc">Using fmriprep and mriqc</h4>
+<p>Extensive documentation for these tools can be found at <a href="https://fmriprep.org/en/latest/index.html">fmriprep</a> and <a href="https://mriqc.readthedocs.io/en/latest/">mriqc</a>. Here, I will give a short summary and basic steps to use fmriprep on the Lisa cluster.</p>
+<ol>
+<li>First go to an interactive node (e.g., <code>srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash</code>. Then download the Singularity image (this is a container containing all the software to run fmriprep): <code>singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0</code> (replace with latest version number)  </li>
+<li>This will create an image (.simg file) on the Lisa cluster, see the fmriprep <a href="https://fmriprep.org/en/latest/singularity.html#">documentation</a> with very helpful troubleshooting steps and an example of an sbatch script to run fmriprep with your study <a href="https://fmriprep.org/en/latest/singularity.html#running-singularity-on-a-slurm-system">here</a>. I have used this example to create an sbatch script that works on the Lisa cluster:        </li>
+</ol>
+<pre><code>#!/bin/bash
+#
+#SBATCH -J fmriprep
+#SBATCH --time=48:00:00
+#SBATCH -n 1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem-per-cpu=4G
+#SBATCH -p normal  # Queue names you can submit to
+# Outputs ----------------------------------
+#SBATCH -o /log/%x-%A-%a.out
+#SBATCH -e /log/%x-%A-%a.err
+#SBATCH --mail-user=&lt;your@email&gt;
+#SBATCH --mail-type=ALL
+# ------------------------------------------
+
+BIDS_DIR=&quot;$STUDY/data&quot;
+DERIVS_DIR=&quot;derivatives/fmriprep-20.2.0&quot;
+
+# Prepare some writeable bind-mount points.
+TEMPLATEFLOW_HOST_HOME=$STUDY/.cache/templateflow
+FMRIPREP_HOST_CACHE=$STUDY/.cache/fmriprep
+mkdir -p ${TEMPLATEFLOW_HOST_HOME}
+mkdir -p ${FMRIPREP_HOST_CACHE}
+
+# Prepare derivatives folder
+mkdir -p $STUDY/${DERIVS_DIR}
+
+# This trick will help you reuse freesurfer results across pipelines and fMRIPrep versions
+mkdir -p $STUDY/derivatives/freesurfer-6.0.1
+ if [ ! -d $STUDY/${DERIVS_DIR}/freesurfer ]; then
+     ln -s $STUDY/derivatives/freesurfer-6.0.1 $STUDY/${DERIVS_DIR}/freesurfer
+ fi
+
+# Make sure FS_LICENSE is defined in the container.
+export SINGULARITYENV_FS_LICENSE=$STUDY/images/freesurfer.txt
+
+# Designate a templateflow bind-mount point
+export SINGULARITYENV_TEMPLATEFLOW_HOME=&quot;/templateflow&quot;
+SINGULARITY_CMD=&quot;singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $L_SCRATCH:/work $STUDY/images/fmriprep-20.2.0.simg&quot;
+
+# Parse the participants.tsv file and extract one subject ID from the line corresponding to this SLURM task.
+subject=$( sed -n -E &quot;$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\&gt;.*/\1/gp&quot; ${STUDY}/data/participants.tsv )
+
+# Remove IsRunning files from FreeSurfer
+find $STUDY/derivatives/freesurfer-6.0.1/sub-$subject/ -name &quot;*IsRunning*&quot; -type f -delete
+
+# Compose the command line
+cmd=&quot;${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json --t2s-coreg&quot;
+
+# Setup done, run the command
+echo Running task ${SLURM_ARRAY_TASK_ID}
+echo Commandline: $cmd
+eval $cmd
+exitcode=$?
+
+# Output results to a table
+echo &quot;sub-$subject   ${SLURM_ARRAY_TASK_ID}    $exitcode&quot; \
+      &gt;&gt; ${SLURM_JOB_NAME}.${SLURM_ARRAY_JOB_ID}.tsv
+echo Finished tasks ${SLURM_ARRAY_TASK_ID} with exit code $exitcode
+exit $exitcode
+</code></pre>
+
+<ul>
+<li>This sbatch script assumes a couple of things in place:  <ul>
+<li>a /data folder with your data in BIDS format + a participants.tsv file (note: you can also make a custom participants.tsv file to run only a subset of your data)  </li>
+<li>a Freesurfer license file, here in the /images folder. You can obtain a Freesurfer license for free <a href="https://surfer.nmr.mgh.harvard.edu/registration.html">here</a>  </li>
+<li>a bids-filter-file. This is a very useful filter when you want to run only certain sessions or certain modalities with fmriprep. See more info at the <a href="https://fmriprep.org/en/20.2.0/faq.html#how-do-i-select-only-certain-files-to-be-input-to-fmriprep">fmriprep website</a>. This is an example when you only want to use T1w and one task ('feedback') from session ses-01:</li>
+</ul>
+</li>
+</ul>
+<pre><code>{
+    &quot;t1w&quot;: {
+        &quot;datatype&quot;: &quot;anat&quot;,
+        &quot;session&quot;: &quot;01&quot;,
+        &quot;suffix&quot;: &quot;T1w&quot;
+    },
+    &quot;bold&quot;: {
+        &quot;datatype&quot;: &quot;func&quot;,
+        &quot;task&quot;: &quot;feedback&quot;,
+        &quot;session&quot;: &quot;01&quot;,
+        &quot;suffix&quot;: &quot;bold&quot;
+    }
+}
+</code></pre>
+
+<ul>
+<li>Now you are ready to set your $STUDY directory:<br />
+<code>export STUDY=/home/&lt;username&gt;</code> (or whatever directory is your root)  </li>
+<li>Next you can run run the slurmbatch script for all participants in tsv file:<br />
+<code>sbatch --array=1-$(( $( wc -l $STUDY/participants.tsv | cut -f1 -d' ' ) - 1 )) scripts/sbatch-fmriprep.slurm</code></li>
+</ul></div>
         
         
     </div>
