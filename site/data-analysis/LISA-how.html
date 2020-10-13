@@ -501,7 +501,7 @@ There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/use
 <h4 id="using-fmriprep-and-mriqc">Using fmriprep and mriqc</h4>
 <p>Extensive documentation for these tools can be found at <a href="https://fmriprep.org/en/latest/index.html">fmriprep</a> and <a href="https://mriqc.readthedocs.io/en/latest/">mriqc</a>. Here, I will give a short summary and basic steps to use fmriprep on the Lisa cluster.</p>
 <ol>
-<li>First go to an interactive node (e.g., <code>srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash</code>. Then download the Singularity image (this is a container containing all the software to run fmriprep): <code>singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0</code> (replace with latest version number)  </li>
+<li>First go to an interactive node (e.g., <code>srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash</code>), otherwise you run into memory problems when unpacking the image. In the interactive session, download the Singularity image (this is a container containing all the software to run fmriprep): <code>singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0</code> (replace with latest version number)  </li>
 <li>This will create an image (.simg file) on the Lisa cluster, see the fmriprep <a href="https://fmriprep.org/en/latest/singularity.html#">documentation</a> with very helpful troubleshooting steps and an example of an sbatch script to run fmriprep with your study <a href="https://fmriprep.org/en/latest/singularity.html#running-singularity-on-a-slurm-system">here</a>. I have used this example to create an sbatch script that works on the Lisa cluster:        </li>
 </ol>
 <pre><code>#!/bin/bash
@@ -513,8 +513,8 @@ There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/use
 #SBATCH --mem-per-cpu=4G
 #SBATCH -p normal  # Queue names you can submit to
 # Outputs ----------------------------------
-#SBATCH -o /log/%x-%A-%a.out
-#SBATCH -e /log/%x-%A-%a.err
+#SBATCH -o log/%x-%A-%a.out
+#SBATCH -e log/%x-%A-%a.err
 #SBATCH --mail-user=&lt;your@email&gt;
 #SBATCH --mail-type=ALL
 # ------------------------------------------
@@ -542,7 +542,7 @@ export SINGULARITYENV_FS_LICENSE=$STUDY/images/freesurfer.txt
 
 # Designate a templateflow bind-mount point
 export SINGULARITYENV_TEMPLATEFLOW_HOME=&quot;/templateflow&quot;
-SINGULARITY_CMD=&quot;singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $L_SCRATCH:/work $STUDY/images/fmriprep-20.2.0.simg&quot;
+SINGULARITY_CMD=&quot;singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $STUDY:/work $STUDY/images/fmriprep-20.2.0.simg&quot;
 
 # Parse the participants.tsv file and extract one subject ID from the line corresponding to this SLURM task.
 subject=$( sed -n -E &quot;$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\&gt;.*/\1/gp&quot; ${STUDY}/data/participants.tsv )
@@ -551,7 +551,7 @@ subject=$( sed -n -E &quot;$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\&gt;.*/\1/
 find $STUDY/derivatives/freesurfer-6.0.1/sub-$subject/ -name &quot;*IsRunning*&quot; -type f -delete
 
 # Compose the command line
-cmd=&quot;${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json --t2s-coreg&quot;
+cmd=&quot;${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json&quot;
 
 # Setup done, run the command
 echo Running task ${SLURM_ARRAY_TASK_ID}
@@ -594,6 +594,10 @@ exit $exitcode
 <code>export STUDY=/home/&lt;username&gt;</code> (or whatever directory is your root)  </li>
 <li>Next you can run run the slurmbatch script for all participants in tsv file:<br />
 <code>sbatch --array=1-$(( $( wc -l $STUDY/participants.tsv | cut -f1 -d' ' ) - 1 )) scripts/sbatch-fmriprep.slurm</code></li>
+</ul>
+<h5 id="mriqc-specific-commands">mriqc specific commands:</h5>
+<ul>
+<li></li>
 </ul></div>
         
         
