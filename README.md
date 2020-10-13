@@ -24,9 +24,11 @@ For a more extensive explanation on how to contribute, please see [How to contri
 5. On your local PC, navigate to your newly made branch and make changes in the relevant files
 6. Write a `commit` message for every change you made
 7. In your prompt, navigate to your repository directory with `cd C:/users/username/your/repo/directory` and run `mkdocs build` (if you want to preview the website locally, run `mkdocs serve` and in your browser, go to the http that is displayed, http://127.0.0.1:8000/)
-8. If everything goes correctly, you can now open the new .html files in the `sync-manual/site` folder to see what your changes will look like
+8. If everything goes correctly, you can also open the new .html files in the `sync-manual/site` folder to see what your changes will look like
 9. Push the changes to your remote (i.e., the repository on your Github account)
-10. Make a pull request to merge your branch with the eur-synclab/sync-manual master branch
+10. Make a pull request to merge your branch with the `eur-synclab/sync-manual master` branch
+11. After merging your pull request, the `master` branch will need to be deployed to github pages (`gh-pages` branch). Ask one of the repository maintainers to do so. 
+12. After deploying, your changes will be visible on the website!
 
 ## Contributors ✨
 
