@@ -47,7 +47,7 @@ Currently, this is not yet possible. Therefore, you first need to copy data from
 
 Extensive documentation for these tools can be found at [fmriprep](https://fmriprep.org/en/latest/index.html) and [mriqc](https://mriqc.readthedocs.io/en/latest/). Here, I will give a short summary and basic steps to use fmriprep on the Lisa cluster.
 
-1. First go to an interactive node (e.g., `srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash`. Then download the Singularity image (this is a container containing all the software to run fmriprep): `singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0` (replace with latest version number)  
+1. First go to an interactive node (e.g., `srun --time=1:00:00 --ntasks=1 --nodes=1 --pty /bin/bash`), otherwise you run into memory problems when unpacking the image. In the interactive session, download the Singularity image (this is a container containing all the software to run fmriprep): `singularity build /images/fmriprep-20.2.0.simg docker://nipreps/fmriprep:20.2.0` (replace with latest version number)  
 2. This will create an image (.simg file) on the Lisa cluster, see the fmriprep [documentation](https://fmriprep.org/en/latest/singularity.html#) with very helpful troubleshooting steps and an example of an sbatch script to run fmriprep with your study [here](https://fmriprep.org/en/latest/singularity.html#running-singularity-on-a-slurm-system). I have used this example to create an sbatch script that works on the Lisa cluster:        
         
 ```
@@ -60,8 +60,8 @@ Extensive documentation for these tools can be found at [fmriprep](https://fmrip
 #SBATCH --mem-per-cpu=4G
 #SBATCH -p normal  # Queue names you can submit to
 # Outputs ----------------------------------
-#SBATCH -o /log/%x-%A-%a.out
-#SBATCH -e /log/%x-%A-%a.err
+#SBATCH -o log/%x-%A-%a.out
+#SBATCH -e log/%x-%A-%a.err
 #SBATCH --mail-user=<your@email>
 #SBATCH --mail-type=ALL
 # ------------------------------------------
@@ -89,7 +89,7 @@ export SINGULARITYENV_FS_LICENSE=$STUDY/images/freesurfer.txt
 
 # Designate a templateflow bind-mount point
 export SINGULARITYENV_TEMPLATEFLOW_HOME="/templateflow"
-SINGULARITY_CMD="singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $L_SCRATCH:/work $STUDY/images/fmriprep-20.2.0.simg"
+SINGULARITY_CMD="singularity run --cleanenv -B $BIDS_DIR:/data -B $DERIVS_DIR:/deriv -B ${TEMPLATEFLOW_HOST_HOME}:${SINGULARITYENV_TEMPLATEFLOW_HOME} -B $STUDY:/work $STUDY/images/fmriprep-20.2.0.simg"
 
 # Parse the participants.tsv file and extract one subject ID from the line corresponding to this SLURM task.
 subject=$( sed -n -E "$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\>.*/\1/gp" ${STUDY}/data/participants.tsv )
@@ -98,7 +98,7 @@ subject=$( sed -n -E "$((${SLURM_ARRAY_TASK_ID} + 1))s/sub-(\S*)\>.*/\1/gp" ${ST
 find $STUDY/derivatives/freesurfer-6.0.1/sub-$subject/ -name "*IsRunning*" -type f -delete
 
 # Compose the command line
-cmd="${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json --t2s-coreg"
+cmd="${SINGULARITY_CMD} /data /deriv participant --participant-label $subject -w /work/ -vv --omp-nthreads 8 --nthreads 12 --mem_mb 60000 --output-spaces MNI152NLin2009cAsym:res-2 anat fsnative fsaverage5 --use-aroma --bids-filter-file ${STUDY}/scripts/bids-filter.json"
 
 # Setup done, run the command
 echo Running task ${SLURM_ARRAY_TASK_ID}
@@ -136,3 +136,7 @@ exit $exitcode
 `export STUDY=/home/<username>` (or whatever directory is your root)  
 - Next you can run run the slurmbatch script for all participants in tsv file:  
 `sbatch --array=1-$(( $( wc -l $STUDY/participants.tsv | cut -f1 -d' ' ) - 1 )) scripts/sbatch-fmriprep.slurm`
+
+##### mriqc specific commands:
+
+- 
