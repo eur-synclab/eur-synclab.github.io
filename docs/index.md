@@ -16,7 +16,9 @@ Welcome! You are reading the first page of the SYNC lab wiki. This wiki is a **c
 
 ### How to use this wiki?
 
-It works best to open the **index.html** file and navigate the manual in your internet browser. In the menu bar, navigate to the chapter that you would like to read more about, or use the search bar!
+This wiki is primarily meant for employees of the SYNC-lab, but can be used by other researchers too, if desired.
+
+Click on a chapter in the menu bar that you would like to read more about, or use the search bar!
 
 #### Adding new stuff
 
@@ -26,7 +28,5 @@ It works best to open the **index.html** file and navigate the manual in your in
 
 
 
+<img src="./img/sync-logo.png" alt="Our logos" style="zoom:33%;" /> <img src="./img/YoungXperts_logo.png" alt="Our logos" style="zoom:33%;" />
 
-![picture](./img/B&D BBQ 2017.jpg)
-
-*Note:* This must be a much better and recent picture, haha
