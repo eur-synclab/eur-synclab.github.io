@@ -85,7 +85,7 @@ Advantages of Markdown:
 2. Follow steps 1-4 explained in The better way
 3. In your **prompt**, navigate to your repository directory with `cd C:/users/username/your/repo/directory` and run `mkdocs serve`. This creates a URL (something like http://127.0.0.1:8000/) which you can open in your internet browser. Here, you can see all changes that you make directly "live". Press Cntrl+C to stop this operation.
 4. Run `mkdocs build`. If everything goes correctly, you can now also open the new .html files in the `sync-manual/site` folder to see what your changes will look like in the browser. These files have to be created in order for the website to work on others' computers.
-5. `commit `your newly built website (html) files, e.g., `git commit -A . "Build site"`
+5. `commit `your newly built website (html) files, e.g., `git commit -A . -m "Build site"`
 6. Follow step 5-7 explained in The better way.
 
 <br>
