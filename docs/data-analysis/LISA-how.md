@@ -1,6 +1,6 @@
 # Using the Lisa cluster
 
-If you want to process a lot of data, using a high performance cluster will save a lot of time. We can use the [Lisa Cluster](https://userinfo.surfsara.nl/systems/lisa) from SURFsara
+If you want to process a lot of data, using a high performance cluster will save a lot of time. We can use the [Lisa Cluster](https://userinfo.surfsara.nl/systems/lisa) from SURFsara  
 More information about high perfomance computing options at the EUR can be found [here](https://www.eur.nl/en/library/node/20736)
 
 ## Obtaining an account
