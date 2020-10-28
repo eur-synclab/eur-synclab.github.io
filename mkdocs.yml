@@ -36,8 +36,9 @@ nav:
       - Using the Open Science Framework: "open-science/osf.md"
   - Data management:
     - Data security protocol: "data-management/data-security.md"
-    - Research Drive: "data-management/research-drive-info.md"
-    - How to use the Research Drive: "data-management/research-drive-how.md"
+    - Research Drive:
+      - About Research Drive: "data-management/research-drive-info.md"
+      - How to use Research Drive: "data-management/research-drive-how.md"
     - File organization: "data-management/folder-structure.md"
     - Version control:
       - Basic principles: "data-management/vc-principles.md"
