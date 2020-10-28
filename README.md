@@ -8,6 +8,8 @@
 In this repository, you can find the source code and contents of the lab wiki of the [Erasmus SYNC lab](https://erasmus-synclab.nl/). The wiki contains both information on the ways we work, as well as information and instructions on how to be a successful member of the SYNC lab. Not content with the information displayed here? 
 Feel free to open an issue or make a pull request to suggest changes! 
 
+**Link to the published lab wiki**: https://eur-synclab.github.io/sync-wiki/
+
 This manual is always in progress, so feel free to contribute by adding features, such as:
 - images
 - changing or adding text
