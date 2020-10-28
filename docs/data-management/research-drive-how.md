@@ -6,16 +6,25 @@ This page contains information on how we deal with data on the SURF Research Dri
 
 ## 1. Folders
 
-- A project folder (at the root of the Research Drive) has to be created by the contract administrator (currently: Dorien Huijser, later also Eveline Crone). This means that each project is created *under* the contract. Information needed includes (1) the **name of the folder** (preferably Year_ProjectName, e.g., “2018_Brainlinks”), (2) the **data steward** of the project folder and (3) the amount of **storage** needed (can still be changed later)
-- **Storage**: our contract, “ESSB Brain and Development”, currently has 16 TB of storage capacity which is divided among the existing project folders. More storage capacity has to be requested with Research Data Management/Jeroen Rombouts (who in turn requests this at SURF) by the contract administrator.
+<ul>
+<li>A project folder (at the root of the Research Drive) has to be created by the contract administrator (currently: Dorien). This means that each project is created <i>under</i> the contract. Information needed includes: </li> 
+    <ol>
+        <li>the <b>name of the folder</b> (preferably Year_ProjectName, e.g., "2018_Brainlinks"</li>
+        <li>the <b>data steward</b> of the project folder</li>
+        <li>the amount of <b>storage</b> needed (can be changed later)</li>
+    </ol>
+    <li><b>Storage</b>: our contract, “ESSB Brain and Development”, currently has 16 TB of storage capacity which is divided among the existing project folders. More storage capacity has to be requested with Research Data Management/Jeroen Rombouts (who in turn requests this at SURF) by the contract administrator</li>
+</ul>
+
+</ul>
 
 
 
-## 2. Requesting and giving access
+## 2. Requesting and providing access
 
 ### Requesting access (users)
 
-Request access to a folder with the data steward of the relevant project. You can find who is the data steward for which project in the file “[ResearchDrive_overview_Projects_Access_Groups](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795)” .
+Request access to a folder with the data steward of the relevant project. You can find who is the data steward for which project in the file “[ResearchDrive_overview_Projects_Access_Groups](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795)”  (only accessible for SYNC lab members).
 
 
 
@@ -33,9 +42,7 @@ Give only the necessary access: preferably **never give anyone sharing rights** 
 
 
 
-#### Giving access to Research Drive users
-
-##### Custom groups
+#### Custom groups
 
 Give Research Drive users access via **personal access groups** (Settings > Custom groups). Members in such a group all receive the same rights when added to a folder. 
 
@@ -45,11 +52,11 @@ Give Research Drive users access via **personal access groups** (Settings > Cust
 
 The owner of the group is the only one who can add and remove access group members and see the members of the group. However, **all access group names** are visible for the entire Research Drive, so please **aptly name the groups** according to the following format: **SYNC_ProjectName_Accesslevel**, e.g., "SYNC_Brainlinks_edit". If a new person needs access, they can be added to the relevant access group and automatically gains access to the same files/folders as the other group members. 
 
-After you have made any changes in access groups, please **update** “[ResearchDrive_overview_Projects_Access_Groups](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795)” (in SYNC_General/ Research_Drive) so we can keep an overview of who has access to what and who owns which access group.
+After you have made any changes in access groups, please **update** [the access document](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795) so we can keep an overview of who has access to what and who owns which access group.
 
-##### Individual users
+#### Individual users
 
-Add users to folders individually if they should not have the same permissions as the custom groups. This could for example be outside researchers. Please note that users of SURFdrive do not necessarily need a new Research Drive account, you can simply share the relevant files/folders with their [Federated cloud ID](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960).
+Add users to folders individually if they should not have the same permissions as the custom groups. This could for example be **outside researchers**. Please note that users of SURFdrive do not necessarily need a new Research Drive account, you can simply share the relevant files/folders with their [Federated cloud ID](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960).
 
   
 
@@ -59,12 +66,12 @@ Generally, when sharing data with students or outsiders, stick to the following 
 
 - Share data only when the sharing serves a scientific goal
 - Keep the amount of data shared to a minimum (only the data necessary to reach the scientific goal)
-- Pseudonymize or, if possible, anonymize data before sharing (e.g., by removing direct and indirect identifiers)
-- **Students** should additionally sign a **non-disclosure agreement** and stick to the working guidelines for students
+- Pseudonymize or, if possible, anonymize data before sharing
+- **Students** should sign a **non-disclosure agreement** and stick to the working guidelines for students
 
  
 
-Give students and outside users access via **access links** that allow Download/View/Upload (edit only if it concerns a separate (Students) folder). Please make use of the **password** and **end-date** functions: students and outside users should not have access to the data after their internships / the agreement have/has ended and the password will give extra protection against non-authorized use. Alternatively, you could add the external users or students as new Research Drive users (Dashboard > Add user), although for large amounts of users, this is not recommended.
+Give students and outside users access via **access links** that allow Download/View/Upload (edit only if it concerns a separate (Students) folder). Make use of the **password** and **end-date** functions: students and outside users should not have access to the data after their internships / the agreement have/has ended and the password will give extra protection against non-authorized use. Alternatively, you could add the external users or students as new Research Drive users (Dashboard > Add user), although for large amounts of users, this is not recommended.
 
 
 
@@ -95,18 +102,20 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 
  <p style="clear:left;"></p>
 
-#### Uploading data using Rclone
+#### Uploading data with Rclone
 
-With rclone, you can upload files from your command windows, using the following general format:
+Upload files from your command window (type `cmd` in your search bar if you don't know where it is), using the following general format:
 
 `rclone copy [flags] "source" RD:"destination"`
 
 
 
-For example: `rclone copy -v -P --ignore-existing “J:\ResearchData\FSW\Brain and Development - Projects\2018_Brainlinks\Ouderstudie\” RD:“2018_Brainlinks (Projectfolder)/Brainlinks_Parentstudy”`
+##### Example command
+
+ `rclone copy -v -P --ignore-existing “J:\ResearchData\FSW\Brain and Development - Projects\2018_Brainlinks\Ouderstudie\” RD:“2018_Brainlinks (Projectfolder)/Brainlinks_Parentstudy”`
 
 - copy the source contents to the destination folder
-- print progress (`-v` and `-P`) 
+- print progress continuously (`-v` and `-P`) 
 - skip already existing files (`--ignore-existing`)
 
  
@@ -128,13 +137,13 @@ For example: `rclone copy -v -P --ignore-existing “J:\ResearchData\FSW\Brain a
 
 ### Cyberduck
 
-Cyberduck is not a command-line tool but has a GUI (graphical user interface) for uploading data. It also has built-in encryption software (cryptomator), which allows simultaneously encrypting and uploading data. 
+Cyberduck is not a command-line tool but has a graphical user interface for uploading data. It also has built-in encryption software (cryptomator), which allows simultaneously encrypting and uploading data. 
 
 
 
 ####  Setting up
 
-1. Download and install [Cyberduck](https://cyberduck.io/download/) (the program is free, select $0 of donation) - you do need admin access for this tool.
+1. Download and install [Cyberduck](https://cyberduck.io/download/) (the program is free, select $0 of donation) - you do need **admin access** for this tool.
 2. Read the [wiki page](https://wiki.surfnet.nl/display/RDRIVE/3.+Access+Research+Drive+via+Cyberduck) of SURF Research Drive and from there download the [Research Drive cyberduck profile](https://wiki.surfnet.nl/download/attachments/11219959/surfresearchdrive.cyberduckprofile?version=1&modificationDate=1562069941090&api=v2). Save the Research Drive cyberduck profile in the “Profiles” folder within your Cyberduck program files folder (e.g., “C:\Program Files\Cyberduck\profiles”) 
 3. In your Research Drive account, create a WebDAV password: Settings > Security > WebDAV passwords. Create a new password by filling in a name, e.g., “Cyberduck”. Copy the password that was just created to a temporary file/your clipboard.
 4. (Re)Start Cyberduck
@@ -175,7 +184,7 @@ Most of this information is collected via questionnaires and during the call to 
 
 1. Participant databases with contact information
 2. MRI checklist information files (“Bijzonderhedenbestand”) containing information about past surgeries and other health information
-3. Files containing demographic data, responses about race, political views, religion, sexual life, criminal past and other potential health information. This type of file *can* be stored on Research Drive without encryption *only in case* that the data are pseudonymized / not directly traceable to individuals.
+3. Files containing demographic data, responses about race, political views, religion, sexual life, criminal past and other potential health information. This type of file *can* be stored on Research Drive without encryption *only when* that the data are pseudonymized / not directly traceable to individuals.
 4. Raw, non-defaced MRI images
 
 
@@ -202,7 +211,7 @@ Putting a password on an individual Excel or Word file is a safe form of encrypt
 
 Cyberduck has in-built functionality to encrypt files using [Cryptomator](https://cryptomator.org/). To encrypt files, you first need to create an encrypted folder. 
 
-1. In Cyberduck (after having been connected to your Research Drive), select the folder in which you want to create the encrypted folder
+1. In Cyberduck (after connecting to Research Drive), select the folder in which you want to create the encrypted folder
 2. Right click and select “New locked vault” (Nieuwe versleutelde safe)
 3. Give the vault a name (remember to put the Project name in there, e.g., “Brainlinks_Neural_data_raw”) and a password (passphrase).
 4. **Store the password** in your password manager or somewhere else safe immediately. If you lose this password, the data cannot be accessed anymore! Cyberduck will also save the password, but if others besides you need to be able to access the folder as well, they need the password too to decrypt the files.
@@ -247,7 +256,7 @@ The easiest way to edit documents is in your internet browser, because it allows
 
 
 
-### Mounting Research Drive to **your** **file explorer** with OwnCloud
+### Mounting Research Drive to your file explorer
 
 You can mount your Research Drive account to your file explorer, so that the Research Drive files can be accessed on your local PC. Note that collaborative editing is not possible this way, and merging conflicts may emerge when multiple people are working on the same files.  OwnCloud is the recommended tool that is useful for working with small and few files. However, it is **not suitable** for synchronizing **large (numbers of)** **files**. 
 
@@ -256,25 +265,26 @@ You can mount your Research Drive account to your file explorer, so that the Res
 <ul><li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud
     <ul>
         <li>Use the link <strong>eur.data.surfsara.nl</strong> to connect with and authorize the share by logging in to your Research Drive account</li>
-        <li>Choose <strong>Selective synchronization</strong> and select only the folders you need to work on from your local machine. All synced files are stored and synced on you local machine. If your Reseaerch  Drive storage is really high, you should <strong>not</strong> sync them all with your PC!</li>
+        <li>Choose <strong>Selective synchronization</strong> and select only the folders you need to work on from your local machine. All synced files are stored and synced on you local machine. If your Research  Drive storage is really high, you should <strong>not</strong> sync them all with your PC!</li>
         <li>Alternatively, choose <strong>Virtual file support</strong>, which makes sure that only files that are being worked on are downloaded</li>
     </ul></ul>
+
 
 **Note**: OwnCloud does not show encrypted files and folders and so does not allow to work with them.
 
 
 
-### Analyzing data from the Research Drive
+### Analyzing data from Research Drive
 
-There are multiple ways that you can analyze data that are stored on the Research Drive:
+There are multiple ways that you can analyze data that are stored on Research Drive:
 
 <ul>
     <li><strong>Locally</strong>: download the data to your local PC and analyze them there</li>
     <ul>
         <li>Advantage: no dependencies on your internet connection</li>
-        <li>Disadvantage: not great for large (numbers of) files, no cloud synchronization, takes up double the amount of storage space (both on the Research Drive and your local PC)</li>
+        <li>Disadvantage: not great for large (numbers of) files, no cloud synchronization, takes up double the amount of storage space (both on Research Drive and your local PC)</li>
     </ul>
-    <li>Use <strong>OwnCloud</strong> and run analyses on data that are stored in Research Drive <i>as if</i> the data were stored on your local PC. Make sure to only synchronizee files that y ou really need! </li>
+    <li>Use <strong>OwnCloud</strong> and run analyses on data that are stored in Research Drive <i>as if</i> the data were stored on your local PC. Make sure to only synchronize files that you really need!</li>
     <ul>
         <li>Advantage: cloud synchronization</li>
         <li>Disadvantage: data that are used will be stored at your local hard disk (except when using virtual file support). This can cause your PC to become very slow. This method is also not suitable for large (numbers of) files, because synchronizating those files will take a very long time</li>
@@ -288,11 +298,12 @@ There are multiple ways that you can analyze data that are stored on the Researc
 
 
 
+
 #### Working with MRI data: recommended methods
 
 #####  1. <u>Defaced</u> MRI data synchronized with your local PC
 
-1. Deface the MRI data before uploading them to the Research Drive. First deface them, then turn the files into .hrd and .img files and upload them to Research Drive.
+1. Deface the MRI data before uploading them to Research Drive.
 
 2. Synchronize **only** the folder(s) that you need on your local PC via OwnCloud: your PC needs to have enough disk memory to save the data, also after processing! After synchronizing, you can enter the path to the OwnCloud folder that was synchronized to your PC in SPM or Matlab for your analysis.
 
@@ -302,6 +313,6 @@ There are multiple ways that you can analyze data that are stored on the Researc
 
 Encrypted folders are useless if you do not have the encryption key: they contain random files with weird names. 
 
-2. Encrypting: When uploading encrypted MRI data to the Research Drive, encrypt a folder as highest as possible in the hierarchy (e.g., Neural data), so that you only have to **decrypt one folder** to do analyses on that data. 
+2. Encrypting: When uploading encrypted MRI data to Research Drive, encrypt a folder as high as possible in the hierarchy (e.g., Neural data), so that you only have to **decrypt one folder** to do analyses on that data. 
 3. Synchronize **only** the folder(s) that you need on your local PC via OwnCloud. Use Cryptomator to decrypt the folder (enter the password) and click Reveal.
 4. The main folder (e.g., Neural data) is shown as a separate directory on your local PC (e.g., "Z:"). You can add this directory in SPM or Matlab for your analysis.

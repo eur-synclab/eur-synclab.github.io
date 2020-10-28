@@ -6,7 +6,7 @@ Note: this is a general introduction to Research Drive. For more specific instru
 
 Research Drive is a cloud environment offered by SURF and used by Erasmus University Rotterdam to **store research data during** the active research phase. It is **not** meant for long-term archiving, data publishing or data analysis!
 
-In a way, Research Drive is similar to Google Drive, in that files are stored in the **cloud**, can be shared and **collaboratively** edited. The difference is that data are stored safely in the Netherlands (backed-up weekly) ánd that there is **no personal storage**, only team storage (storage per project) - in contrast to SURFdrive (500GB personal storage). This means that everyone who has access to a project folder can upload data up to the maximum storage assigned to that project. Data will therefore always be part of the project and remain accessible to the project members, even when end-users leave of permissions are changed.
+In a way, Research Drive is similar to Google Drive, in that files are stored in the **cloud**, can be shared and **collaboratively** edited. The difference is that data are stored safely in the Netherlands (backed-up weekly) ánd that there is **no personal storage**, only team storage (storage per project) - in contrast to SURFdrive (500GB personal storage). This means that everyone who has access to a project folder can upload data up to the maximum storage assigned to that project. Data will therefore always be part of the project and remain accessible to the project members, even when end-users leave or permissions are changed.
 
 There are also several **integrations** with other applications and environment (LISA cluster, Jupyter Hub, HPC cloud, OwnCloud, OnlyOffice which allows collaborative editing in the internet browser, etc.).
 
@@ -55,7 +55,7 @@ Data stewards can give the following permissions to users:
 
 </br>
 
-Folders and/or files can be shared with:
+Folders and/or files can be shared in the following ways:
 
 <ul>
     <li><strong>Existing users</strong> (search for the email address or user name)</li>
@@ -64,14 +64,16 @@ Folders and/or files can be shared with:
         <li>Others cannot see who is in the group, but</li>
         <li>Anyone can find the group name, so make a  <strong>well-defined, distinguishing</strong> group name, e.g., "SYNC_Brainlinks_edit"</li>
     </ul>
-    <li>A <strong>SURFdrive user</strong>:  if someone can use SURFdrive via their institution, they don't need a new Research Drive account. You can simply share the files or folders with their <strong>federated cloud ID</strong>, click <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960">here</a>) for how to do this. </li>
-    <li>A <strong>new user</strong>: Dashboard > New user. Afterwards the user has an account, the data stewards needs to add the new user to the relevant folder. The new user can choose 2 types of accounts:</li>
+    <li>A <strong>SURFdrive user</strong>:  if someone uses SURFdrive via their institution, they don't need a new Research Drive account. You can simply share the files or folders with their <strong>federated cloud ID</strong>, click <a href="https://wiki.surfnet.nl/pages/viewpage.action?pageId=11219960">here</a> for how to do this. </li>
+    <li>A <strong>new user</strong>: Dashboard > New user. The new user can choose 2 types of accounts:</li>
     <ul>
         <li>Organization: if the user has a SURFconext account (e.g., because they work at a different university), this option is recommended</li>
         <li>Local: if the user does not have a SURFconext account, choose this option</li>
     </ul>
+    After the user has an account, the data stewards needs to add the new user to the relevant folder(s).
     <li><strong>Non users: public link</strong>: everyone with a link gets the specified permissions. You can set an expiry date, password and permissions. A great option here is the <strong>drop file function</strong>: partners can put files in the project folder but cannot see or download the contents of the other partners (“write-only”).</li>
 </ul>
+
 
 </br>
 
@@ -79,7 +81,7 @@ Folders and/or files can be shared with:
 
 - Permissions are inherited from parent folders, unless they are specifically changed (e.g., during re-sharing): giving access to a folder means giving access to all subfolders as well!
 - Reversely, a user with whom subfolders are shared **cannot** see the parent folders. Therefore, make understandable folder names if you plan to share subfolders (e.g., not "Students", but "Brainlinks_Students") 
-- Specific subfolder permissions **overrule** higher-level permissions!
+- Specific subfolder permissions **overrule** higher-level permissions
 - A share name **can be renamed individually**. This is invisible to original sharer (data steward). However, the contents of the folder remain the same and visible to all. 
 
  
@@ -108,17 +110,17 @@ The Dashboard is accessible to anyone, but only relevant data will be shown.
 
 - **Users** can only invite new users. Under "User accounts", click "Invite user". For each user, you can view their Project membership, contract details, storage overview and service overview (available apps can be added here too). After account removal, the account will exist for 30 days. 
 
-<img src="../img/RD_Dashboadusers.JPG"  align="left" title="Dashboard button to invite a new user" style="zoom:75%;" />
+  <img src="../img/RD_Dashboadusers.JPG"  align="left" title="Dashboard button to invite a new user" style="zoom:75%;" />
 
 <p style="clear:left;"></p>
 
-- **Data stewards** can also invite new users and additionally have an overview of project folders and user accounts
+- **Data stewards** can invite new users and additionally have an overview of project folders and user accounts 
 
-<img src="../img/RD_Projectfolders.JPG" align="left" title="Tab for viewing project folders" style="zoom:80%;" />
+  <img src="../img/RD_Projectfolders.JPG" align="left" title="Tab for viewing project folders" style="zoom:80%;" />
 
 <p style="clear:left;"></p>
 
-- **Contract administrators** can also invite new users and have overview of project folders, but they can also add new and edit existing project folders and see the contract details.
+- **Contract administrators** can invite new users and have overview of project folders, but they can also add new and edit existing project folders and see the contract details.
 
 <div class="align-center">
     <img src="../img/RD_Addprojectfolder.JPG" title="Button for adding a new project folder" style="zoom:75%;" align="center"/>
@@ -144,7 +146,7 @@ Settings can be found on the top right of the screen:
 The most important settings are:
 
 - **General**: here, you can find your account details, federated cloud ID and links to external apps
-- **Security**: contains, among others, your saved end-to-end encryption keys (if any) and Webdav passwords
+- **Security**: contains, among others, your saved encryption keys (if any) and Webdav passwords
 - **Custom groups**: here, you can make new custom groups and add users to them. Note that every EUR instance Research Drive user can find this group, so aptly name them!
 
 
@@ -160,8 +162,8 @@ The most important settings are:
 
 ## Further reading
 
-- **Official Research Drive wiki**: https://wiki.surfnet.nl/display/RDRIVE
-- **Slides for end-users**: https://surfdrive.surf.nl/files/index.php/s/7HBbzSxKbK1c5cr
-- **Hands-on exercises for end-users**: https://surfdrive.surf.nl/files/index.php/s/7LmzSGz9Dgd1F3t
-- **Slides for data stewards**: https://surfdrive.surf.nl/files/index.php/s/bVsuqPUKYttBmjB 
-- **Link for logging on in the demo environment**: https://demo.data.surfsara.nl/index.php/login
+- Official [Research Drive wiki](https://wiki.surfnet.nl/display/RDRIVE)
+- [Slides](https://surfdrive.surf.nl/files/index.php/s/7HBbzSxKbK1c5cr) for end-users
+- Hands-on [exercises for end-users](https://surfdrive.surf.nl/files/index.php/s/7LmzSGz9Dgd1F3t)
+- Slides for [data stewards](https://surfdrive.surf.nl/files/index.php/s/bVsuqPUKYttBmjB )
+- Link for logging on in the [demo environment](https://demo.data.surfsara.nl/index.php/login) 

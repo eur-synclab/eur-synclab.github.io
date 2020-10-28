@@ -16,7 +16,7 @@ Once registered in Metis and placed in RePub, the article receives a permanent i
 ## Open access: costs
 
 - Publishing open access via the green route (RePub) is free of charge and highly encouraged
-- Publishing gold open access is not always free. The VSNU has made deals with several publishers that allow researchers at Dutch universities to publish articles open access at no extra charge. However, not all publishers will point you towards this option when submitting an article or when the article is in the stage of acceptance. To check whether the journal is eligible for open access at no extra charge, see [this link](https://www.openaccess.nl/en/in-the-netherlands/publisher-deals) or [the journal browser](http://library.wur.nl/WebQuery/eurbrowser?q=*)
+- Publishing gold open access is not always free. The VSNU has made deals with several publishers that allow researchers at Dutch universities to publish articles open access at no extra charge. However, not all publishers will point you towards this option when submitting an article or when the article is in the stage of acceptance. To **check whether the journal is eligible for open access** at no extra charge, see [this link](https://www.openaccess.nl/en/in-the-netherlands/publisher-deals) or [the journal browser](http://library.wur.nl/WebQuery/eurbrowser?q=*)
 In case a journal is not on this list and there is no funding from a project to cover the open access fees, there is an Erasmus Open Access Fund that can cover the fee. For more information please have a look [here](https://www.eur.nl/en/research-support/open-access/erasmus-open-access-fund)
 
 ## Checking the quality of an (open access) journal
