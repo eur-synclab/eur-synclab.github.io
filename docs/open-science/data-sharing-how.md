@@ -13,7 +13,7 @@ For example:
     <ul>
         <li>All data and materials accompanying a publication</li>
         <li>Not suitable for large or publication-independent datasets or non-anonymous data</li>
-        <li>See the <a href=publication-packages.md>publication packages page</a> for more information.</li>
+        <li>See the <a href=pub-packages.html>publication packages page</a> for more information.</li>
     </ul>
 <li><a href=https://dataverse.nl>DANS DataverseNL</a>: for publication packages at Leiden University</li>
 <ul>
