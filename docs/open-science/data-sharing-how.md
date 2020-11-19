@@ -102,13 +102,14 @@ Some federated learning tools and projects:
 
 **Copyright** includes the rights that you automatically get when you create something, such as an article or dataset (although there are differing opinions on whether or not data is the result of a creative endeavor). The copyright on a work will always be yours, except when you explicitly (partially) give it to someone else, such as a publisher.
 
-With **licenses**, such as [Creative Commons licenses](https://creativecommons.org/licenses/?lang=en ), you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licences both allow others to use the data without restrictions. For non-anonymous data, you can use a more restrictive license (but please **don't use non-derivate (ND) or non-commercial (NC)** licenses, read why [here](https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply)) or a [data use agreement](dsa-template.md).
+With **licenses**, such as [Creative Commons licenses](https://creativecommons.org/licenses/?lang=en ), you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licenses both allow others to use the data without restrictions. For non-anonymous data, use a more restrictive license (but please **don't use non-derivate (ND) or non-commercial (NC)** licenses, read why [here](https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply)) or a [data use agreement](dsa-template.md). 
+
+Don't know which license to choose? Use a [license selector](https://ufal.github.io/public-license-selector/)!
 
 ## Resources
 
 - An overview of data repositories can be found [here](https://www.re3data.org/)
 - Information on the EUR Data Repository can be found [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository)
-- Tool to choose a [creative commons licence](https://creativecommons.org/choose/?lang=nl)
 - [Data management and sharing tools](https://digitalscholarship.nl/rds/faculty/faculty-of-social-and-behavioural-sciences/) (list compiled by the Leiden University Library)
 - [The Turing Way - open data](https://the-turing-way.netlify.com/open_research/01/opendata.html)
 - [Utrecht University information about data sharing](https://www.uu.nl/en/research/research-data-management/guides/publishing-and-sharing-data)
