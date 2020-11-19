@@ -34,12 +34,14 @@ For example:
 </ul>
 <li><a href=https://osf.io/>Open Science Framework</a></li>
 <ul>
-    <li>max 5 GB per file</li>
+    <li>max 5 GB for private, 50 GB for public projects</li>
+    <li>Choose storage location in EU: Germany</li>
     <li>Keep your data close to all other relevant files in your OSF project</li>
     <li>OSF is more aimed at project management than dissemination, read more here <a href=osf.md>here</a></li>
 </ul>
 <li>Other general-purpose repositories, such as <a href=https://zenodo.org/>Zenodo</a> (free up to 50GB), <a href=https://datadryad.org/>Dryad</a> (not free) or <a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
 </ul>
+
 
 
 
