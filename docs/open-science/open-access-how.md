@@ -21,7 +21,25 @@ Once registered in Metis and placed in RePub, the article receives a permanent i
 - To check whether the combination of your journal, funder and institution is **compliant with Plan S**, use the [Journal Checker tool](http://journalcheckertool.org/).
 - In case a journal is not on this list and there is no funding from a project to cover the open access fees, there is an **Erasmus Open Access Fund** that can cover the fee. For more information please have a look [here](https://www.eur.nl/en/research-support/open-access/erasmus-open-access-fund)
 
-## Checking the quality of an (open access) journal
+
+
+## Use your ORCID
+
+When publishing papers or other works, always use your ORCID. This allows all your works to be associated with **you** (and not someone with accidentally the same name), no matter where you work or which email address you use. Read all about ORCID in **this [EUR libguide](https://libguides.eur.nl/ORCID/home).** Some nice-to-knows:
+
+- Institutions also have organization identifiers. For EUR, use "Erasmus University Rotterdam, Zuid-Holland, NL". 
+- Under "Works" > "Search and link", you can allow several parties access to your ORCID. If you allow Crossref and DataCite (links to EUR data repository) access, all your works will appear in your ORCID record automatically (does not work for all sources though)! 
+- After the Works category, there is a Peer review category. This appears only if your publisher indicates that you were the reviewer or when you use Publons. This will make explicit how much work you spend reviewing! 
+
+
+
+## Choose an open license
+
+Journals often offer a couple of licensing possibilities. It is best to choose the most open license, which is most likely the **CC-BY 4.0** license. Preferably **avoid** using non-derivative (ND) and non-commercial (NC) licenses. For more information, check out [this documentation](https://doi.org/10.5281/zenodo.4090922) on choosing a license. 
+
+
+
+## Check the quality of an (open access) journal
 
 How do you know whether or not you found a trustworthy (open access) journal for your publication? Please pay attention to the following requirements:
 
@@ -36,16 +54,6 @@ How do you know whether or not you found a trustworthy (open access) journal for
 - The costs of publishing open access are clearly mentioned.
 - The user licenses are clearly mentioned in each article
 - You can also check the scoring of the journal [here](http://www.qoam.eu/journals)
-
-
-
-## Use your ORCID
-
-When publishing papers or other works, always use your ORCID. This allows all your works to be associated with **you** (and not someone with accidentally the same name), no matter where you work or which email address you use. Read all about ORCID in **this [EUR libguide](https://libguides.eur.nl/ORCID/home).** Some nice-to-knows:
-
-- Institutions also have organization identifiers. For EUR, use "Erasmus University Rotterdam, Zuid-Holland, NL". 
-- Under "Works" > "Search and link", you can allow several parties access to your ORCID. If you allow Crossref and DataCite (links to EUR data repository) access, all your works will appear in your ORCID record automatically (does not work for all sources though)! 
-- After the Works category, there is a Peer review category. This appears only if your publisher indicates that you were the reviewer or when you use Publons. This will make explicit how much work you spend reviewing! 
 
 
 
