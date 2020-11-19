@@ -39,9 +39,13 @@ For example:
     <li>Keep your data close to all other relevant files in your OSF project</li>
     <li>OSF is more aimed at project management than dissemination, read more here <a href=osf.md>here</a></li>
 </ul>
-<li>Other general-purpose repositories, such as <a href=https://zenodo.org/>Zenodo</a> (free up to 50GB), <a href=https://datadryad.org/>Dryad</a> (not free) or <a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
+<li>Other general-purpose repositories, such as:
+    <ul>
+        <li><a href=https://zenodo.org/>Zenodo</a> (free up to 50GB)</li>
+        <li><a href=https://datadryad.org/>Dryad</a> (not free)</li>
+        <li><a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
+    </ul></li>
 </ul>
-
 
 
 
@@ -74,7 +78,11 @@ If you do not want to or you can't share any real data, you can still make your 
 
 ### Synthetic data
 
-Creating a **synthetic dataset** can be useful to capture the statistical idiosyncrasies of your real dataset. This synthetic dataset can be used to reproduce the results of your analysis, without violating any privacy or intellectual property regulations. Synthesizing MRI data relies on having a very clear and precise “forward model” of what the BOLD response of a given voxel will be, depending on some response parameter of that voxel. Therefore, synthetic MRI data can also be used for power analysis. Read more [here](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf) and [here](https://brainpower.readthedocs.io/en/latest/simulations.html).
+Creating a **synthetic dataset** can be useful to capture the statistical idiosyncrasies of your real dataset. This synthetic dataset can be used to reproduce the results of your analysis, without violating any privacy or intellectual property regulations. Read more:
+
+- [Review of synthetic generation methods](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf)
+- `synthpop`: an R package for creating synthetic data ([paper](http://dx.doi.org/10.18637/jss.v074.i11), [blog how to](https://www.dsquintana.blog/creating-and-synthetic-version-of-a-real-dataset/))
+- For MRI-data: [brainpower](https://brainpower.readthedocs.io/en/latest/simulations.html).
 
 ### Federated learning
 
@@ -94,7 +102,7 @@ Some federated learning tools and projects:
 
 **Copyright** includes the rights that you automatically get when you create something, such as an article or dataset (although there are differing opinions on whether or not data is the result of a creative endeavor). The copyright on a work will always be yours, except when you explicitly (partially) give it to someone else, such as a publisher.
 
-With **licenses**, such as [Creative Commons licenses](https://creativecommons.org/licenses/?lang=en ), you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licences both allow others to use the data without restrictions. For non-anonymous data, you can use a more restrictive license or a [data use agreement](dsa-template.md).
+With **licenses**, such as [Creative Commons licenses](https://creativecommons.org/licenses/?lang=en ), you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licences both allow others to use the data without restrictions. For non-anonymous data, you can use a more restrictive license (but please **don't use non-derivate (ND) or non-commercial (NC)** licenses, read why [here](https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply)) or a [data use agreement](dsa-template.md).
 
 ## Resources
 
