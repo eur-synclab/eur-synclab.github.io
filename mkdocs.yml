@@ -32,7 +32,7 @@ nav:
       - Open code: "open-science/open-code.md"
     - Transparency:
       - Preregistration: "open-science/preregistration.md"
-      - Open project checklists: "open-science/transparency-guidelines.md"
+      - Open project checklists: "open-science/transparency-checklists.md"
       - Open Science Framework: "open-science/osf.md"
   - Data management:
     - Data security protocol: "data-management/data-security.md"
