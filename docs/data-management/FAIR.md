@@ -1,20 +1,21 @@
 # The FAIR principles
 
-In the data management world, making data "FAIR" is the ideal situation. Making your data FAIR facilitates knowledge discovery by assisting humans and machines in their discovery of and access to the data. See also [this video](https://vimeo.com/162062013).
+In the data management world, making data "FAIR" is the ideal situation. Making your data FAIR facilitates knowledge discovery by assisting humans and machines in their discovery of and access to the data.
 
-FAIR stands for: Findable, Accessible, Interoperable and Reusable.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2uZxFu9SFi8?start=5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
- The below information is a summary of the principles on the [GO FAIR website](https://www.go-fair.org/fair-principles/).
+The below information is a summary of the principles on the [GO FAIR website](https://www.go-fair.org/fair-principles/). See also this [FAIR data checklist](https://www.lcrdm.nl/files/lcrdm/2019-07/HOW FAIR IS YOUR DATA_flyer_2.pdf).
 
 ### Findable by both humans and machines
 Include metadata that allow the discovery of interesting datasets: the dataset should be findable with a google datasets search.
 
 <ol>
-    <li>(Meta)data have a globally unique and persistent identifier. Most repositories do this automatically through a handle or DOI</li>
+    <li>(Meta)data have a <a href=https://www.youtube.com/watch?v=PgqtiY7oZ6k&feature=emb_title>persistent identifier</a>. Most repositories do this automatically through a handle or DOI.</li>
     <li>Data are described with rich metadata, including descriptive information about the context, quality and condition, or characteristics of the data</li>
     <li>Metadata include the identifier of the data they describe: metadata and dataset should link to each other</li>
     <li>(Meta)data are registered or indexed in a searchable resource (e.g., a repository)</li>
 </ol>
+
 
 
 
@@ -30,12 +31,13 @@ To do:
 Think about the security, legal conditions, sustainability and access conditions of the data.
 
 <ol>
-    <li>(Meta)data are retrievable by their identifier using a standardized communication procotol, e.g., http or ftp, without specialised tools or communication methods. So, clearly define who can access the actual data, and specify how</li>
+    <li>(Meta)data are retrievable by their identifier using a standardized communication procotol, e.g., http or ftp, without specialised tools or communication methods.</li>
     <ol type="a">
         <li>The protocol is open, free, and universally implementable to facilitate data retrieval. Anyone with a computer and an internet connection can access at least the metadata.  </li>
-    <li> b. The protocol allows for an authentication and authorization where necessary: specify the conditions under which the data are accessible</li></ol>
+    <li> The protocol allows for an authentication and authorization: specify the conditions under which the data are accessible</li></ol>
     <li>Metadata are accessible even when the data is no longer available</li>
 </ol>
+
 
 
 
@@ -55,7 +57,6 @@ Think about the software, documentation standards (e.g., the same labels for the
     <li>(Meta)data use vocabularies that follow the FAIR principles</li>
     <li>(Meta)data include qualified references to other (meta)data: meaningful links between (meta)data, e.g. X regulates Y instead of X associated with Y</li>
 </ol>
-
 </ol>
 
 To do:
@@ -68,11 +69,12 @@ To do:
 ### Reusable
 Think about the licensing and provenance (can you trust this data?) of the data.
 <ol>
-<li>(Meta)data are richly described with a plurality of accurate and relevant attributes, i.e., the context under which the data was generated, e.g.,: scope/purpose of the data, particularities/limitations, date of generation/collection, lab conditions, who prepared the data, parameter settings, name and version of the software used, raw or processed data, explain non-self-explanatory variable names, version</li>
-    <ol type=a><li>(Meta)data are released with a clear and accessible data usage license</li>
+<li>(Meta)data are richly described, e.g.: scope/purpose of the data, particularities/limitations, date of generation/collection, lab conditions, who prepared the data, parameter settings, name and version of the software used, raw or processed data, explain non-self-explanatory variable names, version</li>
+    <ol type=a><li>There is a a clear and accessible data usage license</li>
     <li>(Meta)data are associated with detailed provenance: where did it come from? Who generated or collected it? How has it been processed? Has it been published before? Does it contain data from someone else that you may have transformed or completed?</li>
     <li>(Meta)data meet domain-relevant community standards: use a common template and common vocabulary</li></ol>
 </ol>
+
 
 </ol>
 
