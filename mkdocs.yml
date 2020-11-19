@@ -28,7 +28,7 @@ nav:
       - NeuroVault: "open-science/neurovault.md"
       - Data sharing agreement: "open-science/dsa-template.md"
     - Reproducibility:
-      - Open software: "open-science/open-software.md"
+      - FAIR software: "fair-science/open-software.md"
       - Open code: "open-science/open-code.md"
     - Transparency:
       - Preregistration: "open-science/preregistration.md"
