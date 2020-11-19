@@ -3,7 +3,7 @@ site_name: SYNC lab wiki
 site_url: https://sourcefoundry.org/cinder/ 
 site_author: SYNC lab
 site_description: "Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands"
-repo_url: https://github.com/eur-synclab/sync-manual
+repo_url: https://github.com/eur-synclab/sync-wiki
 
 # Page navigation
 
@@ -20,7 +20,7 @@ nav:
   - Open Science:
     - Open acccess publishing:
       - Information: "open-science/open-access-info.md"
-      - How to publish open access: "open-science/open-access-how.md"
+      - How to: "open-science/open-access-how.md"
     - Data sharing:
       - The GDPR: "open-science/gdpr.md"
       - Publication packages: "open-science/pub-packages.md"
@@ -30,19 +30,19 @@ nav:
     - Reproducibility:
       - Open software: "open-science/open-software.md"
       - Open code: "open-science/open-code.md"
-    - Fostering transparency elsewhere:
-      - Preregistering your research: "open-science/preregistration.md"
-      - Transparency guidelines: "open-science/transparency-guidelines.md"
-      - Using the Open Science Framework: "open-science/osf.md"
+    - Transparency:
+      - Preregistration: "open-science/preregistration.md"
+      - Open project checklists: "open-science/transparency-guidelines.md"
+      - Open Science Framework: "open-science/osf.md"
   - Data management:
     - Data security protocol: "data-management/data-security.md"
     - Research Drive:
-      - About Research Drive: "data-management/research-drive-info.md"
-      - How to use Research Drive: "data-management/research-drive-how.md"
+      - About: "data-management/research-drive-info.md"
+      - How to: "data-management/research-drive-how.md"
     - File organization: "data-management/folder-structure.md"
     - Version control:
       - Basic principles: "data-management/vc-principles.md"
-      - Version control for code: "data-management/vc-github.md"
+      - Git(hub): "data-management/vc-github.md"
       - Version control for data: "data-management/vc-datalad.md"
     - Metadata:
       - FAIR data: "data-management/FAIR.md"
@@ -51,14 +51,14 @@ nav:
       - Codebooks: "data-management/codebooks.md"
   - Data analysis:
     - Types of data analysis: "data-analysis/types-analysis.md"
-    - Using the LISA cluster: "data-analysis/LISA-how.md"
+    - LISA cluster: "data-analysis/LISA-how.md"
   - Reaching out to society:
-    - Science communication and citizen science: "reaching-out/intro-scicom.md"
-    - Our outreach practices: "reaching-out/outreach-practices.md"
+    - Scicom and citizen science: "reaching-out/intro-scicom.md"
+    - Outreach practices: "reaching-out/outreach-practices.md"
   - Getting started at the EUR:
-    - Welcome at the EUR!: "getting-started-eur/welcome-eur.md"
+    - Intro to the EUR!: "getting-started-eur/welcome-eur.md"
     - Time registration: "getting-started-eur/time-registration.md"
-    - Financial information: "getting-started-eur/finances.md"
+    - Finances: "getting-started-eur/finances.md"
     - Email signature: "getting-started-eur/email-signature.md"
 
 theme:
