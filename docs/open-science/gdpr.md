@@ -82,7 +82,7 @@ Have a look at [this MRI data sharing guide](https://doi.org/10.5281/zenodo.3822
 
 ## GDPR resources
 - [Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/stable/), a bottom-up initiative to make sense of the GDPR in sharing MRI data
-- Stephan Heunis's (TU Eindhoven) [GDPR summary doc](https://docs.google.com/document/d/1Mfbl4DZAw7MRPjSxIiM5sfYU4gX-pcghgj5M1qb84jg/edit?usp=sharing)
+- A great [overview of the GDPR](https://docs.google.com/presentation/d/1LLtjGaeQgGHojZZ0q_hkgCHpOmP_nboekw_oX6aDslE/edit?usp=sharing) and its practical implications (by Enrico Glerean, 2020)
 - Course about [privacy in research](https://maken.wikiwijs.nl/125518/Privacy_in__Researc)
 - [Privacy dos and donts](https://www.edugroepen.nl/sites/RDM_platform/RDM_Blog/SiteAssets/Presentatie%20Jacques_Flores_UU.pdf)
 - [Guide for sensitive data](https://www.openaire.eu/sensitive-data-guide)

@@ -138,7 +138,7 @@
         
             
 <li >
-    <a href="../open-science/open-access-how.html">How to publish open access</a>
+    <a href="../open-science/open-access-how.html">How to</a>
 </li>
 
         
@@ -192,7 +192,7 @@
         
             
 <li >
-    <a href="../open-science/open-software.html">Open software</a>
+    <a href="../open-science/fair-software.html">FAIR software</a>
 </li>
 
         
@@ -208,24 +208,24 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <a tabindex="-1" href="">Transparency</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="../open-science/preregistration.html">Preregistering your research</a>
+    <a href="../open-science/preregistration.html">Preregistration</a>
 </li>
 
         
             
 <li >
-    <a href="../open-science/transparency-guidelines.html">Transparency guidelines</a>
+    <a href="../open-science/transparency-checklists.html">Open project checklists</a>
 </li>
 
         
             
 <li >
-    <a href="../open-science/osf.html">Using the Open Science Framework</a>
+    <a href="../open-science/osf.html">Open Science Framework</a>
 </li>
 
         
@@ -255,13 +255,13 @@
         
             
 <li >
-    <a href="research-drive-info.html">About Research Drive</a>
+    <a href="research-drive-info.html">About</a>
 </li>
 
         
             
 <li >
-    <a href="research-drive-how.html">How to use Research Drive</a>
+    <a href="research-drive-how.html">How to</a>
 </li>
 
         
@@ -288,7 +288,7 @@
         
             
 <li >
-    <a href="vc-github.html">Version control for code</a>
+    <a href="vc-github.html">Git(hub)</a>
 </li>
 
         
@@ -352,7 +352,7 @@
                         
                             
 <li >
-    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+    <a href="../data-analysis/LISA-how.html">LISA cluster</a>
 </li>
 
                         
@@ -362,18 +362,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Outreach <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+    <a href="../reaching-out/scicom.html">Science communication</a>
 </li>
 
                         
                             
 <li >
-    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+    <a href="../reaching-out/outreach-practices.html">Outreach practices</a>
 </li>
 
                         
@@ -388,7 +388,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+    <a href="../getting-started-eur/welcome-eur.html">Intro to the EUR!</a>
 </li>
 
                         
@@ -400,7 +400,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/finances.html">Financial information</a>
+    <a href="../getting-started-eur/finances.html">Finances</a>
 </li>
 
                         
@@ -433,7 +433,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/data-management/types-metadata.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/eur-synclab/sync-wiki/edit/master/docs/data-management/types-metadata.md"><i class="fab fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -445,30 +445,72 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-            <li class="second-level"><a href="#commands">Commands</a></li>
+        <li class="first-level active"><a href="#metadata">Metadata</a></li>
+            <li class="second-level"><a href="#example-research-metadata">Example research metadata</a></li>
                 
-            <li class="second-level"><a href="#project-layout">Project layout</a></li>
+            <li class="second-level"><a href="#interoperable-metadata">Interoperable metadata</a></li>
                 
+                <li class="third-level"><a href="#metadata-standards">Metadata standards</a></li>
+                <li class="third-level"><a href="#controlled-vocabularies">Controlled vocabularies</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="metadata">Metadata</h1>
+<p>Metadata is <em>data about data</em>: in a broad sense, metadata is all the information that you provide about your project, dataset, variables, code, etc. Read some nice examples <a href="https://dataedo.com/kb/data-glossary/what-is-metadata">here</a>. Providing metadata is incredibly important, since metadata makes data:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Findable</li>
+<li>Readable</li>
+<li>Interpretable</li>
+<li>Manageable</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<p>Without metadata, a lot of data are just numbers that cannot be interpreted.</p>
+<p style="text-align:center"><img src="../img/metadatacat.png" style="zoom:50%;"  alt="Source: https://dataedo.com/kb/data-glossary/what-is-metadata"/></p>
+
+<h2 id="example-research-metadata">Example research metadata</h2>
+<ol>
+    <li>A project readme containing the information below. Often in a <code>readme.txt</code>. Find an example <a href=https://cornell.app.box.com/v/ReadmeTemplate>template here</a> or use the information below:</li>
+    <ol>
+        <li><b>Creator</b> (PI): name and affiliation of PI</li>
+        <li><b>Title</b>: project title</li>
+        <li><b>Funding sources</b>: names of funders, incl. grant numbers and related acknowledgements</li>
+        <li><b>Data collector/producer</b>: who is responsible for data collection + date and location of data production</li>
+        <li><b>Description</b>: project description, incl. relevant publications</li>
+        <li><b>Sample and sampling procedures</b>: target population and methods to sample it (or link to document describing this), retention rates for longitudinal studies</li>
+        <li><b>Coverage</b>: topics, time period and location covered</li>
+        <li><b>Source</b>: if relevant, citations to original source from which data were obtained</li>
+    </ol>
+    <li>Metadata for a specific data file, containing, for example, file description, data format, relationship with other files, date of creation and versioning information, etc. This can be a <code>readme.txt</code> or other filetypes, such as <code>nameofdatafile.json</code> or <code>nameofdatafile.xml</code></li>
+    <li>A codebook (data dictionary), which specifies what all variables in your dataset mean. See the <a href=codebooks.md>codebook chapter</a> for more information.</li>
+    <ol type="a"><li><b>Question wording</b> or <b>meaning</b></li>
+        <li><b>Variable text</b>: question text or item number</li>
+        <li><b>Respondent</b>: who was asked the question? </li>
+        <li><b>Meaning of codes</b>: interpretation of the codes assigned to each variable</li>
+        <li><b>Missing data codes</b>, e.g., <code>999</code></li>
+        <li><b>Summary statistics</b> for both valid and missing cases</li>
+        <li><b>Imputation and editing</b>: identify data that have been estimated or extensively edited</li>
+        <li><b>Constructed and weight variables</b>: how were they constructed</li>
+        <li><b>Location in the data file</b>: field or column location, if relevant</li>
+        <li><b>Variable groupings</b>: if you categorize variables into conceptual groupings</li>
+    </ol>
+    <li>Metadata in systems, such as a data repository. This type of metadata is often enforced and interoperable so that you don't have to manually create this type of metadata.</li></ol>
+
+<h2 id="interoperable-metadata">Interoperable metadata</h2>
+<h3 id="metadata-standards">Metadata standards</h3>
+<p>Metadata standards are frameworks for metadata fields. They describe how metadata fields should be formatted, so that they will become machine-readable and therefore interoperable. An enormous amount of metadata standards is available which all <a href="https://www.dcc.ac.uk/guidance/standards/metadata">differ per discipline</a>, but the best known metadata standards for the social sciences are:</p>
+<ul>
+<li>Dublin Core: this is a set of <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/">basic elements</a> to describe a wide range of networked resources, among which Title, Creator, Subject, Description, Publisher, Contributor, Date, Type, Format, Identifier, etc. (see readme information above). Note this Dublin Core <a href="https://nsteffel.github.io/dublin_core_generator/generator_nq.html">metadata file generator</a> to see the elements.</li>
+<li><a href="https://ddialliance.org/">Data Documentation Initiative</a> (DDI) is a standard often used in the social, behavioral, economic, and health sciences. It knows several sub-profiles that are based on DDI, but may be more extensive. One of those is <a href="https://www.cessda.eu/">CESSDA</a> (Consortium of European Social Science Data Archives). CESSDA's metadata model can be found <a href="https://zenodo.org/record/3543756#.X7aNSmhKi71">here</a></li>
+</ul>
+<p>As an individual researcher, you are often not directly confronted with these standards. It is just good to know that different repositories can use different standards. See more standards <a href="https://fairsharing.org/standards/">here</a>.</p>
+<h3 id="controlled-vocabularies">Controlled vocabularies</h3>
+<p>Where metadata standards tell us what to call the metadata fields, controlled vocabularies come in handy when we have to <strong>fill in</strong> those fields. Using controlled vocabularies enables machines to identify identical values, instead of everyone using a different term for the same thing. </p>
+<p>Whereas some fields have very extensive controlled vocabularies, psychology does not have many. A few links:</p>
+<ul>
+<li>Controlled vocabularies from the <a href="https://ddialliance.org/controlled-vocabularies">DDI</a></li>
+<li><a href="https://vocabularies.cessda.eu/">CESSDA vocabularies</a> (large overlap with DDI)</li>
+<li><a href="https://elsst.cessda.eu/">ELSST</a> – European Language Social Science Thesaurus</li>
+</ul></div>
         
         
     </div>

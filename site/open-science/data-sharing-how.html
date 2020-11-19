@@ -138,7 +138,7 @@
         
             
 <li >
-    <a href="open-access-how.html">How to publish open access</a>
+    <a href="open-access-how.html">How to</a>
 </li>
 
         
@@ -192,7 +192,7 @@
         
             
 <li >
-    <a href="open-software.html">Open software</a>
+    <a href="fair-software.html">FAIR software</a>
 </li>
 
         
@@ -208,24 +208,24 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <a tabindex="-1" href="">Transparency</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="preregistration.html">Preregistering your research</a>
+    <a href="preregistration.html">Preregistration</a>
 </li>
 
         
             
 <li >
-    <a href="transparency-guidelines.html">Transparency guidelines</a>
+    <a href="transparency-checklists.html">Open project checklists</a>
 </li>
 
         
             
 <li >
-    <a href="osf.html">Using the Open Science Framework</a>
+    <a href="osf.html">Open Science Framework</a>
 </li>
 
         
@@ -255,13 +255,13 @@
         
             
 <li >
-    <a href="../data-management/research-drive-info.html">About Research Drive</a>
+    <a href="../data-management/research-drive-info.html">About</a>
 </li>
 
         
             
 <li >
-    <a href="../data-management/research-drive-how.html">How to use Research Drive</a>
+    <a href="../data-management/research-drive-how.html">How to</a>
 </li>
 
         
@@ -288,7 +288,7 @@
         
             
 <li >
-    <a href="../data-management/vc-github.html">Version control for code</a>
+    <a href="../data-management/vc-github.html">Git(hub)</a>
 </li>
 
         
@@ -352,7 +352,7 @@
                         
                             
 <li >
-    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+    <a href="../data-analysis/LISA-how.html">LISA cluster</a>
 </li>
 
                         
@@ -362,18 +362,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Outreach <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+    <a href="../reaching-out/scicom.html">Science communication</a>
 </li>
 
                         
                             
 <li >
-    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+    <a href="../reaching-out/outreach-practices.html">Outreach practices</a>
 </li>
 
                         
@@ -388,7 +388,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+    <a href="../getting-started-eur/welcome-eur.html">Intro to the EUR!</a>
 </li>
 
                         
@@ -400,7 +400,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/finances.html">Financial information</a>
+    <a href="../getting-started-eur/finances.html">Finances</a>
 </li>
 
                         
@@ -433,7 +433,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/open-science/data-sharing-how.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/eur-synclab/sync-wiki/edit/master/docs/open-science/data-sharing-how.md"><i class="fab fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -454,6 +454,10 @@
                 
             <li class="second-level"><a href="#4-share-case-by-case">4. Share case-by-case</a></li>
                 
+            <li class="second-level"><a href="#5-share-only-characteristics-of-the-data">5. Share only characteristics of the data</a></li>
+                
+                <li class="third-level"><a href="#synthetic-data">Synthetic data</a></li>
+                <li class="third-level"><a href="#federated-learning">Federated learning</a></li>
             <li class="second-level"><a href="#copyright-licences">Copyright &amp; licences</a></li>
                 
             <li class="second-level"><a href="#resources">Resources</a></li>
@@ -493,11 +497,17 @@
 </ul>
 <li><a href=https://osf.io/>Open Science Framework</a></li>
 <ul>
-    <li>max 5 GB per file</li>
+    <li>max 5 GB for private, 50 GB for public projects</li>
+    <li>Choose storage location in EU: Germany</li>
     <li>Keep your data close to all other relevant files in your OSF project</li>
     <li>OSF is more aimed at project management than dissemination, read more here <a href=osf.md>here</a></li>
 </ul>
-<li>Other general-purpose repositories, such as <a href=https://zenodo.org/>Zenodo</a> (free up to 50GB), <a href=https://datadryad.org/>Dryad</a> (not free) or <a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
+<li>Other general-purpose repositories, such as:
+    <ul>
+        <li><a href=https://zenodo.org/>Zenodo</a> (free up to 50GB)</li>
+        <li><a href=https://datadryad.org/>Dryad</a> (not free)</li>
+        <li><a href=https://figshare.com/>Non-EUR Figshare</a> (free, max 20GB private space and 5GB per file)</li>
+    </ul></li>
 </ul>
 
 <p>In all cases, make your data <a href="https://www.go-fair.org/fair-principles/">FAIR</a>, see the <a href="../data-management/FAIR.html">data management page</a> and take <a href="gdpr.html">privacy considerations</a> into account.</p>
@@ -511,14 +521,33 @@
 <li>For MRI-data for which you have informed consent from the participants to share. You may not want to publish this publicly because of the sensitive nature of the data, but you can still share the data because you have consent. Of course this also goes for other kinds of sensitive data for which you have consent.</li>
 <li>For data that does not belong to a publication, data that is too large to share in another way or some other reason</li>
 </ul>
+<h2 id="5-share-only-characteristics-of-the-data">5. Share only characteristics of the data</h2>
+<p>If you do not want to or you can't share any real data, you can still make your data valuable:</p>
+<h3 id="synthetic-data">Synthetic data</h3>
+<p>Creating a <strong>synthetic dataset</strong> can be useful to capture the statistical idiosyncrasies of your real dataset. This synthetic dataset can be used to reproduce the results of your analysis, without violating any privacy or intellectual property regulations. Read more:</p>
+<ul>
+<li><a href="https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf">Review of synthetic generation methods</a></li>
+<li><code>synthpop</code>: an R package for creating synthetic data (<a href="http://dx.doi.org/10.18637/jss.v074.i11">paper</a>, <a href="https://www.dsquintana.blog/creating-and-synthetic-version-of-a-real-dataset/">blog how to</a>)</li>
+<li>For MRI-data: <a href="https://brainpower.readthedocs.io/en/latest/simulations.html">brainpower</a>.</li>
+</ul>
+<h3 id="federated-learning">Federated learning</h3>
+<p style="text-align:center;"><img src="../img/Sheller_etal_2020_federatedlearning.JPG" alt="Federated learning explained. Source: Sheller et al., 2020" style="zoom: 60%"></p>
+
+<p>Federated learning arises from the field of Artificial Intelligence and relies “on the principle of remote execution—that is, distributing copies of a machine learning algorithm to the sites or devices where the data is kept (nodes), performing training iterations locally, and returning the results of the computation (for example, updated neural network weights) to a central repository to update the main algorithm.” (<a href="https://doi.org/10.1038/s42256-020-0186-1">Kaissis</a> et al., 2020). This means that you do not move your data, while still providing valuable information about it. </p>
+<p>Some federated learning tools and projects:</p>
+<ul>
+<li><a href="https://github.com/trendscenter/coinstac">COINSTAC</a></li>
+<li><a href="https://github.com/OpenMined/PySyft">PySyft</a></li>
+<li><a href="http://enigma.ini.usc.edu/">ENIGMA</a> consortium: Consortium with several working groups. Share pre- and post-processing analysis scripts, the leading site will conduct meta-analysis</li>
+</ul>
 <h2 id="copyright-licences">Copyright &amp; licences</h2>
 <p><strong>Copyright</strong> includes the rights that you automatically get when you create something, such as an article or dataset (although there are differing opinions on whether or not data is the result of a creative endeavor). The copyright on a work will always be yours, except when you explicitly (partially) give it to someone else, such as a publisher.</p>
-<p>With <strong>licenses</strong>, such as <a href="https://creativecommons.org/licenses/?lang=en">Creative Commons licenses</a>, you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license. These open licences both allow others to use the data without many restrictions. Note that this does not mean that your productdoes not have to be cited. You can simply state something like the following accompanying your licensing info: <em>“When using this [product, e.g., data], please cite the original publication: [citation]. Additionally, please cite the [name repository] package.”</em></p>
+<p>With <strong>licenses</strong>, such as <a href="https://creativecommons.org/licenses/?lang=en">Creative Commons licenses</a>, you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licenses both allow others to use the data without restrictions. For non-anonymous data, use a more restrictive license (but please <strong>don't use non-derivate (ND) or non-commercial (NC)</strong> licenses, read why <a href="https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply">here</a>) or a <a href="dsa-template.html">data use agreement</a>. </p>
+<p>Don't know which license to choose? Use a <a href="https://ufal.github.io/public-license-selector/">license selector</a>!</p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li>An overview of data repositories can be found <a href="https://www.re3data.org/">here</a></li>
 <li>Information on the EUR Data Repository can be found <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository">here</a></li>
-<li>Tool to choose a <a href="https://creativecommons.org/choose/?lang=nl">creative commons licence</a></li>
 <li><a href="https://digitalscholarship.nl/rds/faculty/faculty-of-social-and-behavioural-sciences/">Data management and sharing tools</a> (list compiled by the Leiden University Library)</li>
 <li><a href="https://the-turing-way.netlify.com/open_research/01/opendata.html">The Turing Way - open data</a></li>
 <li><a href="https://www.uu.nl/en/research/research-data-management/guides/publishing-and-sharing-data">Utrecht University information about data sharing</a></li>

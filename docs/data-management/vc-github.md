@@ -103,7 +103,6 @@ If you are working on a project with many collaborators making changes, the odds
     </ul>
 <li>To update your online version of the repository, simply push the changes (e.g., <code>push origin master</code> <i>after</i> pulling from the upstream</li>
 </ul>
-
 <br>
 
 ## Resources
@@ -112,10 +111,10 @@ For every piece of software, remember that **google is your best friend**. Or us
 
 - Also a very comprehensive git guide by [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git.html)
 - More info on the [Git workflow](https://githowto.com/) (especially useful if you are going to use git via the command line)
-- Github guide: [git handbook](https://guides.github.com/introduction/git-handbook/) 
--  (duration ca. 1 hour)
+- Github guide: [git handbook](https://guides.github.com/introduction/git-handbook/) (duration ca. 1 hour)
 - Using Git(hub) with Rstudio: [https://happygitwithr.com/](https://happygitwithr.com/)
 - Introduction on Github by [Ana Martinovici](https://github.com/eur-synclab/githubfun) 
 - Git terminology: [https://git-scm.com/docs/gitglossary](https://git-scm.com/docs/gitglossary)
 - More terminology: [https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-resources.html#definitions-glossary)
 - If you want to use Gitlab instead, here are the [materials of a comprehensive course](https://github.com/NETWAYS/gitlab-training) (ironically, on GitHub)
+
