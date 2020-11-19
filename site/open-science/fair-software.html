@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
     <meta name="author" content="SYNC lab">
-    <link rel="canonical" href="https://sourcefoundry.org/cinder/open-science/transparency-guidelines.html">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/open-science/fair-software.html">
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Transparency guidelines - SYNC lab wiki</title>
+    <title>FAIR software - SYNC lab wiki</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -138,7 +138,7 @@
         
             
 <li >
-    <a href="open-access-how.html">How to publish open access</a>
+    <a href="open-access-how.html">How to</a>
 </li>
 
         
@@ -191,8 +191,8 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="open-software.html">Open software</a>
+<li class="active">
+    <a href="fair-software.html">FAIR software</a>
 </li>
 
         
@@ -208,24 +208,24 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">Fostering transparency elsewhere</a>
+    <a tabindex="-1" href="">Transparency</a>
     <ul class="dropdown-menu">
         
             
 <li >
-    <a href="preregistration.html">Preregistering your research</a>
-</li>
-
-        
-            
-<li class="active">
-    <a href="transparency-guidelines.html">Transparency guidelines</a>
+    <a href="preregistration.html">Preregistration</a>
 </li>
 
         
             
 <li >
-    <a href="osf.html">Using the Open Science Framework</a>
+    <a href="transparency-checklists.html">Open project checklists</a>
+</li>
+
+        
+            
+<li >
+    <a href="osf.html">Open Science Framework</a>
 </li>
 
         
@@ -255,13 +255,13 @@
         
             
 <li >
-    <a href="../data-management/research-drive-info.html">About Research Drive</a>
+    <a href="../data-management/research-drive-info.html">About</a>
 </li>
 
         
             
 <li >
-    <a href="../data-management/research-drive-how.html">How to use Research Drive</a>
+    <a href="../data-management/research-drive-how.html">How to</a>
 </li>
 
         
@@ -288,7 +288,7 @@
         
             
 <li >
-    <a href="../data-management/vc-github.html">Version control for code</a>
+    <a href="../data-management/vc-github.html">Git(hub)</a>
 </li>
 
         
@@ -352,7 +352,7 @@
                         
                             
 <li >
-    <a href="../data-analysis/LISA-how.html">Using the LISA cluster</a>
+    <a href="../data-analysis/LISA-how.html">LISA cluster</a>
 </li>
 
                         
@@ -362,18 +362,18 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reaching out to society <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Outreach <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../reaching-out/intro-scicom.html">Science communication and citizen science</a>
+    <a href="../reaching-out/scicom.html">Science communication</a>
 </li>
 
                         
                             
 <li >
-    <a href="../reaching-out/outreach-practices.html">Our outreach practices</a>
+    <a href="../reaching-out/outreach-practices.html">Outreach practices</a>
 </li>
 
                         
@@ -388,7 +388,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/welcome-eur.html">Welcome at the EUR!</a>
+    <a href="../getting-started-eur/welcome-eur.html">Intro to the EUR!</a>
 </li>
 
                         
@@ -400,7 +400,7 @@
                         
                             
 <li >
-    <a href="../getting-started-eur/finances.html">Financial information</a>
+    <a href="../getting-started-eur/finances.html">Finances</a>
 </li>
 
                         
@@ -423,17 +423,17 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="preregistration.html">
+                        <a rel="prev" href="dsa-template.html">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="osf.html">
+                        <a rel="next" href="open-code.html">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/eur-synclab/sync-manual/edit/master/docs/open-science/transparency-guidelines.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                        <a href="https://github.com/eur-synclab/sync-wiki/edit/master/docs/open-science/fair-software.md"><i class="fab fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -445,36 +445,55 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#transparency-in-reporting">Transparency in reporting</a></li>
-            <li class="second-level"><a href="#transparency-checklist-aczel-et-al-2020">Transparency checklist (Aczel et al., 2020)</a></li>
+        <li class="first-level active"><a href="#open-source-software">Open source software</a></li>
+            <li class="second-level"><a href="#1-create-a-github-repository">1. Create a github repository</a></li>
                 
-            <li class="second-level"><a href="#ecobidas-committee-on-best-practices-in-data-analysis-and-sharing">(e)COBIDAS: Committee on Best Practices in Data Analysis and Sharing</a></li>
+            <li class="second-level"><a href="#2-include-information-files">2. Include information files</a></li>
                 
-            <li class="second-level"><a href="#other-resources-please-add-more-if-you-run-into-them">Other resources (please add more if you run into them)</a></li>
+            <li class="second-level"><a href="#3-fill-up-the-repository-with-your-software">3. Fill up the repository with your software</a></li>
+                
+            <li class="second-level"><a href="#4-make-your-software-citable">4. Make your software citable</a></li>
+                
+            <li class="second-level"><a href="#5-register-your-software-in-a-community-registry">5. Register your software in a community registry</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="transparency-in-reporting">Transparency in reporting</h1>
-<p>On this page, you will find more resources aimed at increasing transparency in your manuscript.</p>
-<h3 id="transparency-checklist-aczel-et-al-2020">Transparency checklist (Aczel et al., 2020)</h3>
+<h1 id="open-source-software">Open source software</h1>
+<p>Let's say I have an experiment or analysis code that I want to share with the world. However, I want to get acknowledgement and I don't want to reply to all separate emails asking for it. How to go about it? Create an open source project!</p>
+<p>See also:</p>
 <ul>
-<li>Paper: https://doi.org/10.1038/s41562-019-0772-6</li>
-<li>Online checklist: http://www.shinyapps.org/apps/TransparencyChecklist/</li>
-<li>Short transparency checklist: http://www.shinyapps.org/apps/ShortTransparencyChecklist/</li>
+<li>FAIR software <a href="https://fair-software.nl/">recommendations</a></li>
+<li><a href="https://opensource.guide/">Open source guide</a></li>
 </ul>
-<h3 id="ecobidas-committee-on-best-practices-in-data-analysis-and-sharing">(e)COBIDAS: Committee on Best Practices in Data Analysis and Sharing</h3>
-<p>In 2012, in a <a href="https://www.ncbi.nlm.nih.gov/pubmed/22796459">review of the methods and results reporting of more than 200 fMRI papers</a> the author found that <em>"Although many journals urge authors to describe their methods to a level of detail such that independent investigators can fully reproduce their efforts, the results described here suggest that few studies meet this criterion."</em></p>
-<p>A few years ago, in order to improve reproducibility in (f)MRI research, the Committee on Best Practices in Data Analysis and Sharing (COBIDAS) of OHBM released a <a href="https://www.biorxiv.org/content/10.1101/054262v2">report</a> to promote best practices for methods and results reporting. This was recently followed by a <a href="https://osf.io/a8dhx/">similar initiative for EEG and MEG</a>.</p>
-<p>The goal of this project is to develop an online version of the checklist to increase the implementation of both reports. See the first version of the online checklist <strong><a href="https://ohbm.github.io/cobidas/#/">here</a></strong>. Other resources:
-- OSF page: https://osf.io/anvqy/
-- Github repo: https://github.com/Remi-Gau/COBIDAS_chckls</p>
-<h3 id="other-resources-please-add-more-if-you-run-into-them">Other resources (please add more if you run into them)</h3>
+<h2 id="1-create-a-github-repository">1. Create a github repository</h2>
+<p>If you want to know more about how github works, check out the <a href="../data-management/vc-github.html">github chapter</a>.</p>
 <ul>
-<li>Klapwijk et al., 2019: Opportunities for increased reproducibility and replicability of developmental cognitive neuroscience, <a href="https://doi.org/10.31234/osf.io/fxjzt">click here for the preprint</a>.</li>
-<li>Pickering, Topor et al., 2020: Non-Interventional, Reproducible, and Open (NIRO) Systematic Review guidelines v0.1, <a href="http://doi.org/10.17605/OSF.IO/F3BRW">click here for the OSF page</a> and <a href="https://niro-sr.netlify.app/">here for the website</a>.</li>
-</ul></div>
+<li>Choose a recognizable name (check for projects with a similar name!)</li>
+<li>Choose a public repository</li>
+<li>Initialize a readme.md file</li>
+</ul>
+<h2 id="2-include-information-files">2. Include information files</h2>
+<ul>
+<li>Write a comprehensive <strong>readme file</strong>: what does the repository contain? What is the background? Can people contribute and how can people use your software? (You can also <a href="https://www.makeareadme.com/">write one online</a>)</li>
+<li>Write <strong>contributing guidelines</strong>, if you are open to people contributing</li>
+<li>Write a <strong>code of conduct</strong></li>
+<li>Choose a <strong>license</strong> for your project (see <a href="https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository">Github docs</a>): this is important, because it specifies how people can use your software. <a href="https://choosealicense.com/licenses/mit/">MIT</a>, <a href="https://choosealicense.com/licenses/apache-2.0/">Apache 2.0</a>, and <a href="https://choosealicense.com/licenses/gpl-3.0/">GPLv3</a> are the most popular open source licenses, but there are <a href="https://choosealicense.com/">other options</a>. You can use this <a href="https://ufal.github.io/public-license-selector/"><strong>license selector</strong></a> as well.</li>
+</ul>
+<p>Read about all these steps on <a href="https://opensource.guide/starting-a-project/">this website</a>.</p>
+<h2 id="3-fill-up-the-repository-with-your-software">3. Fill up the repository with your software</h2>
+<ul>
+<li>use consistent code conventions and clear function/method/variable names</li>
+<li>comment your code!</li>
+<li>remove sensitive materials in the revision history, issues, or pull requests</li>
+<li>use logical file names and structure</li>
+<li>check whether your software is of <a href="https://fair-software.nl/recommendations/checklist">sufficient quality</a></li>
+</ul>
+<h2 id="4-make-your-software-citable">4. Make your software citable</h2>
+<p>Despite you having specified how people can reuse your software (through the license), your software is not yet citable using a persistent identifier. Unfortunately, Github does not offer the possibility to create a persistent identifier for a repository directly. <strong>However</strong>, it is possible to make a <strong>release</strong> (a snapshot of the repository at a certain point in time) on Github that you can then publish on <strong>Zenodo</strong>, which will create a DOI. <a href="https://guides.github.com/activities/citable-code/">Click here</a> to see how to do this.</p>
+<h2 id="5-register-your-software-in-a-community-registry">5. Register your software in a community registry</h2>
+<p>This allows others to easily find and reuse your software or code. Find a registry <a href="https://github.com/NLeSC/awesome-research-software-registries">here</a>.</p></div>
         
         
     </div>
