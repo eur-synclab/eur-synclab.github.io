@@ -13,7 +13,7 @@ You have to register your articles yourself in [Metis](https://metis.ru.nl/feder
 
 Once registered in Metis and placed in RePub, the article receives a permanent identifier in the form of a handle, which you can use to refer to your publication when it is not gold open access.
 
-## Open access: costs
+## Costs
 
 - Publishing open access via the green route (RePub or other institutional repository) is free of charge and highly encouraged.
 - Publishing gold open access is not always free. The VSNU has made deals with several publishers that allow researchers at Dutch universities to publish articles open access at no extra charge. However, not all publishers will point you towards this option when submitting an article or when the article is in the stage of acceptance. 
@@ -37,7 +37,20 @@ How do you know whether or not you found a trustworthy (open access) journal for
 - The user licenses are clearly mentioned in each article
 - You can also check the scoring of the journal [here](http://www.qoam.eu/journals)
 
-## Open access resources
+
+
+## Use your ORCID
+
+When publishing papers or other works, always use your ORCID. This allows all your works to be associated with **you** (and not someone with accidentally the same name), no matter where you work or which email address you use. Read all about ORCID in **this [EUR libguide](https://libguides.eur.nl/ORCID/home).** Some nice-to-knows:
+
+- Institutions also have organization identifiers. For EUR, use "Erasmus University Rotterdam, Zuid-Holland, NL". 
+- Under "Works" > "Search and link", you can allow several parties access to your ORCID. If you allow Crossref and DataCite (links to EUR data repository) access, all your works will appear in your ORCID record automatically (does not work for all sources though)! 
+- After the Works category, there is a Peer review category. This appears only if your publisher indicates that you were the reviewer or when you use Publons. This will make explicit how much work you spend reviewing! 
+
+
+
+## Resources
+
 -	[Transpose](https://transpose-publishing.github.io/#/), a database of journal policies on peer review, co-reviewing and preprinting
 -	[Maggio et al., 2018](https://doi.org/10.1007/s40037-018-0451-8), a short article about preprints and the authors’ personal experience with publishing a preprint
 -	A [Preprint FAQ](https://help.osf.io/hc/en-us/articles/360019930493-Preprint-FAQs), including other relevant links
@@ -51,5 +64,6 @@ How do you know whether or not you found a trustworthy (open access) journal for
 - Submit articles via [Repub](https://repub.eur.nl/page/1/)
 - Open access at the [EUR](https://www.eur.nl/library/research-support/open-access)
 - [Metis](https://my.eur.nl/en/essb-employee/research/research-publishing-impact/personal-metis)
-
-If you have questions about Metis or open access publishing, contact [Geert van den Hoek](mailto:vandenhoek@essb.eur.nl), research policy officer ESSB. Questions about RePub can be sent to repub@eur.nl. 
+- Questions about Metis or open access publishing: contact [Geert van den Hoek](mailto:vandenhoek@essb.eur.nl) 
+- Questions about RePub can be sent to repub@eur.nl
+- Questions about ORCID can be sent to orcid.library@eur.nl
