@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Science communication
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+On this page, we can collect sources on science communication and citizen science.
 
-## Commands
+## Resources
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Blog](https://www.dsquintana.blog/podcast-guide/) on how to start a podcast and [wiki](https://osf.io/exu5h/) with additional materials.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
