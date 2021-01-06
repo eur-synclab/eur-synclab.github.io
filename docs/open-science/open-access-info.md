@@ -29,7 +29,7 @@ Publishing open access is possible via the gold and the green routes:
 Read more about open access at the [EUR open access website](https://www.eur.nl/en/library/research-support/open-access).
 
 ## Preprints
-A preprint is the submitted, non-peer reviewed version of your article. An increasing number of researchers publish preprints in Preprint servers in order to get their results out there quicker.
+A preprint is the submitted, non-peer reviewed version of your article. An increasing number of researchers publish preprints in Preprint servers in order to get their results out there quicker. Read more below and in this [preprint FAQ](https://help.osf.io/hc/en-us/articles/360019930493-Preprint-FAQs).
 
 ### Why publish preprints?
 - **Speed**: Preprints are almost immediately publicly visible, besides some checks on content and ethics
