@@ -6,16 +6,16 @@ Publishing data can go roughly in the following ways:
 
 ## 1. Publish in a data repository
 
-For example:
+For example (or find one [here](https://www.re3data.org/)):
 
 <ul>
-    <li>The <a href=https://datarepository.eur.nl/>EUR Data Repository</a>: for publication packages at the EUR</li>
+    <li>The <a href=https://datarepository.eur.nl/>EUR Data Repository</a>: for publication packages at the EUR (<a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository">more info</a>)</li>
     <ul>
         <li>All data and materials accompanying a publication</li>
         <li>Not suitable for large or publication-independent datasets or non-anonymous data</li>
         <li>See the <a href=pub-packages.html>publication packages page</a> for more information.</li>
     </ul>
-<li><a href=https://dataverse.nl>DANS DataverseNL</a>: for publication packages at Leiden University</li>
+<li><a href=https://dataverse.nl>DANS DataverseNL</a>: for publication packages at Leiden University (<a href="https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/instruction-for-archiving-publication-packages.pdf">instructions</a>)</li>
 <ul>
     <li>All data and materials accompanying a publication</li>
     <li>Not suitable for large or publication-independent datasets (max zip file size 10GB) or non-anonymous data</li>
@@ -37,7 +37,7 @@ For example:
     <li>max 5 GB for private, 50 GB for public projects</li>
     <li>Choose storage location in EU: Germany</li>
     <li>Keep your data close to all other relevant files in your OSF project</li>
-    <li>OSF is more aimed at project management than dissemination, read more here <a href=osf.md>here</a></li>
+    <li>OSF is more aimed at project management than dissemination, read more <a href=osf.md>here</a></li>
 </ul>
 <li>Other general-purpose repositories, such as:
     <ul>
@@ -49,12 +49,13 @@ For example:
 
 
 
-In all cases, make your data [FAIR](https://www.go-fair.org/fair-principles/), see the [data management page](../data-management/FAIR.md) and take [privacy considerations](gdpr.md) into account.
+
+In all cases, make your data [FAIR](../data-management/FAIR.md) and take [privacy considerations](gdpr.md) into account.
 
 
 ## 2. Publish a datapaper
 
-You can also publish a dataset in a data journal without the need to add it to a publication. In a datapaper, you describe the data and the methods of collecting them, without the need to analyze them. This will get you a publication out of your data irrespective of whether or not you publish results. This however often (but not always) requires that you make all described data public, because the aim of such publications is to provide access to high quality datasets and to facilitate reuse. Also, most journals have some policy in which repository you should deposit the data accompanying the datapaper. Note that a datapaper will be peer-reviewed just as well as a regular article. See [this link](https://pitt.libguides.com/findingdata/datajournals) for a list of data journals.
+In a datapaper, you describe the data and the methods of collecting them, without the need to analyze them. This will get you a publication out of your data irrespective of whether or not you publish results. This often requires that you make all described data public, because the aim of such publications is to provide access to high quality datasets and to facilitate reuse. Also, most journals have some policy in which repository you should deposit the data accompanying the datapaper. Note that a datapaper will be peer-reviewed just as well as a regular article. See [this link](https://pitt.libguides.com/findingdata/datajournals) for a list of data journals.
 
 
 ## 3. Via supplementary materials in a published paper
@@ -95,25 +96,19 @@ Some federated learning tools and projects:
 - [COINSTAC](https://github.com/trendscenter/coinstac)
 - [PySyft](https://github.com/OpenMined/PySyft)
 - [ENIGMA](http://enigma.ini.usc.edu/) consortium: Consortium with several working groups. Share pre- and post-processing analysis scripts, the leading site will conduct meta-analysis
+- [OHDSI](https://ohdsi.org/) (Observational Health Data Sciences and Informatics): collaborative to bring out the value of health data through large-scale analytics
+- [Personal Health Train](https://www.dtls.nl/fair-data/personal-health-train/), part of Health-RI (official website [here](https://pht.health-ri.nl/))
 
+## Licensing
 
-
-## Copyright & licences
-
-**Copyright** includes the rights that you automatically get when you create something, such as an article or dataset (although there are differing opinions on whether or not data is the result of a creative endeavor). The copyright on a work will always be yours, except when you explicitly (partially) give it to someone else, such as a publisher.
-
-With **licenses**, such as [Creative Commons licenses](https://creativecommons.org/licenses/?lang=en ), you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a CC0 (public domain) or CC-BY 4.0 license (requires acknowledgement). These open licenses both allow others to use the data without restrictions. For non-anonymous data, use a more restrictive license (but please **don't use non-derivate (ND) or non-commercial (NC)** licenses, read why [here](https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply)) or a [data use agreement](dsa-template.md). 
+With **licenses**, you specify what others are permitted to do with your product. You can see it as some kind of agreement: if someone violates the license, you have the right to sue them, just like a regular lawful agreement. For anonymous data, it is recommended to choose a **CC0** (public domain) or **CC-BY 4.0** license. These open licenses both allow others to use the data without restrictions. For non-anonymous data, use a more restrictive license (but please **don't use non-derivate (ND) or non-commercial (NC)** licenses, read why [here](https://www.openaire.eu/how-do-i-license-my-research-data-how-to-apply)) or formulate your own terms of use, for example in a [data use agreement](dsa-template.md). 
 
 Don't know which license to choose? Use a [license selector](https://ufal.github.io/public-license-selector/)!
 
 ## Resources
 
-- An overview of data repositories can be found [here](https://www.re3data.org/)
-- Information on the EUR Data Repository can be found [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository)
 - [Data management and sharing tools](https://digitalscholarship.nl/rds/faculty/faculty-of-social-and-behavioural-sciences/) (list compiled by the Leiden University Library)
 - [The Turing Way - open data](https://the-turing-way.netlify.com/open_research/01/opendata.html)
 - [Utrecht University information about data sharing](https://www.uu.nl/en/research/research-data-management/guides/publishing-and-sharing-data)
 - [FAQ about data sharing (Donders Institute)](https://data.donders.ru.nl/doc/help/faq/publish-data.html?0#faq-dsc-prepare)
-- List of [certified repositories](https://www.coretrustseal.org/why-certification/certified-repositories/) / [other repositories](http://v2.sherpa.ac.uk/opendoar/)
 - [Decision aid choosing a repository (not exhaustive)](https://www.uu.nl/en/research/research-data-management/tools-services/tools-for-storing-and-managing-data/decision-aid-data-repositories)
-- [Instructions for DataverseNL](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/instruction-for-archiving-publication-packages.pdf)

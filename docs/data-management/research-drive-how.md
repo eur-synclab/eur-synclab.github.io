@@ -1,6 +1,6 @@
 # Research Drive protocol
 
-This page contains information on how we deal with data on the SURF Research Drive in the SYNC lab.
+This page contains information on how we deal with data on the SURF Research Drive in the SYNC lab, which can be accessed by logging in [here](https://eur.data.surfsara.nl/).
 
 
 
@@ -24,7 +24,7 @@ This page contains information on how we deal with data on the SURF Research Dri
 
 ### Requesting access (users)
 
-Request access to a folder with the data steward of the relevant project. You can find who is the data steward for which project in the file “[ResearchDrive_overview_Projects_Access_Groups](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795)”  (only accessible for SYNC lab members).
+Request access to a folder with the data steward of the relevant project. You can find who is the data steward for which project in the file “[ResearchDrive_overview_Projects_Access_Groups](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795)” .
 
 
 
@@ -38,7 +38,7 @@ Select the folder and click the sharing icon.
 
 In the area that appears, you can add individual users or groups and alternatively, create sharing links (URLs) with non-Research Drive users. Giving access to a folder means providing that selected access for **all subfolders** below the shared folder too.
 
-Give only the necessary access: preferably **never give anyone sharing rights** (unless strictly necessary), because that person can give others more rights than they themselves have. This causes you to lose overview of who can access the data.
+Preferably **never give anyone sharing rights** (unless strictly necessary), because that person can give others more rights than they themselves have. This causes you to lose overview of who can access the data.
 
 
 
@@ -50,9 +50,9 @@ Give Research Drive users access via **personal access groups** (Settings > Cust
 
 <p style="clear:left;"></p>
 
-The owner of the group is the only one who can add and remove access group members and see the members of the group. However, **all access group names** are visible for the entire Research Drive, so please **aptly name the groups** according to the following format: **SYNC_ProjectName_Accesslevel**, e.g., "SYNC_Brainlinks_edit". If a new person needs access, they can be added to the relevant access group and automatically gains access to the same files/folders as the other group members. 
+The group owner is the only one who can add and remove access group members and see the members of the group. However, **all access group names** are visible for the entire Research Drive, so **aptly name the groups** according to the following format: **SYNC_ProjectName_Accesslevel**, e.g., "SYNC_Brainlinks_edit". If a new person needs access, they can be added to the relevant access group and automatically gains access to the same files/folders as the other group members. 
 
-After you have made any changes in access groups, please **update** [the access document](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795) so we can keep an overview of who has access to what and who owns which access group.
+After you have made any changes in access groups, please **update** [the access document](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/3442795).
 
 #### Individual users
 
@@ -65,7 +65,7 @@ Add users to folders individually if they should not have the same permissions a
 Generally, when sharing data with students or outsiders, stick to the following guidelines:
 
 - Share data only when the sharing serves a scientific goal
-- Keep the amount of data shared to a minimum (only the data necessary to reach the scientific goal)
+- Keep the amount of data shared to a minimum
 - Pseudonymize or, if possible, anonymize data before sharing
 - **Students** should sign a **non-disclosure agreement** and stick to the working guidelines for students
 
@@ -95,7 +95,7 @@ Rclone is a command-line tool to upload data to any location. It can run easily 
 
 5. In your Research Drive account, create a new WebDAV password: Settings > Security > WebDAV passwords. Create a new password by filling in a name, e.g., “Rclone”. Copy the password that was just created to a temporary file/your clipboard.
 
-6. Follow the instructions listed [here](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone). Use the following link for step 3: [https://eur.data.surfsara.nl/remote.php/nonshib-webdav/ ](https://eur.data.surfsara.nl/remote.php/nonshib-webdav/). Your username is `yourERNAid@eur.nl` and the password is the Webdav password you just created (you will probably not see the password being pasted, but it is!). When you are asked for a `bearer token`, just press `Enter`
+6. Follow the instructions listed [here](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone). Use the following link for step 3: [https://eur.data.surfsara.nl/remote.php/nonshib-webdav/ ](https://eur.data.surfsara.nl/remote.php/nonshib-webdav/). Your username is `yourERNAid@eur.nl` and the password is the WebDAV password you just created (you will probably not see the password being pasted, but it is!). When you are asked for a `bearer token`, just press `Enter`
 
 7. Example summary of the config: <br><img src="../img/RD_rcloneconfig.JPG" style="zoom:80%;" text-align = "center"/>
 
@@ -135,9 +135,9 @@ Upload files from your command window (type `cmd` in your search bar if you don'
 
 
 
-### Cyberduck
+### Rclone alternative: Cyberduck
 
-Cyberduck is not a command-line tool but has a graphical user interface for uploading data. It also has built-in encryption software (cryptomator), which allows simultaneously encrypting and uploading data. 
+Cyberduck is a graphical user interface for uploading data. It also has built-in encryption software (cryptomator), which allows simultaneously encrypting and uploading data. 
 
 
 
@@ -180,12 +180,12 @@ Research Drive **cannot** contain **special** types of personal data (bijzondere
 
  
 
-Most of this information is collected via questionnaires and during the call to select participants (e.g., MRI checklist). Raw MRI data containing faces should also be considered special personal data. The following data need to be **encrypted** before uploading to Research Drive:
+Therefore, the following data need to be **encrypted** before uploading to Research Drive:
 
-1. Participant databases with contact information
-2. MRI checklist information files (“Bijzonderhedenbestand”) containing information about past surgeries and other health information
-3. Files containing demographic data, responses about race, political views, religion, sexual life, criminal past and other potential health information. This type of file *can* be stored on Research Drive without encryption *only when* that the data are pseudonymized / not directly traceable to individuals.
-4. Raw, non-defaced MRI images
+1. Participant databases with contact information - using a password on Microsoft Office documents is sufficient
+2. MRI checklist information files (“Bijzonderhedenbestand”) containing information about past surgeries and other health information - using a password on Microsoft Office documents is sufficient
+3. Files containing demographic data, responses about race, political views, religion, sexual life, criminal past and other potential health information. This type of file **can** be stored on Research Drive without encryption **only when** they are pseudonymized / not directly traceable to individuals.
+4. Raw, **non-defaced** MRI images
 
 
 
@@ -195,56 +195,43 @@ In general, it is best to **avoid having to use encryption**, because passwords 
 
 #### How to encrypt?
 
-##### **Keep it local**
+1. Keep it **local**: don't upload them to Research Drive. If this means you may lose data, don't do this
+2. **Passwords**: put a password on a Microsoft Office document  (e.g., Excel, Word) and **keep the password at a safe location**. If you lose the password, the data is not accessible anymore
+3. Use **encryption software**: we use Cryptomator to encrypt non-defaced MRI data.
 
-The simplest way to keep data safe is to not upload them to the Research Drive, but to keep them on a local EUR drive. This may however result in some access issues and may therefore not be desirable.
+  
+
+##### **Using Cryptomator to encrypt data**
+
+Use Cryptomator when you want to encrypt folders containing multiple sensitive files before uploading that folder to Research Drive: 
+
+1. [Download](https://cryptomator.org/downloads/) and install the most recent version of Cryptomator
+2. [Create an encrypted folder (vault)](https://docs.cryptomator.org/en/latest/desktop/getting-started/). Be sure to create **both** a password and a recovery key that can be used in case the password gets lost. **Save both at a safe location**! If you lose them, you cannot access the data anymore. 
+3. [Open (decrypt) the vault](https://docs.cryptomator.org/en/latest/desktop/accessing-vaults/). In Cryptomator, select a Vault and click "Open vault". Select the cryptomator masterkey file. You will be prompted to fill out the password and afterwards, the folder will open. Note that you need the Cryptomator software to see the files in a normal way. In your file explorer, you will probably only see nonsense files in a folder called 'd'.
+4. **Work with vault contents**: after opening a vault, the decrypted files will appear in a separate path on your computer (e.g., "Z://"). You can simply copy the path to tools (Matlab, R) or open files from here to work with them. After usage, remember to lock the vault again.
+5. **Uploading encrypted folders** with rclone works the same way as uploading regular folders!
 
 
 
-##### **Passwords**
+##### **Encryption within Cyberduck**
 
-Putting a password on an individual Excel or Word file is a safe form of encryption. Be sure to **keep the password at a safe location**: If you lose the password, the data is not accessible anymore.
+Cyberduck has in-built functionality to encrypt files using [Cryptomator](https://cryptomator.org/):
 
- 
-
-##### **Within Cyberduck**
-
-Cyberduck has in-built functionality to encrypt files using [Cryptomator](https://cryptomator.org/). To encrypt files, you first need to create an encrypted folder. 
-
-1. In Cyberduck (after connecting to Research Drive), select the folder in which you want to create the encrypted folder
+1. In Cyberduck, select the folder in which you want to create the encrypted folder
 2. Right click and select “New locked vault” (Nieuwe versleutelde safe)
-3. Give the vault a name (remember to put the Project name in there, e.g., “Brainlinks_Neural_data_raw”) and a password (passphrase).
-4. **Store the password** in your password manager or somewhere else safe immediately. If you lose this password, the data cannot be accessed anymore! Cyberduck will also save the password, but if others besides you need to be able to access the folder as well, they need the password too to decrypt the files.
-5. You can now upload folders into this encrypted folder as with normal folders.   In the background, Cyberduck will decrypt your own encrypted folders for you automatically (because it knows the password), which is why it looks no different than a normal folder in your own Cyberduck environment. However, if you look in your Research Drive, you will see nonsense files and/or folders. 
-
- 
-
-##### **Cryptomator outside of Cyberduck**
-
-You do not necessarily need Cyberduck in order to encrypt folders. For example, when you use Rclone to upload data, you may still need to encrypt some of the data before uploading. In order to do this, you will use Cryptomator separately.
-
-1. [Download](https://cryptomator.org/downloads/) and install Cryptomator
-2. [Create an encrypted folder](https://docs.cryptomator.org/en/latest/desktop/getting-started/). Be sure to create **both** a password and a recovery key that can be used in case the password gets lost. **Save both at a safe location**!
-3. [Open (decrypting) the encrypted folder](https://docs.cryptomator.org/en/latest/desktop/accessing-vaults/). When decrypted, the folder will appear in a separate path (drive), which you can give to tools such as Matlab and R to work with them. After usage, remember to lock the vault again!
+3. Give the vault a name (remember to put the Project name in there, e.g., “Brainlinks_Neural_data_raw”) and a password. **Store the password** somewhere safe immediately.
+5. You can now upload folders into this encrypted folder as with normal folders. In the background, Cyberduck will decrypt your encrypted folders automatically (because it knows the password), which is why it looks no different than a normal folder in the Cyberduck environment. 
 
  
 
 #### Saving and sharing passwords
 
-After encryption, both you and your colleagues need to be able to re-access the data. Therefore, store the passwords in a safe place:
+A few safe options are:
 
--  **Lastpass** stores your passwords in a vault the cloud (behind 1 main, strong password). It can also store secure notes (such as Cryptomator recovery keys) and allows sharing passwords with others (in the premium version). As an extention in your web browser, it also autofills the saved passwords. 
-- Storing on a **network drive**: make sure that that drive is secured, backed up and only accessible to those who are allowed to decrypt the data
-
-- Storing files **locally** is also an option, but keep in mind that when your PC is hacked, hackers may have access to the passwords and when your PC / drive crashes, the passwords may be lost.
-
-
-
-The following ways are recommended to safely share a password (or other sensitive files):
-
-- Via the network drive: make sure that the drive or folder is only accessible to those allowed
-- Via **Lastpass**: Network center > Share item. If you have the free version and you want to share the password with more than 1 person, this is not the best option.
-- Via **SURFfilesender**: per password and recovery key, create a txt file. Send it/them via [SURF filesender](https://filesender.surf.nl/), make sure a password is required to download the file(s). Send the password to download to files to the receiver(s) via another way (e.g., text or slack message).
+-  **Lastpass** stores your passwords in a vault in the cloud (behind 1 master password). It can also store secure notes (such as Cryptomator recovery keys) and allows sharing passwords with others (premium version: Network center > Share item). 
+-  **Network drive**: make sure that the drive is secured, backed up and only accessible to those who are allowed to decrypt the data
+- **Locally**: keep in mind that when your PC is hacked, hackers may have access to the passwords and when your PC / drive crashes, the passwords may be lost.
+- You can share passwords via **SURFfilesender**: per password and recovery key, create a txt file. Send it/them via [SURF filesender](https://filesender.surf.nl/) and make sure a password is required to download the file(s). Send the password to download to files to the receiver(s) via another way (e.g., text or slack message).
 
 
 
@@ -252,25 +239,31 @@ The following ways are recommended to safely share a password (or other sensitiv
 
 ### Editing documents
 
-The easiest way to edit documents is in your internet browser, because it allows **collaborative** editing (using OnlyOffice) and changes are automatically saved. If you mount Research Drive to your file explorer and then edit the document at the same time someone else does, there can be merging conflicts and the version with the last edit “wins”. 
+The easiest way to edit documents is in your internet browser, because it allows **collaborative** editing (with OnlyOffice) and changes are automatically saved. If you mount Research Drive to your file explorer and then edit the document at the same time someone else does, there can be merging conflicts and the version with the last edit “wins”. 
 
 
 
 ### Mounting Research Drive to your file explorer
 
-You can mount your Research Drive account to your file explorer, so that the Research Drive files can be accessed on your local PC. Note that collaborative editing is not possible this way, and merging conflicts may emerge when multiple people are working on the same files.  OwnCloud is the recommended tool that is useful for working with small and few files. However, it is **not suitable** for synchronizing **large (numbers of)** **files**. 
+You can mount your Research Drive account to your file explorer, so that the Research Drive files can be accessed on your local PC. Note that collaborative editing is not possible this way, and merging conflicts may emerge when multiple people are working on the same files. OwnCloud is the recommended tool that is useful for working with small and few files. However, it is **not suitable** for synchronizing **large (numbers of)** **files**. 
 
-- To download the OwnCloud client, go to [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app": <br><img src="../img/RD_Owncloud.JPG" style="zoom:80%;" text-align="center" />
+- Download the OwnCloud via [this link](https://owncloud.com/client/) or in Research Drive, go Settings. Scroll all the way down until you see something like this. Click on "Desktop app": <br><img src="../img/RD_Owncloud.JPG" style="zoom:80%;" text-align="center" /> 
+- Choose the installation location wisely: if you are going to work with large amounts of data, install Owncloud on a hard disk with sufficient storage space.
 
-<ul><li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud
+<ul>
+    <li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud</li>
     <ul>
         <li>Use the link <strong>eur.data.surfsara.nl</strong> to connect with and authorize the share by logging in to your Research Drive account</li>
-        <li>Choose <strong>Selective synchronization</strong> and select only the folders you need to work on from your local machine. All synced files are stored and synced on you local machine. If your Research  Drive storage is really high, you should <strong>not</strong> sync them all with your PC!</li>
+        <li>Choose <strong>Selective synchronization</strong> and select only the folders you need to work on from your local machine. All synced files are stored and synced on your local machine. If your Research  Drive storage is really high, you should <strong>not</strong> sync them all with your PC!</li>
         <li>Alternatively, choose <strong>Virtual file support</strong>, which makes sure that only files that are being worked on are downloaded</li>
-    </ul></ul>
-
-
-**Note**: OwnCloud does not show encrypted files and folders and so does not allow to work with them.
+    </ul>
+    <li>To work with encrypted folders:</li>
+    <ol>
+        <li>synchronize the encrypted folder to your PC (somewhere with enough disk space) - this will probably take some time depending on the size of the folder</li>
+        <li>open Cryptomator and select Open vault</li>
+        <li>open the cryptomator masterkey file and fill out the password</li>
+        <li>you should now be able to see your files and work with them. Bonus: your work will be automatically synchronized with Research Drive as long as you work in the synchronized folder</li>
+    </ol></ul>
 
 
 
@@ -279,40 +272,29 @@ You can mount your Research Drive account to your file explorer, so that the Res
 There are multiple ways that you can analyze data that are stored on Research Drive:
 
 <ul>
-    <li><strong>Locally</strong>: download the data to your local PC and analyze them there</li>
-    <ul>
-        <li>Advantage: no dependencies on your internet connection</li>
-        <li>Disadvantage: not great for large (numbers of) files, no cloud synchronization, takes up double the amount of storage space (both on Research Drive and your local PC)</li>
-    </ul>
-    <li>Use <strong>OwnCloud</strong> and run analyses on data that are stored in Research Drive <i>as if</i> the data were stored on your local PC. Make sure to only synchronize files that you really need!</li>
+    <li>Use <strong>OwnCloud</strong> and run analyses on data that are stored in Research Drive <i>as if</i> the data were stored on your local PC.</li>
     <ul>
         <li>Advantage: cloud synchronization</li>
-        <li>Disadvantage: data that are used will be stored at your local hard disk (except when using virtual file support). This can cause your PC to become very slow. This method is also not suitable for large (numbers of) files, because synchronizating those files will take a very long time</li>
+        <li>Disadvantage: requires sufficient disk space, synchronization may take a long time</li>
     </ul>
     <li>Use a <strong>cloud computing service</strong>, such as Jupyter Hub (built into Research Drive) or the LISA cluster</li>
     <ul>
-        <li>Advantage: no local copies need to be made and the analysis runs fast, since the cluster has a large computing capacity</li>
-        <li>Disadvantage: the cluster is mostly meant for MRI data analysis and can be expensive if used a lot. It also takes some getting used to to work with the cluster</li>
+        <li>Advantage: no local copies needed, fast analysis</li>
+        <li>Disadvantage: mostly meant for large data analysis, may take some getting used to</li>
+    </ul>
+        <li><strong>Locally</strong>: download the data to your local PC and analyze them there</li>
+    <ul>
+        <li>Advantage: no dependencies on your internet connection</li>
+        <li>Disadvantage: not great for a lot of data, no cloud synchronization, requires manual upload to Research Drive afterwards</li>
     </ul>
 </ul>
 
 
 
+#### Working with MRI data: recommended method
 
-#### Working with MRI data: recommended methods
-
-#####  1. <u>Defaced</u> MRI data synchronized with your local PC
-
-1. Deface the MRI data before uploading them to Research Drive.
-
-2. Synchronize **only** the folder(s) that you need on your local PC via OwnCloud: your PC needs to have enough disk memory to save the data, also after processing! After synchronizing, you can enter the path to the OwnCloud folder that was synchronized to your PC in SPM or Matlab for your analysis.
-
- 
-
-##### 2. <u>Encrypted</u> MRI data synchronized with your local PC
-
-Encrypted folders are useless if you do not have the encryption key: they contain random files with weird names. 
-
-2. Encrypting: When uploading encrypted MRI data to Research Drive, encrypt a folder as high as possible in the hierarchy (e.g., Neural data), so that you only have to **decrypt one folder** to do analyses on that data. 
-3. Synchronize **only** the folder(s) that you need on your local PC via OwnCloud. Use Cryptomator to decrypt the folder (enter the password) and click Reveal.
-4. The main folder (e.g., Neural data) is shown as a separate directory on your local PC (e.g., "Z:"). You can add this directory in SPM or Matlab for your analysis.
+1. Deface the MRI data before uploading them to Research Drive. If this is not possible (anymore), **encrypt** the folder that contains the relevant data as high as possible in the hierarchy, so that you only have to decrypt one folder for analyses.
+2. When installing Owncloud, choose a location with sufficient disk space (e.g., an external hard disk)
+3. Synchronize **only** the folder(s) that you need on your local PC via OwnCloud: your PC needs to have enough disk memory to save the data, also after processing! Note that syncing may take a while.
+4. After synchronizing, if needed, use Cryptomator to decrypt the folder (enter the password)
+5. The folder is now shown as a separate directory on your local PC (e.g., "Z:"). You can add this directory in SPM or Matlab for your analysis.
