@@ -2,7 +2,7 @@
 
 In the data management world, making data "FAIR" is the ideal situation. Making your data FAIR facilitates knowledge discovery by assisting humans and machines in their discovery of and access to the data.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2uZxFu9SFi8?start=5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<p style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/2uZxFu9SFi8?start=5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 See all FAIR principles and their explanation on the [GO FAIR website](https://www.go-fair.org/fair-principles/). See also this [FAIR data checklist](https://www.lcrdm.nl/files/lcrdm/2019-07/HOW FAIR IS YOUR DATA_flyer_2.pdf) to see if you have met all FAIR requirements.
 
