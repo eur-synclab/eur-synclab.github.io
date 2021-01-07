@@ -9,27 +9,27 @@ repo_url: https://github.com/eur-synclab/sync-wiki
 
 nav:
 
-  - Welcome:
+  - About:
       - Home: "index.md"
-      - The SYNC lab: "welcome/intro-sync.md"
-      - How to contribute: "welcome/contribute.md"
-  - How we work:
-    - Code of conduct: "how-we-work/code-of-conduct.md"
-    - Labmeetings: "how-we-work/labmeetings.md"
-    - Collaboration tools: "how-we-work/collab-tools.md"
+      - The SYNC lab: "about/intro-sync.md"
+      - Code of conduct: "about/code-of-conduct.md"
+      - How to contribute: "about/contribute.md"
+      
+      - Labmeetings: "about/labmeetings.md"
+      - Collaboration tools: "about/collab-tools.md"
   - Open Science:
-    - Open acccess publishing:
-      - Information: "open-science/open-access-info.md"
+    - Open access publishing:
+      - About open access: "open-science/open-access-info.md"
       - How to: "open-science/open-access-how.md"
     - Data sharing:
       - The GDPR: "open-science/gdpr.md"
       - Publication packages: "open-science/pub-packages.md"
-      - How to share data?: "open-science/data-sharing-how.md"
+      - How to: "open-science/data-sharing-how.md"
       - NeuroVault: "open-science/neurovault.md"
       - Data sharing agreement: "open-science/dsa-template.md"
     - Reproducibility:
       - FAIR software: "open-science/fair-software.md"
-      - Open code: "open-science/open-code.md"
+      - Reproducible code: "open-science/open-code.md"
     - Transparency:
       - Preregistration: "open-science/preregistration.md"
       - Open project checklists: "open-science/transparency-checklists.md"
@@ -37,7 +37,7 @@ nav:
   - Data management:
     - Data security protocol: "data-management/data-security.md"
     - Research Drive:
-      - About: "data-management/research-drive-info.md"
+      - About Research Drive: "data-management/research-drive-info.md"
       - How to: "data-management/research-drive-how.md"
     - File organization: "data-management/folder-structure.md"
     - Version control:
