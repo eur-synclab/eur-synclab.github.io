@@ -29,7 +29,9 @@ For a more extensive explanation on how to contribute, please see [How to contri
 8. If everything goes correctly, you can also open the new .html files in the `eur-synclab.github.io/site` folder to see what your changes will look like online
 9. Push the changes to your remote (i.e., the repository on your Github account)
 10. Make a pull request to merge your branch with the `eur-synclab/eur-synclab.github.io master` branch
-11. After merging your pull request, your changes will be automatically visible on the website!
+11. Those who can directly edit this repository will then review your pull request and merge it with the `master` branch
+12. Those who can directly edit this repository then have to locally navigate to `eur-synclab.github.io master` and then run `mkdocs gh-deploy`. This pushes the html pages to the `gh-pages` branch of this repository
+13. Your changes are now visible on the [website](eur-synclab.github.io)!
 
 ## Contributors ✨
 
