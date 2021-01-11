@@ -32,10 +32,10 @@ Currently, this is not yet possible. Therefore, you first need to copy data from
 - On the Lisa cluster command line, you can list your directories and files using a combination of `rclone` and `ls`, for example:
     - `rclone ls RD:"2010_Braintime (Projectfolder)/data"` > this will show the content of the 2010_Braintime data folder on Research Drive (assuming your connection is setup properly and that you have access to this folder)
 - Copying data from Research Drive to a folder on your Lisa home:
-    - `rclone copy RD:"2010\_Braintime (Projectfolder)/data/" /data`
-    - or to check whether the command is working without actually copying you can use `--dryrun`: `rclone copy --dry-run RD:"2010\_Braintime (Projectfolder)/data/" /data`
+    - `rclone copy RD:"2010_Braintime (Projectfolder)/data/" /data`
+    - or to check whether the command is working without actually copying you can use `--dryrun`: `rclone copy --dry-run RD:"2010_Braintime (Projectfolder)/data/" /data`
 - using [filtering](https://rclone.org/filtering/) you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':
-    - `rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data`
+    - `rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data --progress`
 
 #### copy data using **rsync**
 - To copy other files (e.g., scripts) from locations outside Research Drive, you could use **rsync**
