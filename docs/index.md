@@ -27,5 +27,5 @@ Click on a chapter in the menu bar that you would like to read more about, or us
 
 
 
-<p style="text-align:center"><figure style="text-align:center"><img src="./img/SYNC_kerst2020.png" alt="The SYNC lab at Christmas" style="zoom:15%;" /><figcaption style="text-align:center">Merry Christmas 2020 from the SYNC lab members!</figcaption></figure></p>
+<p style="text-align:center"><figure style="text-align:center"><img src="./img/SYNC_kerst2020.png" alt="The SYNC lab at Christmas" width="800" /><figcaption style="text-align:center">Merry Christmas 2020 from the SYNC lab members!</figcaption></figure></p>
 
