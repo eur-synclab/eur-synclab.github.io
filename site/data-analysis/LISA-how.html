@@ -483,12 +483,12 @@ There is a dedicated Lisa <a href="https://userinfo.surfsara.nl/systems/lisa/use
 </ul>
 </li>
 <li>Copying data from Research Drive to a folder on your Lisa home:<ul>
-<li><code>rclone copy RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
-<li>or to check whether the command is working without actually copying you can use <code>--dryrun</code>: <code>rclone copy --dry-run RD:"2010\_Braintime (Projectfolder)/data/" /data</code></li>
+<li><code>rclone copy RD:"2010_Braintime (Projectfolder)/data/" /data</code></li>
+<li>or to check whether the command is working without actually copying you can use <code>--dryrun</code>: <code>rclone copy --dry-run RD:"2010_Braintime (Projectfolder)/data/" /data</code></li>
 </ul>
 </li>
 <li>using <a href="https://rclone.org/filtering/">filtering</a> you can copy a part of the data, e.g. only copying contents of subjects starting with 'sub-BTP0':<ul>
-<li><code>rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data</code></li>
+<li><code>rclone --include "sub-BTP0*" copy RD:"2010_Braintime (Projectfolder)/data/" data --progress</code></li>
 </ul>
 </li>
 </ul>
