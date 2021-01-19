@@ -437,25 +437,39 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#sharing-analysis-code">Sharing analysis code</a></li>
-            <li class="second-level"><a href="#rmarkdown">RMarkdown</a></li>
+            <li class="second-level"><a href="#how-do-tools-like-r-markdown-and-jupyter-notebooks-make-research-more-reproducible">How do tools like R Markdown and Jupyter notebooks make research more reproducible?</a></li>
                 
-                <li class="third-level"><a href="#reference-lists-using-zotero-in-rmarkdown">Reference lists using Zotero in RMarkdown</a></li>
+            <li class="second-level"><a href="#r-markdown">R Markdown</a></li>
+                
+                <li class="third-level"><a href="#installing-r-markdown">Installing R Markdown</a></li>
+                <li class="third-level"><a href="#reference-lists-using-zotero-in-r-markdown">Reference lists using Zotero in R Markdown</a></li>
             <li class="second-level"><a href="#jupyter-notebooks">Jupyter notebooks</a></li>
                 
+                <li class="third-level"><a href="#installing-jupyter-notebooks">Installing Jupyter notebooks</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
 <h1 id="sharing-analysis-code">Sharing analysis code</h1>
-<p><em>“An article about computational science in a scientific publication is </em><em>not</em><em> the scholarship itself, it is merely </em><em>advertising</em><em> of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.”</em> - Buckheit &amp; Donoho, 1995 (see article <a href="http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf">here</a>) </p>
+<p><em>“An article about computational science in a scientific publication is </em><em>not</em><em> the scholarship itself, it is merely </em><em>advertising</em><em> of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.”</em> - Buckheit &amp; Donoho, 1995 (read the full article <a href="http://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf">here</a>) </p>
 <p>This quote nicely summarizes the importance of sharing data, methods and code so that others can evaluate the actual work that was done in a research paper. Luckily, web-based technologies make it very easy to share these materials (and even to share the complete software environment using <a href="https://www.docker.com/">Docker</a> and <a href="https://sylabs.io/singularity/">Singularity</a> containers). However, just releasing your code without annotation is not very informative because others (and future you!) can't make a lot of sense of it. Two helpful tools to annotate your code are RMarkdown and Jupyter notebooks.  </p>
-<h2 id="rmarkdown">RMarkdown</h2>
-<p>Especially when you do your data analysis in R / RStudio, RMarkdown is a very useful tool to put your text and analysis together in one place. It is basically R + Markdown (a markup language to format text). It can be used to write a whole paper, including code to generate figures. This code can be outputted in many formats such as html, pdf and Word. For full documentation see also https://rmarkdown.rstudio.com/index.html</p>
+<h4 id="how-do-tools-like-r-markdown-and-jupyter-notebooks-make-research-more-reproducible">How do tools like R Markdown and Jupyter notebooks make research more reproducible?</h4>
+<ul>
+<li>R Markdown files and Jupyter notebooks contain 1) the code that others need to reproduce your work along with 2) the narration that a reader needs to understand your work</li>
+<li>R and Python code can be run within these documents, meaning that in principle others can check whether your work is reproducible </li>
+</ul>
+<h2 id="r-markdown">R Markdown</h2>
+<p>Especially when you do your data analysis in R / RStudio, R Markdown is a very useful tool to put your text and analysis together in one place. It is basically R + Markdown (a markup language to format text). It can be used to write a whole paper, including code to generate figures. This code can be outputted in many formats such as html, pdf and Word. For full documentation see also the <a href="https://rmarkdown.rstudio.com/index.html">R Markdown documentation</a> and this neat <a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">cheatsheet (pdf)</a>.</p>
 <p style="text-align:center"><figure style="text-align:center"><img src="https://d33wubrfki0l68.cloudfront.net/44f781299f23419d5314e5322e7c44393f7190d3/c5915/images/markdownchunk.png" alt="RMarkdown example" width="500" /><figcaption style="text-align:center">Example of RMarkdown chunk in RStudio with associated html output (from RMarkdown docs)</figcaption></figure></p>
 
-<h3 id="reference-lists-using-zotero-in-rmarkdown">Reference lists using Zotero in RMarkdown</h3>
+<h4 id="installing-r-markdown">Installing R Markdown</h4>
+<ul>
+<li>have R and <a href="https://rstudio.com/products/rstudio/download/">RStudio</a> installed (avalaible for free)</li>
+<li>install R Markdown <code>install.packages("rmarkdown")</code></li>
+</ul>
+<h3 id="reference-lists-using-zotero-in-r-markdown">Reference lists using Zotero in R Markdown</h3>
 <p>When writing papers, it is also very useful to connect RStudio with Zotero.<br />
-<a href="https://zotero.org/">Zotero</a> is a free and open source reference manager with a very handy <a href="https://www.zotero.org/download/connectors">browser plugin</a>. If you have never used a reference manager before: it is a great way to keep a library of all your literature (including pdf's) together and will help you to cite papers in the right way and produce automatic reference lists in the right format for you. This can be done in a word processor like Microsoft Word, but also in RMarkdown.  </p>
+<a href="https://zotero.org/">Zotero</a> is a free and open source reference manager with a very handy <a href="https://www.zotero.org/download/connectors">browser plugin</a>. If you have never used a reference manager before: it is a great way to keep a library of all your literature (including pdf's) together and will help you to cite papers in the right way and produce automatic reference lists in the right format for you. This can be done in a word processor like Microsoft Word, but also in R Markdown.  </p>
 <h4 id="the-basic-steps-you-need-to-make-this-work">The basic steps you need to make this work:</h4>
 <ol>
 <li>install <a href="https://zotero.org/">Zotero</a> and import references (e.g., using the browser plugin)  </li>
@@ -470,7 +484,18 @@
 <li>if you also add <code># References</code> at the end of the main text, your bibliography will be created automatically there  </li>
 <li>the format of the bibliography can be defined by pointing to a csl file in the YAML header (e.g, <code>csl: ./apa.csl</code>). All csl (citation style language) files can be downloaded from the internet, see also https://citationstyles.org/</li>
 </ul>
-<h2 id="jupyter-notebooks">Jupyter notebooks</h2></div>
+<h2 id="jupyter-notebooks">Jupyter notebooks</h2>
+<p>For analyses that are conducted using Python, Jupyter notebooks are a great way to keep executable code and annotation in one place (note that many other programming languages are also supported by Jupyter notebooks: the name is reference to the 3 core languages Julia, Python, and R). For full documentation see the <a href="https://jupyter-notebook.readthedocs.io/en/latest/">Jupyter Notebook docs</a> and <a href="https://jupyter.org/">https://jupyter.org/</a> for more information about the larger Project Jupyter ecosystem.  </p>
+<p>When opening a Jupyter Notebook, you are opening an interactive session. Here you can add different sort of cells: <em>code cells</em> that can be executed (after execution the results will be displayed in the notebook), and <em>Markdown cells</em> that can be used to add descriptive text that can be marked up using the Markdown language.</p>
+<p style="text-align:center"><figure style="text-align:center"><img src="/img/Qoala_notebook4.gif" alt="example notebook" width="600" /><figcaption style="text-align:center">Example GIF of a Jupyter notebook for the Qoala-T tool. See notebook <a href="https://github.com/Qoala-T/QC/blob/master/Notebooks/Qoala-T_Notebook.ipynb">here</a> </figcaption></figure></p>
+
+<h4 id="installing-jupyter-notebooks">Installing Jupyter notebooks</h4>
+<ul>
+<li>you might want to try Jupyter online first, which can be done <a href="https://jupyter.org/try">here</a></li>
+<li>If you want to install Jupyter notebooks, instructions for the different ways to install it can be found <a href="https://jupyter.readthedocs.io/en/latest/install/notebook-classic.html">here</a></li>
+<li>Python is a requirement for installation, and the recommended way to install both Python and Jupyter notebooks is to install <a href="https://www.anaconda.com/products/individual">Anaconda</a> (available for free)</li>
+<li>Once anaconda is installed you can launch Jupyter Notebooks from the Anaconda Navigator or by typing <code>jupyter notebook</code>in the command line</li>
+</ul></div>
         
         
     </div>
