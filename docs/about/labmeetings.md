@@ -13,9 +13,9 @@ Currently, we meet at regular intervals for different purposes:
 
 ## Attending our meetings
 
-The current meeting schedule with open meetings can be found [here](https://eur.data.surfsara.nl/index.php/s/nRDFO4yc8ZPGZSp).  
+The current meeting schedule with open meetings can be found [here](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/s/nRDFO4yc8ZPGZSp).  
 
-If you would like to attend one of our meetings as attendee or guest speaker, please feel free to send us an email via synclab@essb.eur.nl or contact Eduard Klapwijk (e.klapwijk[at]essb.eur.nl). 
+If you would like to attend one of our meetings as attendee or guest speaker, please feel free to send us an email via [synclab@essb.eur.nl](mailto:synclab@essb.eur.nl) or contact [Eduard Klapwijk](https://www.eur.nl/people/eduard-klapwijk). 
 
 
 
