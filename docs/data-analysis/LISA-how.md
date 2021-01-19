@@ -7,8 +7,8 @@ More information about high perfomance computing options at the EUR can be found
 
 - See also under 'How to Access' on this [EUR page](https://www.eur.nl/en/library/node/20736):
 	
-    1. Download the [application form](https://userinfo.surfsara.nl/sites/default/files/2015-11-11-Lisa-Application-form-EUR.doc) for resources at SURFsara, fill it in and return it for EUR approval by e-mail to [edsc@eur.nl](mailto:edsc@eur.nl?SUBJECT=High%20Performance%20Computing). You can ask for 10.000 hours computing time for a start, this will normally be approved quite fast 
-    2. After EUR approval: SURFsara requests you, for each user in the Application form to sign the [Usage agreement Supercomputer systems](https://userinfo.surfsara.nl/sites/default/files/2013-01-25_HPC-System-Usage-Agreement-SURFsara.doc), and send it to [helpdesk@surfsara.nl](mailto:helpdesk@surfsara.nl)
+    1. Download the [application form](https://userinfo.surfsara.nl/sites/default/files/2015-11-11-Lisa-Application-form-EUR.doc) for resources at SURFsara, fill it in and return it for EUR approval by e-mail to the esdc email adress listed [here](https://www.eur.nl/en/library/node/20736). You can ask for 10.000 hours computing time for a start, this will normally be approved quite fast. Need more hours (e.g., running fmriprep on >100 participants will require more hours)? > you can request more hours directly via SURF [here](https://www.surf.nl/en/apply-for-access-to-compute-services) 
+    2. After EUR approval: SURFsara requests you, for each user in the Application form to sign the [Usage agreement Supercomputer systems](https://userinfo.surfsara.nl/sites/default/files/2013-01-25_HPC-System-Usage-Agreement-SURFsara.doc), and send it to the SURFsara helpdesk email
     3. At SURFsara they will create an account for you on LISA and you will receive an email with instructions on how to login
 
 ## SLURM usage
