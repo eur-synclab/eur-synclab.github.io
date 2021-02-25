@@ -115,10 +115,10 @@ Whenever you process sensitive data (or something changes regarding this), such 
 
 ##### Contacts
 
-- For checking your (ESSB) DMP and/or DPIA, contact Geert van den Hoek: vandenhoek@essb.eur.nl
-- For general questions about DMPs and DPIAs, contact the Erasmus Data Service Center (EDSC): edsc@eur.nl (phone: +31 010-4081232)
-- EDSC workshop agenda: https://eur-nl.libcal.com/calendar/rdm-workshop/?cid=7009&t=g&d=0000-00-00&cal=7009&inc=0
-- For the DPIA, contact the EDSC (edsc@eur.nl) and/or the ESSB privacy officer (privacy@essb.eur.nl)
+- For checking your (ESSB) DMP and/or DPIA, contact the faculty [data steward](https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan)
+- For general questions about DMPs and DPIAs, contact the Erasmus Data Service Center (EDSC): edsc [at] eur [dot] nl
+- EDSC [workshop agenda](https://eur-nl.libcal.com/calendar/rdm-workshop/?cid=7009&t=g&d=0000-00-00&cal=7009&inc=0)
+- For the DPIA, contact the ESSB privacy officer (privacy [at] essb [dot] eur [dot] nl)
 
 
 

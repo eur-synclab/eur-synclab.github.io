@@ -23,4 +23,4 @@ At the EUR, use the [EUR data repository](https://datarepository.eur.nl/) (insta
 - Publish the package as a dataset, not as an online resource, in order to make the data more findable.
 - Only publish data confidential when that is absolutely necessary. The reuse of your data is significantly reduced when they are behind a confidentiality wall. Moreover, when the owner of the publication package leaves the EUR, they cannot provide access to the confidential files anymore.
 
-For questions about the EUR data repository, please contact the university library (datarepository@eur.nl). For the ESSB policy implementation, you can contact Geert van den Hoek (vandenhoek@essb.eur.nl).
+For questions about the EUR data repository, please contact the university library (datarepository [at] eur [dot] nl). For the ESSB policy implementation, contact the ESSB [data steward](https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan).
