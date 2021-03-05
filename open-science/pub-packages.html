@@ -452,6 +452,10 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#publication-packages">Publication packages</a></li>
+            <li class="second-level"><a href="#what-are-publication-packages">What are publication packages?</a></li>
+                
+            <li class="second-level"><a href="#how-to-upload-a-publication-package">How to upload a publication package?</a></li>
+                
             <li class="second-level"><a href="#tips">Tips</a></li>
                 
     </ul>
@@ -459,28 +463,36 @@
         <div class="col-md-9" role="main">
 
 <h1 id="publication-packages">Publication packages</h1>
-<p>Publication packages are bundles of all materials necessary to reproduce the results from a scientific article. They roughly contain:</p>
+<h2 id="what-are-publication-packages">What are publication packages?</h2>
+<p>Publication packages are bundles of all materials necessary to reproduce the results from a scientific article. They contain (following the <a href="https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/instruction-for-archiving-publication-packages.pdf">national publication package guidelines</a>):</p>
 <ul>
-<li>The manuscript or a link to an open access version</li>
+<li>The manuscript or a link to the open access manuscript</li>
 <li>Experimental files, such as Eprime or scripts that run the experiment, task instructions, questionnaires, etc.</li>
-<li>Raw research data (anonymized) or a link to the repository where the data are stored</li>
-<li>Processed research data (anonymized) or a link to the repository where the data are stored</li>
+<li>Anonymized raw research data or a link to the repository where the data are stored</li>
+<li>Anonymized processed research data or a link to the repository where the data are stored</li>
 <li>Processing and statistical analysis scripts</li>
-<li>Readme file with all relevant metadata, including links to the article and other relevant information, e.g., the preregistration, the dataset on NeuroVault, contact information of involved researchers, etc. The more metadata, the better!</li>
+<li>Readme file with all relevant metadata, including links to the article and other relevant information, e.g., the preregistration, the dataset on NeuroVault, contact information of involved researchers, information on excluded participants, information on methods used, etc. <strong>The more metadata, the better!</strong></li>
 <li>Approved ethics protocol</li>
 </ul>
-<p>See for more extensive information the <a href="https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/sociale-wetenschappen/psychologie/organisatiegids/instruction-for-archiving-publication-packages.pdf">national publication package guidelines</a>.</p>
-<p>At the EUR, use the <a href="https://datarepository.eur.nl/">EUR data repository</a> (instance of Figshare), which is currently only suitable for anonymized data. Your publication package will receive a DOI which can be cited in your publication. Information on how to use the EUR data repository can be found in <a href="https://www.youtube.com/watch?v=Kld9DRSnRBM&amp;list=PL83jqndLu-uALFbLn62Jp3qdh0lwyPXgw&amp;index=1">this youtube playlist</a> and <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository">here</a>.</p>
+<h2 id="how-to-upload-a-publication-package">How to upload a publication package?</h2>
+<ol>
+<li>Log into the <a href="https://datarepository.eur.nl/">EUR data repository (EDR)</a> (instance of Figshare) with your EUR credentials.</li>
+<li>Link your EDR profile to your ORCID. This will make sure that your publication package appears in your ORCID profile too.</li>
+<li>Under my data, create a new item. In this item, you can upload <strong>all</strong> publication package files (preferably without zipping), so that your files are linked under 1 DOI.</li>
+<li>Fill out as many fields in the form as possible, including all authors on your manuscript and links to external resources. This will make sure your data will be Findable.</li>
+<li>For license, preferably choose CC-BY 4.0, which enables maximum reuse of your data, besides being acknowledged for your data.</li>
+<li>If your manuscript is not accepted for publication yet, 1) Reserve a DOI that you can use in your publication, 2) Generate a private link for reviewers to see your data and 3) Save changes (do not Publish yet). Once your manuscript is accepted for publication and your data (analysis) will not change anymore, you can Publish it.</li>
+<li>After saving or publishing, your package will be looked at by a data curator from the EUR. They will contact you if they have any questions about your package or tips to improve it even more.</li>
+</ol>
+<p>More information on how to use the EUR data repository can be found in <a href="https://www.youtube.com/watch?v=Kld9DRSnRBM&amp;list=PL83jqndLu-uALFbLn62Jp3qdh0lwyPXgw&amp;index=1">this youtube playlist</a> and <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository">here</a>.</p>
 <h2 id="tips">Tips</h2>
 <ul>
 <li>Be sure to create the publication package (reserve a DOI) before your manuscript is published, so that the manuscript links to the publication package and vice versa</li>
 <li>Prevent uploading files multiple times. If you have already uploaded data or code on OSF or Github, link those uploads to the publication package, instead of re-uploading in the publication package. If you have uploaded elsewhere (e.g., NeuroVault), provide a readme with the relevant links to make sure everything is findable!</li>
 <li>If applicable, create links with an OSF project, a Github repository and your ORCID, click <a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository/faq">here</a> for how to do this.</li>
-<li>Only zip files when the data files are very large in order to save space. The data is more accessible and interoperable if they are not zipped.</li>
-<li>Publish the package as a dataset, not as an online resource, in order to make the data more findable.</li>
-<li>Only publish data confidential when that is absolutely necessary. The reuse of your data is significantly reduced when they are behind a confidentiality wall. Moreover, when the owner of the publication package leaves the EUR, they cannot provide access to the confidential files anymore.</li>
+<li>Only publish data as confidential when that is absolutely necessary. The reuse of your data is significantly reduced when they are behind a confidentiality wall. Moreover, when the owner of the publication package leaves the EUR, they cannot provide access to the confidential files anymore.</li>
 </ul>
-<p>For questions about the EUR data repository, please contact the university library (datarepository@eur.nl). For the ESSB policy implementation, you can contact Geert van den Hoek (vandenhoek@essb.eur.nl).</p></div>
+<p>For questions about the EUR data repository, please contact the university library (datarepository [at] eur [dot] nl). For the ESSB policy implementation, contact the ESSB <a href="https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan">data steward</a>.</p></div>
         
         
     </div>
