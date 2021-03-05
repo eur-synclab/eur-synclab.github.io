@@ -90,10 +90,9 @@ Have a look at [this MRI data sharing guide](https://doi.org/10.5281/zenodo.3822
 - [Legal instruments protecting data (agreements)](https://www.uu.nl/en/research/research-data-management/guides/legal-instruments-and-agreements)
 
 ## Erasmus University contacts
-- Privacy office ESSB: privacy@essb.eur.nl
-  - Priscilla van Berkel: priscilla.vanberkel@eur.nl
-- Legal counsel: Renee Hanegraaf: hanegraaf@eur.nl
-- Research support: Geert van den Hoek: vandenhoek@eur.nl
-- Information manager ESSB: Andre Cheung Tam He: cheungtamhe@eur.nl
+- Privacy office ESSB: privacy [at] essb [dot] eur [dot] nl, or see [this page](https://my.eur.nl/en/essb-employee/professional-services/privacy-security/contact-privacy-officer)
+- Legal counsel: see [this page](https://www.eur.nl/en/research/research-services/research-quality-integrity/legal-aspects-research)
+- Research support, e.g., data stewards: see [this page](https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan)
+- IT-related questions: it [dot] servicedesk [at] eur [dot] nl
 
 See all support staff [here](https://my.eur.nl/en/essb-employee/contact/team-overview-support-staff-essb)

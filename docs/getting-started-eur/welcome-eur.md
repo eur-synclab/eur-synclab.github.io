@@ -38,9 +38,10 @@ Self service portal, see manuals on [this page](https://my.eur.nl/en/eur-employe
 Link: [https://outlook.office365.com/mail/inbox](https://outlook.office365.com/mail/inbox)
 
 <ul><li>You can automatically create Teams meetings in the agenda.</li>
-    <li>If you want to send an email to everyone in the lab, send it to: <a href=staff.essb.strategy.dns@eur.nl>staff.essb.strategy.dns@eur.nl</a>. This group is managed by Carina Schlosser. If you have not yet been added to this list, send her an email via office@essb.eur.nl. </li> 
+    <li>If you want to send an email to everyone in the lab, send it to: <i>staff [dot] essb [dot] strategy [dot] dns [at] eur [dot] nl</i>. This group is managed by Carina Schlosser. If you have not yet been added to this list, send her an email via <i>office [dot] strategy [at] essb [dot] eur [dot] nl</i>. </li> 
     <ul> <li>To see (and change) the members of an email group, go to <a href=https://exchange.eur.nl/ecp/>https://exchange.eur.nl/ecp/</a> > log in > groups > search for "Staff ESSB Strategy - Developmental Neuroscience, EUR" and double click the group to see the members.</li></ul>
 </ul>
+
 
 ### Metis
 
@@ -57,7 +58,7 @@ Read all about your ICT workplace [here](https://my.eur.nl/en/eur-employee/work-
 - If you want to **work from home**, use [MyApps](https://my.eur.nl/en/eur-employee/services/working-flex-workspace-or-home), which allows you access to your personal account (@wEURk workplace) and software. Please note that MyApps is not coupled to a specific PC, so you cannot use local hard disk storage of a specific EUR PC from home. Read more FAQs [here](https://my.eur.nl/en/eur-employee/work-support/ict-workplace/faq-myapps).
 - You can install software via the Software Center (locally or via MyApps). There is more software available than is visible here, see [this page](https://my.eur.nl/en/eur-employee/work-support/ict-workplace/client-software-center-application-request) for more information.
 
-- If you have a question or request, go to the [ICT Self Service Desk](https://eur.topdesk.net/tas/public/ssp/)  or contact the Service desk via [servicedesk@eur.nl](mailto:servicedesk@eur.nl) (phone number: +31 010 408 8880)
+- If you have a question or request, go to the [ICT Self Service Desk](https://eur.topdesk.net/tas/public/ssp/)  or contact the Service desk via *servicedesk [at] eur [dot] nl* (phone number: +31 010 408 8880)
 
  
 
@@ -65,37 +66,29 @@ Read all about your ICT workplace [here](https://my.eur.nl/en/eur-employee/work-
 
 Below are some useful support email addresses. See an overview of ESSB support staff [here](https://my.eur.nl/en/essb-employee/contact/team-overview-support-staff-essb).
 
-<ul><li> General procedural questions: office ESSB, <a href=office@essb.eur.nl>office@essb.eur.nl</a> (managed by Carina Schlosser)</li>
-    <ul>
-        <li>Barbara van Zeijl: board secretary ESSB, <a href=vanzeijl@essb.eur.nl>vanzeijl@essb.eur.nl</a></li>
-        <li>Marja Hortulanus: student & educational affairs, <a href=hortulanus@essb.eur.nl>hortulanus@essb.eur.nl</a></li>
-    </ul>
-    <li>HR-related questions: <a href=hressb@eur.nl>hressb@eur.nl</a></li>
-    <li>Financial questions (project control) <a href=finance@essb.eur.nl>finance@essb.eur.nl</a> (managed by Mercedes Araque Bolinches)</li>
-    <ul>
-        <li>Patrick Heeres: project control, WBS numbers, <a href=heeres@essb.eur.nl>heeres@essb.eur.nl</a></li>
-        <li>Bart Looije: controller for ESSB, <a href=looije@essb.eur.nl>looije@essb.eur.nl</a></li>
-        <li>Patricia Engelbrecht: head creditors EUR, <a href=patricia.engelbrecht@eur.nl>patricia.engelbrecht@eur.nl</a></li>
-    </ul>
-    <li>ICT: <a href=servicedesk@eur.nl>servicedesk@eur.nl</a> or <a href=it.servicedesk@eur.nl>it.servicedesk@eur.nl</a></li>
-    <ul>
-        <li>Andre Cheung Tam He: <a href=cheungtamhe@essb.eur.nl>cheungtamhe@essb.eur.nl</a></li>
-    </ul>
+<ul><li> General procedural questions: <i>office [dot] strategy [at] essb [dot] eur [dot] nl</i> (managed by Carina Schlosser)</li>
+    <li>Secretariat of the Dean's Office, see <a href="https://my.eur.nl/en/essb-employee/education-support/contact-information-all-essb-support-staff/secretariat-deans-office-essb">this link</a></li>
+    <li>HR-related questions: see <a href=https://my.eur.nl/en/essb-employee/professional-services/human-resources-hr/contact-details-hr-essb>this link</a></li>
+    <li>Financial questions (project control), see <a href=https://my.eur.nl/en/essb-employee/education-support/contact-information-all-essb-support-staff/finance-essb>this link</a></li>
+    <li>ICT: <i>servicedesk [at] eur [dot] nl</i> or <i>it [dot] servicedesk [at] eur [dot] nl</i></li>
     <li>Research Data Management, open science & privacy</li>
     <ul>
-        <li>Jeroen Rombouts: head RDM, <a href=rombouts@eur.nl>rombouts@eur.nl</a></li>
-        <li>University Library Data Management Team: <a href=datarepository@eur.nl>datarepository@eur.nl</a></li>
-        <li>Geert van den Hoek: RDM, Metis, open access, Hora Finita for ESSB, <a href=vandenhoek@essb.eur.nl>vandenhoek@essb.eur.nl</a></li>
-        <li>Privacy officer ESSB: Priscilla van Berkel, <a href=privacy@essb.eur.nl>privacy@essb.eur.nl</a> or <a href=priscilla.vanberkel@eur.nl>priscilla.vanberkel@eur.nl</a></li>
-        <li>Open science community Rotterdam: Antonio Schettino, <a href=schettino@eur.nl>schettino@eur.nl</a></li>
+        <li>Jeroen Rombouts, head RDM</li>
+        <li>University Library Data Management Team: <i>datarepository [at] eur [dot] nl</i></li>
+        <li>Research Data Management, see <a href="https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan">this link</a></li>
+        <li>Privacy officer ESSB: <i>privacy [at] essb [dot] eur [dot] nl</i></li>
+        <li>Open science community Rotterdam: Antonio Schettino</li>
+        <li>Ethical review, see <a href="https://my.eur.nl/en/essb-employee/research/ethics-review/ethics-review-committee-dpecs">this link</a></li>
     </ul>
     <li>Communications department</li>
     <ul>
-        <li>Marjolein Kooistra: media relations and internal communication, <a href=kooistra@essb.eur.nl>kooistra@essb.eur.nl</a></li>
-        <li>Britt Boeddha van Dongen: communications advisor of the strategy group ESSB and Vital cities and citizens, <a href=b.k.vandongen@essb.eur.nl>b.k.vandongen@essb.eur.nl</a></li>
-        <li>Kristel Segeren: senior editor ESSB website, <a href=segeren@essb.eur.nl>segeren@essb.eur.nl</a></li>
+        <li>Marjolein Kooistra: media relations and internal communication</li>
+        <li>Britt Boeddha van Dongen: communications advisor of the strategy group ESSB and Vital cities and citizens</li>
+        <li>Kristel Segeren: senior editor ESSB website</li>
+        <li>Ivy van Regteren Altena, communications advisor ESSB</li>
     </ul>
 </ul>
+
 
 
 

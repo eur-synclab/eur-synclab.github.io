@@ -12,7 +12,7 @@ The procedure for letting large groups of participants get paid is currently as 
 2. Fill in the form "[Form_for_paying_participants_explained.xls](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/4519282)" (on Research Drive) after copying it (only sheet "1", remove the example line). Follow the instructions in the document closely.
 3. Save the form as .xls ánd as .pdf with a recognizable name, e.g., "20200421_Brainlinks_payment_T2.5_corona".
 4. Have the relevant budget keeper (procuratiehouder) sign the pdf (see the [Research Drive document](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/14754513) for who to ask, usually Eveline is the one to sign)
-5. Send both the .xsl and the .pdf to Patricia Engelbrecht ([patricia.engelbrecht@eur.nl](mailto:patricia.engelbrecht@eur.nl)), preferably via [SURF filesender](https://filesender.surf.nl/), considering there are personal data in the documents.
+5. Send both the .xsl and the .pdf to Patricia Engelbrecht (*patricia [dot] engelbrecht [at] eur [dot] nl*), preferably via [SURF filesender](https://filesender.surf.nl/), considering there are personal data in the documents.
 6. Patricia will feed the .xls form to the system. If something doesn't work, it has been filled in wrongly and she will return the document to you. When it does work, all participants from the file will receive payment simultaneously.
 
 
@@ -30,7 +30,7 @@ If the amount of participants or other persons to imburse is not that large, the
 
 - Copy the form "[Example_payment_natural_persons.xlsx](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/5866306)" or, if the individuals do not work at EUR, the form "[Declaration_form_non-EUR_individuals_NL.pdf](https://eur.data.surfsara.nl/index.php/s/Vk5H7unUGqr92Nc)"
 - Fill in the relevant data and correct the Kostenplaats/WBS element
-- Send the form to [invoice.fin@eur.nl](mailto:invoice.fin@eur.nl). It will then land in the portal and be processed by finance
+- Send the form to *invoice [dot] fin [at] eur [dot] nl*. It will then land in the portal and be processed by finance
 
 
 
@@ -48,7 +48,7 @@ If an external company requires payment using an invoice, let them address the i
 
 
 
-Email the invoice to [invoice.fin@eur.nl](mailto:invoice.fin@eur.nl) and mention the WBS element or Kostenplaats under which it should fall.
+Email the invoice to *invoice [dot] fin [at] eur [dot] nl* and mention the WBS element or Kostenplaats under which it should fall.
 
 
 
