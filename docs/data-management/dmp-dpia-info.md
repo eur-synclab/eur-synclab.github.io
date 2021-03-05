@@ -6,17 +6,9 @@ On this page, you can find more information about the Data Management Plan (DMP)
 
 ## Data management plan (DMP)
 
-Since 2016, all research projects must have a **data management plan (DMP)** before the start of the project. In a DMP, you are forced to think about data management during and after your project. In a data management plan, you capture which data and metadata will be collected, who is responsible for which tasks and what will happen to the (meta)data after the project has ended.
+Since 2016, all research projects must have a **data management plan (DMP)** before the start of the project. In a DMP, you capture which data and metadata will be collected, who is responsible for which tasks and what will happen to the (meta)data after the project has ended.
 
 <div style="font-size:-1; text-align:center"><img src="../img/Research_Data_Lifecycle.png" alt="The research data lifecycle" style="zoom:65%;" align="center"/><br><small>The research data lifecycle <i><br>Source: UK data archive</i></small></div></br>
-
-### Why write a DMP?
-
--	Organize the way you will create, organize, store, preserve and share your data
--	Demonstrate your funder/employer that you know how to handle your data
--	Identify the best tools for your research ánd disclose potential data issues
--	Be glad procedures are recorded in cases of confusion or forgetfulness (e.g., who can have access, who is responsible, what will happen with the data?)
-
 
 
 ### Components of a DMP
@@ -29,7 +21,7 @@ Fairly standard components of a DMP are:
         <li>How will you create your data?</li>
         <li>How will you access the data in the future?</li>
         <li>What license will you use?</li>
-        <li>What kind of data will it be? E.g., how many and what type of files (see <a href=https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats>preferred file formats</a>), how large (search for "file size calculator"), data quality (resolution, quality), usefulness (versions/processed or unprocessed)</li>
+        <li>What kind of data will it be? E.g., how many and what type of files (see <a href="https://dans.knaw.nl/en/about/services/easy/information-about-depositing-data/before-depositing/file-formats" target="_blank">preferred file formats</a>), how large (search for "file size calculator"), data quality (resolution, quality), usefulness (versions/processed or unprocessed)</li>
     </ul>
     <li><b>Data storage and security</b></li>
     <ul>
@@ -49,7 +41,7 @@ Fairly standard components of a DMP are:
         <li>Has ownership been agreed?</li>
         <li>Who might find your data useful later?</li>
         <li>Any restrictions regarding data sharing? Reasons to opt out of sharing with others: privacy / personal data (GDPR), intellectual property rights, might jeopardize the project’s main objective, commercial (working for companies), security-related, etc.</li>
-        <li>Think about linking your data to your publication AND vice versa! Also think about linking your publications to you through an <a href=https://www.library.universiteitleiden.nl/research-and-publishing/scholarly-publishing/manage-your-name-with-identifiers>ORCID-ID</a></li>
+        <li>Think about linking your data to your publication AND vice versa! Also think about linking your publications to you through an <a href="https://libguides.eur.nl/ORCID" target="_blank">ORCID-ID</a></li>
     </ul>
     <li><b>Data preservation and archiving</b></li>
     <ul>
@@ -62,32 +54,20 @@ Fairly standard components of a DMP are:
 
 ### How to write a DMP?
 
-At the EUR, you can use the [DMP Online tool](https://dmponline.eur.nl/), which contains DMP templates of a lot of funders.
+At the EUR, you can use the [DMP Online tool](https://dmponline.eur.nl/), which contains DMP templates of many funders, or use the EUR template.
 
 <ul>
     <li>Create an account, select the (funder specific) format and simply fill out the form! </li>
     <ul>
         <li>If you leave the Funder field empty, you will use the general EUR-format.</li>
-        <li>Note that not all funders may have approved the EUR template! Contact Geert van den Hoek or the Erasmus Data Serve Centre to be sure</li>
     </ul>
     <li>You can also invite colleagues to work on the DMP and leave comments</li>
-    <li>If your research is funded by the NWO, you have to use one of their approved templates and get feedback from an expert (see contacts below)</li>
+    <li>Check your funder requirements: did they approve of the template you're using? E.g., if your research is funded by NWO, you have to use one of their approved templates and get feedback from an expert (see contacts below)</li>
 </ul> 
 
-Read more about the DMP Online tool [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/data-management-plan/dmponline).
+Read more about DMPs at the EUR, EUR guidelines and the EUR template [here](https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan).
 
-
-
-##### Tips for your DMP
-
--	Plan for at least 10 years of storage and check the associated costs
--	Check what file formats are most suitable for long-term archiving (preferably not closed, software-specific formats such as .sav, but open formats such as .csv)
--	Ask what repository/storage system others with similar data are using
--	Think about how you will grant access: will people always have to ask permission or can the data be open?
--	Ensure the data is **documented** so that others can understand it later
-- Update the DMP whenever you are deviating from earlier versions
-
-
+Need examples? See [this page](https://phaidra.univie.ac.at/search#?page=1&pagesize=10&collection=o:1140797) for a collection of publicly available DMPs.
 
 ## Data protection impact assessment (DPIA)
 
