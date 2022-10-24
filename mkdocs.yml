@@ -18,7 +18,6 @@ nav:
   - Agenda:
       - Labmeetings: "labmeetings.md"
       - Holidays: "holidays.md"
-      - Planned activities: "planned-activities.md"
   - Open Science:
     - Open Science stempelkaart: "open-science/stempelkaart.md"
     - Open access publishing:
