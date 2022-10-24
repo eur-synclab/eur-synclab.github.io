@@ -20,7 +20,7 @@ nav:
       - Holidays: "holidays.md"
       - Planned activities: "planned-activities.md"
   - Open Science:
-    - Open Science stempelkaart: "stempelkaart.md"
+    - Open Science stempelkaart: "open-science/stempelkaart.md"
     - Open access publishing:
       - About open access: "open-science/open-access-info.md"
       - How to: "open-science/open-access-how.md"
