@@ -40,6 +40,6 @@ If you always work the same hours during the week, you can also make a **templat
 
 ### Important notes
 
-- You can only navigate **6 weeks** in the past. Hours that have not been justified before that time can only be registered by Project Control. If you are too late, please fill in [this document on Research Drive](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/15828893) **(for 2020)** and send it to Project Control via finance@essb.eur.nl.
+- You can only navigate **6 weeks** in the past. Hours that have not been justified before that time can only be registered by Project Control.
 - The first line in the ESS portal contains your norm hours. You have to justify all those hours to prevent errors
 - If you log on twice or try to open the window twice you will get the error: "Your personnel number is blocked at the moment"
