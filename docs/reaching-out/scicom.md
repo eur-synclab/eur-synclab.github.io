@@ -9,8 +9,6 @@ On this page, we can collect sources on science communication and citizen scienc
 - On the [YoungXperts website](https://www.youngxperts.nl) you can find more resources and tools on citizen science.
 - [Here](https://eur.data.surfsara.nl/index.php/apps/files/?dir=/SYNC_General%20(Projectfolder)/Outreach/SYNC_logo/SYNCLab_logo&fileid=173971626) you can find SYNC logos that can be used for outreach. EUR logos can be found [here](https://my.eur.nl/nl/eur-employee/huisstijl).
 
-## Citizen science
-
 
 
 ## Tips
