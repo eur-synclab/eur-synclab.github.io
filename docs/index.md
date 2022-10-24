@@ -32,7 +32,7 @@ Click on a chapter in the menu bar that you would like to read more about, or us
 
 - Are you missing information or should current information be updated? Use our [Github repository](https://github.com/eur-synclab/eur-synclab.github.io).
 - On the [How to contribute](./about/contribute) page, you can find more details on how to use git, Github and Markdown to make contributions.
-- If you are missing information here, and you think someone else could write a page about that topic, suggest it as an [Issue](https://github.com/eur-synclab/eur-synclab.github.io/issues) on the Github repository or just ask someone by mail / Slack/ in real life!
+- If you are missing information here, and you think someone else could write a page about that topic, suggest it as an [Issue](https://github.com/eur-synclab/eur-synclab.github.io/issues) on the Github repository or just ask someone by mail / Slack / in real life!
 
 
 
