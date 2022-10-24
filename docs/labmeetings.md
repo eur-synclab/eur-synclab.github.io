@@ -27,17 +27,16 @@ In the labmeetings, labmembers or external visitors share their latest results o
 Collaborators from outside the SYNC lab are more than welcome for labmeetings where research from the specific collaboration is discussed. So do not forget to invite your collaborators when presenting!
 
 The schedule of the labmeetings for 2022-2023 (regularly updated):
-- Tuesday September 13, 2022 11-12 (live): Mark Mulder
-- Tuesday October 11, 2022 11-12 (live)
-- Tuesday October 18, 2022 15-16 (hybrid): Elizabeth McNeily (external)
-- Thursday October 20, 2022 13-14 (online): Jules Dugré (external)e
-- Tuesday October 25, 2022 11-12 (live): Maartje Raijmakers and Maien Sachisthal (external)
-- Tuesday November 15, 2022 11-12 (live)
-- Tuesday November 29, 2022 11-12 (live)
-- Tuesday December 6, 2022 11-12 (live)
+- ~~Tuesday September 13, 2022 11-12 (live): Mark Mulder
+- ~~Tuesday October 11, 2022 11-12 (live)
+- ~~Tuesday October 18, 2022 15-16 (hybrid): Elizabeth McNeily (external)
+- ~~Thursday October 20, 2022 13-14 (online): Jules Dugré (external)
+- Tuesday November 15, 2022 11-12 (live): Maartje Raijmakers and Maien Sachisthal (external)
+- Tuesday November 29, 2022 11-12 (live): Kayla Green
+- Tuesday December 6, 2022 11-12 (live): Suzanne van de Groep
 - Tuesday December 13, 2022 12-13 (online): Annie Gaule (external)
-- Tuesday December 20, 2022 11-12 (live)
-- Tuesday January 10, 2023 11-12 (live)
+- Tuesday December 20, 2022 11-12 (live): Lysanne te Brinke
+- Tuesday January 10, 2023 11-12 (live): Michelle Achterberg
 - Tuesday January 17, 2023 11-12 (live)
 - Tuesday January 31, 2023 11-12 (live)
 - Tuesday February 7, 2023 11-12 (live)
