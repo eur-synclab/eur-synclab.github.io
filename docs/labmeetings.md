@@ -31,16 +31,4 @@ Collaborators from outside the SYNC lab are more than welcome for labmeetings wh
 
 ## Journal clubs
 
-Starting November 2022, we have planned several journal clubs about specific topics, focused on theoretical and methodological papers. This allows us to dive deeper into theoretical aspects of our work and remain up to date with current literature. Example topics from the past are theories on social media in adolescence and the importance of effect sizes in scientific research.  
-
-
-
-# Holidays
-
-Will be updated soon
-
-
-
-# Planned activities
-
-Will be updated soon
+Starting November 2022, we have planned several journal clubs about specific topics, focused on theoretical and methodological papers. This allows us to dive deeper into theoretical aspects of our work and remain up to date with current literature. Example topics from the past are theories on social media in adolescence and the importance of effect sizes in scientific research.
