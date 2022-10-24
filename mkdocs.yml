@@ -16,11 +16,11 @@ nav:
       - How to contribute: "about/contribute.md"
       - Collaboration tools: "about/collab-tools.md"
   - Agenda:
-      - Labmeetings: "agenda/labmeetings.md"
-      - Holidays: "agenda/holidays.md"
-      - Planned activities: "agenda/planned-activities.md"
+      - Labmeetings: "labmeetings.md"
+      - Holidays: "holidays.md"
+      - Planned activities: "planned-activities.md"
   - Open Science:
-    - Open Science stempelkaart: "open-science/stempelkaart.md"
+    - Open Science stempelkaart: "stempelkaart.md"
     - Open access publishing:
       - About open access: "open-science/open-access-info.md"
       - How to: "open-science/open-access-how.md"
