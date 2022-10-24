@@ -1,3 +1,3 @@
 # Open Science stempelkaart
 
-Will be updated soon
+The template that we use at the SYNC lab can be downloaded [here](sync_stempelkaart_202209.xlsm).
