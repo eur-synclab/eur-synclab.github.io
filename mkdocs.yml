@@ -55,9 +55,6 @@ nav:
       - Types of metadata: "data-management/types-metadata.md"
       - DMP and DPIA: "data-management/dmp-dpia-info.md"
       - Codebooks: "data-management/codebooks.md"
-  - Data analysis:
-    - Types of data analysis: "data-analysis/types-analysis.md"
-    - LISA cluster: "data-analysis/LISA-how.md"
   - Outreach:
     - Science communication: "reaching-out/scicom.md"
     - Outreach practices: "reaching-out/outreach-practices.md"
