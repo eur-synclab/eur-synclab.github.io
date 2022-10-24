@@ -16,8 +16,8 @@ nav:
       - How to contribute: "about/contribute.md"
       - Collaboration tools: "about/collab-tools.md"
   - Agenda:
-      - Labmeetings: "labmeetings.md"
-      - Holidays: "holidays.md"
+      - Labmeetings: "agenda/labmeetings.md"
+      - Holidays: "agenda/holidays.md"
   - Open Science:
     - Open Science stempelkaart: "open-science/stempelkaart.md"
     - Open access publishing:
