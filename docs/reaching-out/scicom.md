@@ -6,8 +6,8 @@ On this page, we can collect sources on science communication and citizen scienc
 
 - [Blog](https://www.dsquintana.blog/podcast-guide/) on how to start a podcast and [wiki](https://osf.io/exu5h/) with additional materials.
 - Resources on citizen science from YoungXperts
-- [Here](https://eur.data.surfsara.nl/index.php/apps/files/?dir=/SYNC_General%20(Projectfolder)/Outreach/SYNC_templates&fileid=175290656) you can find slides for presentations, lectures, etc. made and used by SYNC lab members.
-- [Here](https://eur.data.surfsara.nl/index.php/apps/files/?dir=/SYNC_General%20(Projectfolder)/Outreach/SYNC_logo/SYNCLab_logo&fileid=173971626) you can logos that can be used for outreach.
+- [Here](https://eur.data.surfsara.nl/index.php/apps/files/?dir=/SYNC_General%20(Projectfolder)/Outreach/Resources&fileid=179248880) you can find slides for presentations, lectures, etc. made and used by SYNC lab members.
+- [Here](https://eur.data.surfsara.nl/index.php/apps/files/?dir=/SYNC_General%20(Projectfolder)/Outreach/SYNC_logo/SYNCLab_logo&fileid=173971626) you can find SYNC logos that can be used for outreach. EUR logos can be found [here](https://my.eur.nl/nl/eur-employee/huisstijl).
 
 ## Tips
 
