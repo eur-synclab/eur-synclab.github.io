@@ -14,10 +14,13 @@ nav:
       - The SYNC lab: "about/intro-sync.md"
       - Code of conduct: "about/code-of-conduct.md"
       - How to contribute: "about/contribute.md"
-      
-      - Labmeetings: "about/labmeetings.md"
       - Collaboration tools: "about/collab-tools.md"
+  - Agenda:
+      - Labmeetings: "agenda/labmeetings.md"
+      - Holidays: "agenda/holidays.md"
+      - Planned activities: "agenda/planned-activities.md"
   - Open Science:
+    - Open Science stempelkaart: "open-science/stempelkaart.md"
     - Open access publishing:
       - About open access: "open-science/open-access-info.md"
       - How to: "open-science/open-access-how.md"
