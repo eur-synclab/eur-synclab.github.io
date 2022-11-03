@@ -58,5 +58,5 @@ You can also check the scoring of the journal [here](http://www.qoam.eu/journals
 ## Resources
 
 -	[Transpose](https://transpose-publishing.github.io/#/), a database of journal policies on peer review, co-reviewing and preprinting
--	A repository for open access **books** can be found in [OAPEN](http://oapen.org/home) and via [DOAB](https://www.doabooks.org/doab?uiLanguage=en) (Directory for Open Access Books)
+-	A repository for open access **books** can be found in [OAPEN](http://oapen.org/home) and via [DOAB](https://www.doabooks.org/) (Directory for Open Access Books)
 - Read more about open access in [The Turing Way](https://the-turing-way.netlify.com/open_research/04/openaccess.html)
