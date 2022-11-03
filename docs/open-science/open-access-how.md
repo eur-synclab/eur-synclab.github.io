@@ -1,10 +1,10 @@
 # How to publish open access?
 
 ## Publishing & green open access at the EUR
-You have to register your articles yourself in [Metis](https://metis.ru.nl/federation/login/personalmetis). Read how to do this on [this webpage](https://my.eur.nl/en/essb-employee/research/research-publishing-impact/personal-metis). In short:
+You have to register your articles yourself in [Pure](https://pure.eur.nl/admin/). Read how to do this on [this webpage](https://www.eur.nl/library/research-support/eur-research-portal-pure-repository). In short:
 
-- Go to [Personal Metis](https://metis.ru.nl/federation/login/personalmetis) and log in with your ERNA id and password
-- Register your article in Metis within 6 months after publication
+- Go to [Pure](https://pure.eur.nl/admin/) and log in with your ERNA id and password
+- Register your article in Pure within 6 months after publication
 - Include all relevant details such as Title, Author(s), DOI, Email address of corresponding author, Journal, etc.
 - Upload the accepted version of your publication (final author version, without publisher formatting) to [RePub](https://repub.eur.nl/page/1/) (Green route)
 
