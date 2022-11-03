@@ -26,7 +26,7 @@ Without metadata, a lot of data are just numbers that cannot be interpreted.
         <li><b>Source</b>: if relevant, citations to original source from which data were obtained</li>
     </ol>
     <li>Metadata for a specific data file, containing, for example, file description, data format, relationship with other files, date of creation and versioning information, etc. This can be a <code>readme.txt</code> or other filetypes, such as <code>nameofdatafile.json</code> or <code>nameofdatafile.xml</code></li>
-    <li>A codebook (data dictionary), which specifies what all variables in your dataset mean. See the <a href=codebooks.md>codebook chapter</a> for more information.</li>
+    <li>A codebook (data dictionary), which specifies what all variables in your dataset mean. See the <a href=https://eur-synclab.github.io/data-management/codebooks.html>codebook chapter</a> for more information.</li>
     <ol type="a"><li><b>Question wording</b> or <b>meaning</b></li>
         <li><b>Variable text</b>: question text or item number</li>
         <li><b>Respondent</b>: who was asked the question? </li>
