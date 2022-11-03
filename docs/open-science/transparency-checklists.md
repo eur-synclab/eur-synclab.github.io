@@ -26,7 +26,7 @@ How transparent are you with respect to the process of and around your manuscrip
 
 
 ### (e)COBIDAS: reproducible methods reporting
-A few years ago, in order to improve reproducibility in (f)MRI research, the Committee on Best Practices in Data Analysis and Sharing (COBIDAS) of OHBM released a [report](https://www.biorxiv.org/content/10.1101/054262v2) to promote best practices for **methods and results reporting**. This was recently followed by a [similar initiative for EEG and MEG](https://osf.io/a8dhx/). The goal of eCOBIDAS is to develop an online version of the checklist to increase the implementation of both reports. See the first version of the online checklist **[here](https://ohbm.github.io/cobidas/#/)** (see also the [OSF page](https://osf.io/anvqy/) and [Github repo](https://github.com/Remi-Gau/COBIDAS_chckls))
+A few years ago, in order to improve reproducibility in (f)MRI research, the Committee on Best Practices in Data Analysis and Sharing (COBIDAS) of OHBM released a [report](https://www.biorxiv.org/content/10.1101/054262v2) to promote best practices for **methods and results reporting**. This was recently followed by a [similar initiative for EEG and MEG](https://osf.io/a8dhx/). The goal of eCOBIDAS is to develop an online version of the checklist to increase the implementation of both reports. See the first version of the online checklist **[here](https://ohbm.github.io/eCOBIDAS/#/)** (see also the [OSF page](https://osf.io/anvqy/) and [Github repo](https://github.com/Remi-Gau/COBIDAS_chckls))
 
 
 
