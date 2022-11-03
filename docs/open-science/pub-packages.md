@@ -22,13 +22,13 @@ Publication packages are bundles of all materials necessary to reproduce the res
 6. If your manuscript is not accepted for publication yet, 1) Reserve a DOI that you can use in your publication, 2) Generate a private link for reviewers to see your data and 3) Save changes (do not Publish yet). Once your manuscript is accepted for publication and your data (analysis) will not change anymore, you can Publish it.
 7. After saving or publishing, your package will be looked at by a data curator from the EUR. They will contact you if they have any questions about your package or tips to improve it even more.
 
-More information on how to use the EUR data repository can be found in [this youtube playlist](https://www.youtube.com/watch?v=Kld9DRSnRBM&list=PL83jqndLu-uALFbLn62Jp3qdh0lwyPXgw&index=1) and [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository).
+More information on how to use the EUR data repository can be found in [this Youtube playlist](https://www.youtube.com/watch?v=Kld9DRSnRBM&list=PL83jqndLu-uALFbLn62Jp3qdh0lwyPXgw&index=1).
 
 ## Tips
 
 - Be sure to create the publication package (reserve a DOI) before your manuscript is published, so that the manuscript links to the publication package and vice versa
 - Prevent uploading files multiple times. If you have already uploaded data or code on OSF or Github, link those uploads to the publication package, instead of re-uploading in the publication package. If you have uploaded elsewhere (e.g., NeuroVault), provide a readme with the relevant links to make sure everything is findable!
-- If applicable, create links with an OSF project, a Github repository and your ORCID, click [here](https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository/faq) for how to do this.
+- If applicable, create links with an OSF project, a Github repository and your ORCID, click [here](https://libguides.eur.nl/ORCID/blog/Connect-GitHub-to-your-ORCID-record) and [here](https://help.osf.io/article/211-connect-github-to-a-project) for how to do this.
 - Only publish data as confidential when that is absolutely necessary. The reuse of your data is significantly reduced when they are behind a confidentiality wall. Moreover, when the owner of the publication package leaves the EUR, they cannot provide access to the confidential files anymore.
 
 For questions about the EUR data repository, please contact the university library (datarepository [at] eur [dot] nl). For the ESSB policy implementation, contact the ESSB [data steward](https://www.eur.nl/en/research/research-services/research-data-management/data-management-plan).
