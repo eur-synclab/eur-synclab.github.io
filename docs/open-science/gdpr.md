@@ -74,7 +74,7 @@ There is some debate as to whether or not MRI data can be anonymized. One paper,
 
 - Anonymize the filenames: replace names with codes
 - [Remove the header information](https://loni.usc.edu/research/software?name=DiD ) (when using hdr and img files, not for nifti files)
-- Deface the MRI-scans if your software does not do that automatically already. We recommend using [pydeface](https://pypi.org/project/pydeface/), which is implemented in [bidsify](https://github.com/NILAB-UvA/bidsify)
+- Deface the MRI-scans if your software does not do that automatically already. We recommend using [pydeface](https://pypi.org/project/pydeface/).
 
 If you are uncertain whether your data are anonymous, please don't hesitate to contact a privacy officer.
 
