@@ -14,10 +14,12 @@ nav:
       - The SYNC lab: "about/intro-sync.md"
       - Code of conduct: "about/code-of-conduct.md"
       - How to contribute: "about/contribute.md"
-      
-      - Labmeetings: "about/labmeetings.md"
       - Collaboration tools: "about/collab-tools.md"
+  - Agenda:
+      - Labmeetings: "agenda/labmeetings.md"
+      - Holidays: "agenda/holidays.md"
   - Open Science:
+    - Open Science stempelkaart: "open-science/stempelkaart.md"
     - Open access publishing:
       - About open access: "open-science/open-access-info.md"
       - How to: "open-science/open-access-how.md"
@@ -36,6 +38,7 @@ nav:
       - Open Science Framework: "open-science/osf.md"
     - Inclusivity:
       - Our goals for inclusive science: "open-science/inclusivity-goals.md"
+    - Open Science Community Rotterdam: "open-science/OSCR.md"
   - Data management:
     - Data security protocol: "data-management/data-security.md"
     - Research Drive:
@@ -51,12 +54,8 @@ nav:
       - Types of metadata: "data-management/types-metadata.md"
       - DMP and DPIA: "data-management/dmp-dpia-info.md"
       - Codebooks: "data-management/codebooks.md"
-  - Data analysis:
-    - Types of data analysis: "data-analysis/types-analysis.md"
-    - LISA cluster: "data-analysis/LISA-how.md"
   - Outreach:
     - Science communication: "reaching-out/scicom.md"
-    - Outreach practices: "reaching-out/outreach-practices.md"
   - Getting started at the EUR:
     - Intro to the EUR!: "getting-started-eur/welcome-eur.md"
     - Time registration: "getting-started-eur/time-registration.md"

@@ -12,15 +12,15 @@ The procedure for letting large groups of participants get paid is currently as 
 2. Fill in the form "[Form_for_paying_participants_explained.xls](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/4519282)" (on Research Drive) after copying it (only sheet "1", remove the example line). Follow the instructions in the document closely.
 3. Save the form as .xls ánd as .pdf with a recognizable name, e.g., "20200421_Brainlinks_payment_T2.5_corona".
 4. Have the relevant budget keeper (procuratiehouder) sign the pdf (see the [Research Drive document](https://eur.data.surfsara.nl/index.php/apps/onlyoffice/14754513) for who to ask, usually Eveline is the one to sign)
-5. Send both the .xsl and the .pdf to Patricia Engelbrecht (*patricia [dot] engelbrecht [at] eur [dot] nl*), preferably via [SURF filesender](https://filesender.surf.nl/), considering there are personal data in the documents.
+5. Send both the .xsl and the .pdf to Patricia Engelbrecht (*patricia.engelbrecht@eur.nl*), preferably via [SURF filesender](https://filesender.surf.nl/), considering there are personal data in the documents.
 6. Patricia will feed the .xls form to the system. If something doesn't work, it has been filled in wrongly and she will return the document to you. When it does work, all participants from the file will receive payment simultaneously.
 
 
 
 Notes:
 
-- It is undesirable to imburse participants with the money with your own money and then declaring it via the ESS portal. The ESS portal is not suitable for this kind of declaration, since it asks for very specific proofs of payment.
-- Dependent on the amount of money that needs to be paid, there may be a different budget keeper (e.g., someone for amounts below €1000, etc.).
+- It is undesirable to imburse participants with the money with your own money and then declaring it via the ESS portal. The ESS portal is not suitable for this kind of declaration, since it asks for very specific proof of payment.
+- Depending on the amount of money that needs to be paid, there may be a different budget keeper (e.g., someone for amounts below €1000, etc.).
 
 
 

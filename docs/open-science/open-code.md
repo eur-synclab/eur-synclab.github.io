@@ -10,7 +10,7 @@ This quote nicely summarizes the importance of sharing data, methods and code so
 
 ## R Markdown
 
-Especially when you do your data analysis in R / RStudio, R Markdown is a very useful tool to put your text and analysis together in one place. It is basically R + Markdown (a markup language to format text). It can be used to write a whole paper, including code to generate figures. This code can be outputted in many formats such as html, pdf and Word. For full documentation see also the [R Markdown documentation](https://rmarkdown.rstudio.com/index.html) and this neat [cheatsheet (pdf)](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf).
+Especially when you do your data analysis in R / RStudio, R Markdown is a very useful tool to put your text and analysis together in one place. It is basically R + Markdown (a markup language to format text). It can be used to write a whole paper, including code to generate figures. This code can be outputted in many formats such as html, pdf and Word. For full documentation see also the [R Markdown documentation](https://rmarkdown.rstudio.com/index.html) and this neat [cheatsheet (pdf)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown-2.0.pdf).
 
 <p style="text-align:center"><figure style="text-align:center"><img src="https://d33wubrfki0l68.cloudfront.net/44f781299f23419d5314e5322e7c44393f7190d3/c5915/images/markdownchunk.png" alt="RMarkdown example" width="500" /><figcaption style="text-align:center">Example of RMarkdown chunk in RStudio with associated html output (from RMarkdown docs)</figcaption></figure></p> 
 

@@ -9,7 +9,7 @@ Description
 Although we have made some steps to diversify our research samples, we recognize that we still have much to learn and improve. Therefore, we want to make an effort to make our samples more diverse and representative of the whole population. For this purpose, we will (1) pay more attention to two facets of diversity, namely educational background and ethnic-cultural background and (2) align our recruitment strategy accordingly – choosing the appropriate channels to reach a diverse group of participants and minimize issues that may prevent certain sub-groups from participating.
 
 #### SMART goals
-1.	For each future research project, we aim to have at least **30%** of our participants who go to a vmbo-school or mbo-school (depending on the targeted age group). In the Netherlands [almost 50% of the secondary school students are enrolled in a vmbo education](https://longreads.cbs.nl/jeugdmonitor-2019/school/). In addition there are [more mbo-students compared to hbo- and university students.](http://www.onderwijsincijfers.nl/).  
+1.	For each future research project, we aim to have at least **30%** of our participants who go to a vmbo-school or mbo-school (depending on the targeted age group). In the Netherlands [almost 50% of the secondary school students are enrolled in a vmbo education](https://longreads.cbs.nl/jeugdmonitor-2019/school/). 
 2.	For each future research project, we aim to have at least **20%** of our participants who have a migration background or who identify with other ethnicities besides Dutch. According to recent findings [27% of the Dutch youth has a migration background, in Rotterdam this is even 60%](https://longreads.cbs.nl/jeugdmonitor-2019/jongeren-in-nederland/)
 
 ## 2. Inclusive education and work environment

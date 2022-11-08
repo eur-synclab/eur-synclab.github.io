@@ -33,7 +33,7 @@ Publishing data can go roughly in the following ways:
 For example (or find one [here](https://www.re3data.org/)):
 
 <ul>
-    <li>The <a href="https://datarepository.eur.nl/" target="_blank">EUR Data Repository</a>: for publication packages at the EUR (<a href="https://www.eur.nl/en/library/research-support/research-data-management-rdm/tooling/eur-data-repository" target="_blank">more info</a>)</li>
+    <li>The <a href="https://datarepository.eur.nl/" target="_blank">EUR Data Repository</a>: for publication packages at the EUR</li>
     <ul>
         <li>All data and materials accompanying a publication</li>
         <li>Only suitable for anonymous data</li>
@@ -63,7 +63,7 @@ For example (or find one [here](https://www.re3data.org/)):
     <li>max 5 GB for private, 50 GB for public projects</li>
     <li>Choose storage location in EU: Germany</li>
     <li>Keep your data close to all other relevant files in your OSF project</li>
-    <li>OSF is more aimed at project management than dissemination, read more <a href="osf.md" target="_blank">here</a></li>
+    <li>OSF is more aimed at project management than dissemination</li>
 </ul>
 <li>Other general-purpose repositories, such as:
     <ul>
@@ -98,7 +98,7 @@ If you do not want to or you can't share any real data, you can still make your 
 <h4>Aggregated data</h4>
 If your data are privacy-sensitive and you cannot share them, you can still share aggregated data, for example:
 <ul>
-    <li id="neurovault">Share first- and second level MRI data in <a href="https://neurovault.org/" target="_blank">NeuroVault</a>. You can also link this to your manuscript (and the other way around). NeuroVault allowes meta-analyses of fMRI studies, making it worthwhile to share your group MRI data there. See the <a href="neurovault.md" target="_blank">NeuroVault page</a> for more information</li>
+    <li id="neurovault">Share first- and second level MRI data in <a href="https://neurovault.org/" target="_blank">NeuroVault</a>. You can also link this to your manuscript (and the other way around). NeuroVault allowes meta-analyses of fMRI studies, making it worthwhile to share your group MRI data there. See the <a href="https://eur-synclab.github.io/open-science/neurovault.html" target="_blank">NeuroVault page</a> for more information</li>
     <li>Share summary details of your data, such as averages and variation measures. Or make a <a href="https://shiny.rstudio.com/" target="_blank">shinyapp</a> that allows exploring the data without accessing it!
 </ul>
 

@@ -7,7 +7,7 @@ This page contains information on how we deal with data on the SURF Research Dri
 ## 1. Folders
 
 <ul>
-<li>A project folder (at the root of the Research Drive) has to be created by the contract administrator (currently: Dorien). This means that each project is created <i>under</i> the contract. Information needed includes: </li> 
+<li>A project folder (at the root of the Research Drive) has to be created by the contract administrator (currently: Mark). This means that each project is created <i>under</i> the contract. Information needed includes: </li> 
     <ol>
         <li>the <b>name of the folder</b> (preferably Year_ProjectName, e.g., "2018_Brainlinks"</li>
         <li>the <b>data steward</b> of the project folder</li>
@@ -130,7 +130,7 @@ Upload files from your command window (type `cmd` in your search bar if you don'
 
 #### More information on Rclone
 
-- On the [Research Drive wiki](https://wiki.surfnet.nl/display/RDRIVE/4.+Access+Research+Drive+via+Rclone)
+- On the [Research Drive wiki](https://wiki.surfnet.nl/display/RDRIVE/Access+Research+Drive+via+Rclone)
 - [Flags](https://rclone.org/flags/) to add to commands
 
 
@@ -144,7 +144,7 @@ Cyberduck is a graphical user interface for uploading data. It also has built-in
 ####  Setting up
 
 1. Download and install [Cyberduck](https://cyberduck.io/download/) (the program is free, select $0 of donation) - you do need **admin access** for this tool.
-2. Read the [wiki page](https://wiki.surfnet.nl/display/RDRIVE/3.+Access+Research+Drive+via+Cyberduck) of SURF Research Drive and from there download the [Research Drive cyberduck profile](https://wiki.surfnet.nl/download/attachments/11219959/surfresearchdrive.cyberduckprofile?version=1&modificationDate=1562069941090&api=v2). Save the Research Drive cyberduck profile in the “Profiles” folder within your Cyberduck program files folder (e.g., “C:\Program Files\Cyberduck\profiles”) 
+2. Read the [wiki page](https://wiki.surfnet.nl/display/RDRIVE/Access+Research+Drive+via+Cyberduck) of SURF Research Drive and from there download the [Research Drive cyberduck profile](https://wiki.surfnet.nl/download/attachments/11219959/surfresearchdrive.cyberduckprofile?version=1&modificationDate=1562069941090&api=v2). Save the Research Drive cyberduck profile in the “Profiles” folder within your Cyberduck program files folder (e.g., “C:\Program Files\Cyberduck\profiles”) 
 3. In your Research Drive account, create a WebDAV password: Settings > Security > WebDAV passwords. Create a new password by filling in a name, e.g., “Cyberduck”. Copy the password that was just created to a temporary file/your clipboard.
 4. (Re)Start Cyberduck
 5. Click “New connection” (Nieuwe verbinding). 
@@ -251,7 +251,7 @@ You can mount your Research Drive account to your file explorer, so that the Res
 - Choose the installation location wisely: if you are going to work with large amounts of data, install Owncloud on a hard disk with sufficient storage space.
 
 <ul>
-    <li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/2.+ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud</li>
+    <li>See the <a href=https://wiki.surfnet.nl/display/RDRIVE/ownCloud+desktop+client>Research Drive wiki page</a> for how to configure OwnCloud</li>
     <ul>
         <li>Use the link <strong>eur.data.surfsara.nl</strong> to connect with and authorize the share by logging in to your Research Drive account</li>
         <li>Choose <strong>Selective synchronization</strong> and select only the folders you need to work on from your local machine. All synced files are stored and synced on your local machine. If your Research  Drive storage is really high, you should <strong>not</strong> sync them all with your PC!</li>

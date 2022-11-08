@@ -49,7 +49,7 @@ By law, data is considered identifiable when identification can occur with reaso
 ## Sharing data under the GDPR
 Anonymous data can be shared without restriction if they are **really** anonymous. You may share non-anonymous data only when:
 
-- You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be *very explicit* ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some [example sentences](https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing) and a [GDPR version of the Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html)
+- You have attained explicit informed consent from the participant to do so (most used legal basis). For special personal data, this consent should be *very explicit* ("I agree to share x, y and z" with A, B and C): there cannot be any doubt about this. See some [example sentences](https://www.uu.nl/en/research/research-data-management/guides/informed-consent-for-data-sharing#examples) and a [GDPR version of the Open Brain Consent initiative](https://open-brain-consent.readthedocs.io/en/latest/gdpr/ultimate_gdpr.html)
 - You reduce the amount of personal data shared to a minimum (data minimization principle)
 - You take the necessary measures to protect your participants' privacy
 - Always write a Data Management Plan (DMP) and  Data Protection Impact Assessment (DPIA) before starting a project with personal data
@@ -74,7 +74,7 @@ There is some debate as to whether or not MRI data can be anonymized. One paper,
 
 - Anonymize the filenames: replace names with codes
 - [Remove the header information](https://loni.usc.edu/research/software?name=DiD ) (when using hdr and img files, not for nifti files)
-- Deface the MRI-scans if your software does not do that automatically already. We recommend using [pydeface](https://pypi.org/project/pydeface/), which is implemented in [bidsify](https://github.com/NILAB-UvA/bidsify)
+- Deface the MRI-scans if your software does not do that automatically already. We recommend using [pydeface](https://pypi.org/project/pydeface/).
 
 If you are uncertain whether your data are anonymous, please don't hesitate to contact a privacy officer.
 
