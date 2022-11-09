@@ -12,7 +12,7 @@ On this wiki you can find:
     <li>our current agenda surrounding stand-ups, lab meetings, and journal clubs.</li>
     <li>the Open Science Stempelkaart, including more information on open science practices. In depth supporting information can be found under Data Management.</li>
     <li>resources for presentations, such as the SYNC lab tempaltes and logos, can be found under Outreach.</li>
-    <li>further practical information surrounding the EUR can be found under Getting starrted at the EUR.</li>
+    <li>further practical information surrounding the EUR can be found under Getting started at the EUR.</li>
   </ul>
 
 
