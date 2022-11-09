@@ -10,8 +10,8 @@ Welcome! You are reading the first page of the SYNC lab wiki. This wiki is a **c
 On this wiki you can find:
 - our current agenda surrounding stand-ups, lab meetings, and journal clubs
 - the Open Science Stempelkaart, including more information on open science practices. In depth supporting information can be found under Data Management.
-- resources for presentations, such as the SYNC lab templates and logos, can be found under Outreach
-- further practical information surrounding the EUR can be found under Getting started at the EUR
+- resources for presentations, such as the SYNC lab tempaltes and logos, can be found under Outreach
+- further practical information surrounding the EUR can be found under Getting starrted at the EUR
 
 
 ### Why this wiki?
