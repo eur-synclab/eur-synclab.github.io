@@ -29,7 +29,7 @@ Function
 
 <font size= "-1" >Present: Days present</font>
 
-<img src="../img/EUR_SYNC_logos.png" style="zoom:25%;" align="left" />
+<img src="../img/Email_logo.png" style="zoom:25%;" align="left" />
 
   <p style="clear:left;"></p>
 
