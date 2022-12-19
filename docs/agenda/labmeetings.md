@@ -38,11 +38,11 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
     <li>Tuesday November 29, 2022 11-12 (live): Kayla Green</li>
     <li>Tuesday December 6, 2022 11-12 (live): Suzanne van de Groep</li>
     <li>Tuesday December 13, 2022 12-13 (online): Annie Gaule (external)</li>
-    <li>Tuesday December 20, 2022 11-12 (live): Lysanne te Brinke</li>
+    <li>Tuesday December 20, 2022 11-12 (online)</li>
     <li>Tuesday January 10, 2023 11-12 (live): Michelle Achterberg</li>
-    <li>Tuesday January 17, 2023 11-12 (live)</li>
-    <li>Tuesday January 31, 2023 11-12 (live)</li>
-    <li>Tuesday February 7, 2023 11-12 (live)</li>
+    <li>Tuesday January 17, 2023 11-12 (live): Judith Campdepadros Barrios (external)</li>
+    <li>Tuesday January 31, 2023 11-12 (live): Simone</li>
+    <li>Tuesday February 7, 2023 11-12 (live): Yara</li>
     <li>Tuesday February 21, 2023 11-12 (live)</li>
     <li>Tuesday March 7, 2023 11-12 (live)</li>
     <li>Tuesday March 14, 2023 11-12 (live)</li>
