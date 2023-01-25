@@ -43,7 +43,7 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
     <li>Tuesday January 17, 2023 11-12 (live): Judith Campdepadros Barrios (external)</li>
     <li>Tuesday January 31, 2023 11-12 (live): Simone</li>
     <li>Tuesday February 7, 2023 11-12 (live): Yara</li>
-    <li>Tuesday February 21, 2023 11-12 (live)</li>
+    <li>Tuesday February 21, 2023 11-12 (live): Anne-Wil Kramer</li>
     <li>Tuesday March 7, 2023 11-12 (live)</li>
     <li>Tuesday March 14, 2023 11-12 (live)</li>
     <li>Tuesday March 28, 2023 11-12 (live)</li>
