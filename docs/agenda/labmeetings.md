@@ -47,7 +47,7 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
     <li>Monday March 6, 2023 14-15 (live and online): Newsha Dehestanikolagar (external)</li>
     <li>Tuesday March 14, 2023 11-12 (live)</li>
     <li>Tuesday March 28, 2023 11-12 (live): Sophie</li>
-    <li>Tuesday April 4, 2023 11-12 (live)</li>
+    <li>Tuesday April 4, 2023 11-12 (live): teambuilding meeting</li>
     <li>Tuesday April 11, 2023 11-12 (live)</li>
     <li>Tuesday May 9, 2023 11-12 (live)</li>
     <li>Tuesday May 23, 2023 11-12 (live)</li>
