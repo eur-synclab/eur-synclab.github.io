@@ -69,7 +69,7 @@ The schedule of the online data management meetings for 2022-2023 (regularly upd
     <li>Monday November 28, 2022 15-16: Research Drive and alternatives</li>
     <li>Monday January 30, 2023 15-16: electronic logbook</li>
     <li>Monday March 27, 2023 15-16: version control</li>
-    <li>Monday April 24, 2023 15-16: reserve DOI + open science journals</li>
+    <li>Monday May 8, 2023 15-16: reserve DOI + open science journals</li>
     <li>Monday June 5, 2023, 14-15: privacy/access externals</li>
     <li>Monday June 26, 2023 15-16: sharing posters/presentations/graphics</li>
 </ul>
