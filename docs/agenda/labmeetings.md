@@ -85,7 +85,7 @@ The schedule of the live journal clubs for 2022-2023 (regularly updated):
     <li>Tuesday November 22, 2022 14-15: Lysanne and Lina</li>
     <li>Tuesday January 10, 2023 14-15: Kayla and Eloise</li>
     <li>Tuesday February 21, 2023 14-15: Sophie and Yara</li>
-    <li>Tuesday April 4, 2023 14-15: Suzanne and Simone</li>
+    <li>Tuesday April 4, 2023 14-15: Simone</li>
     <li>Tuesday May 16, 2023 14-15: Hannah and Ilse</li>
     <li>Tuesday June 27, 2023 14-15</li>
 </ul>
