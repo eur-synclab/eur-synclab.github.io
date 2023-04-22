@@ -49,9 +49,9 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
     <li>Tuesday March 28, 2023 11-12 (live): Sophie</li>
     <li>Tuesday April 4, 2023 11-12 (live): teambuilding meeting</li>
     <li>Tuesday April 11, 2023 11-12 (live): </li>
-    <li>Tuesday May 9, 2023 11-12 (live): Eloise</li>
+    <li>Tuesday May 9, 2023 11-12 (live): </li>
     <li>Tuesday May 23, 2023 11-12 (live): externe gast</li>
-    <li>Tuesday May 30, 2023 11-12 (live): Hannah</li>
+    <li>Tuesday May 30, 2023 11-12 (live): Hannah (tweede helft labmeeting)</li>
     <li>Tuesday June 6, 2023 11-12 (live): vervalt</li>
     <li>Tuesday June 13, 2023 11-12 (live): externe gast</li>
     <li>Tuesday June 20, 2023 11-12 (live): vervalt (SYNC uitje)</li>
