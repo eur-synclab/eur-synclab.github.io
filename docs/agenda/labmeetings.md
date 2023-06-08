@@ -80,7 +80,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday January 16, 2024 11-12 (live)</li>
     <li>Tuesday January 23, 2024 11-12 (live)</li>
     <li>Tuesday January 30, 2024 11-12 (live)</li>
-    <li>Tuesday February 6, 2024 11-12 (live)</li>
+    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone </li>
     <li>Tuesday February 13, 2024 11-12 (live)</li>
     <li>Tuesday February 20, 2024 11-12 (live)</li>
     <li>Tuesday February 27, 2024 11-12 (live)</li>
