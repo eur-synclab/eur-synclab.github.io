@@ -60,7 +60,7 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
 
 The schedule of the labmeetings for 2023-2024 (regularly updated):
 <ul>
-    <li>Tuesday September 5, 2023 11-12 (live)</li>
+    <li>Tuesday September 5, 2023 11-12 (live): Daphne van de Bongardt</li>
     <li>Tuesday September 12, 2023 11-12 (live)</li>
     <li>Tuesday September 19, 2023 11-12 (live)</li>
     <li>Thursday September 26, 2023 11-12 (live)</li>
