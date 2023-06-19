@@ -61,13 +61,13 @@ The schedule of the labmeetings for 2022-2023 (regularly updated):
 The schedule of the labmeetings for 2023-2024 (regularly updated):
 <ul>
     <li>Tuesday September 5, 2023 11-12 (live): Daphne van de Bongardt</li>
-    <li>Tuesday September 12, 2023 11-12 (live)</li>
+    <li>Tuesday September 12, 2023 11-12 (live): Eleni & Noura (sharepoint) and updates</li>
     <li>Tuesday September 19, 2023 11-12 (live)</li>
-    <li>Thursday September 26, 2023 11-12 (live)</li>
+    <li>Thursday September 26, 2023 11-12 (live): Kayla & Yara (YX social inequality update)</li>
     <li>Tuesday October 3, 2023 11-12 (live)</li>
     <li>Tuesday October 10, 2023 11-12: cancelled</li>
-    <li>Tuesday October 17, 2023 11-12 (live)</li>
-    <li>Thursday October 24, 2023 11-12 (live)</li>
+    <li>Tuesday October 17, 2023 11-12 (live): Jaïr van Nes</li>
+    <li>Thursday October 24, 2023 11-12 (live): Sophie Sweijen</li>
     <li>Thursday October 31, 2023 11-12 (live)</li>
     <li>Tuesday November 7, 2023 11-12 (live)</li>
     <li>Tuesday November 14, 2023 11-12 (live)</li>
@@ -80,13 +80,13 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday January 16, 2024 11-12 (live)</li>
     <li>Tuesday January 23, 2024 11-12 (live)</li>
     <li>Tuesday January 30, 2024 11-12 (live)</li>
-    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone </li>
+    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone</li>
     <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
     <li>Tuesday February 20, 2024 11-12 (live)</li>
     <li>Tuesday February 27, 2024 11-12 (live)</li>
     <li>Tuesday March 5, 2024 11-12 (live)</li>
     <li>Tuesday March 12, 2024 11-12 (live)</li>
-    <li>Tuesday March 19, 2024 11-12 (live)</li>
+    <li>Tuesday March 19, 2024 11-12 (live): Ilse van de Groep</li>
     <li>Tuesday March 26, 2024 11-12 (live)</li>
     <li>Tuesday April 2, 2024 11-12 (live)</li>
     <li>Tuesday April 9, 2024 11-12 (live)</li>
