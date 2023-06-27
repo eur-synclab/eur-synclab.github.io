@@ -62,7 +62,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
 <ul>
     <li>Tuesday September 5, 2023 11-12 (live): Daphne van de Bongardt</li>
     <li>Tuesday September 12, 2023 11-12 (live): Eleni & Noura (sharepoint) and updates</li>
-    <li>Tuesday September 19, 2023 11-12 (live)</li>
+    <li>Tuesday September 19, 2023 11-12 (live): </li>
     <li>Thursday September 26, 2023 11-12 (live): Kayla & Yara (YX social inequality update)</li>
     <li>Tuesday October 3, 2023 11-12 (live): Eloïse Geenjaar</li>
     <li>Tuesday October 10, 2023 11-12: cancelled</li>
