@@ -39,7 +39,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday October 17, 2023 11-12 (live): Jaïr van Nes</li>
     <li>Thursday October 24, 2023 11-12 (live): Sophie Sweijen</li>
     <li>Thursday October 31, 2023 11-12 (live): Eloïse Geenjaar</li>
-    <li>Tuesday November 7, 2023 11-12 (live)</li>
+    <li>Tuesday November 7, 2023 11-12 (live): Ann Hogenhuis & Michelle Achterberg</li>
     <li>Tuesday November 14, 2023 11-12 (live)</li>
     <li>Tuesday November 21, 2023 11-12 (live)</li>
     <li>Thursday November 28, 2023 11-12 (live)</li>
