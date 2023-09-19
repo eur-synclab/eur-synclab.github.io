@@ -36,8 +36,8 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Thursday September 26, 2023 11-12 (live): Kayla & Yara (YX social inequality update)</li>
     <li>Tuesday October 3, 2023 11-12 (live): Lysanne te Brinke & Sterre & Noura (school research projects (profielwerkstuk))  </li>
     <li>Tuesday October 10, 2023 11-12: cancelled</li>
-    <li>Tuesday October 17, 2023 11-12 (live): Jaïr van Nes</li>
-    <li>Thursday October 24, 2023 11-12 (live): Sophie Sweijen</li>
+    <li>Tuesday October 17, 2023 11-12 (live): Sophie Sweijen</li>
+    <li>Thursday October 24, 2023 11-12 (live): Jaïr van Nes</li>
     <li>Thursday October 31, 2023 11-12 (live): Eloïse Geenjaar</li>
     <li>Tuesday November 7, 2023 11-12 (live): Ann Hogenhuis & Michelle Achterberg</li>
     <li>Tuesday November 14, 2023 11-12 (live)</li>
