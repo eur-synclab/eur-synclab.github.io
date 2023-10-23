@@ -38,7 +38,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday October 10, 2023 11-12: cancelled because of GUTS conference</li>
     <li>Tuesday October 17, 2023 11-12 (live): Sophie Sweijen</li>
     <li>Thursday October 24, 2023 11-12 (live): Jaïr van Nes</li>
-    <li>Thursday October 31, 2023 11-12 (live): Eloïse Geenjaar</li>
+    <li>Thursday October 31, 2023 11-12 (live): Eloïse Geenjaar, NOTE: this meeting takes places at the Hefhouse</li>
     <li>Tuesday November 7, 2023 11-12 (live): Ann Hogenhuis & Michelle Achterberg</li>
     <li>Tuesday November 14, 2023 11-12 (live)</li>
     <li>Tuesday November 21, 2023 11-12 (live)</li>
@@ -47,7 +47,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday December 12, 2023 11-12 (live)</li>
     <li>Tuesday December 19, 2023 11-12 (live)</li>
     <li>Tuesday January 9, 2024 11-12 (live)</li>
-    <li>Tuesday January 16, 2024 11-12 (live)</li>
+    <li>Tuesday January 16, 2024 11-12 (live): Yolijn Aarts & Kitty de Vries</li>
     <li>Tuesday January 23, 2024 11-12 (live)</li>
     <li>Tuesday January 30, 2024 11-12 (live)</li>
     <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone</li>
