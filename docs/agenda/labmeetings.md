@@ -65,6 +65,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday April 30, 2024 11-12 (live)</li>
     <li>Tuesday May 7, 2024 11-12 (live)</li>
     <li>Tuesday May 14, 2024 11-12 (live)</li>
+    <li>Thursday May 16 & Friday May 17, 2024 11-12 (live): Visit Gregoire Borst and lab</li>
     <li>Tuesday May 21, 2024 11-12 (live)</li>
     <li>Tuesday May 28, 2024 11-12 (live)</li>
     <li>Tuesday June 4, 2024 11-12 (live)</li>
