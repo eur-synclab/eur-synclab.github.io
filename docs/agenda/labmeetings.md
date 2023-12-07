@@ -50,7 +50,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday January 16, 2024 11-12 (live): Yolijn Aarts & Kitty de Vries</li>
     <li>Tuesday January 23, 2024 11-12 (live)</li>
     <li>Tuesday January 30, 2024 11-12 (live)</li>
-    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone</li>
+    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone & Lysanne te Brinke: on being a scientist</li>
     <li>Tuesday February 6, 2024 16-17 (live): Joint lab meeting with Eva Telzer and Ryan Tsai</li>
     <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
     <li>Tuesday February 20, 2024 11-12 (live): Suzanne van de Groep</li>
