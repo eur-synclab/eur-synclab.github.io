@@ -48,14 +48,14 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday December 19, 2023 11-12 (live)</li>
     <li>Tuesday January 9, 2024 11-12 (live)</li>
     <li>Tuesday January 16, 2024 11-12 (live): Yolijn Aarts & Kitty de Vries: GUTS</li>
-    <li>Tuesday January 23, 2024 11-12 (live) </li>
+    <li>Tuesday January 23, 2024 11-12 (live): Kayla Green </li>
     <li>Tuesday January 30, 2024 11-12 (live): Noura Borggreven & Sterre van Riel: Expeditie NEXT at the Hefhouse</li>
     <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone & Lysanne te Brinke: on being a scientist</li>
     <li>Tuesday February 6, 2024 16-17 (live): Joint lab meeting with Eva Telzer and Ryan Tsai</li>
     <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
     <li>Tuesday February 20, 2024 11-12 (live): Suzanne van de Groep</li>
     <li>Tuesday February 27, 2024 11-12 (live)</li>
-    <li>Tuesday March 5, 2024 11-12 (live)</li>
+    <li>Tuesday March 5, 2024 11-12 (live): Sterre van Riel</li>
     <li>Tuesday March 12, 2024 11-12 (live)</li>
     <li>Tuesday March 19, 2024 11-12 (live): Ilse van de Groep</li>
     <li>Tuesday March 26, 2024 11-12 (live)</li>
