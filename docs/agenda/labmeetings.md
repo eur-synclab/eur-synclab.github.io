@@ -61,7 +61,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday March 26, 2024 11-12 (live): Lotte van Rijn</li>
     <li>Tuesday April 2, 2024 11-12 (live): Sophie Sweijen</li>
     <li>Tuesday April 9, 2024 11-12 (live): Ethell Dubois</li>
-    <li>Tuesday April 16, 2024 11-12 (live)</li>
+    <li>Monday April 15, 2024 12-13 (live): Ruth Frans</li>
     <li>Tuesday April 23, 2024 11-12 (live): Kayla Green</li>
     <li>Tuesday April 30, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
     <li>Tuesday May 7, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
