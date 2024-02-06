@@ -54,8 +54,8 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday February 6, 2024 16-17 (live): Joint lab meeting with Eva Telzer and Ryan Tsai</li>
     <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
     <li>Tuesday February 20, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
-    <li>Tuesday February 27, 2024 11-12 (live): Sterre & Noura</li>
-    <li>Tuesday March 5, 2024 11-12 (live)</li>
+    <li>Tuesday February 27, 2024 11-12 (live)</li>
+    <li>Tuesday March 5, 2024 11-12 (live): Sterre van Riel: festivals</li>
     <li>Tuesday March 12, 2024 11-12 (live): Anne-Wil Kramer </li>
     <li>Tuesday March 19, 2024 11-12 (live): Ilse van de Groep</li>
     <li>Tuesday March 26, 2024 11-12 (live): Lotte van Rijn</li>
