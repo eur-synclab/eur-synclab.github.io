@@ -54,7 +54,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday February 6, 2024 16-17 (live): Joint lab meeting with Eva Telzer and Ryan Tsai</li>
     <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
     <li>Tuesday February 20, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
-    <li>Tuesday February 27, 2024 11-12 (live)</li>
+    <li>Tuesday February 27, 2024 11-12 (live): lab meeting cancelled</li>
     <li>Tuesday March 5, 2024 11-12 (live): Sterre van Riel: festivals</li>
     <li>Tuesday March 12, 2024 11-12 (live): Anne-Wil Kramer </li>
     <li>Tuesday March 19, 2024 11-12 (live): Ilse van de Groep</li>
@@ -69,10 +69,10 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Thursday May 16 & Friday May 17, 2024 11-12 (live): Visit Gregoire Borst and lab</li>
     <li>Tuesday May 21, 2024 11-12 (live): Suzanne van de Groep</li>
     <li>Tuesday May 28, 2024 11-12 (live): Yara Toenders</li>
-    <li>Tuesday June 4, 2024 11-12 (live)</li>
-    <li>Tuesday June 11, 2024 11-12 (live)</li>
-    <li>Tuesday June 18, 2024 11-12 (live)</li>
-    <li>Tuesday June 25, 2024 11-12 (live)</li>
+    <li>Tuesday June 4, 2024 11-12 (live): Lonneke Elzinga</li>
+    <li>Tuesday June 11, 2024 11-12 (live): Ann Hogenhuis</li>
+    <li>Tuesday June 18, 2024 11-12 (live): Yvette Grootjans</li>
+    <li>Tuesday June 25, 2024 11-12 (live): Lysanne te Brinke</li>
 </ul>
 
 ## Data management meetings
