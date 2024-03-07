@@ -57,10 +57,10 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday February 27, 2024 11-12 (live): lab meeting cancelled</li>
     <li>Tuesday March 5, 2024 11-12 (live): Sterre van Riel: festivals</li>
     <li>Tuesday March 12, 2024 11-12 (live): Anne-Wil Kramer </li>
-    <li>Tuesday March 19, 2024 11-12 (live): Ilse van de Groep</li>
-    <li>Tuesday March 26, 2024 11-12 (live): Lotte van Rijn</li>
+    <li>Tuesday March 19, 2024 11-12 (live): cancelled because of Hefhouse</li>
+    <li>Tuesday March 26, 2024 11-12 (live): Ilse van de Groep</li>
     <li>Tuesday April 2, 2024 11-12 (live): Sophie Sweijen</li>
-    <li>Tuesday April 9, 2024 11-12 (live): Ethell Dubois</li>
+    <li>Tuesday April 9, 2024 11-12 (live): Ethell Dubois & Lotte van Rijn</li>
     <li>Monday April 15, 2024 12-13 (live): Ruth Frans</li>
     <li>Tuesday April 23, 2024 11-12 (live): Kayla Green</li>
     <li>Tuesday April 30, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
