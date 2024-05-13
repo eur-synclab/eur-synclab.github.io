@@ -74,6 +74,7 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday June 18 & Wednesday June 19, 2024: Visit Gregoire Borst</li>
     <li>Tuesday June 25, 2024 11-12 (live): Lysanne te Brinke</li>
     li>Tuesday October 8, 2024 13-17 (live): joint lab meeting Preventative Youth Care UvA</li>
+    li>Tuesday October 22, 2024 16-17 (live): joint lab meeting UNC Developmental Social Neuroscience Lab</li>
 </ul>
 
 ## Data management meetings
