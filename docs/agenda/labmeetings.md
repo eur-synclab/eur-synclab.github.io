@@ -68,11 +68,11 @@ The schedule of the labmeetings for 2023-2024 (regularly updated):
     <li>Tuesday May 14, 2024 11-12 (live): Hefhouse labmeeting</li>
     <li>Tuesday May 21, 2024 11-12 (live): Marieke Bos (external)</li>
     <li>Tuesday May 28, 2024 11-12 (live): Yara Toenders & Kayla Green</li>
-    <li>Tuesday June 4, 2024 11-12 (live): Lonneke Elzinga</li>
+    <li>Tuesday June 4, 2024 11-12 (live): cancelled</li>
     <li>Tuesday June 11, 2024 11-12 (live): Lukas Gunschera (external)</li>
     <li>Tuesday June 18, 2024 11-12 (live): cancelled </li>
     <li>Tuesday June 18 & Wednesday June 19, 2024: Visit Gregoire Borst</li>
-    <li>Tuesday June 25, 2024 11-12 (live): Lysanne te Brinke</li>
+    <li>Tuesday June 25, 2024 11-12 (live): cancelled</li>
     <li>Tuesday October 8, 2024 13-17 (live): joint lab meeting Preventative Youth Care UvA</li>
     <li>Tuesday October 22, 2024 16-17 (live): joint lab meeting UNC Developmental Social Neuroscience Lab</li>
 </ul>
@@ -98,12 +98,7 @@ The schedule of the online data management meetings for 2022-2023 (regularly upd
 
 Starting November 2022, we have planned several journal clubs about specific topics, focused on theoretical and methodological papers. This allows us to dive deeper into theoretical aspects of our work and remain up to date with current literature. Example topics from the past are theories on social media in adolescence and the importance of effect sizes in scientific research.
 
-The schedule of the live journal clubs for 2022-2023 (regularly updated):
+The schedule of the live journal clubs for 2024 (regularly updated):
 <ul>
-    <li>Tuesday November 22, 2022 14-15: Lysanne and Lina</li>
-    <li>Tuesday January 10, 2023 14-15: Kayla and Eloise</li>
-    <li>Tuesday February 21, 2023 14-15: Sophie and Yara</li>
-    <li>Tuesday April 4, 2023 14-15: Simone</li>
-    <li>Tuesday May 16, 2023 14-15: Hannah and Ilse</li>
-    <li>Tuesday June 27, 2023 14-15</li>
+    <li>Tuesday July 9, 2024 11-12: Julianna</li>
 </ul>
