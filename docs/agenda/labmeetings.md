@@ -28,53 +28,23 @@ In the labmeetings, labmembers or external visitors share their latest results o
 
 Collaborators from outside the SYNC lab are more than welcome for labmeetings where research from the specific collaboration is discussed. So do not forget to invite your collaborators when presenting!
 
-The schedule of the labmeetings for 2023-2024 (regularly updated):
+The schedule of the labmeetings for 2024-2025 (regularly updated):
 <ul>
-    <li>Tuesday September 5, 2023 11-12 (live): Daphne van de Bongardt</li>
-    <li>Tuesday September 12, 2023 11-12 (live): Noura & Nienke (qualitative data analysis)</li>
-    <li>Tuesday September 19, 2023 11-12 (live): Eleni & Noura (sharepoint) and updates</li>
-    <li>Thursday September 26, 2023 11-12 (live): Kayla & Yara (YX social inequality update)</li>
-    <li>Tuesday October 3, 2023 11-12 (live): Lysanne te Brinke & Yolijn Aarts</li>
-    <li>Tuesday October 10, 2023 11-12: cancelled because of GUTS conference</li>
-    <li>Tuesday October 17, 2023 11-12 (live): Sophie Sweijen</li>
-    <li>Thursday October 24, 2023 11-12 (live): Jaïr van Nes</li>
-    <li>Thursday October 31, 2023 11-12 (live): Eloïse Geenjaar</li>
-    <li>Tuesday November 7, 2023 11-12 (live): Ann Hogenhuis & Michelle Achterberg</li>
-    <li>Tuesday November 14, 2023 11-12 (live): Kayla Green & Yara Toenders</li>
-    <li>Tuesday November 21, 2023 11-12 (live): Yara Toenders</li>
-    <li>Thursday November 28, 2023 11-12 (live): Lina van Drunen</li>
-    <li>Thursday December 5, 2023 11-12 (live): Sterre van Riel & Noura Borggreven</li>
-    <li>Tuesday December 12, 2023 11-12 (live): Julianna Lopez</li>
-    <li>Tuesday December 19, 2023 11-12 (live)</li>
-    <li>Tuesday January 9, 2024 11-12 (live)</li>
-    <li>Tuesday January 16, 2024 11-12 (live): Yolijn Aarts & Kitty de Vries: GUTS</li>
-    <li>Tuesday January 23, 2024 11-12 (live): Kayla Green </li>
-    <li>Tuesday January 30, 2024 11-12 (live): Noura Borggreven & Sterre van Riel: Expeditie NEXT at the Hefhouse</li>
-    <li>Tuesday February 6, 2024 11-12 (live): Eveline Crone & Lysanne te Brinke: on being a scientist</li>
-    <li>Tuesday February 6, 2024 16-17 (live): Joint lab meeting with Eva Telzer and Ryan Tsai</li>
-    <li>Tuesday February 13, 2024 11-12 (live): Felix Schreiber (external)</li>
-    <li>Tuesday February 20, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
-    <li>Tuesday February 27, 2024 11-12 (live): lab meeting cancelled</li>
-    <li>Tuesday March 5, 2024 11-12 (live): Sterre van Riel: festivals</li>
-    <li>Tuesday March 12, 2024 11-12 (live): Anne-Wil Kramer </li>
-    <li>Tuesday March 19, 2024 11-12 (live): cancelled because of Hefhouse</li>
-    <li>Tuesday March 26, 2024 11-12 (live): Ilse van de Groep</li>
-    <li>Tuesday April 2, 2024 11-12 (live): Sophie Sweijen</li>
-    <li>Tuesday April 9, 2024 11-12 (live): Ethell Dubois & Lotte van Rijn</li>
-    <li>Monday April 15, 2024 12-13 (live): Ruth Frans</li>
-    <li>Tuesday April 23, 2024 11-12 (live): Julianna Lopez</li>
-    <li>Tuesday April 30, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
-    <li>Tuesday May 7, 2024 11-12 (live): minimal meeting week - no lab meeting</li>
-    <li>Tuesday May 14, 2024 11-12 (live): Hefhouse labmeeting</li>
-    <li>Tuesday May 21, 2024 11-12 (live): Marieke Bos (external)</li>
-    <li>Tuesday May 28, 2024 11-12 (live): Yara Toenders & Kayla Green</li>
-    <li>Tuesday June 4, 2024 11-12 (live): cancelled</li>
-    <li>Tuesday June 11, 2024 11-12 (live): Lukas Gunschera (external)</li>
-    <li>Tuesday June 18, 2024 11-12 (live): cancelled </li>
-    <li>Tuesday June 18 & Wednesday June 19, 2024: Visit Gregoire Borst</li>
-    <li>Tuesday June 25, 2024 11-12 (live): cancelled</li>
+    <li>Tuesday September 3, 2024 11-12 (live): first lab meeting </li>
+    <li>Tuesday September 24, 2024 11-12 (live): </li>
     <li>Tuesday October 8, 2024 13-17 (live): joint lab meeting Preventative Youth Care UvA</li>
+    <li>Tuesday October 22, 2024 11-12 (live): </li>
     <li>Tuesday October 22, 2024 16-17 (live): joint lab meeting UNC Developmental Social Neuroscience Lab</li>
+    <li>Tuesday November 12, 2024 11-12 (live): </li>
+    <li>Tuesday December 10, 2024 11-12 (live): </li>
+    <li>Tuesday January 7, 2025 11-12 (live): </li>
+    <li>Tuesday February 11, 2025 11-12 (live): </li>
+    <li>Tuesday March 11, 2025 11-12 (live): </li>
+    <li>Tuesday April 1, 2025 11-12 (live): </li>
+    <li>Tuesday April 22, 2025 11-12 (live): </li>
+    <li>Tuesday May 13, 2025 11-12 (live): </li>
+    <li>Tuesday June 3, 2025 11-12 (live): </li>
+    <li>Tuesday July 1, 2025 11-12 (live): </li>
 </ul>
 
 ## Data management meetings
