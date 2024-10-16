@@ -36,7 +36,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday September 24, 2024 11-12 (live):</li>
 
-<li>Tuesday October 8, 2024 13-17 (live): joint lab meeting Preventative Youth Care UvA</li>
+<li>Tuesday October 8, 2024 13-17 (live): lab meeting Preventative Youth Care UvA</li>
 
 <li>Tuesday October 22, 2024 16-17 (online): joint lab meeting UNC Developmental Social Neuroscience Lab</li>
 
