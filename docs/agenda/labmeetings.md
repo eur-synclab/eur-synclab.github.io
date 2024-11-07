@@ -40,7 +40,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday October 22, 2024 16-17 (online): joint lab meeting UNC Developmental Social Neuroscience Lab</li>
 
-<li>Tuesday November 12, 2024 11-12 (live): lab meeting: Lotte speaks about diversity, inclusion and belonging</li>
+<li>Tuesday November 12, 2024 11-12 (live): lab meeting: Lotte, Ilse and Lonneke speak about disability, inclusion and belonging</li>
 
 <li>Tuesday December 10, 2024 11-12 (live): lab meeting: Lysanne speaks about youth participation</li>
 
