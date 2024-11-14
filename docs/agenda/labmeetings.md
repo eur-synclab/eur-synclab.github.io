@@ -44,7 +44,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday December 10, 2024 11-12 (live): lab meeting: Lysanne speaks about youth participation</li>
 
-<li>Tuesday January 7, 2025 10-12 (live): extra long lab meeting: Bert Bakker & Gijs Schumacher (IP-PAD) speak about political polarization and Frederiek Nabben speaks about recorded delivery (TimeOut theater)</li>
+<li>Tuesday January 7, 2025 11-12:30 (live): extra long lab meeting: Bert Bakker & Gijs Schumacher (IP-PAD) speak about political polarization and Frederiek Nabben speaks about recorded delivery (TimeOut theater)</li>
 
 <li>Tuesday February 11, 2025 11-12 (live): lab meeting: speaker Marieke Bos </li>
 
