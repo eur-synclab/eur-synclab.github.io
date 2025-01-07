@@ -48,7 +48,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday February 11, 2025 11-12 (live): lab meeting: speaker Marieke Bos </li>
 
-<li>Tuesday March 11, 2025 11-12 (live):</li>
+<li>Tuesday March 11, 2025 16-17 (hybrid): joint lab meeting with Eva Telzer's lab </li>
 
 <li>Tuesday April 1, 2025 11-12 (live):</li>
 
