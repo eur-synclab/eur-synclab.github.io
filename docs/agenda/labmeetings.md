@@ -48,23 +48,25 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday February 11, 2025 11-12 (live): lab meeting: Judith van de Wetering: Understanding and promoting adolescents' pro-environmental engagement </li>
 
-<li>Tuesday February 18, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday February 18, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Lotte and Yudith brainstorm </li>
 
 <li>Tuesday March 4, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+
+<li>Tuesday March 11, 2025 11-23 (live): lab meeting: Marieke Bos </li>
 
 <li>Tuesday March 11, 2025 16-17 (hybrid): joint lab meeting with Eva Telzer's lab </li>
 
 <li>Tuesday March 25, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
-<li>Tuesday April 1, 2025 11-12 (live):</li>
+<li>Tuesday April 1, 2025 11-12 (live): lab meeting: speaker Jeroen van der Waal </li>
 
 <li>Tuesday April 8, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
 <li>Tuesday April 22, 2025 11-12 (live):</li>
 
-<li>Tuesday May 6, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday May 6, 2025 12-13 (live): Bring your own lunch-extra labmeeting: DIB (Lotte & Ilse) </li>
 
-<li>Tuesday May 13, 2025 11-12 (live):</li>
+<li>Tuesday May 13, 2025 11-12 (live): lab meeting: speaker Julian Schaap </li>
 
 <li>Tuesday May 27, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
@@ -72,7 +74,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday June 17, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
-<li>Tuesday July 1, 2025 11-12 (live):</li>
+<li>Tuesday July 1, 2025 11-12 (live): Sophie Sweijen </li>
 
 <li>Tuesday July 8, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
