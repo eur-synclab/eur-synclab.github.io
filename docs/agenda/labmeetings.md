@@ -70,7 +70,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday May 27, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
-<li>Tuesday June 3, 2025 11-12 (live):</li>
+<li>Tuesday June 3, 2025 11-12 (live): lab meeting: speaker Maarten Boksem </li>
 
 <li>Tuesday June 17, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
