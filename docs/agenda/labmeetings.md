@@ -68,7 +68,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday May 13, 2025 11-12 (live): lab meeting: speaker Julian Schaap </li>
 
-<li>Tuesday May 27, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday May 27, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Speaker Caroline Figueroa </li>
 
 <li>Tuesday June 3, 2025 11-12 (live): lab meeting: speaker Maarten Boksem </li>
 
