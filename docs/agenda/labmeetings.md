@@ -56,11 +56,9 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday March 11, 2025 16-17 (hybrid): joint lab meeting with Eva Telzer's lab </li>
 
-<li>Tuesday March 25, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday March 25, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Corrie Venus Presents </li>
 
 <li>Tuesday April 1, 2025 11-12 (live): lab meeting: speaker Jeroen van der Waal </li>
-
-<li>Tuesday April 8, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
 
 <li>Tuesday April 22, 2025 11-12 (live):</li>
 
@@ -72,11 +70,11 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday June 3, 2025 11-12 (live): lab meeting: speaker Maarten Boksem </li>
 
-<li>Tuesday June 17, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday June 17, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Suzanne van de Groep - Presentation and brainstorm concerning her starter grant project </li>
 
-<li>Tuesday July 1, 2025 11-12 (live): Sophie Sweijen </li>
+<li>Tuesday July 1, 2025 11-12 (live): lab meeting: speaker Sophie Sweijen </li>
 
-<li>Tuesday July 8, 2025 12-13 (live): Bring your own lunch-extra labmeeting </li>
+<li>Tuesday July 8, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Ruth Frans presents about using co-creation to develop a measure for purpose </li>
 
 </ul>
 
