@@ -60,7 +60,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday April 1, 2025 11-12 (live): lab meeting: speaker Jeroen van der Waal </li>
 
-<li>Tuesday April 22, 2025 11-12 (live):</li>
+<li>Tuesday April 22, 2025 11-12 (live): Exp Next en GUTS updates </li>
 
 <li>Tuesday May 6, 2025 12-13 (live): Bring your own lunch-extra labmeeting: DIB (Lotte & Ilse) </li>
 
