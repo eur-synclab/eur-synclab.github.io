@@ -64,7 +64,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday May 6, 2025 12-13 (live): Bring your own lunch-extra labmeeting: DIB (Lotte & Ilse) </li>
 
-<li>Tuesday May 27, 2025 12-13 (live): Bring your own lunch-extra labmeeting: Speaker Caroline Figueroa </li>
+<li>Tuesday May 27, 2025 11:00-11:30 (live): Bring your own lunch-extra labmeeting: Speaker Caroline Figueroa </li>
 
 <li>Tuesday June 3, 2025 11:30-12:30 (live): lab meeting: speaker Julian Schaap </li>
 
