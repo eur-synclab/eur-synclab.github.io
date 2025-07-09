@@ -74,13 +74,16 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday September 16, 2025 11-12:30 (live): lab meeting: speaker Maarten Boksem (science talk) </li>
 
-<li>Tuesday September 30, 2025 11-12:30 (live): lab meeting: speaker Sophie Sweijen </li>
+<li>Tuesday September 30, 2025 11-12:30 (live): lab meeting: speaker Sophie Sweijen (DIB) </li>
 
 <li>Tuesday October 14, 2025 11-12:30 (live): lab meeting: Healthy Start Fellows (science talk) </li>
 
 <li>Tuesday October 28, 2025 11-12:30 (live): lab meeting: speaker Ron Kooren (on being a scientist) </li>
 
-<li>Tuesday December 9, 2025 11-12:30 (live): lab meeting: speaker Yolijn Aarts </li>
+<li>Tuesday November 11, 2025 11-12:30 (live): lab meeting:  </li>
+<li>Tuesday November 25, 2025 11-12:30 (live): lab meeting:  </li>
+
+<li>Tuesday December 9, 2025 11-12:30 (live): lab meeting: speaker Yolijn Aarts (DIB) </li>
 
 </ul>
 
