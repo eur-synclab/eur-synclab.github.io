@@ -44,7 +44,11 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday November 25, 2025 11-12:30 (live): lab meeting: speaker Robby Roks</li>
 
-<li>Tuesday December 9, 2025 11-12:30 (live): lab meeting: speaker Yolijn Aarts (DIB) </li>
+<li>Thursday November 28, 2025 11-12:00 (live): lab meeting: speaker Niamh MacSweeney </li>
+
+<li>Tuesday January 6, 2025 11-12:30 (live): lab meeting: speaker Yolijn Aarts (DIB) </li>
+
+<li>Tuesday January 20, 2025 11-12:30 (live): lab meeting: speaker Kayla Green </li>
 
 <li>Tuesday June 9, 2026 15-16:30 (live): lab meeting: Lucia Hernandez Pena and Blanca Piera Pi-Sunyer </li>
 
