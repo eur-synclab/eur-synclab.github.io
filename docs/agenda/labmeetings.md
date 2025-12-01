@@ -52,6 +52,20 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday February 3, 2026 11-12:30 (live): lab meeting: Expeditie NEXT </li>
 
+<li>Tuesday March 3, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday March 17, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday March 31, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday April 14, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday April 28, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday May 12, 2026 11-12:30 (live): lab meeting: </li>
+
+<li>Tuesday May 26, 2026 11-12:30 (live): lab meeting: </li>
+
 <li>Tuesday June 9, 2026 15-16:30 (live): lab meeting: Lucia Hernandez Pena and Blanca Piera Pi-Sunyer </li>
 
 </ul>
