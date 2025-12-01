@@ -50,6 +50,8 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday January 20, 2026 11-12:30 (live): lab meeting: speaker Kayla Green </li>
 
+<li>Tuesday February 3, 2026 11-12:30 (live): lab meeting: Expeditie NEXT </li>
+
 <li>Tuesday June 9, 2026 15-16:30 (live): lab meeting: Lucia Hernandez Pena and Blanca Piera Pi-Sunyer </li>
 
 </ul>
