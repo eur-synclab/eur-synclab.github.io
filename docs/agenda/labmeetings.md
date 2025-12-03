@@ -54,8 +54,6 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday March 3, 2026 11-12:30 (live): lab meeting: </li>
 
-<li>Tuesday March 17, 2026 11-12:30 (live): lab meeting: </li>
-
 <li>Tuesday March 31, 2026 11-12:30 (live): lab meeting: </li>
 
 <li>Tuesday April 14, 2026 11-12:30 (live): lab meeting: </li>
