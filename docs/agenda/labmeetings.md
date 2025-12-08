@@ -56,7 +56,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday March 31, 2026 11-12:30 (live): lab meeting: speaker Michelle Achterberg</li>
 
-<li>Tuesday April 14, 2026 11-12:30 (live): lab meeting: </li>
+<li>Tuesday April 14, 2026 11-12:30 (live): lab meeting: speaker Marcel van Aken (On Being a Scientist)</li>
 
 <li>Tuesday April 28, 2026 11-12:30 (live): lab meeting: </li>
 
