@@ -50,7 +50,7 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday January 20, 2026 11-12:30 (live): lab meeting: speaker Yolijn Aarts (DIB) </li>
 
-<li>Tuesday February 3, 2026 11-12:30 (live): lab meeting: Expeditie NEXT </li>
+<li>Tuesday February 3, 2026 11-12:30 (live): lab meeting: speaker Yuko Munakata and discuss Expeditie NEXT </li>
 
 <li>Tuesday March 3, 2026 11-12:30 (live): lab meeting: speaker Kayla Green</li>
 
