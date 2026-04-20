@@ -28,7 +28,7 @@ In the labmeetings, labmembers, or external visitors share their latest results 
 
 Collaborators from outside the SYNC lab are more than welcome for labmeetings where research from the specific collaboration is discussed. So do not forget to invite your collaborators when presenting!
 
-The schedule of the labmeetings for 2024-2025 (regularly updated):
+The schedule of the labmeetings for 2025-2026 (regularly updated):
 
 <ul>
 
@@ -58,13 +58,106 @@ The schedule of the labmeetings for 2024-2025 (regularly updated):
 
 <li>Tuesday April 14, 2026 11-12:30 (live): lab meeting: team meeting</li>
 
-<li>Tuesday April 28, 2026 11-12:30 (live): lab meeting: </li>
+<li>Tuesday April 28, 2026 11-12:30 (live): lab meeting: team meeting thesis lab</li>
 
 <li>Tuesday May 12, 2026 11-12:30 (live): lab meeting: speaker Kitty  de Vries (DIB)</li>
 
 <li>Tuesday May 26, 2026 11-12:30 (live): lab meeting: speaker Marcel van Aken (On Being a Scientist)</li>
 
 <li>Tuesday June 9, 2026 15-16:30 (live): lab meeting: Lucia Hernandez Pena and Blanca Piera Pi-Sunyer </li>
+
+
+</ul>
+
+The schedule of the labmeetings for 2026-2027 (regularly updated):
+
+<ul>
+
+<li>Tuesday September 1, 2026 11-12:00 (live): lab meeting:  </li>
+
+<li>Tuesday September 8, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday September 15, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday September 22, 2026 11-12:00 (live): lab meeting:  </li>
+
+<li>Tuesday September 29, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday October 6, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday October 13, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday October 20, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday October 27, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday November 3, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday November 10, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday November 17, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday November 24, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday December 1, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday December 8, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday December 15, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday December 22, 2026 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday January 5, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday January 12, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday January 19, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday January 26, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday February 2, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday February 9, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday February 16, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday February 23, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday March 2, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday March 9, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday March 16, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday March 23, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday March 30, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday April 6, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday April 13, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday April 20, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday April 27, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday May 4, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday May 11, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday May 18, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday May 25, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday June 1, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday June 8, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday June 15, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday June 22, 2027 11-12:00 (live): lab meeting: </li>
+
+<li>Tuesday June 29, 2027 11-12:00 (live): lab meeting: </li>
 
 </ul>
 
