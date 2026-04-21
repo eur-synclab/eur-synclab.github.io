@@ -60,7 +60,7 @@ The schedule of the labmeetings for 2025-2026 (regularly updated):
 
 <li>Tuesday April 28, 2026 11-12:30 (live): lab meeting: team meeting thesis lab</li>
 
-<li>Tuesday May 12, 2026 11-12:30 (live): lab meeting: speaker Kitty  de Vries (DIB)</li>
+<li>Tuesday May 12, 2026 11-12:30 (live): lab meeting: speaker Kitty  de Vries & Margaret Sheridan </li>
 
 <li>Tuesday May 26, 2026 11-12:30 (live): lab meeting: speaker Marcel van Aken (On Being a Scientist)</li>
 
