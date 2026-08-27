@@ -33,15 +33,15 @@ The schedule of the labmeetings for 2026-2027 (regularly updated):
 
 <ul>
 
-<li>Tuesday September 1, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday September 1, 2026 11-12:00 (live): lab meeting: Coen Koevoet: Do Good, Feel Good: Ecologically Valid Research in a Youth Hub</li>
 
-<li>Tuesday September 8, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday September 8, 2026 11-12:00 (live): lab meeting: Miriam Hollarek: finding balance in life and academia & SYNC lab self-improvement session</li>
 
-<li>Tuesday September 15, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday September 15, 2026 11-12:00 (live): lab meeting: Rebecca Reid: Supporting the Learning and Mental Health of Adolescents Excluded from School in England</li>
 
-<li>Tuesday September 22, 2026 11-12:00 (live): lab meeting:  </li>
+<li>Tuesday September 22, 2026 11-12:00 (live): lab meeting:  Suzanne van de Groep and Sophie Sweijen introducing RE:CONNECT project</li>
 
-<li>Tuesday September 29, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday September 29, 2026 11-12:00 (live): lab meeting: Kitty de Vries: DIB </li>
 
 <li>Tuesday October 6, 2026 11-12:00 (live): lab meeting: </li>
 
