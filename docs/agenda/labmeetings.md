@@ -61,17 +61,17 @@ The schedule of the labmeetings for 2026-2027 (regularly updated):
 
 <li>Tuesday December 1, 2026 11-12:00 (live): lab meeting: Yara Toenders & Robin Smits: Well-B-young, youth perspective on mental wellbeing interventions</li>
 
-<li>Tuesday December 8, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday December 8, 2026 11-12:00 (live): lab meeting: Sophie Sweijen & Sarah Walraven: YoungXperts and Healthy Starts, all about the upcoming Sprint project 
 
-<li>Tuesday December 15, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday December 15, 2026 11-12:00 (live): lab meeting: Yvette Grootjans: GUTS Social GO/NO GO (and a little bit of reward)
 
-<li>Tuesday December 22, 2026 11-12:00 (live): lab meeting: </li>
+<li>Tuesday December 22, 2026 11-12:00 : No lab meeting: Christmas Break
 
-<li>Tuesday January 5, 2027 11-12:00 (live): lab meeting: </li>
+<li>Tuesday January 5, 2027 11-12:00 (live): lab meeting: New year, new SYNC: New year's resolutions, research plans, and wishes for the upcoming year
 
-<li>Tuesday January 12, 2027 11-12:00 (live): lab meeting: </li>
+<li>Tuesday January 12, 2027 11-12:00 (live): lab meeting: Noor Zeeman: Youth perspective on the housing crisis
 
-<li>Tuesday January 19, 2027 11-12:00 (live): lab meeting: </li>
+<li>Tuesday January 19, 2027 11-12:00 (live): lab meeting: Sarah Durston: On her work and upcoming book about our consciousness
 
 <li>Tuesday January 26, 2027 11-12:00 (live): lab meeting: </li>
 
